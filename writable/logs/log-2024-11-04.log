@@ -1,0 +1,17 @@
+INFO - 2024-11-04 11:16:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-04 11:44:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2024-11-04 11:55:19 --> ErrorException: Undefined variable $title
+[Method: GET, Route: /]
+in APPPATH/Views/landingpage/index.php on line 14.
+ 1 APPPATH/Views/landingpage/index.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', '/Users/apple/www/pusk/ci4/develop/sistem_akademik/app/Views/landingpage/index.php', 14)
+ 2 SYSTEMPATH/View/View.php(234): include('/Users/apple/www/pusk/ci4/develop/sistem_akademik/app/Views/landingpage/index.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('landingpage/index', [], true)
+ 5 APPPATH/Controllers/Landingpage.php(13): view('landingpage/index')
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Landingpage->index()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Landingpage))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH/rewrite.php(44): require_once('/Users/apple/www/pusk/ci4/develop/sistem_akademik/public/index.php')

@@ -1,0 +1,1818 @@
+INFO - 2025-02-12 08:31:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 08:31:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 08:31:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 08:33:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 08:33:31 --> CSRF token verified.
+INFO - 2025-02-12 08:33:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 08:33:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 08:33:34 --> CSRF token verified.
+INFO - 2025-02-12 08:33:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 08:48:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 08:49:18 --> CSRF token verified.
+INFO - 2025-02-12 08:49:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 08:50:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 08:50:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 08:54:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2025-02-12 08:54:53 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "Modules\Naskahmasuk\Views\disposisi\index.php"
+[Method: GET, Route: naskah-masuk/disposisi]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 41.
+ 1 SYSTEMPATH/View/View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Modules\\Naskahmasuk\\Views\\disposisi\\index.php')
+ 2 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('Modules\\Naskahmasuk\\Views\\disposisi\\index', [], true)
+ 3 APPPATH/Views/layout/admin/v_view.php(4): view('Modules\\Naskahmasuk\\Views\\disposisi\\index')
+ 4 SYSTEMPATH/View/View.php(234): include('/Users/apple/www/pusk/ci4/develop/safira2.0/app/Views/layout/admin/v_view.php')
+ 5 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('layout/admin/v_view', [], true)
+ 7 APPPATH/Views/layout/admin/v_body.php(28): view('layout/admin/v_view')
+ 8 SYSTEMPATH/View/View.php(234): include('/Users/apple/www/pusk/ci4/develop/safira2.0/app/Views/layout/admin/v_body.php')
+ 9 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+10 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('layout/admin/v_body', [], true)
+11 APPPATH/Views/layout/admin/templates.php(3): view('layout/admin/v_body')
+12 SYSTEMPATH/View/View.php(234): include('/Users/apple/www/pusk/ci4/develop/safira2.0/app/Views/layout/admin/templates.php')
+13 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+14 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('layout/admin/templates', [], true)
+15 APPPATH/Modules/Naskahmasuk/Controllers/Disposisi.php(30): view('layout/admin/templates', [...])
+16 SYSTEMPATH/CodeIgniter.php(933): Modules\Naskahmasuk\Controllers\Disposisi->index()
+17 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(Modules\Naskahmasuk\Controllers\Disposisi))
+18 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+19 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+20 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+21 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+22 SYSTEMPATH/rewrite.php(44): require_once('/Users/apple/www/pusk/ci4/develop/safira2.0/public/index.php')
+INFO - 2025-02-12 08:55:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 08:55:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 08:55:28 --> CSRF token verified.
+INFO - 2025-02-12 08:55:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 08:55:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 08:55:31 --> CSRF token verified.
+INFO - 2025-02-12 08:55:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 08:56:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 08:56:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 08:56:53 --> CSRF token verified.
+INFO - 2025-02-12 08:56:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 09:01:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 09:01:05 --> CSRF token verified.
+INFO - 2025-02-12 09:01:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 09:01:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 09:01:10 --> CSRF token verified.
+INFO - 2025-02-12 09:01:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 09:01:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 09:01:14 --> CSRF token verified.
+INFO - 2025-02-12 09:01:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 09:01:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 09:01:29 --> CSRF token verified.
+INFO - 2025-02-12 09:01:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 09:01:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 09:01:32 --> CSRF token verified.
+INFO - 2025-02-12 09:01:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 09:01:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 09:01:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 09:01:43 --> CSRF token verified.
+INFO - 2025-02-12 09:01:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 09:01:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 09:04:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 09:04:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 09:05:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 09:05:48 --> CSRF token verified.
+INFO - 2025-02-12 09:05:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 09:05:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 09:06:00 --> CSRF token verified.
+INFO - 2025-02-12 09:06:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 09:06:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 09:06:21 --> CSRF token verified.
+INFO - 2025-02-12 09:06:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 09:06:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 09:06:23 --> CSRF token verified.
+INFO - 2025-02-12 09:06:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 09:06:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 09:06:27 --> CSRF token verified.
+INFO - 2025-02-12 09:06:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 09:06:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 09:06:29 --> CSRF token verified.
+INFO - 2025-02-12 09:06:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 09:06:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 09:06:31 --> CSRF token verified.
+INFO - 2025-02-12 09:06:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 09:06:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 09:06:47 --> CSRF token verified.
+INFO - 2025-02-12 09:06:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 09:06:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 09:06:52 --> CSRF token verified.
+INFO - 2025-02-12 09:06:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 09:06:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 09:06:59 --> CSRF token verified.
+INFO - 2025-02-12 09:06:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 09:07:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 09:07:14 --> CSRF token verified.
+INFO - 2025-02-12 09:07:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 09:07:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 09:07:25 --> CSRF token verified.
+INFO - 2025-02-12 09:07:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 09:07:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 09:07:29 --> CSRF token verified.
+INFO - 2025-02-12 09:07:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 09:11:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 09:15:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 09:17:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 09:20:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 09:20:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 09:20:12 --> CSRF token verified.
+INFO - 2025-02-12 09:20:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 09:21:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 09:21:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 09:21:24 --> CSRF token verified.
+INFO - 2025-02-12 09:21:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 09:21:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 09:21:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 09:21:29 --> CSRF token verified.
+INFO - 2025-02-12 09:21:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 09:21:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 09:21:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 09:21:33 --> CSRF token verified.
+INFO - 2025-02-12 09:21:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 09:21:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 09:24:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 09:25:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 09:25:04 --> CSRF token verified.
+INFO - 2025-02-12 09:25:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 09:27:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 09:27:17 --> CSRF token verified.
+INFO - 2025-02-12 09:27:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 09:27:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 09:27:47 --> CSRF token verified.
+INFO - 2025-02-12 09:27:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 09:28:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 09:28:16 --> CSRF token verified.
+INFO - 2025-02-12 09:28:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 09:28:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 09:28:18 --> CSRF token verified.
+INFO - 2025-02-12 09:28:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 09:28:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 09:28:29 --> CSRF token verified.
+INFO - 2025-02-12 09:28:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 09:28:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 09:28:30 --> CSRF token verified.
+INFO - 2025-02-12 09:28:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 09:28:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 09:28:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 09:28:49 --> CSRF token verified.
+INFO - 2025-02-12 09:28:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 09:29:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 09:29:05 --> CSRF token verified.
+INFO - 2025-02-12 09:29:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 09:29:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 09:29:10 --> CSRF token verified.
+INFO - 2025-02-12 09:29:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 09:29:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 09:29:13 --> CSRF token verified.
+INFO - 2025-02-12 09:29:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 09:31:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 09:31:51 --> CSRF token verified.
+INFO - 2025-02-12 09:31:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 09:32:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 09:32:59 --> CSRF token verified.
+INFO - 2025-02-12 09:32:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 09:34:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 09:34:02 --> CSRF token verified.
+INFO - 2025-02-12 09:34:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 09:34:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 09:34:17 --> CSRF token verified.
+INFO - 2025-02-12 09:34:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 09:34:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 09:34:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 09:34:25 --> CSRF token verified.
+INFO - 2025-02-12 09:34:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 09:34:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 09:34:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 09:34:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 09:34:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 09:34:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 09:34:36 --> CSRF token verified.
+INFO - 2025-02-12 09:34:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 09:34:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 09:34:39 --> CSRF token verified.
+INFO - 2025-02-12 09:34:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 09:34:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 09:34:46 --> CSRF token verified.
+INFO - 2025-02-12 09:34:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 09:34:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 09:34:48 --> CSRF token verified.
+INFO - 2025-02-12 09:34:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 09:34:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 09:34:56 --> CSRF token verified.
+INFO - 2025-02-12 09:34:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 09:35:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 09:35:02 --> CSRF token verified.
+INFO - 2025-02-12 09:35:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 09:35:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 09:35:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 09:35:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 09:35:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 09:35:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 09:35:16 --> CSRF token verified.
+INFO - 2025-02-12 09:35:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 09:35:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 09:35:18 --> CSRF token verified.
+INFO - 2025-02-12 09:35:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 09:38:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 09:40:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 09:40:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 09:47:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 09:47:24 --> CSRF token verified.
+INFO - 2025-02-12 09:47:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 09:48:14 --> CSRF token verified.
+INFO - 2025-02-12 09:48:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 09:48:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 09:48:16 --> CSRF token verified.
+INFO - 2025-02-12 09:48:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 09:50:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 09:50:53 --> CSRF token verified.
+INFO - 2025-02-12 09:50:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 09:51:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 09:51:18 --> CSRF token verified.
+INFO - 2025-02-12 09:51:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 09:51:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 09:51:26 --> CSRF token verified.
+INFO - 2025-02-12 09:51:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 09:51:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 09:51:48 --> CSRF token verified.
+INFO - 2025-02-12 09:51:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 09:52:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 09:52:30 --> CSRF token verified.
+INFO - 2025-02-12 09:52:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 09:52:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 09:52:47 --> CSRF token verified.
+INFO - 2025-02-12 09:52:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 09:55:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 09:55:29 --> CSRF token verified.
+INFO - 2025-02-12 09:55:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 09:55:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 09:55:33 --> CSRF token verified.
+INFO - 2025-02-12 09:55:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 09:58:58 --> CSRF token verified.
+INFO - 2025-02-12 09:58:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 09:58:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 09:59:00 --> CSRF token verified.
+INFO - 2025-02-12 09:59:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 09:59:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 09:59:04 --> CSRF token verified.
+INFO - 2025-02-12 09:59:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 09:59:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 09:59:06 --> CSRF token verified.
+INFO - 2025-02-12 09:59:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 09:59:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 09:59:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 09:59:11 --> CSRF token verified.
+INFO - 2025-02-12 09:59:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 09:59:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 09:59:37 --> CSRF token verified.
+INFO - 2025-02-12 09:59:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 10:02:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 10:02:54 --> CSRF token verified.
+INFO - 2025-02-12 10:02:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 10:02:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 10:02:57 --> CSRF token verified.
+INFO - 2025-02-12 10:02:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 10:03:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 10:03:01 --> CSRF token verified.
+INFO - 2025-02-12 10:03:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 10:03:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 10:03:41 --> CSRF token verified.
+INFO - 2025-02-12 10:03:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 10:03:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 10:03:44 --> CSRF token verified.
+INFO - 2025-02-12 10:03:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 10:03:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 10:03:48 --> CSRF token verified.
+INFO - 2025-02-12 10:03:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 10:09:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2025-02-12 10:09:10 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "Modules\Naskahmasuk\Views\logdisposisi\index.php"
+[Method: GET, Route: naskah-masuk/log-disposisi]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 41.
+ 1 SYSTEMPATH/View/View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Modules\\Naskahmasuk\\Views\\logdisposisi\\index.php')
+ 2 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('Modules\\Naskahmasuk\\Views\\logdisposisi\\index', [], true)
+ 3 APPPATH/Views/layout/admin/v_view.php(4): view('Modules\\Naskahmasuk\\Views\\logdisposisi\\index')
+ 4 SYSTEMPATH/View/View.php(234): include('/Users/apple/www/pusk/ci4/develop/safira2.0/app/Views/layout/admin/v_view.php')
+ 5 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('layout/admin/v_view', [], true)
+ 7 APPPATH/Views/layout/admin/v_body.php(28): view('layout/admin/v_view')
+ 8 SYSTEMPATH/View/View.php(234): include('/Users/apple/www/pusk/ci4/develop/safira2.0/app/Views/layout/admin/v_body.php')
+ 9 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+10 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('layout/admin/v_body', [], true)
+11 APPPATH/Views/layout/admin/templates.php(3): view('layout/admin/v_body')
+12 SYSTEMPATH/View/View.php(234): include('/Users/apple/www/pusk/ci4/develop/safira2.0/app/Views/layout/admin/templates.php')
+13 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+14 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('layout/admin/templates', [], true)
+15 APPPATH/Modules/Naskahmasuk/Controllers/Logdisposisi.php(30): view('layout/admin/templates', [...])
+16 SYSTEMPATH/CodeIgniter.php(933): Modules\Naskahmasuk\Controllers\Logdisposisi->index()
+17 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(Modules\Naskahmasuk\Controllers\Logdisposisi))
+18 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+19 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+20 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+21 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+22 SYSTEMPATH/rewrite.php(44): require_once('/Users/apple/www/pusk/ci4/develop/safira2.0/public/index.php')
+INFO - 2025-02-12 10:09:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 10:10:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 10:10:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 10:10:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 10:10:16 --> CSRF token verified.
+INFO - 2025-02-12 10:10:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 10:10:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 10:10:18 --> CSRF token verified.
+INFO - 2025-02-12 10:10:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 10:10:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 10:10:32 --> CSRF token verified.
+INFO - 2025-02-12 10:10:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 10:10:36 --> CSRF token verified.
+INFO - 2025-02-12 10:10:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 10:10:37 --> CSRF token verified.
+INFO - 2025-02-12 10:10:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 10:10:37 --> CSRF token verified.
+INFO - 2025-02-12 10:10:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 10:10:38 --> CSRF token verified.
+INFO - 2025-02-12 10:10:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 10:10:38 --> CSRF token verified.
+INFO - 2025-02-12 10:10:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 10:10:39 --> CSRF token verified.
+INFO - 2025-02-12 10:10:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 10:10:41 --> CSRF token verified.
+INFO - 2025-02-12 10:10:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 10:10:41 --> CSRF token verified.
+INFO - 2025-02-12 10:10:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 10:10:42 --> CSRF token verified.
+INFO - 2025-02-12 10:10:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 10:10:42 --> CSRF token verified.
+INFO - 2025-02-12 10:10:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 10:10:43 --> CSRF token verified.
+INFO - 2025-02-12 10:10:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 10:10:43 --> CSRF token verified.
+INFO - 2025-02-12 10:10:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 10:10:44 --> CSRF token verified.
+INFO - 2025-02-12 10:10:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 10:10:45 --> CSRF token verified.
+INFO - 2025-02-12 10:10:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 10:10:45 --> CSRF token verified.
+INFO - 2025-02-12 10:10:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 10:10:45 --> CSRF token verified.
+INFO - 2025-02-12 10:10:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 10:10:46 --> CSRF token verified.
+INFO - 2025-02-12 10:10:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 10:10:46 --> CSRF token verified.
+INFO - 2025-02-12 10:10:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 10:10:48 --> CSRF token verified.
+INFO - 2025-02-12 10:10:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 10:10:50 --> CSRF token verified.
+INFO - 2025-02-12 10:10:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 10:10:50 --> CSRF token verified.
+INFO - 2025-02-12 10:10:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 10:10:51 --> CSRF token verified.
+INFO - 2025-02-12 10:10:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 10:10:52 --> CSRF token verified.
+INFO - 2025-02-12 10:10:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 10:10:53 --> CSRF token verified.
+INFO - 2025-02-12 10:10:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 10:10:54 --> CSRF token verified.
+INFO - 2025-02-12 10:10:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 10:10:55 --> CSRF token verified.
+INFO - 2025-02-12 10:10:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 10:10:55 --> CSRF token verified.
+INFO - 2025-02-12 10:10:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 10:10:57 --> CSRF token verified.
+INFO - 2025-02-12 10:10:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 10:10:58 --> CSRF token verified.
+INFO - 2025-02-12 10:10:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 10:10:58 --> CSRF token verified.
+INFO - 2025-02-12 10:10:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 10:11:01 --> CSRF token verified.
+INFO - 2025-02-12 10:11:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 10:11:01 --> CSRF token verified.
+INFO - 2025-02-12 10:11:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 10:11:02 --> CSRF token verified.
+INFO - 2025-02-12 10:11:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 10:11:03 --> CSRF token verified.
+INFO - 2025-02-12 10:11:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 10:16:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 10:26:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 10:26:07 --> CSRF token verified.
+INFO - 2025-02-12 10:26:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 10:26:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 10:26:11 --> CSRF token verified.
+INFO - 2025-02-12 10:26:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 10:26:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 10:26:16 --> CSRF token verified.
+INFO - 2025-02-12 10:26:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 10:28:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 10:28:59 --> CSRF token verified.
+INFO - 2025-02-12 10:28:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 10:29:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 10:29:00 --> CSRF token verified.
+INFO - 2025-02-12 10:29:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 10:48:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 10:48:18 --> CSRF token verified.
+INFO - 2025-02-12 10:48:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 10:48:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 10:48:20 --> CSRF token verified.
+INFO - 2025-02-12 10:48:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 10:48:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 14:48:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 14:48:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 14:48:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 14:48:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 14:48:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 14:48:16 --> CSRF token verified.
+INFO - 2025-02-12 14:48:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+ERROR - 2025-02-12 14:48:16 --> mysqli_sql_exception: Unknown column 'b.s_id' in 'on clause' in /Users/apple/www/pusk/ci4/develop/safira2.0/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /Users/apple/www/pusk/ci4/develop/safira2.0/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(312): mysqli->query('SELECT COUNT(*)...', 0)
+#1 /Users/apple/www/pusk/ci4/develop/safira2.0/vendor/codeigniter4/framework/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 /Users/apple/www/pusk/ci4/develop/safira2.0/vendor/codeigniter4/framework/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 /Users/apple/www/pusk/ci4/develop/safira2.0/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1728): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 /Users/apple/www/pusk/ci4/develop/safira2.0/app/Modules/Naskahmasuk/Models/LogdisposisiModel.php(87): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 /Users/apple/www/pusk/ci4/develop/safira2.0/app/Modules/Naskahmasuk/Controllers/Logdisposisi.php(51): Modules\Naskahmasuk\Models\LogdisposisiModel->countAll()
+#6 /Users/apple/www/pusk/ci4/develop/safira2.0/vendor/codeigniter4/framework/system/CodeIgniter.php(933): Modules\Naskahmasuk\Controllers\Logdisposisi->data()
+#7 /Users/apple/www/pusk/ci4/develop/safira2.0/vendor/codeigniter4/framework/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(Modules\Naskahmasuk\Controllers\Logdisposisi))
+#8 /Users/apple/www/pusk/ci4/develop/safira2.0/vendor/codeigniter4/framework/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Users/apple/www/pusk/ci4/develop/safira2.0/vendor/codeigniter4/framework/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 /Users/apple/www/pusk/ci4/develop/safira2.0/vendor/codeigniter4/framework/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 /Users/apple/www/pusk/ci4/develop/safira2.0/public/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 /Users/apple/www/pusk/ci4/develop/safira2.0/vendor/codeigniter4/framework/system/rewrite.php(44): require_once('/Users/apple/ww...')
+#13 {main}
+CRITICAL - 2025-02-12 14:48:16 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'b.s_id' in 'on clause'
+[Method: POST, Route: naskah-masuk/log-disposisi/data]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1728): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `pa_tl_naskahmasuk` `a`
+JOIN `pa_naskahmasuk` `b` ON `a`.`nm_id` = `b`.`nm_id`
+JOIN `konfig_tujuannaskah` `c` ON `a`.`log_tn_id` = `c`.`tn_id`
+JOIN `x_user` `d` ON `b`.`usr_id` = `d`.`usr_id`
+JOIN `mst_jabatan` `e` ON `b`.`jab_id` = `d`.`jab_id`
+JOIN `mst_subsatker` `f` ON `b`.`s_id` = `f`.`s_id`
+JOIN `konfig_instruksi` `g` ON `a`.`ins_id` = `g`.`ins_id`
+WHERE `a`.`tl_jenis` = :a.tl_jenis:
+AND `a`.`tl_usr_id_input` = :a.tl_usr_id_input:', [...], false)
+ 2 APPPATH/Modules/Naskahmasuk/Models/LogdisposisiModel.php(87): CodeIgniter\Database\BaseBuilder->countAllResults()
+ 3 APPPATH/Modules/Naskahmasuk/Controllers/Logdisposisi.php(51): Modules\Naskahmasuk\Models\LogdisposisiModel->countAll()
+ 4 SYSTEMPATH/CodeIgniter.php(933): Modules\Naskahmasuk\Controllers\Logdisposisi->data()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(Modules\Naskahmasuk\Controllers\Logdisposisi))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/Users/apple/www/pusk/ci4/develop/safira2.0/public/index.php')
+CRITICAL - 2025-02-12 14:48:16 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'b.s_id' in 'on clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `pa_tl_naskahmasuk` `a`
+JOIN `pa_naskahmasuk` `b` ON `a`.`nm_id` = `b`.`nm_id`
+JOIN `konfig_tujuannaskah` `c` ON `a`.`log_tn_id` = `c`.`tn_id`
+JOIN `x_user` `d` ON `b`.`usr_id` = `d`.`usr_id`
+JOIN `mst_jabatan` `e` ON `b`.`jab_id` = `d`.`jab_id`
+JOIN `mst_subsatker` `f` ON `b`.`s_id` = `f`.`s_id`
+JOIN `konfig_instruksi` `g` ON `a`.`ins_id` = `g`.`ins_id`
+WHERE `a`.`tl_jenis` = \'DISPOSISI\'
+AND `a`.`tl_usr_id_input` = \'0cb8634a-0d11-4a80-a0a5-54148a06ae19\'')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `pa_tl_naskahmasuk` `a`
+JOIN `pa_naskahmasuk` `b` ON `a`.`nm_id` = `b`.`nm_id`
+JOIN `konfig_tujuannaskah` `c` ON `a`.`log_tn_id` = `c`.`tn_id`
+JOIN `x_user` `d` ON `b`.`usr_id` = `d`.`usr_id`
+JOIN `mst_jabatan` `e` ON `b`.`jab_id` = `d`.`jab_id`
+JOIN `mst_subsatker` `f` ON `b`.`s_id` = `f`.`s_id`
+JOIN `konfig_instruksi` `g` ON `a`.`ins_id` = `g`.`ins_id`
+WHERE `a`.`tl_jenis` = \'DISPOSISI\'
+AND `a`.`tl_usr_id_input` = \'0cb8634a-0d11-4a80-a0a5-54148a06ae19\'')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(1728): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `pa_tl_naskahmasuk` `a`
+JOIN `pa_naskahmasuk` `b` ON `a`.`nm_id` = `b`.`nm_id`
+JOIN `konfig_tujuannaskah` `c` ON `a`.`log_tn_id` = `c`.`tn_id`
+JOIN `x_user` `d` ON `b`.`usr_id` = `d`.`usr_id`
+JOIN `mst_jabatan` `e` ON `b`.`jab_id` = `d`.`jab_id`
+JOIN `mst_subsatker` `f` ON `b`.`s_id` = `f`.`s_id`
+JOIN `konfig_instruksi` `g` ON `a`.`ins_id` = `g`.`ins_id`
+WHERE `a`.`tl_jenis` = :a.tl_jenis:
+AND `a`.`tl_usr_id_input` = :a.tl_usr_id_input:', [...], false)
+ 4 APPPATH/Modules/Naskahmasuk/Models/LogdisposisiModel.php(87): CodeIgniter\Database\BaseBuilder->countAllResults()
+ 5 APPPATH/Modules/Naskahmasuk/Controllers/Logdisposisi.php(51): Modules\Naskahmasuk\Models\LogdisposisiModel->countAll()
+ 6 SYSTEMPATH/CodeIgniter.php(933): Modules\Naskahmasuk\Controllers\Logdisposisi->data()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(Modules\Naskahmasuk\Controllers\Logdisposisi))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH/rewrite.php(44): require_once('/Users/apple/www/pusk/ci4/develop/safira2.0/public/index.php')
+CRITICAL - 2025-02-12 14:48:16 --> [Caused by] mysqli_sql_exception: Unknown column 'b.s_id' in 'on clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('SELECT COUNT(*) AS `numrows`
+FROM `pa_tl_naskahmasuk` `a`
+JOIN `pa_naskahmasuk` `b` ON `a`.`nm_id` = `b`.`nm_id`
+JOIN `konfig_tujuannaskah` `c` ON `a`.`log_tn_id` = `c`.`tn_id`
+JOIN `x_user` `d` ON `b`.`usr_id` = `d`.`usr_id`
+JOIN `mst_jabatan` `e` ON `b`.`jab_id` = `d`.`jab_id`
+JOIN `mst_subsatker` `f` ON `b`.`s_id` = `f`.`s_id`
+JOIN `konfig_instruksi` `g` ON `a`.`ins_id` = `g`.`ins_id`
+WHERE `a`.`tl_jenis` = \'DISPOSISI\'
+AND `a`.`tl_usr_id_input` = \'0cb8634a-0d11-4a80-a0a5-54148a06ae19\'', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `pa_tl_naskahmasuk` `a`
+JOIN `pa_naskahmasuk` `b` ON `a`.`nm_id` = `b`.`nm_id`
+JOIN `konfig_tujuannaskah` `c` ON `a`.`log_tn_id` = `c`.`tn_id`
+JOIN `x_user` `d` ON `b`.`usr_id` = `d`.`usr_id`
+JOIN `mst_jabatan` `e` ON `b`.`jab_id` = `d`.`jab_id`
+JOIN `mst_subsatker` `f` ON `b`.`s_id` = `f`.`s_id`
+JOIN `konfig_instruksi` `g` ON `a`.`ins_id` = `g`.`ins_id`
+WHERE `a`.`tl_jenis` = \'DISPOSISI\'
+AND `a`.`tl_usr_id_input` = \'0cb8634a-0d11-4a80-a0a5-54148a06ae19\'')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `pa_tl_naskahmasuk` `a`
+JOIN `pa_naskahmasuk` `b` ON `a`.`nm_id` = `b`.`nm_id`
+JOIN `konfig_tujuannaskah` `c` ON `a`.`log_tn_id` = `c`.`tn_id`
+JOIN `x_user` `d` ON `b`.`usr_id` = `d`.`usr_id`
+JOIN `mst_jabatan` `e` ON `b`.`jab_id` = `d`.`jab_id`
+JOIN `mst_subsatker` `f` ON `b`.`s_id` = `f`.`s_id`
+JOIN `konfig_instruksi` `g` ON `a`.`ins_id` = `g`.`ins_id`
+WHERE `a`.`tl_jenis` = \'DISPOSISI\'
+AND `a`.`tl_usr_id_input` = \'0cb8634a-0d11-4a80-a0a5-54148a06ae19\'')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1728): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `pa_tl_naskahmasuk` `a`
+JOIN `pa_naskahmasuk` `b` ON `a`.`nm_id` = `b`.`nm_id`
+JOIN `konfig_tujuannaskah` `c` ON `a`.`log_tn_id` = `c`.`tn_id`
+JOIN `x_user` `d` ON `b`.`usr_id` = `d`.`usr_id`
+JOIN `mst_jabatan` `e` ON `b`.`jab_id` = `d`.`jab_id`
+JOIN `mst_subsatker` `f` ON `b`.`s_id` = `f`.`s_id`
+JOIN `konfig_instruksi` `g` ON `a`.`ins_id` = `g`.`ins_id`
+WHERE `a`.`tl_jenis` = :a.tl_jenis:
+AND `a`.`tl_usr_id_input` = :a.tl_usr_id_input:', [...], false)
+ 5 APPPATH/Modules/Naskahmasuk/Models/LogdisposisiModel.php(87): CodeIgniter\Database\BaseBuilder->countAllResults()
+ 6 APPPATH/Modules/Naskahmasuk/Controllers/Logdisposisi.php(51): Modules\Naskahmasuk\Models\LogdisposisiModel->countAll()
+ 7 SYSTEMPATH/CodeIgniter.php(933): Modules\Naskahmasuk\Controllers\Logdisposisi->data()
+ 8 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(Modules\Naskahmasuk\Controllers\Logdisposisi))
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH/rewrite.php(44): require_once('/Users/apple/www/pusk/ci4/develop/safira2.0/public/index.php')
+INFO - 2025-02-12 14:48:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 14:48:28 --> CSRF token verified.
+INFO - 2025-02-12 14:48:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+ERROR - 2025-02-12 14:48:28 --> mysqli_sql_exception: Unknown column 'b.s_id' in 'on clause' in /Users/apple/www/pusk/ci4/develop/safira2.0/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /Users/apple/www/pusk/ci4/develop/safira2.0/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(312): mysqli->query('SELECT COUNT(*)...', 0)
+#1 /Users/apple/www/pusk/ci4/develop/safira2.0/vendor/codeigniter4/framework/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 /Users/apple/www/pusk/ci4/develop/safira2.0/vendor/codeigniter4/framework/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 /Users/apple/www/pusk/ci4/develop/safira2.0/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1728): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 /Users/apple/www/pusk/ci4/develop/safira2.0/app/Modules/Naskahmasuk/Models/LogdisposisiModel.php(87): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 /Users/apple/www/pusk/ci4/develop/safira2.0/app/Modules/Naskahmasuk/Controllers/Logdisposisi.php(51): Modules\Naskahmasuk\Models\LogdisposisiModel->countAll()
+#6 /Users/apple/www/pusk/ci4/develop/safira2.0/vendor/codeigniter4/framework/system/CodeIgniter.php(933): Modules\Naskahmasuk\Controllers\Logdisposisi->data()
+#7 /Users/apple/www/pusk/ci4/develop/safira2.0/vendor/codeigniter4/framework/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(Modules\Naskahmasuk\Controllers\Logdisposisi))
+#8 /Users/apple/www/pusk/ci4/develop/safira2.0/vendor/codeigniter4/framework/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Users/apple/www/pusk/ci4/develop/safira2.0/vendor/codeigniter4/framework/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 /Users/apple/www/pusk/ci4/develop/safira2.0/vendor/codeigniter4/framework/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 /Users/apple/www/pusk/ci4/develop/safira2.0/public/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 /Users/apple/www/pusk/ci4/develop/safira2.0/vendor/codeigniter4/framework/system/rewrite.php(44): require_once('/Users/apple/ww...')
+#13 {main}
+CRITICAL - 2025-02-12 14:48:28 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'b.s_id' in 'on clause'
+[Method: POST, Route: naskah-masuk/log-disposisi/data]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1728): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `pa_tl_naskahmasuk` `a`
+JOIN `pa_naskahmasuk` `b` ON `a`.`nm_id` = `b`.`nm_id`
+JOIN `konfig_tujuannaskah` `c` ON `a`.`log_tn_id` = `c`.`tn_id`
+JOIN `x_user` `d` ON `b`.`usr_id` = `d`.`usr_id`
+JOIN `mst_jabatan` `e` ON `b`.`jab_id` = `d`.`jab_id`
+JOIN `mst_subsatker` `f` ON `b`.`s_id` = `f`.`s_id`
+JOIN `konfig_instruksi` `g` ON `a`.`ins_id` = `g`.`ins_id`
+WHERE `a`.`tl_jenis` = :a.tl_jenis:
+AND `a`.`tl_usr_id_input` = :a.tl_usr_id_input:', [...], false)
+ 2 APPPATH/Modules/Naskahmasuk/Models/LogdisposisiModel.php(87): CodeIgniter\Database\BaseBuilder->countAllResults()
+ 3 APPPATH/Modules/Naskahmasuk/Controllers/Logdisposisi.php(51): Modules\Naskahmasuk\Models\LogdisposisiModel->countAll()
+ 4 SYSTEMPATH/CodeIgniter.php(933): Modules\Naskahmasuk\Controllers\Logdisposisi->data()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(Modules\Naskahmasuk\Controllers\Logdisposisi))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/Users/apple/www/pusk/ci4/develop/safira2.0/public/index.php')
+CRITICAL - 2025-02-12 14:48:28 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'b.s_id' in 'on clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `pa_tl_naskahmasuk` `a`
+JOIN `pa_naskahmasuk` `b` ON `a`.`nm_id` = `b`.`nm_id`
+JOIN `konfig_tujuannaskah` `c` ON `a`.`log_tn_id` = `c`.`tn_id`
+JOIN `x_user` `d` ON `b`.`usr_id` = `d`.`usr_id`
+JOIN `mst_jabatan` `e` ON `b`.`jab_id` = `d`.`jab_id`
+JOIN `mst_subsatker` `f` ON `b`.`s_id` = `f`.`s_id`
+JOIN `konfig_instruksi` `g` ON `a`.`ins_id` = `g`.`ins_id`
+WHERE `a`.`tl_jenis` = \'DISPOSISI\'
+AND `a`.`tl_usr_id_input` = \'0cb8634a-0d11-4a80-a0a5-54148a06ae19\'')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `pa_tl_naskahmasuk` `a`
+JOIN `pa_naskahmasuk` `b` ON `a`.`nm_id` = `b`.`nm_id`
+JOIN `konfig_tujuannaskah` `c` ON `a`.`log_tn_id` = `c`.`tn_id`
+JOIN `x_user` `d` ON `b`.`usr_id` = `d`.`usr_id`
+JOIN `mst_jabatan` `e` ON `b`.`jab_id` = `d`.`jab_id`
+JOIN `mst_subsatker` `f` ON `b`.`s_id` = `f`.`s_id`
+JOIN `konfig_instruksi` `g` ON `a`.`ins_id` = `g`.`ins_id`
+WHERE `a`.`tl_jenis` = \'DISPOSISI\'
+AND `a`.`tl_usr_id_input` = \'0cb8634a-0d11-4a80-a0a5-54148a06ae19\'')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(1728): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `pa_tl_naskahmasuk` `a`
+JOIN `pa_naskahmasuk` `b` ON `a`.`nm_id` = `b`.`nm_id`
+JOIN `konfig_tujuannaskah` `c` ON `a`.`log_tn_id` = `c`.`tn_id`
+JOIN `x_user` `d` ON `b`.`usr_id` = `d`.`usr_id`
+JOIN `mst_jabatan` `e` ON `b`.`jab_id` = `d`.`jab_id`
+JOIN `mst_subsatker` `f` ON `b`.`s_id` = `f`.`s_id`
+JOIN `konfig_instruksi` `g` ON `a`.`ins_id` = `g`.`ins_id`
+WHERE `a`.`tl_jenis` = :a.tl_jenis:
+AND `a`.`tl_usr_id_input` = :a.tl_usr_id_input:', [...], false)
+ 4 APPPATH/Modules/Naskahmasuk/Models/LogdisposisiModel.php(87): CodeIgniter\Database\BaseBuilder->countAllResults()
+ 5 APPPATH/Modules/Naskahmasuk/Controllers/Logdisposisi.php(51): Modules\Naskahmasuk\Models\LogdisposisiModel->countAll()
+ 6 SYSTEMPATH/CodeIgniter.php(933): Modules\Naskahmasuk\Controllers\Logdisposisi->data()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(Modules\Naskahmasuk\Controllers\Logdisposisi))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH/rewrite.php(44): require_once('/Users/apple/www/pusk/ci4/develop/safira2.0/public/index.php')
+CRITICAL - 2025-02-12 14:48:28 --> [Caused by] mysqli_sql_exception: Unknown column 'b.s_id' in 'on clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('SELECT COUNT(*) AS `numrows`
+FROM `pa_tl_naskahmasuk` `a`
+JOIN `pa_naskahmasuk` `b` ON `a`.`nm_id` = `b`.`nm_id`
+JOIN `konfig_tujuannaskah` `c` ON `a`.`log_tn_id` = `c`.`tn_id`
+JOIN `x_user` `d` ON `b`.`usr_id` = `d`.`usr_id`
+JOIN `mst_jabatan` `e` ON `b`.`jab_id` = `d`.`jab_id`
+JOIN `mst_subsatker` `f` ON `b`.`s_id` = `f`.`s_id`
+JOIN `konfig_instruksi` `g` ON `a`.`ins_id` = `g`.`ins_id`
+WHERE `a`.`tl_jenis` = \'DISPOSISI\'
+AND `a`.`tl_usr_id_input` = \'0cb8634a-0d11-4a80-a0a5-54148a06ae19\'', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `pa_tl_naskahmasuk` `a`
+JOIN `pa_naskahmasuk` `b` ON `a`.`nm_id` = `b`.`nm_id`
+JOIN `konfig_tujuannaskah` `c` ON `a`.`log_tn_id` = `c`.`tn_id`
+JOIN `x_user` `d` ON `b`.`usr_id` = `d`.`usr_id`
+JOIN `mst_jabatan` `e` ON `b`.`jab_id` = `d`.`jab_id`
+JOIN `mst_subsatker` `f` ON `b`.`s_id` = `f`.`s_id`
+JOIN `konfig_instruksi` `g` ON `a`.`ins_id` = `g`.`ins_id`
+WHERE `a`.`tl_jenis` = \'DISPOSISI\'
+AND `a`.`tl_usr_id_input` = \'0cb8634a-0d11-4a80-a0a5-54148a06ae19\'')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `pa_tl_naskahmasuk` `a`
+JOIN `pa_naskahmasuk` `b` ON `a`.`nm_id` = `b`.`nm_id`
+JOIN `konfig_tujuannaskah` `c` ON `a`.`log_tn_id` = `c`.`tn_id`
+JOIN `x_user` `d` ON `b`.`usr_id` = `d`.`usr_id`
+JOIN `mst_jabatan` `e` ON `b`.`jab_id` = `d`.`jab_id`
+JOIN `mst_subsatker` `f` ON `b`.`s_id` = `f`.`s_id`
+JOIN `konfig_instruksi` `g` ON `a`.`ins_id` = `g`.`ins_id`
+WHERE `a`.`tl_jenis` = \'DISPOSISI\'
+AND `a`.`tl_usr_id_input` = \'0cb8634a-0d11-4a80-a0a5-54148a06ae19\'')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1728): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `pa_tl_naskahmasuk` `a`
+JOIN `pa_naskahmasuk` `b` ON `a`.`nm_id` = `b`.`nm_id`
+JOIN `konfig_tujuannaskah` `c` ON `a`.`log_tn_id` = `c`.`tn_id`
+JOIN `x_user` `d` ON `b`.`usr_id` = `d`.`usr_id`
+JOIN `mst_jabatan` `e` ON `b`.`jab_id` = `d`.`jab_id`
+JOIN `mst_subsatker` `f` ON `b`.`s_id` = `f`.`s_id`
+JOIN `konfig_instruksi` `g` ON `a`.`ins_id` = `g`.`ins_id`
+WHERE `a`.`tl_jenis` = :a.tl_jenis:
+AND `a`.`tl_usr_id_input` = :a.tl_usr_id_input:', [...], false)
+ 5 APPPATH/Modules/Naskahmasuk/Models/LogdisposisiModel.php(87): CodeIgniter\Database\BaseBuilder->countAllResults()
+ 6 APPPATH/Modules/Naskahmasuk/Controllers/Logdisposisi.php(51): Modules\Naskahmasuk\Models\LogdisposisiModel->countAll()
+ 7 SYSTEMPATH/CodeIgniter.php(933): Modules\Naskahmasuk\Controllers\Logdisposisi->data()
+ 8 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(Modules\Naskahmasuk\Controllers\Logdisposisi))
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH/rewrite.php(44): require_once('/Users/apple/www/pusk/ci4/develop/safira2.0/public/index.php')
+INFO - 2025-02-12 14:49:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 14:49:15 --> CSRF token verified.
+INFO - 2025-02-12 14:49:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+ERROR - 2025-02-12 14:49:15 --> mysqli_sql_exception: Unknown column 'b.s_id' in 'on clause' in /Users/apple/www/pusk/ci4/develop/safira2.0/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /Users/apple/www/pusk/ci4/develop/safira2.0/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(312): mysqli->query('SELECT COUNT(*)...', 0)
+#1 /Users/apple/www/pusk/ci4/develop/safira2.0/vendor/codeigniter4/framework/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 /Users/apple/www/pusk/ci4/develop/safira2.0/vendor/codeigniter4/framework/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 /Users/apple/www/pusk/ci4/develop/safira2.0/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1728): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 /Users/apple/www/pusk/ci4/develop/safira2.0/app/Modules/Naskahmasuk/Models/LogdisposisiModel.php(87): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 /Users/apple/www/pusk/ci4/develop/safira2.0/app/Modules/Naskahmasuk/Controllers/Logdisposisi.php(51): Modules\Naskahmasuk\Models\LogdisposisiModel->countAll()
+#6 /Users/apple/www/pusk/ci4/develop/safira2.0/vendor/codeigniter4/framework/system/CodeIgniter.php(933): Modules\Naskahmasuk\Controllers\Logdisposisi->data()
+#7 /Users/apple/www/pusk/ci4/develop/safira2.0/vendor/codeigniter4/framework/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(Modules\Naskahmasuk\Controllers\Logdisposisi))
+#8 /Users/apple/www/pusk/ci4/develop/safira2.0/vendor/codeigniter4/framework/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Users/apple/www/pusk/ci4/develop/safira2.0/vendor/codeigniter4/framework/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 /Users/apple/www/pusk/ci4/develop/safira2.0/vendor/codeigniter4/framework/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 /Users/apple/www/pusk/ci4/develop/safira2.0/public/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 /Users/apple/www/pusk/ci4/develop/safira2.0/vendor/codeigniter4/framework/system/rewrite.php(44): require_once('/Users/apple/ww...')
+#13 {main}
+CRITICAL - 2025-02-12 14:49:15 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'b.s_id' in 'on clause'
+[Method: POST, Route: naskah-masuk/log-disposisi/data]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1728): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `pa_tl_naskahmasuk` `a`
+JOIN `pa_naskahmasuk` `b` ON `a`.`nm_id` = `b`.`nm_id`
+JOIN `konfig_tujuannaskah` `c` ON `a`.`log_tn_id` = `c`.`tn_id`
+JOIN `x_user` `d` ON `b`.`usr_id` = `d`.`usr_id`
+JOIN `mst_jabatan` `e` ON `b`.`jab_id` = `d`.`jab_id`
+JOIN `mst_subsatker` `f` ON `b`.`s_id` = `f`.`s_id`
+JOIN `konfig_instruksi` `g` ON `a`.`ins_id` = `g`.`ins_id`
+WHERE `a`.`tl_jenis` = :a.tl_jenis:
+AND `a`.`tl_usr_id_input` = :a.tl_usr_id_input:', [...], false)
+ 2 APPPATH/Modules/Naskahmasuk/Models/LogdisposisiModel.php(87): CodeIgniter\Database\BaseBuilder->countAllResults()
+ 3 APPPATH/Modules/Naskahmasuk/Controllers/Logdisposisi.php(51): Modules\Naskahmasuk\Models\LogdisposisiModel->countAll()
+ 4 SYSTEMPATH/CodeIgniter.php(933): Modules\Naskahmasuk\Controllers\Logdisposisi->data()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(Modules\Naskahmasuk\Controllers\Logdisposisi))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/Users/apple/www/pusk/ci4/develop/safira2.0/public/index.php')
+CRITICAL - 2025-02-12 14:49:15 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'b.s_id' in 'on clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `pa_tl_naskahmasuk` `a`
+JOIN `pa_naskahmasuk` `b` ON `a`.`nm_id` = `b`.`nm_id`
+JOIN `konfig_tujuannaskah` `c` ON `a`.`log_tn_id` = `c`.`tn_id`
+JOIN `x_user` `d` ON `b`.`usr_id` = `d`.`usr_id`
+JOIN `mst_jabatan` `e` ON `b`.`jab_id` = `d`.`jab_id`
+JOIN `mst_subsatker` `f` ON `b`.`s_id` = `f`.`s_id`
+JOIN `konfig_instruksi` `g` ON `a`.`ins_id` = `g`.`ins_id`
+WHERE `a`.`tl_jenis` = \'DISPOSISI\'
+AND `a`.`tl_usr_id_input` = \'0cb8634a-0d11-4a80-a0a5-54148a06ae19\'')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `pa_tl_naskahmasuk` `a`
+JOIN `pa_naskahmasuk` `b` ON `a`.`nm_id` = `b`.`nm_id`
+JOIN `konfig_tujuannaskah` `c` ON `a`.`log_tn_id` = `c`.`tn_id`
+JOIN `x_user` `d` ON `b`.`usr_id` = `d`.`usr_id`
+JOIN `mst_jabatan` `e` ON `b`.`jab_id` = `d`.`jab_id`
+JOIN `mst_subsatker` `f` ON `b`.`s_id` = `f`.`s_id`
+JOIN `konfig_instruksi` `g` ON `a`.`ins_id` = `g`.`ins_id`
+WHERE `a`.`tl_jenis` = \'DISPOSISI\'
+AND `a`.`tl_usr_id_input` = \'0cb8634a-0d11-4a80-a0a5-54148a06ae19\'')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(1728): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `pa_tl_naskahmasuk` `a`
+JOIN `pa_naskahmasuk` `b` ON `a`.`nm_id` = `b`.`nm_id`
+JOIN `konfig_tujuannaskah` `c` ON `a`.`log_tn_id` = `c`.`tn_id`
+JOIN `x_user` `d` ON `b`.`usr_id` = `d`.`usr_id`
+JOIN `mst_jabatan` `e` ON `b`.`jab_id` = `d`.`jab_id`
+JOIN `mst_subsatker` `f` ON `b`.`s_id` = `f`.`s_id`
+JOIN `konfig_instruksi` `g` ON `a`.`ins_id` = `g`.`ins_id`
+WHERE `a`.`tl_jenis` = :a.tl_jenis:
+AND `a`.`tl_usr_id_input` = :a.tl_usr_id_input:', [...], false)
+ 4 APPPATH/Modules/Naskahmasuk/Models/LogdisposisiModel.php(87): CodeIgniter\Database\BaseBuilder->countAllResults()
+ 5 APPPATH/Modules/Naskahmasuk/Controllers/Logdisposisi.php(51): Modules\Naskahmasuk\Models\LogdisposisiModel->countAll()
+ 6 SYSTEMPATH/CodeIgniter.php(933): Modules\Naskahmasuk\Controllers\Logdisposisi->data()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(Modules\Naskahmasuk\Controllers\Logdisposisi))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH/rewrite.php(44): require_once('/Users/apple/www/pusk/ci4/develop/safira2.0/public/index.php')
+CRITICAL - 2025-02-12 14:49:15 --> [Caused by] mysqli_sql_exception: Unknown column 'b.s_id' in 'on clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('SELECT COUNT(*) AS `numrows`
+FROM `pa_tl_naskahmasuk` `a`
+JOIN `pa_naskahmasuk` `b` ON `a`.`nm_id` = `b`.`nm_id`
+JOIN `konfig_tujuannaskah` `c` ON `a`.`log_tn_id` = `c`.`tn_id`
+JOIN `x_user` `d` ON `b`.`usr_id` = `d`.`usr_id`
+JOIN `mst_jabatan` `e` ON `b`.`jab_id` = `d`.`jab_id`
+JOIN `mst_subsatker` `f` ON `b`.`s_id` = `f`.`s_id`
+JOIN `konfig_instruksi` `g` ON `a`.`ins_id` = `g`.`ins_id`
+WHERE `a`.`tl_jenis` = \'DISPOSISI\'
+AND `a`.`tl_usr_id_input` = \'0cb8634a-0d11-4a80-a0a5-54148a06ae19\'', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `pa_tl_naskahmasuk` `a`
+JOIN `pa_naskahmasuk` `b` ON `a`.`nm_id` = `b`.`nm_id`
+JOIN `konfig_tujuannaskah` `c` ON `a`.`log_tn_id` = `c`.`tn_id`
+JOIN `x_user` `d` ON `b`.`usr_id` = `d`.`usr_id`
+JOIN `mst_jabatan` `e` ON `b`.`jab_id` = `d`.`jab_id`
+JOIN `mst_subsatker` `f` ON `b`.`s_id` = `f`.`s_id`
+JOIN `konfig_instruksi` `g` ON `a`.`ins_id` = `g`.`ins_id`
+WHERE `a`.`tl_jenis` = \'DISPOSISI\'
+AND `a`.`tl_usr_id_input` = \'0cb8634a-0d11-4a80-a0a5-54148a06ae19\'')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `pa_tl_naskahmasuk` `a`
+JOIN `pa_naskahmasuk` `b` ON `a`.`nm_id` = `b`.`nm_id`
+JOIN `konfig_tujuannaskah` `c` ON `a`.`log_tn_id` = `c`.`tn_id`
+JOIN `x_user` `d` ON `b`.`usr_id` = `d`.`usr_id`
+JOIN `mst_jabatan` `e` ON `b`.`jab_id` = `d`.`jab_id`
+JOIN `mst_subsatker` `f` ON `b`.`s_id` = `f`.`s_id`
+JOIN `konfig_instruksi` `g` ON `a`.`ins_id` = `g`.`ins_id`
+WHERE `a`.`tl_jenis` = \'DISPOSISI\'
+AND `a`.`tl_usr_id_input` = \'0cb8634a-0d11-4a80-a0a5-54148a06ae19\'')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1728): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `pa_tl_naskahmasuk` `a`
+JOIN `pa_naskahmasuk` `b` ON `a`.`nm_id` = `b`.`nm_id`
+JOIN `konfig_tujuannaskah` `c` ON `a`.`log_tn_id` = `c`.`tn_id`
+JOIN `x_user` `d` ON `b`.`usr_id` = `d`.`usr_id`
+JOIN `mst_jabatan` `e` ON `b`.`jab_id` = `d`.`jab_id`
+JOIN `mst_subsatker` `f` ON `b`.`s_id` = `f`.`s_id`
+JOIN `konfig_instruksi` `g` ON `a`.`ins_id` = `g`.`ins_id`
+WHERE `a`.`tl_jenis` = :a.tl_jenis:
+AND `a`.`tl_usr_id_input` = :a.tl_usr_id_input:', [...], false)
+ 5 APPPATH/Modules/Naskahmasuk/Models/LogdisposisiModel.php(87): CodeIgniter\Database\BaseBuilder->countAllResults()
+ 6 APPPATH/Modules/Naskahmasuk/Controllers/Logdisposisi.php(51): Modules\Naskahmasuk\Models\LogdisposisiModel->countAll()
+ 7 SYSTEMPATH/CodeIgniter.php(933): Modules\Naskahmasuk\Controllers\Logdisposisi->data()
+ 8 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(Modules\Naskahmasuk\Controllers\Logdisposisi))
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH/rewrite.php(44): require_once('/Users/apple/www/pusk/ci4/develop/safira2.0/public/index.php')
+INFO - 2025-02-12 14:50:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 14:50:07 --> CSRF token verified.
+INFO - 2025-02-12 14:50:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+ERROR - 2025-02-12 14:50:07 --> mysqli_sql_exception: Unknown column 'b.jab_id' in 'on clause' in /Users/apple/www/pusk/ci4/develop/safira2.0/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /Users/apple/www/pusk/ci4/develop/safira2.0/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(312): mysqli->query('SELECT COUNT(*)...', 0)
+#1 /Users/apple/www/pusk/ci4/develop/safira2.0/vendor/codeigniter4/framework/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 /Users/apple/www/pusk/ci4/develop/safira2.0/vendor/codeigniter4/framework/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 /Users/apple/www/pusk/ci4/develop/safira2.0/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1728): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 /Users/apple/www/pusk/ci4/develop/safira2.0/app/Modules/Naskahmasuk/Models/LogdisposisiModel.php(87): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 /Users/apple/www/pusk/ci4/develop/safira2.0/app/Modules/Naskahmasuk/Controllers/Logdisposisi.php(51): Modules\Naskahmasuk\Models\LogdisposisiModel->countAll()
+#6 /Users/apple/www/pusk/ci4/develop/safira2.0/vendor/codeigniter4/framework/system/CodeIgniter.php(933): Modules\Naskahmasuk\Controllers\Logdisposisi->data()
+#7 /Users/apple/www/pusk/ci4/develop/safira2.0/vendor/codeigniter4/framework/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(Modules\Naskahmasuk\Controllers\Logdisposisi))
+#8 /Users/apple/www/pusk/ci4/develop/safira2.0/vendor/codeigniter4/framework/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Users/apple/www/pusk/ci4/develop/safira2.0/vendor/codeigniter4/framework/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 /Users/apple/www/pusk/ci4/develop/safira2.0/vendor/codeigniter4/framework/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 /Users/apple/www/pusk/ci4/develop/safira2.0/public/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 /Users/apple/www/pusk/ci4/develop/safira2.0/vendor/codeigniter4/framework/system/rewrite.php(44): require_once('/Users/apple/ww...')
+#13 {main}
+CRITICAL - 2025-02-12 14:50:07 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'b.jab_id' in 'on clause'
+[Method: POST, Route: naskah-masuk/log-disposisi/data]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1728): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `pa_tl_naskahmasuk` `a`
+JOIN `pa_naskahmasuk` `b` ON `a`.`nm_id` = `b`.`nm_id`
+JOIN `konfig_tujuannaskah` `c` ON `a`.`log_tn_id` = `c`.`tn_id`
+JOIN `x_user` `d` ON `b`.`usr_id` = `d`.`usr_id`
+JOIN `mst_jabatan` `e` ON `b`.`jab_id` = `d`.`jab_id`
+JOIN `mst_subsatker` `f` ON `c`.`s_id` = `f`.`s_id`
+JOIN `konfig_instruksi` `g` ON `a`.`ins_id` = `g`.`ins_id`
+WHERE `a`.`tl_jenis` = :a.tl_jenis:
+AND `a`.`tl_usr_id_input` = :a.tl_usr_id_input:', [...], false)
+ 2 APPPATH/Modules/Naskahmasuk/Models/LogdisposisiModel.php(87): CodeIgniter\Database\BaseBuilder->countAllResults()
+ 3 APPPATH/Modules/Naskahmasuk/Controllers/Logdisposisi.php(51): Modules\Naskahmasuk\Models\LogdisposisiModel->countAll()
+ 4 SYSTEMPATH/CodeIgniter.php(933): Modules\Naskahmasuk\Controllers\Logdisposisi->data()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(Modules\Naskahmasuk\Controllers\Logdisposisi))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/Users/apple/www/pusk/ci4/develop/safira2.0/public/index.php')
+CRITICAL - 2025-02-12 14:50:07 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'b.jab_id' in 'on clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `pa_tl_naskahmasuk` `a`
+JOIN `pa_naskahmasuk` `b` ON `a`.`nm_id` = `b`.`nm_id`
+JOIN `konfig_tujuannaskah` `c` ON `a`.`log_tn_id` = `c`.`tn_id`
+JOIN `x_user` `d` ON `b`.`usr_id` = `d`.`usr_id`
+JOIN `mst_jabatan` `e` ON `b`.`jab_id` = `d`.`jab_id`
+JOIN `mst_subsatker` `f` ON `c`.`s_id` = `f`.`s_id`
+JOIN `konfig_instruksi` `g` ON `a`.`ins_id` = `g`.`ins_id`
+WHERE `a`.`tl_jenis` = \'DISPOSISI\'
+AND `a`.`tl_usr_id_input` = \'0cb8634a-0d11-4a80-a0a5-54148a06ae19\'')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `pa_tl_naskahmasuk` `a`
+JOIN `pa_naskahmasuk` `b` ON `a`.`nm_id` = `b`.`nm_id`
+JOIN `konfig_tujuannaskah` `c` ON `a`.`log_tn_id` = `c`.`tn_id`
+JOIN `x_user` `d` ON `b`.`usr_id` = `d`.`usr_id`
+JOIN `mst_jabatan` `e` ON `b`.`jab_id` = `d`.`jab_id`
+JOIN `mst_subsatker` `f` ON `c`.`s_id` = `f`.`s_id`
+JOIN `konfig_instruksi` `g` ON `a`.`ins_id` = `g`.`ins_id`
+WHERE `a`.`tl_jenis` = \'DISPOSISI\'
+AND `a`.`tl_usr_id_input` = \'0cb8634a-0d11-4a80-a0a5-54148a06ae19\'')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(1728): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `pa_tl_naskahmasuk` `a`
+JOIN `pa_naskahmasuk` `b` ON `a`.`nm_id` = `b`.`nm_id`
+JOIN `konfig_tujuannaskah` `c` ON `a`.`log_tn_id` = `c`.`tn_id`
+JOIN `x_user` `d` ON `b`.`usr_id` = `d`.`usr_id`
+JOIN `mst_jabatan` `e` ON `b`.`jab_id` = `d`.`jab_id`
+JOIN `mst_subsatker` `f` ON `c`.`s_id` = `f`.`s_id`
+JOIN `konfig_instruksi` `g` ON `a`.`ins_id` = `g`.`ins_id`
+WHERE `a`.`tl_jenis` = :a.tl_jenis:
+AND `a`.`tl_usr_id_input` = :a.tl_usr_id_input:', [...], false)
+ 4 APPPATH/Modules/Naskahmasuk/Models/LogdisposisiModel.php(87): CodeIgniter\Database\BaseBuilder->countAllResults()
+ 5 APPPATH/Modules/Naskahmasuk/Controllers/Logdisposisi.php(51): Modules\Naskahmasuk\Models\LogdisposisiModel->countAll()
+ 6 SYSTEMPATH/CodeIgniter.php(933): Modules\Naskahmasuk\Controllers\Logdisposisi->data()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(Modules\Naskahmasuk\Controllers\Logdisposisi))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH/rewrite.php(44): require_once('/Users/apple/www/pusk/ci4/develop/safira2.0/public/index.php')
+CRITICAL - 2025-02-12 14:50:07 --> [Caused by] mysqli_sql_exception: Unknown column 'b.jab_id' in 'on clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('SELECT COUNT(*) AS `numrows`
+FROM `pa_tl_naskahmasuk` `a`
+JOIN `pa_naskahmasuk` `b` ON `a`.`nm_id` = `b`.`nm_id`
+JOIN `konfig_tujuannaskah` `c` ON `a`.`log_tn_id` = `c`.`tn_id`
+JOIN `x_user` `d` ON `b`.`usr_id` = `d`.`usr_id`
+JOIN `mst_jabatan` `e` ON `b`.`jab_id` = `d`.`jab_id`
+JOIN `mst_subsatker` `f` ON `c`.`s_id` = `f`.`s_id`
+JOIN `konfig_instruksi` `g` ON `a`.`ins_id` = `g`.`ins_id`
+WHERE `a`.`tl_jenis` = \'DISPOSISI\'
+AND `a`.`tl_usr_id_input` = \'0cb8634a-0d11-4a80-a0a5-54148a06ae19\'', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `pa_tl_naskahmasuk` `a`
+JOIN `pa_naskahmasuk` `b` ON `a`.`nm_id` = `b`.`nm_id`
+JOIN `konfig_tujuannaskah` `c` ON `a`.`log_tn_id` = `c`.`tn_id`
+JOIN `x_user` `d` ON `b`.`usr_id` = `d`.`usr_id`
+JOIN `mst_jabatan` `e` ON `b`.`jab_id` = `d`.`jab_id`
+JOIN `mst_subsatker` `f` ON `c`.`s_id` = `f`.`s_id`
+JOIN `konfig_instruksi` `g` ON `a`.`ins_id` = `g`.`ins_id`
+WHERE `a`.`tl_jenis` = \'DISPOSISI\'
+AND `a`.`tl_usr_id_input` = \'0cb8634a-0d11-4a80-a0a5-54148a06ae19\'')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `pa_tl_naskahmasuk` `a`
+JOIN `pa_naskahmasuk` `b` ON `a`.`nm_id` = `b`.`nm_id`
+JOIN `konfig_tujuannaskah` `c` ON `a`.`log_tn_id` = `c`.`tn_id`
+JOIN `x_user` `d` ON `b`.`usr_id` = `d`.`usr_id`
+JOIN `mst_jabatan` `e` ON `b`.`jab_id` = `d`.`jab_id`
+JOIN `mst_subsatker` `f` ON `c`.`s_id` = `f`.`s_id`
+JOIN `konfig_instruksi` `g` ON `a`.`ins_id` = `g`.`ins_id`
+WHERE `a`.`tl_jenis` = \'DISPOSISI\'
+AND `a`.`tl_usr_id_input` = \'0cb8634a-0d11-4a80-a0a5-54148a06ae19\'')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1728): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `pa_tl_naskahmasuk` `a`
+JOIN `pa_naskahmasuk` `b` ON `a`.`nm_id` = `b`.`nm_id`
+JOIN `konfig_tujuannaskah` `c` ON `a`.`log_tn_id` = `c`.`tn_id`
+JOIN `x_user` `d` ON `b`.`usr_id` = `d`.`usr_id`
+JOIN `mst_jabatan` `e` ON `b`.`jab_id` = `d`.`jab_id`
+JOIN `mst_subsatker` `f` ON `c`.`s_id` = `f`.`s_id`
+JOIN `konfig_instruksi` `g` ON `a`.`ins_id` = `g`.`ins_id`
+WHERE `a`.`tl_jenis` = :a.tl_jenis:
+AND `a`.`tl_usr_id_input` = :a.tl_usr_id_input:', [...], false)
+ 5 APPPATH/Modules/Naskahmasuk/Models/LogdisposisiModel.php(87): CodeIgniter\Database\BaseBuilder->countAllResults()
+ 6 APPPATH/Modules/Naskahmasuk/Controllers/Logdisposisi.php(51): Modules\Naskahmasuk\Models\LogdisposisiModel->countAll()
+ 7 SYSTEMPATH/CodeIgniter.php(933): Modules\Naskahmasuk\Controllers\Logdisposisi->data()
+ 8 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(Modules\Naskahmasuk\Controllers\Logdisposisi))
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH/rewrite.php(44): require_once('/Users/apple/www/pusk/ci4/develop/safira2.0/public/index.php')
+INFO - 2025-02-12 14:50:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 14:50:33 --> CSRF token verified.
+INFO - 2025-02-12 14:50:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+ERROR - 2025-02-12 14:50:33 --> mysqli_sql_exception: Unknown column 'd.jab_id' in 'on clause' in /Users/apple/www/pusk/ci4/develop/safira2.0/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /Users/apple/www/pusk/ci4/develop/safira2.0/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(312): mysqli->query('SELECT COUNT(*)...', 0)
+#1 /Users/apple/www/pusk/ci4/develop/safira2.0/vendor/codeigniter4/framework/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 /Users/apple/www/pusk/ci4/develop/safira2.0/vendor/codeigniter4/framework/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 /Users/apple/www/pusk/ci4/develop/safira2.0/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1728): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 /Users/apple/www/pusk/ci4/develop/safira2.0/app/Modules/Naskahmasuk/Models/LogdisposisiModel.php(87): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 /Users/apple/www/pusk/ci4/develop/safira2.0/app/Modules/Naskahmasuk/Controllers/Logdisposisi.php(51): Modules\Naskahmasuk\Models\LogdisposisiModel->countAll()
+#6 /Users/apple/www/pusk/ci4/develop/safira2.0/vendor/codeigniter4/framework/system/CodeIgniter.php(933): Modules\Naskahmasuk\Controllers\Logdisposisi->data()
+#7 /Users/apple/www/pusk/ci4/develop/safira2.0/vendor/codeigniter4/framework/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(Modules\Naskahmasuk\Controllers\Logdisposisi))
+#8 /Users/apple/www/pusk/ci4/develop/safira2.0/vendor/codeigniter4/framework/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Users/apple/www/pusk/ci4/develop/safira2.0/vendor/codeigniter4/framework/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 /Users/apple/www/pusk/ci4/develop/safira2.0/vendor/codeigniter4/framework/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 /Users/apple/www/pusk/ci4/develop/safira2.0/public/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 /Users/apple/www/pusk/ci4/develop/safira2.0/vendor/codeigniter4/framework/system/rewrite.php(44): require_once('/Users/apple/ww...')
+#13 {main}
+CRITICAL - 2025-02-12 14:50:33 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'd.jab_id' in 'on clause'
+[Method: POST, Route: naskah-masuk/log-disposisi/data]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1728): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `pa_tl_naskahmasuk` `a`
+JOIN `pa_naskahmasuk` `b` ON `a`.`nm_id` = `b`.`nm_id`
+JOIN `konfig_tujuannaskah` `c` ON `a`.`log_tn_id` = `c`.`tn_id`
+JOIN `x_user` `d` ON `b`.`usr_id` = `d`.`usr_id`
+JOIN `mst_jabatan` `e` ON `c`.`jab_id` = `d`.`jab_id`
+JOIN `mst_subsatker` `f` ON `c`.`s_id` = `f`.`s_id`
+JOIN `konfig_instruksi` `g` ON `a`.`ins_id` = `g`.`ins_id`
+WHERE `a`.`tl_jenis` = :a.tl_jenis:
+AND `a`.`tl_usr_id_input` = :a.tl_usr_id_input:', [...], false)
+ 2 APPPATH/Modules/Naskahmasuk/Models/LogdisposisiModel.php(87): CodeIgniter\Database\BaseBuilder->countAllResults()
+ 3 APPPATH/Modules/Naskahmasuk/Controllers/Logdisposisi.php(51): Modules\Naskahmasuk\Models\LogdisposisiModel->countAll()
+ 4 SYSTEMPATH/CodeIgniter.php(933): Modules\Naskahmasuk\Controllers\Logdisposisi->data()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(Modules\Naskahmasuk\Controllers\Logdisposisi))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/Users/apple/www/pusk/ci4/develop/safira2.0/public/index.php')
+CRITICAL - 2025-02-12 14:50:33 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'd.jab_id' in 'on clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `pa_tl_naskahmasuk` `a`
+JOIN `pa_naskahmasuk` `b` ON `a`.`nm_id` = `b`.`nm_id`
+JOIN `konfig_tujuannaskah` `c` ON `a`.`log_tn_id` = `c`.`tn_id`
+JOIN `x_user` `d` ON `b`.`usr_id` = `d`.`usr_id`
+JOIN `mst_jabatan` `e` ON `c`.`jab_id` = `d`.`jab_id`
+JOIN `mst_subsatker` `f` ON `c`.`s_id` = `f`.`s_id`
+JOIN `konfig_instruksi` `g` ON `a`.`ins_id` = `g`.`ins_id`
+WHERE `a`.`tl_jenis` = \'DISPOSISI\'
+AND `a`.`tl_usr_id_input` = \'0cb8634a-0d11-4a80-a0a5-54148a06ae19\'')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `pa_tl_naskahmasuk` `a`
+JOIN `pa_naskahmasuk` `b` ON `a`.`nm_id` = `b`.`nm_id`
+JOIN `konfig_tujuannaskah` `c` ON `a`.`log_tn_id` = `c`.`tn_id`
+JOIN `x_user` `d` ON `b`.`usr_id` = `d`.`usr_id`
+JOIN `mst_jabatan` `e` ON `c`.`jab_id` = `d`.`jab_id`
+JOIN `mst_subsatker` `f` ON `c`.`s_id` = `f`.`s_id`
+JOIN `konfig_instruksi` `g` ON `a`.`ins_id` = `g`.`ins_id`
+WHERE `a`.`tl_jenis` = \'DISPOSISI\'
+AND `a`.`tl_usr_id_input` = \'0cb8634a-0d11-4a80-a0a5-54148a06ae19\'')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(1728): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `pa_tl_naskahmasuk` `a`
+JOIN `pa_naskahmasuk` `b` ON `a`.`nm_id` = `b`.`nm_id`
+JOIN `konfig_tujuannaskah` `c` ON `a`.`log_tn_id` = `c`.`tn_id`
+JOIN `x_user` `d` ON `b`.`usr_id` = `d`.`usr_id`
+JOIN `mst_jabatan` `e` ON `c`.`jab_id` = `d`.`jab_id`
+JOIN `mst_subsatker` `f` ON `c`.`s_id` = `f`.`s_id`
+JOIN `konfig_instruksi` `g` ON `a`.`ins_id` = `g`.`ins_id`
+WHERE `a`.`tl_jenis` = :a.tl_jenis:
+AND `a`.`tl_usr_id_input` = :a.tl_usr_id_input:', [...], false)
+ 4 APPPATH/Modules/Naskahmasuk/Models/LogdisposisiModel.php(87): CodeIgniter\Database\BaseBuilder->countAllResults()
+ 5 APPPATH/Modules/Naskahmasuk/Controllers/Logdisposisi.php(51): Modules\Naskahmasuk\Models\LogdisposisiModel->countAll()
+ 6 SYSTEMPATH/CodeIgniter.php(933): Modules\Naskahmasuk\Controllers\Logdisposisi->data()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(Modules\Naskahmasuk\Controllers\Logdisposisi))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH/rewrite.php(44): require_once('/Users/apple/www/pusk/ci4/develop/safira2.0/public/index.php')
+CRITICAL - 2025-02-12 14:50:33 --> [Caused by] mysqli_sql_exception: Unknown column 'd.jab_id' in 'on clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('SELECT COUNT(*) AS `numrows`
+FROM `pa_tl_naskahmasuk` `a`
+JOIN `pa_naskahmasuk` `b` ON `a`.`nm_id` = `b`.`nm_id`
+JOIN `konfig_tujuannaskah` `c` ON `a`.`log_tn_id` = `c`.`tn_id`
+JOIN `x_user` `d` ON `b`.`usr_id` = `d`.`usr_id`
+JOIN `mst_jabatan` `e` ON `c`.`jab_id` = `d`.`jab_id`
+JOIN `mst_subsatker` `f` ON `c`.`s_id` = `f`.`s_id`
+JOIN `konfig_instruksi` `g` ON `a`.`ins_id` = `g`.`ins_id`
+WHERE `a`.`tl_jenis` = \'DISPOSISI\'
+AND `a`.`tl_usr_id_input` = \'0cb8634a-0d11-4a80-a0a5-54148a06ae19\'', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `pa_tl_naskahmasuk` `a`
+JOIN `pa_naskahmasuk` `b` ON `a`.`nm_id` = `b`.`nm_id`
+JOIN `konfig_tujuannaskah` `c` ON `a`.`log_tn_id` = `c`.`tn_id`
+JOIN `x_user` `d` ON `b`.`usr_id` = `d`.`usr_id`
+JOIN `mst_jabatan` `e` ON `c`.`jab_id` = `d`.`jab_id`
+JOIN `mst_subsatker` `f` ON `c`.`s_id` = `f`.`s_id`
+JOIN `konfig_instruksi` `g` ON `a`.`ins_id` = `g`.`ins_id`
+WHERE `a`.`tl_jenis` = \'DISPOSISI\'
+AND `a`.`tl_usr_id_input` = \'0cb8634a-0d11-4a80-a0a5-54148a06ae19\'')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `pa_tl_naskahmasuk` `a`
+JOIN `pa_naskahmasuk` `b` ON `a`.`nm_id` = `b`.`nm_id`
+JOIN `konfig_tujuannaskah` `c` ON `a`.`log_tn_id` = `c`.`tn_id`
+JOIN `x_user` `d` ON `b`.`usr_id` = `d`.`usr_id`
+JOIN `mst_jabatan` `e` ON `c`.`jab_id` = `d`.`jab_id`
+JOIN `mst_subsatker` `f` ON `c`.`s_id` = `f`.`s_id`
+JOIN `konfig_instruksi` `g` ON `a`.`ins_id` = `g`.`ins_id`
+WHERE `a`.`tl_jenis` = \'DISPOSISI\'
+AND `a`.`tl_usr_id_input` = \'0cb8634a-0d11-4a80-a0a5-54148a06ae19\'')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1728): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `pa_tl_naskahmasuk` `a`
+JOIN `pa_naskahmasuk` `b` ON `a`.`nm_id` = `b`.`nm_id`
+JOIN `konfig_tujuannaskah` `c` ON `a`.`log_tn_id` = `c`.`tn_id`
+JOIN `x_user` `d` ON `b`.`usr_id` = `d`.`usr_id`
+JOIN `mst_jabatan` `e` ON `c`.`jab_id` = `d`.`jab_id`
+JOIN `mst_subsatker` `f` ON `c`.`s_id` = `f`.`s_id`
+JOIN `konfig_instruksi` `g` ON `a`.`ins_id` = `g`.`ins_id`
+WHERE `a`.`tl_jenis` = :a.tl_jenis:
+AND `a`.`tl_usr_id_input` = :a.tl_usr_id_input:', [...], false)
+ 5 APPPATH/Modules/Naskahmasuk/Models/LogdisposisiModel.php(87): CodeIgniter\Database\BaseBuilder->countAllResults()
+ 6 APPPATH/Modules/Naskahmasuk/Controllers/Logdisposisi.php(51): Modules\Naskahmasuk\Models\LogdisposisiModel->countAll()
+ 7 SYSTEMPATH/CodeIgniter.php(933): Modules\Naskahmasuk\Controllers\Logdisposisi->data()
+ 8 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(Modules\Naskahmasuk\Controllers\Logdisposisi))
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH/rewrite.php(44): require_once('/Users/apple/www/pusk/ci4/develop/safira2.0/public/index.php')
+INFO - 2025-02-12 14:51:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 14:51:09 --> CSRF token verified.
+INFO - 2025-02-12 14:51:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+ERROR - 2025-02-12 14:51:09 --> mysqli_sql_exception: Unknown column 'b.usr_id' in 'on clause' in /Users/apple/www/pusk/ci4/develop/safira2.0/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /Users/apple/www/pusk/ci4/develop/safira2.0/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(312): mysqli->query('SELECT COUNT(*)...', 0)
+#1 /Users/apple/www/pusk/ci4/develop/safira2.0/vendor/codeigniter4/framework/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 /Users/apple/www/pusk/ci4/develop/safira2.0/vendor/codeigniter4/framework/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 /Users/apple/www/pusk/ci4/develop/safira2.0/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1728): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 /Users/apple/www/pusk/ci4/develop/safira2.0/app/Modules/Naskahmasuk/Models/LogdisposisiModel.php(87): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 /Users/apple/www/pusk/ci4/develop/safira2.0/app/Modules/Naskahmasuk/Controllers/Logdisposisi.php(51): Modules\Naskahmasuk\Models\LogdisposisiModel->countAll()
+#6 /Users/apple/www/pusk/ci4/develop/safira2.0/vendor/codeigniter4/framework/system/CodeIgniter.php(933): Modules\Naskahmasuk\Controllers\Logdisposisi->data()
+#7 /Users/apple/www/pusk/ci4/develop/safira2.0/vendor/codeigniter4/framework/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(Modules\Naskahmasuk\Controllers\Logdisposisi))
+#8 /Users/apple/www/pusk/ci4/develop/safira2.0/vendor/codeigniter4/framework/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Users/apple/www/pusk/ci4/develop/safira2.0/vendor/codeigniter4/framework/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 /Users/apple/www/pusk/ci4/develop/safira2.0/vendor/codeigniter4/framework/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 /Users/apple/www/pusk/ci4/develop/safira2.0/public/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 /Users/apple/www/pusk/ci4/develop/safira2.0/vendor/codeigniter4/framework/system/rewrite.php(44): require_once('/Users/apple/ww...')
+#13 {main}
+CRITICAL - 2025-02-12 14:51:09 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'b.usr_id' in 'on clause'
+[Method: POST, Route: naskah-masuk/log-disposisi/data]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1728): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `pa_tl_naskahmasuk` `a`
+JOIN `pa_naskahmasuk` `b` ON `a`.`nm_id` = `b`.`nm_id`
+JOIN `konfig_tujuannaskah` `c` ON `a`.`log_tn_id` = `c`.`tn_id`
+JOIN `x_user` `d` ON `b`.`usr_id` = `d`.`usr_id`
+JOIN `mst_jabatan` `e` ON `c`.`jab_id` = `e`.`jab_id`
+JOIN `mst_subsatker` `f` ON `c`.`s_id` = `f`.`s_id`
+JOIN `konfig_instruksi` `g` ON `a`.`ins_id` = `g`.`ins_id`
+WHERE `a`.`tl_jenis` = :a.tl_jenis:
+AND `a`.`tl_usr_id_input` = :a.tl_usr_id_input:', [...], false)
+ 2 APPPATH/Modules/Naskahmasuk/Models/LogdisposisiModel.php(87): CodeIgniter\Database\BaseBuilder->countAllResults()
+ 3 APPPATH/Modules/Naskahmasuk/Controllers/Logdisposisi.php(51): Modules\Naskahmasuk\Models\LogdisposisiModel->countAll()
+ 4 SYSTEMPATH/CodeIgniter.php(933): Modules\Naskahmasuk\Controllers\Logdisposisi->data()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(Modules\Naskahmasuk\Controllers\Logdisposisi))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/Users/apple/www/pusk/ci4/develop/safira2.0/public/index.php')
+CRITICAL - 2025-02-12 14:51:09 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'b.usr_id' in 'on clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `pa_tl_naskahmasuk` `a`
+JOIN `pa_naskahmasuk` `b` ON `a`.`nm_id` = `b`.`nm_id`
+JOIN `konfig_tujuannaskah` `c` ON `a`.`log_tn_id` = `c`.`tn_id`
+JOIN `x_user` `d` ON `b`.`usr_id` = `d`.`usr_id`
+JOIN `mst_jabatan` `e` ON `c`.`jab_id` = `e`.`jab_id`
+JOIN `mst_subsatker` `f` ON `c`.`s_id` = `f`.`s_id`
+JOIN `konfig_instruksi` `g` ON `a`.`ins_id` = `g`.`ins_id`
+WHERE `a`.`tl_jenis` = \'DISPOSISI\'
+AND `a`.`tl_usr_id_input` = \'0cb8634a-0d11-4a80-a0a5-54148a06ae19\'')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `pa_tl_naskahmasuk` `a`
+JOIN `pa_naskahmasuk` `b` ON `a`.`nm_id` = `b`.`nm_id`
+JOIN `konfig_tujuannaskah` `c` ON `a`.`log_tn_id` = `c`.`tn_id`
+JOIN `x_user` `d` ON `b`.`usr_id` = `d`.`usr_id`
+JOIN `mst_jabatan` `e` ON `c`.`jab_id` = `e`.`jab_id`
+JOIN `mst_subsatker` `f` ON `c`.`s_id` = `f`.`s_id`
+JOIN `konfig_instruksi` `g` ON `a`.`ins_id` = `g`.`ins_id`
+WHERE `a`.`tl_jenis` = \'DISPOSISI\'
+AND `a`.`tl_usr_id_input` = \'0cb8634a-0d11-4a80-a0a5-54148a06ae19\'')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(1728): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `pa_tl_naskahmasuk` `a`
+JOIN `pa_naskahmasuk` `b` ON `a`.`nm_id` = `b`.`nm_id`
+JOIN `konfig_tujuannaskah` `c` ON `a`.`log_tn_id` = `c`.`tn_id`
+JOIN `x_user` `d` ON `b`.`usr_id` = `d`.`usr_id`
+JOIN `mst_jabatan` `e` ON `c`.`jab_id` = `e`.`jab_id`
+JOIN `mst_subsatker` `f` ON `c`.`s_id` = `f`.`s_id`
+JOIN `konfig_instruksi` `g` ON `a`.`ins_id` = `g`.`ins_id`
+WHERE `a`.`tl_jenis` = :a.tl_jenis:
+AND `a`.`tl_usr_id_input` = :a.tl_usr_id_input:', [...], false)
+ 4 APPPATH/Modules/Naskahmasuk/Models/LogdisposisiModel.php(87): CodeIgniter\Database\BaseBuilder->countAllResults()
+ 5 APPPATH/Modules/Naskahmasuk/Controllers/Logdisposisi.php(51): Modules\Naskahmasuk\Models\LogdisposisiModel->countAll()
+ 6 SYSTEMPATH/CodeIgniter.php(933): Modules\Naskahmasuk\Controllers\Logdisposisi->data()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(Modules\Naskahmasuk\Controllers\Logdisposisi))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH/rewrite.php(44): require_once('/Users/apple/www/pusk/ci4/develop/safira2.0/public/index.php')
+CRITICAL - 2025-02-12 14:51:09 --> [Caused by] mysqli_sql_exception: Unknown column 'b.usr_id' in 'on clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('SELECT COUNT(*) AS `numrows`
+FROM `pa_tl_naskahmasuk` `a`
+JOIN `pa_naskahmasuk` `b` ON `a`.`nm_id` = `b`.`nm_id`
+JOIN `konfig_tujuannaskah` `c` ON `a`.`log_tn_id` = `c`.`tn_id`
+JOIN `x_user` `d` ON `b`.`usr_id` = `d`.`usr_id`
+JOIN `mst_jabatan` `e` ON `c`.`jab_id` = `e`.`jab_id`
+JOIN `mst_subsatker` `f` ON `c`.`s_id` = `f`.`s_id`
+JOIN `konfig_instruksi` `g` ON `a`.`ins_id` = `g`.`ins_id`
+WHERE `a`.`tl_jenis` = \'DISPOSISI\'
+AND `a`.`tl_usr_id_input` = \'0cb8634a-0d11-4a80-a0a5-54148a06ae19\'', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `pa_tl_naskahmasuk` `a`
+JOIN `pa_naskahmasuk` `b` ON `a`.`nm_id` = `b`.`nm_id`
+JOIN `konfig_tujuannaskah` `c` ON `a`.`log_tn_id` = `c`.`tn_id`
+JOIN `x_user` `d` ON `b`.`usr_id` = `d`.`usr_id`
+JOIN `mst_jabatan` `e` ON `c`.`jab_id` = `e`.`jab_id`
+JOIN `mst_subsatker` `f` ON `c`.`s_id` = `f`.`s_id`
+JOIN `konfig_instruksi` `g` ON `a`.`ins_id` = `g`.`ins_id`
+WHERE `a`.`tl_jenis` = \'DISPOSISI\'
+AND `a`.`tl_usr_id_input` = \'0cb8634a-0d11-4a80-a0a5-54148a06ae19\'')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `pa_tl_naskahmasuk` `a`
+JOIN `pa_naskahmasuk` `b` ON `a`.`nm_id` = `b`.`nm_id`
+JOIN `konfig_tujuannaskah` `c` ON `a`.`log_tn_id` = `c`.`tn_id`
+JOIN `x_user` `d` ON `b`.`usr_id` = `d`.`usr_id`
+JOIN `mst_jabatan` `e` ON `c`.`jab_id` = `e`.`jab_id`
+JOIN `mst_subsatker` `f` ON `c`.`s_id` = `f`.`s_id`
+JOIN `konfig_instruksi` `g` ON `a`.`ins_id` = `g`.`ins_id`
+WHERE `a`.`tl_jenis` = \'DISPOSISI\'
+AND `a`.`tl_usr_id_input` = \'0cb8634a-0d11-4a80-a0a5-54148a06ae19\'')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1728): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `pa_tl_naskahmasuk` `a`
+JOIN `pa_naskahmasuk` `b` ON `a`.`nm_id` = `b`.`nm_id`
+JOIN `konfig_tujuannaskah` `c` ON `a`.`log_tn_id` = `c`.`tn_id`
+JOIN `x_user` `d` ON `b`.`usr_id` = `d`.`usr_id`
+JOIN `mst_jabatan` `e` ON `c`.`jab_id` = `e`.`jab_id`
+JOIN `mst_subsatker` `f` ON `c`.`s_id` = `f`.`s_id`
+JOIN `konfig_instruksi` `g` ON `a`.`ins_id` = `g`.`ins_id`
+WHERE `a`.`tl_jenis` = :a.tl_jenis:
+AND `a`.`tl_usr_id_input` = :a.tl_usr_id_input:', [...], false)
+ 5 APPPATH/Modules/Naskahmasuk/Models/LogdisposisiModel.php(87): CodeIgniter\Database\BaseBuilder->countAllResults()
+ 6 APPPATH/Modules/Naskahmasuk/Controllers/Logdisposisi.php(51): Modules\Naskahmasuk\Models\LogdisposisiModel->countAll()
+ 7 SYSTEMPATH/CodeIgniter.php(933): Modules\Naskahmasuk\Controllers\Logdisposisi->data()
+ 8 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(Modules\Naskahmasuk\Controllers\Logdisposisi))
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH/rewrite.php(44): require_once('/Users/apple/www/pusk/ci4/develop/safira2.0/public/index.php')
+INFO - 2025-02-12 14:51:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 14:51:41 --> CSRF token verified.
+INFO - 2025-02-12 14:51:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+ERROR - 2025-02-12 14:51:41 --> mysqli_sql_exception: Unknown column 'a.log_tn_id' in 'on clause' in /Users/apple/www/pusk/ci4/develop/safira2.0/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /Users/apple/www/pusk/ci4/develop/safira2.0/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(312): mysqli->query('SELECT COUNT(*)...', 0)
+#1 /Users/apple/www/pusk/ci4/develop/safira2.0/vendor/codeigniter4/framework/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 /Users/apple/www/pusk/ci4/develop/safira2.0/vendor/codeigniter4/framework/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 /Users/apple/www/pusk/ci4/develop/safira2.0/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1728): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 /Users/apple/www/pusk/ci4/develop/safira2.0/app/Modules/Naskahmasuk/Models/LogdisposisiModel.php(87): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 /Users/apple/www/pusk/ci4/develop/safira2.0/app/Modules/Naskahmasuk/Controllers/Logdisposisi.php(51): Modules\Naskahmasuk\Models\LogdisposisiModel->countAll()
+#6 /Users/apple/www/pusk/ci4/develop/safira2.0/vendor/codeigniter4/framework/system/CodeIgniter.php(933): Modules\Naskahmasuk\Controllers\Logdisposisi->data()
+#7 /Users/apple/www/pusk/ci4/develop/safira2.0/vendor/codeigniter4/framework/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(Modules\Naskahmasuk\Controllers\Logdisposisi))
+#8 /Users/apple/www/pusk/ci4/develop/safira2.0/vendor/codeigniter4/framework/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Users/apple/www/pusk/ci4/develop/safira2.0/vendor/codeigniter4/framework/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 /Users/apple/www/pusk/ci4/develop/safira2.0/vendor/codeigniter4/framework/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 /Users/apple/www/pusk/ci4/develop/safira2.0/public/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 /Users/apple/www/pusk/ci4/develop/safira2.0/vendor/codeigniter4/framework/system/rewrite.php(44): require_once('/Users/apple/ww...')
+#13 {main}
+CRITICAL - 2025-02-12 14:51:41 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'a.log_tn_id' in 'on clause'
+[Method: POST, Route: naskah-masuk/log-disposisi/data]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1728): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `pa_tl_naskahmasuk` `a`
+JOIN `pa_naskahmasuk` `b` ON `a`.`nm_id` = `b`.`nm_id`
+JOIN `konfig_tujuannaskah` `c` ON `a`.`log_tn_id` = `c`.`tn_id`
+JOIN `x_user` `d` ON `c`.`usr_id` = `d`.`usr_id`
+JOIN `mst_jabatan` `e` ON `c`.`jab_id` = `e`.`jab_id`
+JOIN `mst_subsatker` `f` ON `c`.`s_id` = `f`.`s_id`
+JOIN `konfig_instruksi` `g` ON `a`.`ins_id` = `g`.`ins_id`
+WHERE `a`.`tl_jenis` = :a.tl_jenis:
+AND `a`.`tl_usr_id_input` = :a.tl_usr_id_input:', [...], false)
+ 2 APPPATH/Modules/Naskahmasuk/Models/LogdisposisiModel.php(87): CodeIgniter\Database\BaseBuilder->countAllResults()
+ 3 APPPATH/Modules/Naskahmasuk/Controllers/Logdisposisi.php(51): Modules\Naskahmasuk\Models\LogdisposisiModel->countAll()
+ 4 SYSTEMPATH/CodeIgniter.php(933): Modules\Naskahmasuk\Controllers\Logdisposisi->data()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(Modules\Naskahmasuk\Controllers\Logdisposisi))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/Users/apple/www/pusk/ci4/develop/safira2.0/public/index.php')
+CRITICAL - 2025-02-12 14:51:41 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'a.log_tn_id' in 'on clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `pa_tl_naskahmasuk` `a`
+JOIN `pa_naskahmasuk` `b` ON `a`.`nm_id` = `b`.`nm_id`
+JOIN `konfig_tujuannaskah` `c` ON `a`.`log_tn_id` = `c`.`tn_id`
+JOIN `x_user` `d` ON `c`.`usr_id` = `d`.`usr_id`
+JOIN `mst_jabatan` `e` ON `c`.`jab_id` = `e`.`jab_id`
+JOIN `mst_subsatker` `f` ON `c`.`s_id` = `f`.`s_id`
+JOIN `konfig_instruksi` `g` ON `a`.`ins_id` = `g`.`ins_id`
+WHERE `a`.`tl_jenis` = \'DISPOSISI\'
+AND `a`.`tl_usr_id_input` = \'0cb8634a-0d11-4a80-a0a5-54148a06ae19\'')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `pa_tl_naskahmasuk` `a`
+JOIN `pa_naskahmasuk` `b` ON `a`.`nm_id` = `b`.`nm_id`
+JOIN `konfig_tujuannaskah` `c` ON `a`.`log_tn_id` = `c`.`tn_id`
+JOIN `x_user` `d` ON `c`.`usr_id` = `d`.`usr_id`
+JOIN `mst_jabatan` `e` ON `c`.`jab_id` = `e`.`jab_id`
+JOIN `mst_subsatker` `f` ON `c`.`s_id` = `f`.`s_id`
+JOIN `konfig_instruksi` `g` ON `a`.`ins_id` = `g`.`ins_id`
+WHERE `a`.`tl_jenis` = \'DISPOSISI\'
+AND `a`.`tl_usr_id_input` = \'0cb8634a-0d11-4a80-a0a5-54148a06ae19\'')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(1728): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `pa_tl_naskahmasuk` `a`
+JOIN `pa_naskahmasuk` `b` ON `a`.`nm_id` = `b`.`nm_id`
+JOIN `konfig_tujuannaskah` `c` ON `a`.`log_tn_id` = `c`.`tn_id`
+JOIN `x_user` `d` ON `c`.`usr_id` = `d`.`usr_id`
+JOIN `mst_jabatan` `e` ON `c`.`jab_id` = `e`.`jab_id`
+JOIN `mst_subsatker` `f` ON `c`.`s_id` = `f`.`s_id`
+JOIN `konfig_instruksi` `g` ON `a`.`ins_id` = `g`.`ins_id`
+WHERE `a`.`tl_jenis` = :a.tl_jenis:
+AND `a`.`tl_usr_id_input` = :a.tl_usr_id_input:', [...], false)
+ 4 APPPATH/Modules/Naskahmasuk/Models/LogdisposisiModel.php(87): CodeIgniter\Database\BaseBuilder->countAllResults()
+ 5 APPPATH/Modules/Naskahmasuk/Controllers/Logdisposisi.php(51): Modules\Naskahmasuk\Models\LogdisposisiModel->countAll()
+ 6 SYSTEMPATH/CodeIgniter.php(933): Modules\Naskahmasuk\Controllers\Logdisposisi->data()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(Modules\Naskahmasuk\Controllers\Logdisposisi))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH/rewrite.php(44): require_once('/Users/apple/www/pusk/ci4/develop/safira2.0/public/index.php')
+CRITICAL - 2025-02-12 14:51:41 --> [Caused by] mysqli_sql_exception: Unknown column 'a.log_tn_id' in 'on clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('SELECT COUNT(*) AS `numrows`
+FROM `pa_tl_naskahmasuk` `a`
+JOIN `pa_naskahmasuk` `b` ON `a`.`nm_id` = `b`.`nm_id`
+JOIN `konfig_tujuannaskah` `c` ON `a`.`log_tn_id` = `c`.`tn_id`
+JOIN `x_user` `d` ON `c`.`usr_id` = `d`.`usr_id`
+JOIN `mst_jabatan` `e` ON `c`.`jab_id` = `e`.`jab_id`
+JOIN `mst_subsatker` `f` ON `c`.`s_id` = `f`.`s_id`
+JOIN `konfig_instruksi` `g` ON `a`.`ins_id` = `g`.`ins_id`
+WHERE `a`.`tl_jenis` = \'DISPOSISI\'
+AND `a`.`tl_usr_id_input` = \'0cb8634a-0d11-4a80-a0a5-54148a06ae19\'', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `pa_tl_naskahmasuk` `a`
+JOIN `pa_naskahmasuk` `b` ON `a`.`nm_id` = `b`.`nm_id`
+JOIN `konfig_tujuannaskah` `c` ON `a`.`log_tn_id` = `c`.`tn_id`
+JOIN `x_user` `d` ON `c`.`usr_id` = `d`.`usr_id`
+JOIN `mst_jabatan` `e` ON `c`.`jab_id` = `e`.`jab_id`
+JOIN `mst_subsatker` `f` ON `c`.`s_id` = `f`.`s_id`
+JOIN `konfig_instruksi` `g` ON `a`.`ins_id` = `g`.`ins_id`
+WHERE `a`.`tl_jenis` = \'DISPOSISI\'
+AND `a`.`tl_usr_id_input` = \'0cb8634a-0d11-4a80-a0a5-54148a06ae19\'')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `pa_tl_naskahmasuk` `a`
+JOIN `pa_naskahmasuk` `b` ON `a`.`nm_id` = `b`.`nm_id`
+JOIN `konfig_tujuannaskah` `c` ON `a`.`log_tn_id` = `c`.`tn_id`
+JOIN `x_user` `d` ON `c`.`usr_id` = `d`.`usr_id`
+JOIN `mst_jabatan` `e` ON `c`.`jab_id` = `e`.`jab_id`
+JOIN `mst_subsatker` `f` ON `c`.`s_id` = `f`.`s_id`
+JOIN `konfig_instruksi` `g` ON `a`.`ins_id` = `g`.`ins_id`
+WHERE `a`.`tl_jenis` = \'DISPOSISI\'
+AND `a`.`tl_usr_id_input` = \'0cb8634a-0d11-4a80-a0a5-54148a06ae19\'')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1728): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `pa_tl_naskahmasuk` `a`
+JOIN `pa_naskahmasuk` `b` ON `a`.`nm_id` = `b`.`nm_id`
+JOIN `konfig_tujuannaskah` `c` ON `a`.`log_tn_id` = `c`.`tn_id`
+JOIN `x_user` `d` ON `c`.`usr_id` = `d`.`usr_id`
+JOIN `mst_jabatan` `e` ON `c`.`jab_id` = `e`.`jab_id`
+JOIN `mst_subsatker` `f` ON `c`.`s_id` = `f`.`s_id`
+JOIN `konfig_instruksi` `g` ON `a`.`ins_id` = `g`.`ins_id`
+WHERE `a`.`tl_jenis` = :a.tl_jenis:
+AND `a`.`tl_usr_id_input` = :a.tl_usr_id_input:', [...], false)
+ 5 APPPATH/Modules/Naskahmasuk/Models/LogdisposisiModel.php(87): CodeIgniter\Database\BaseBuilder->countAllResults()
+ 6 APPPATH/Modules/Naskahmasuk/Controllers/Logdisposisi.php(51): Modules\Naskahmasuk\Models\LogdisposisiModel->countAll()
+ 7 SYSTEMPATH/CodeIgniter.php(933): Modules\Naskahmasuk\Controllers\Logdisposisi->data()
+ 8 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(Modules\Naskahmasuk\Controllers\Logdisposisi))
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH/rewrite.php(44): require_once('/Users/apple/www/pusk/ci4/develop/safira2.0/public/index.php')
+INFO - 2025-02-12 14:53:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 14:53:10 --> CSRF token verified.
+INFO - 2025-02-12 14:53:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 14:54:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 14:54:05 --> CSRF token verified.
+INFO - 2025-02-12 14:54:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 14:54:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 14:54:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 14:54:26 --> CSRF token verified.
+INFO - 2025-02-12 14:54:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 14:58:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 14:58:40 --> CSRF token verified.
+INFO - 2025-02-12 14:58:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 15:00:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 15:00:41 --> CSRF token verified.
+INFO - 2025-02-12 15:00:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 15:01:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 15:01:08 --> CSRF token verified.
+INFO - 2025-02-12 15:01:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 15:01:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 15:01:52 --> CSRF token verified.
+INFO - 2025-02-12 15:01:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 15:02:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 15:02:10 --> CSRF token verified.
+INFO - 2025-02-12 15:02:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 15:05:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 15:05:12 --> CSRF token verified.
+INFO - 2025-02-12 15:05:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 15:05:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 15:05:24 --> CSRF token verified.
+INFO - 2025-02-12 15:05:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 15:06:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 15:06:12 --> CSRF token verified.
+INFO - 2025-02-12 15:06:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 15:07:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 15:07:20 --> CSRF token verified.
+INFO - 2025-02-12 15:07:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 15:07:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 15:07:47 --> CSRF token verified.
+INFO - 2025-02-12 15:07:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 15:10:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 15:10:24 --> CSRF token verified.
+INFO - 2025-02-12 15:10:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2025-02-12 15:10:24 --> ErrorException: Undefined property: stdClass::$hal
+[Method: POST, Route: naskah-masuk/log-disposisi/data]
+in APPPATH/Modules/Naskahmasuk/Controllers/Logdisposisi.php on line 79.
+ 1 APPPATH/Modules/Naskahmasuk/Controllers/Logdisposisi.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$hal', '/Users/apple/www/pusk/ci4/develop/safira2.0/app/Modules/Naskahmasuk/Controllers/Logdisposisi.php', 79)
+ 2 SYSTEMPATH/CodeIgniter.php(933): Modules\Naskahmasuk\Controllers\Logdisposisi->data()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(Modules\Naskahmasuk\Controllers\Logdisposisi))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH/rewrite.php(44): require_once('/Users/apple/www/pusk/ci4/develop/safira2.0/public/index.php')
+INFO - 2025-02-12 15:10:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 15:10:45 --> CSRF token verified.
+INFO - 2025-02-12 15:10:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2025-02-12 15:10:45 --> ErrorException: Undefined property: stdClass::$hal
+[Method: POST, Route: naskah-masuk/log-disposisi/data]
+in APPPATH/Modules/Naskahmasuk/Controllers/Logdisposisi.php on line 79.
+ 1 APPPATH/Modules/Naskahmasuk/Controllers/Logdisposisi.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$hal', '/Users/apple/www/pusk/ci4/develop/safira2.0/app/Modules/Naskahmasuk/Controllers/Logdisposisi.php', 79)
+ 2 SYSTEMPATH/CodeIgniter.php(933): Modules\Naskahmasuk\Controllers\Logdisposisi->data()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(Modules\Naskahmasuk\Controllers\Logdisposisi))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH/rewrite.php(44): require_once('/Users/apple/www/pusk/ci4/develop/safira2.0/public/index.php')
+INFO - 2025-02-12 15:11:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 15:11:17 --> CSRF token verified.
+INFO - 2025-02-12 15:11:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 15:12:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 15:12:35 --> CSRF token verified.
+INFO - 2025-02-12 15:12:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 15:12:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 15:12:44 --> CSRF token verified.
+INFO - 2025-02-12 15:12:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 15:13:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 15:13:38 --> CSRF token verified.
+INFO - 2025-02-12 15:13:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 15:14:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 15:14:04 --> CSRF token verified.
+INFO - 2025-02-12 15:14:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 15:14:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 15:14:25 --> CSRF token verified.
+INFO - 2025-02-12 15:14:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 15:14:41 --> CSRF token verified.
+INFO - 2025-02-12 15:14:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 15:14:42 --> CSRF token verified.
+INFO - 2025-02-12 15:14:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 15:14:42 --> CSRF token verified.
+INFO - 2025-02-12 15:14:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 15:14:44 --> CSRF token verified.
+INFO - 2025-02-12 15:14:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 15:14:44 --> CSRF token verified.
+INFO - 2025-02-12 15:14:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 15:14:44 --> CSRF token verified.
+INFO - 2025-02-12 15:14:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 15:14:45 --> CSRF token verified.
+INFO - 2025-02-12 15:14:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 15:14:46 --> CSRF token verified.
+INFO - 2025-02-12 15:14:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 15:14:47 --> CSRF token verified.
+INFO - 2025-02-12 15:14:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 15:14:47 --> CSRF token verified.
+INFO - 2025-02-12 15:14:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 15:14:49 --> CSRF token verified.
+INFO - 2025-02-12 15:14:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 15:14:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 15:14:57 --> CSRF token verified.
+INFO - 2025-02-12 15:14:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 15:16:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 15:16:10 --> CSRF token verified.
+INFO - 2025-02-12 15:16:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 15:16:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 15:16:32 --> CSRF token verified.
+INFO - 2025-02-12 15:16:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 15:16:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 15:16:53 --> CSRF token verified.
+INFO - 2025-02-12 15:16:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 15:17:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 15:17:01 --> CSRF token verified.
+INFO - 2025-02-12 15:17:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 15:17:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 15:17:10 --> CSRF token verified.
+INFO - 2025-02-12 15:17:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 15:18:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 15:18:04 --> CSRF token verified.
+INFO - 2025-02-12 15:18:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 15:18:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 15:18:49 --> CSRF token verified.
+INFO - 2025-02-12 15:18:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 15:19:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 15:19:12 --> CSRF token verified.
+INFO - 2025-02-12 15:19:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 15:19:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 15:19:20 --> CSRF token verified.
+INFO - 2025-02-12 15:19:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 15:20:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 15:20:00 --> CSRF token verified.
+INFO - 2025-02-12 15:20:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 15:20:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 15:20:43 --> CSRF token verified.
+INFO - 2025-02-12 15:20:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 15:23:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 15:23:16 --> CSRF token verified.
+INFO - 2025-02-12 15:23:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 15:24:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 15:24:05 --> CSRF token verified.
+INFO - 2025-02-12 15:24:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 15:24:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 15:24:19 --> CSRF token verified.
+INFO - 2025-02-12 15:24:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 15:24:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 15:24:37 --> CSRF token verified.
+INFO - 2025-02-12 15:24:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 15:25:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 15:25:11 --> CSRF token verified.
+INFO - 2025-02-12 15:25:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 15:26:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 15:26:13 --> CSRF token verified.
+INFO - 2025-02-12 15:26:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 15:26:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 15:26:22 --> CSRF token verified.
+INFO - 2025-02-12 15:26:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 15:26:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 15:26:35 --> CSRF token verified.
+INFO - 2025-02-12 15:26:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 15:26:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 15:26:46 --> CSRF token verified.
+INFO - 2025-02-12 15:26:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 15:26:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 15:26:58 --> CSRF token verified.
+INFO - 2025-02-12 15:26:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 15:27:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 15:27:17 --> CSRF token verified.
+INFO - 2025-02-12 15:27:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 15:27:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 15:27:33 --> CSRF token verified.
+INFO - 2025-02-12 15:27:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 15:27:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 15:27:37 --> CSRF token verified.
+INFO - 2025-02-12 15:27:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 15:28:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 15:28:16 --> CSRF token verified.
+INFO - 2025-02-12 15:28:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 15:28:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 15:28:49 --> CSRF token verified.
+INFO - 2025-02-12 15:28:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 15:29:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 15:29:58 --> CSRF token verified.
+INFO - 2025-02-12 15:29:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 15:30:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 15:30:20 --> CSRF token verified.
+INFO - 2025-02-12 15:30:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 15:31:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 15:31:35 --> CSRF token verified.
+INFO - 2025-02-12 15:31:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 15:31:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 15:31:56 --> CSRF token verified.
+INFO - 2025-02-12 15:31:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 15:32:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 15:32:20 --> CSRF token verified.
+INFO - 2025-02-12 15:32:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 15:32:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 15:32:22 --> CSRF token verified.
+INFO - 2025-02-12 15:32:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 15:34:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 15:34:26 --> CSRF token verified.
+INFO - 2025-02-12 15:34:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 15:35:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 15:35:03 --> CSRF token verified.
+INFO - 2025-02-12 15:35:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 15:35:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 15:35:45 --> CSRF token verified.
+INFO - 2025-02-12 15:35:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 15:36:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 15:36:42 --> CSRF token verified.
+INFO - 2025-02-12 15:36:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 15:37:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 15:37:03 --> CSRF token verified.
+INFO - 2025-02-12 15:37:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 15:37:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 15:37:33 --> CSRF token verified.
+INFO - 2025-02-12 15:37:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 15:37:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 15:37:48 --> CSRF token verified.
+INFO - 2025-02-12 15:37:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 15:39:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 15:39:12 --> CSRF token verified.
+INFO - 2025-02-12 15:39:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 15:40:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 15:40:16 --> CSRF token verified.
+INFO - 2025-02-12 15:40:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 15:40:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 15:40:21 --> CSRF token verified.
+INFO - 2025-02-12 15:40:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 15:40:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 15:40:23 --> CSRF token verified.
+INFO - 2025-02-12 15:40:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 15:41:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 15:41:14 --> CSRF token verified.
+INFO - 2025-02-12 15:41:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 15:48:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 15:48:07 --> CSRF token verified.
+INFO - 2025-02-12 15:48:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 15:49:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 15:49:47 --> CSRF token verified.
+INFO - 2025-02-12 15:49:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 15:54:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 15:54:31 --> CSRF token verified.
+INFO - 2025-02-12 15:54:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 15:55:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 15:55:49 --> CSRF token verified.
+INFO - 2025-02-12 15:55:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 15:56:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 15:56:01 --> CSRF token verified.
+INFO - 2025-02-12 15:56:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 15:56:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 15:56:10 --> CSRF token verified.
+INFO - 2025-02-12 15:56:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 15:56:27 --> CSRF token verified.
+INFO - 2025-02-12 15:56:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 15:56:27 --> CSRF token verified.
+INFO - 2025-02-12 15:56:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 15:56:28 --> CSRF token verified.
+INFO - 2025-02-12 15:56:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 15:56:30 --> CSRF token verified.
+INFO - 2025-02-12 15:56:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 15:56:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 15:56:58 --> CSRF token verified.
+INFO - 2025-02-12 15:56:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 15:56:59 --> CSRF token verified.
+INFO - 2025-02-12 15:56:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 15:57:00 --> CSRF token verified.
+INFO - 2025-02-12 15:57:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 15:57:00 --> CSRF token verified.
+INFO - 2025-02-12 15:57:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 15:57:00 --> CSRF token verified.
+INFO - 2025-02-12 15:57:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 15:57:01 --> CSRF token verified.
+INFO - 2025-02-12 15:57:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 15:57:02 --> CSRF token verified.
+INFO - 2025-02-12 15:57:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 15:57:02 --> CSRF token verified.
+INFO - 2025-02-12 15:57:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 15:57:03 --> CSRF token verified.
+INFO - 2025-02-12 15:57:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 15:57:03 --> CSRF token verified.
+INFO - 2025-02-12 15:57:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 15:57:04 --> CSRF token verified.
+INFO - 2025-02-12 15:57:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 15:58:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 15:58:42 --> CSRF token verified.
+INFO - 2025-02-12 15:58:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 15:58:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 15:58:47 --> CSRF token verified.
+INFO - 2025-02-12 15:58:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 15:58:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 15:58:51 --> CSRF token verified.
+INFO - 2025-02-12 15:58:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 15:59:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 15:59:21 --> CSRF token verified.
+INFO - 2025-02-12 15:59:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 15:59:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 15:59:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 15:59:26 --> CSRF token verified.
+INFO - 2025-02-12 15:59:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 15:59:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 15:59:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 15:59:31 --> CSRF token verified.
+INFO - 2025-02-12 15:59:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 15:59:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 15:59:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 15:59:35 --> CSRF token verified.
+INFO - 2025-02-12 15:59:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 16:03:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 16:03:37 --> CSRF token verified.
+INFO - 2025-02-12 16:03:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 16:04:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 16:04:03 --> CSRF token verified.
+INFO - 2025-02-12 16:04:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 16:04:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 16:04:06 --> CSRF token verified.
+INFO - 2025-02-12 16:04:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 16:04:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 16:04:10 --> CSRF token verified.
+INFO - 2025-02-12 16:04:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 16:04:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 16:04:12 --> CSRF token verified.
+INFO - 2025-02-12 16:04:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 16:04:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 16:04:14 --> CSRF token verified.
+INFO - 2025-02-12 16:04:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 19:29:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 19:29:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 19:29:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 19:29:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 19:30:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 19:30:55 --> CSRF token verified.
+INFO - 2025-02-12 19:30:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 19:31:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 19:31:06 --> CSRF token verified.
+INFO - 2025-02-12 19:31:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 19:31:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 19:31:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 19:31:39 --> CSRF token verified.
+INFO - 2025-02-12 19:31:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 19:31:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 19:31:49 --> CSRF token verified.
+INFO - 2025-02-12 19:31:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 19:32:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 19:32:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 19:32:53 --> CSRF token verified.
+INFO - 2025-02-12 19:32:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 19:33:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 19:33:09 --> CSRF token verified.
+INFO - 2025-02-12 19:33:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 19:37:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 19:37:37 --> CSRF token verified.
+INFO - 2025-02-12 19:37:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 19:37:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 19:37:39 --> CSRF token verified.
+INFO - 2025-02-12 19:37:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 19:37:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 19:37:50 --> CSRF token verified.
+INFO - 2025-02-12 19:37:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 19:38:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 19:39:00 --> CSRF token verified.
+INFO - 2025-02-12 19:39:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 19:39:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 19:39:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 19:49:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 19:49:07 --> CSRF token verified.
+INFO - 2025-02-12 19:49:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 19:49:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 19:49:22 --> CSRF token verified.
+INFO - 2025-02-12 19:49:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 19:49:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 19:49:26 --> CSRF token verified.
+INFO - 2025-02-12 19:49:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 19:49:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 19:49:39 --> CSRF token verified.
+INFO - 2025-02-12 19:49:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 19:49:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 19:49:42 --> CSRF token verified.
+INFO - 2025-02-12 19:49:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 19:49:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 19:49:44 --> CSRF token verified.
+INFO - 2025-02-12 19:49:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 19:53:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 19:53:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 19:53:38 --> CSRF token verified.
+INFO - 2025-02-12 19:53:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 19:53:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 19:54:08 --> CSRF token verified.
+INFO - 2025-02-12 19:54:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 19:54:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 19:54:10 --> CSRF token verified.
+INFO - 2025-02-12 19:54:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 19:54:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 19:54:25 --> CSRF token verified.
+INFO - 2025-02-12 19:54:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 19:54:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 19:54:31 --> CSRF token verified.
+INFO - 2025-02-12 19:54:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 20:29:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 20:29:34 --> CSRF token verified.
+INFO - 2025-02-12 20:29:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 20:56:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 20:56:53 --> CSRF token verified.
+INFO - 2025-02-12 20:56:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 20:56:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 20:56:56 --> CSRF token verified.
+INFO - 2025-02-12 20:56:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 20:57:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 20:57:11 --> CSRF token verified.
+INFO - 2025-02-12 20:57:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 20:57:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 20:57:14 --> CSRF token verified.
+INFO - 2025-02-12 20:57:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 20:57:23 --> CSRF token verified.
+INFO - 2025-02-12 20:57:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 20:57:24 --> CSRF token verified.
+INFO - 2025-02-12 20:57:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 20:57:24 --> CSRF token verified.
+INFO - 2025-02-12 20:57:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 20:57:24 --> CSRF token verified.
+INFO - 2025-02-12 20:57:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 20:57:31 --> CSRF token verified.
+INFO - 2025-02-12 20:57:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 20:57:32 --> CSRF token verified.
+INFO - 2025-02-12 20:57:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 20:57:32 --> CSRF token verified.
+INFO - 2025-02-12 20:57:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 20:57:33 --> CSRF token verified.
+INFO - 2025-02-12 20:57:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 21:32:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 21:32:05 --> CSRF token verified.
+INFO - 2025-02-12 21:32:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 21:32:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 21:32:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 21:32:36 --> CSRF token verified.
+INFO - 2025-02-12 21:32:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 21:32:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 21:34:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 21:35:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 21:35:56 --> CSRF token verified.
+INFO - 2025-02-12 21:35:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 21:35:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 21:35:58 --> CSRF token verified.
+INFO - 2025-02-12 21:35:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 21:36:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 21:36:05 --> CSRF token verified.
+INFO - 2025-02-12 21:36:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 21:36:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 21:36:08 --> CSRF token verified.
+INFO - 2025-02-12 21:36:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 21:36:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 21:36:40 --> CSRF token verified.
+INFO - 2025-02-12 21:36:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 21:37:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 21:37:34 --> CSRF token verified.
+INFO - 2025-02-12 21:37:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 21:37:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 21:37:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-12 21:37:40 --> CSRF token verified.
+INFO - 2025-02-12 21:37:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.

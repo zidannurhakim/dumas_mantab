@@ -1,0 +1,1510 @@
+INFO - 2024-12-19 08:43:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 08:43:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 08:43:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 08:43:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 08:43:25 --> CSRF token verified.
+INFO - 2024-12-19 08:43:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 08:43:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 08:43:26 --> CSRF token verified.
+INFO - 2024-12-19 08:43:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 08:43:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 09:48:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 09:48:18 --> CSRF token verified.
+INFO - 2024-12-19 09:48:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+DEBUG - 2024-12-19 09:48:19 --> Row Data: {"ktg_id":"7c681e93-fc9c-4ab5-9062-345caaf3a830","ktg_nama":"Masjid At-Tarbiyah","jis_id":"4b4954aa-de57-4cdd-b69c-11e1a758e5a2","lay_id":"c7f14ab9-2019-42c5-8da7-2b8c0f2f8c94","ktg_kapasitas_min":"10","ktg_kapasitas_max":"500","ktg_foto1":"1734408899_1d85443fd7c13253d7ea.jpg","ktg_foto2":"1734408899_bf89ebbb20ff964bc90e.jpg","ktg_foto3":"1734408899_3adad09938dd74d4ee3f.jpg","ktg_foto4":"1734408899_00902e10c081ce07fff6.jpg","ktg_fasilitas":"771cfabb-725c-4dd7-a189-7237c8e450f1,c53bd76c-7f60-40fd-8afb-c5aeb958d2ca,369af4c4-5710-414b-8436-f6a40ffd46a8,d9355ced-bde4-4290-980d-7ec5e79a3d1c,257a333d-16c5-4fea-829f-582cf4af3760,30fc7469-b489-46f5-a5c0-93a683b36b92,7e995915-8725-4931-88e3-3e6895390848","ktg_durasi":"8","ktg_satuandurasi":"1941e402-4071-4108-bb30-039532b55edf","ktg_biaya":"750000","ktg_deskripsi":"Masjid At-Tarbiyah UIN Malang adalah ikon spiritual dan intelektual yang menawarkan ruang shalat luas dan nyaman, aula serbaguna, ruang kelas, serta perpustakaan dengan koleksi buku keislaman dan literatur ilmiah. Dengan arsitektur megah dan lokasi strategis di dalam kampus, masjid ini menjadi tempat yang sempurna untuk berbagai kegiatan ibadah, seminar, pelatihan, hingga acara pernikahan. Fasilitas modern seperti pendingin udara, sistem tata suara canggih, dan area parkir yang luas dan aman memastikan kenyamanan semua pengguna. Masjid At-Tarbiyah tidak hanya menjadi pusat ibadah bagi mahasiswa dan staf, tetapi juga bagi masyarakat umum. Kegiatan seperti pengajian, dzikir rutin, seminar, workshop, dan bakti sosial sering diadakan di sini. Aula serbaguna dan ruang kelas dapat disewakan untuk berbagai acara, menjadikan masjid ini pilihan utama untuk kegiatan keagamaan dan komunitas.","kds_id":"916b2b07-494f-4ae5-8640-8608a405aeb8","ktg_status":"0","ktg_update":"2024-12-18 14:21:38","jis_nama":"UIN Maulana Malik Ibrahim | Kampus 1","lay_nama":"Penggunaan Gedung dan Ruangan","kds_nama":"Layak"}
+INFO - 2024-12-19 09:48:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 09:48:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 09:51:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 09:51:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 09:51:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 09:51:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 09:53:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 09:53:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 09:54:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 09:54:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 09:54:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 09:54:39 --> CSRF token verified.
+INFO - 2024-12-19 09:54:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+DEBUG - 2024-12-19 09:54:39 --> Row Data: {"ktg_id":"7c681e93-fc9c-4ab5-9062-345caaf3a830","ktg_nama":"Masjid At-Tarbiyah","jis_id":"4b4954aa-de57-4cdd-b69c-11e1a758e5a2","lay_id":"c7f14ab9-2019-42c5-8da7-2b8c0f2f8c94","ktg_kapasitas_min":"10","ktg_kapasitas_max":"500","ktg_foto1":"1734408899_1d85443fd7c13253d7ea.jpg","ktg_foto2":"1734408899_bf89ebbb20ff964bc90e.jpg","ktg_foto3":"1734408899_3adad09938dd74d4ee3f.jpg","ktg_foto4":"1734408899_00902e10c081ce07fff6.jpg","ktg_fasilitas":"771cfabb-725c-4dd7-a189-7237c8e450f1,c53bd76c-7f60-40fd-8afb-c5aeb958d2ca,369af4c4-5710-414b-8436-f6a40ffd46a8,d9355ced-bde4-4290-980d-7ec5e79a3d1c,257a333d-16c5-4fea-829f-582cf4af3760,30fc7469-b489-46f5-a5c0-93a683b36b92,7e995915-8725-4931-88e3-3e6895390848","ktg_durasi":"8","ktg_satuandurasi":"1941e402-4071-4108-bb30-039532b55edf","ktg_biaya":"750000","ktg_deskripsi":"Masjid At-Tarbiyah UIN Malang adalah ikon spiritual dan intelektual yang menawarkan ruang shalat luas dan nyaman, aula serbaguna, ruang kelas, serta perpustakaan dengan koleksi buku keislaman dan literatur ilmiah. Dengan arsitektur megah dan lokasi strategis di dalam kampus, masjid ini menjadi tempat yang sempurna untuk berbagai kegiatan ibadah, seminar, pelatihan, hingga acara pernikahan. Fasilitas modern seperti pendingin udara, sistem tata suara canggih, dan area parkir yang luas dan aman memastikan kenyamanan semua pengguna. Masjid At-Tarbiyah tidak hanya menjadi pusat ibadah bagi mahasiswa dan staf, tetapi juga bagi masyarakat umum. Kegiatan seperti pengajian, dzikir rutin, seminar, workshop, dan bakti sosial sering diadakan di sini. Aula serbaguna dan ruang kelas dapat disewakan untuk berbagai acara, menjadikan masjid ini pilihan utama untuk kegiatan keagamaan dan komunitas.","kds_id":"916b2b07-494f-4ae5-8640-8608a405aeb8","ktg_status":"0","ktg_update":"2024-12-18 14:21:38","jis_nama":"UIN Maulana Malik Ibrahim | Kampus 1","lay_nama":"Penggunaan Gedung dan Ruangan","kds_nama":"Layak"}
+INFO - 2024-12-19 09:54:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 09:54:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 09:54:45 --> CSRF token verified.
+INFO - 2024-12-19 09:54:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+DEBUG - 2024-12-19 09:54:45 --> Row Data: {"ktg_id":"7c681e93-fc9c-4ab5-9062-345caaf3a830","ktg_nama":"Masjid At-Tarbiyah","jis_id":"4b4954aa-de57-4cdd-b69c-11e1a758e5a2","lay_id":"c7f14ab9-2019-42c5-8da7-2b8c0f2f8c94","ktg_kapasitas_min":"10","ktg_kapasitas_max":"500","ktg_foto1":"1734408899_1d85443fd7c13253d7ea.jpg","ktg_foto2":"1734408899_bf89ebbb20ff964bc90e.jpg","ktg_foto3":"1734408899_3adad09938dd74d4ee3f.jpg","ktg_foto4":"1734408899_00902e10c081ce07fff6.jpg","ktg_fasilitas":"771cfabb-725c-4dd7-a189-7237c8e450f1,c53bd76c-7f60-40fd-8afb-c5aeb958d2ca,369af4c4-5710-414b-8436-f6a40ffd46a8,d9355ced-bde4-4290-980d-7ec5e79a3d1c,257a333d-16c5-4fea-829f-582cf4af3760,30fc7469-b489-46f5-a5c0-93a683b36b92,7e995915-8725-4931-88e3-3e6895390848","ktg_durasi":"8","ktg_satuandurasi":"1941e402-4071-4108-bb30-039532b55edf","ktg_biaya":"750000","ktg_deskripsi":"Masjid At-Tarbiyah UIN Malang adalah ikon spiritual dan intelektual yang menawarkan ruang shalat luas dan nyaman, aula serbaguna, ruang kelas, serta perpustakaan dengan koleksi buku keislaman dan literatur ilmiah. Dengan arsitektur megah dan lokasi strategis di dalam kampus, masjid ini menjadi tempat yang sempurna untuk berbagai kegiatan ibadah, seminar, pelatihan, hingga acara pernikahan. Fasilitas modern seperti pendingin udara, sistem tata suara canggih, dan area parkir yang luas dan aman memastikan kenyamanan semua pengguna. Masjid At-Tarbiyah tidak hanya menjadi pusat ibadah bagi mahasiswa dan staf, tetapi juga bagi masyarakat umum. Kegiatan seperti pengajian, dzikir rutin, seminar, workshop, dan bakti sosial sering diadakan di sini. Aula serbaguna dan ruang kelas dapat disewakan untuk berbagai acara, menjadikan masjid ini pilihan utama untuk kegiatan keagamaan dan komunitas.","kds_id":"916b2b07-494f-4ae5-8640-8608a405aeb8","ktg_status":"0","ktg_update":"2024-12-18 14:21:38","jis_nama":"UIN Maulana Malik Ibrahim | Kampus 1","lay_nama":"Penggunaan Gedung dan Ruangan","kds_nama":"Layak"}
+INFO - 2024-12-19 09:54:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 09:54:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 10:14:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 10:14:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 10:15:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 10:15:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 10:15:16 --> CSRF token verified.
+INFO - 2024-12-19 10:15:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+ERROR - 2024-12-19 10:15:16 --> mysqli_sql_exception: Unknown column 'a.sesi' in 'where clause' in /Users/apple/www/pusk/ci4/develop/sasana2.0/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /Users/apple/www/pusk/ci4/develop/sasana2.0/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(312): mysqli->query('\n            SE...', 0)
+#1 /Users/apple/www/pusk/ci4/develop/sasana2.0/vendor/codeigniter4/framework/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('\n            SE...')
+#2 /Users/apple/www/pusk/ci4/develop/sasana2.0/vendor/codeigniter4/framework/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('\n            SE...')
+#3 /Users/apple/www/pusk/ci4/develop/sasana2.0/app/Modules/Peminjaman/Models/KatalogModel.php(131): CodeIgniter\Database\BaseConnection->query('\n            SE...', Array)
+#4 /Users/apple/www/pusk/ci4/develop/sasana2.0/app/Modules/Peminjaman/Controllers/Katalog.php(148): Modules\Peminjaman\Models\KatalogModel->cekTanggalRentangSesi('7c681e93-fc9c-4...', Array, Array)
+#5 /Users/apple/www/pusk/ci4/develop/sasana2.0/vendor/codeigniter4/framework/system/CodeIgniter.php(933): Modules\Peminjaman\Controllers\Katalog->cekTanggal('7c681e93-fc9c-4...')
+#6 /Users/apple/www/pusk/ci4/develop/sasana2.0/vendor/codeigniter4/framework/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(Modules\Peminjaman\Controllers\Katalog))
+#7 /Users/apple/www/pusk/ci4/develop/sasana2.0/vendor/codeigniter4/framework/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/apple/www/pusk/ci4/develop/sasana2.0/vendor/codeigniter4/framework/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 /Users/apple/www/pusk/ci4/develop/sasana2.0/vendor/codeigniter4/framework/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 /Users/apple/www/pusk/ci4/develop/sasana2.0/public/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 /Users/apple/www/pusk/ci4/develop/sasana2.0/vendor/codeigniter4/framework/system/rewrite.php(44): require_once('/Users/apple/ww...')
+#12 {main}
+CRITICAL - 2024-12-19 10:15:16 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'a.sesi' in 'where clause'
+[Method: POST, Route: peminjaman/katalog/7c681e93-fc9c-4ab5-9062-345caaf3a830/upload-berkas/cek-tanggal]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 APPPATH/Modules/Peminjaman/Models/KatalogModel.php(131): CodeIgniter\Database\BaseConnection->query('
+            SELECT * 
+            FROM berkas_peminjaman AS a
+            WHERE a.ktg_id = ? 
+            AND (a.peminjaman_awal IN ? OR a.peminjaman_akhir IN ?)
+            AND a.sesi IN (\'96eec6c8-8a6a-4b2c-bc82-e72cefe6ec47\',\'d9aa3762-c630-4703-bd16-bf0a8a40fe4d\')', [...])
+ 2 APPPATH/Modules/Peminjaman/Controllers/Katalog.php(148): Modules\Peminjaman\Models\KatalogModel->cekTanggalRentangSesi('7c681e93-fc9c-4ab5-9062-345caaf3a830', [...], [...])
+ 3 SYSTEMPATH/CodeIgniter.php(933): Modules\Peminjaman\Controllers\Katalog->cekTanggal('7c681e93-fc9c-4ab5-9062-345caaf3a830')
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(Modules\Peminjaman\Controllers\Katalog))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH/rewrite.php(44): require_once('/Users/apple/www/pusk/ci4/develop/sasana2.0/public/index.php')
+CRITICAL - 2024-12-19 10:15:16 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'a.sesi' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('
+            SELECT * 
+            FROM berkas_peminjaman AS a
+            WHERE a.ktg_id = \'7c681e93-fc9c-4ab5-9062-345caaf3a830\' 
+            AND (a.peminjaman_awal IN (\'2024-12-19\',\'2024-12-20\') OR a.peminjaman_akhir IN (\'2024-12-19\',\'2024-12-20\'))
+            AND a.sesi IN (\'96eec6c8-8a6a-4b2c-bc82-e72cefe6ec47\',\'d9aa3762-c630-4703-bd16-bf0a8a40fe4d\')')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('
+            SELECT * 
+            FROM berkas_peminjaman AS a
+            WHERE a.ktg_id = \'7c681e93-fc9c-4ab5-9062-345caaf3a830\' 
+            AND (a.peminjaman_awal IN (\'2024-12-19\',\'2024-12-20\') OR a.peminjaman_akhir IN (\'2024-12-19\',\'2024-12-20\'))
+            AND a.sesi IN (\'96eec6c8-8a6a-4b2c-bc82-e72cefe6ec47\',\'d9aa3762-c630-4703-bd16-bf0a8a40fe4d\')')
+ 3 APPPATH/Modules/Peminjaman/Models/KatalogModel.php(131): CodeIgniter\Database\BaseConnection->query('
+            SELECT * 
+            FROM berkas_peminjaman AS a
+            WHERE a.ktg_id = ? 
+            AND (a.peminjaman_awal IN ? OR a.peminjaman_akhir IN ?)
+            AND a.sesi IN (\'96eec6c8-8a6a-4b2c-bc82-e72cefe6ec47\',\'d9aa3762-c630-4703-bd16-bf0a8a40fe4d\')', [...])
+ 4 APPPATH/Modules/Peminjaman/Controllers/Katalog.php(148): Modules\Peminjaman\Models\KatalogModel->cekTanggalRentangSesi('7c681e93-fc9c-4ab5-9062-345caaf3a830', [...], [...])
+ 5 SYSTEMPATH/CodeIgniter.php(933): Modules\Peminjaman\Controllers\Katalog->cekTanggal('7c681e93-fc9c-4ab5-9062-345caaf3a830')
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(Modules\Peminjaman\Controllers\Katalog))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH/rewrite.php(44): require_once('/Users/apple/www/pusk/ci4/develop/sasana2.0/public/index.php')
+CRITICAL - 2024-12-19 10:15:16 --> [Caused by] mysqli_sql_exception: Unknown column 'a.sesi' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('
+            SELECT * 
+            FROM berkas_peminjaman AS a
+            WHERE a.ktg_id = \'7c681e93-fc9c-4ab5-9062-345caaf3a830\' 
+            AND (a.peminjaman_awal IN (\'2024-12-19\',\'2024-12-20\') OR a.peminjaman_akhir IN (\'2024-12-19\',\'2024-12-20\'))
+            AND a.sesi IN (\'96eec6c8-8a6a-4b2c-bc82-e72cefe6ec47\',\'d9aa3762-c630-4703-bd16-bf0a8a40fe4d\')', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('
+            SELECT * 
+            FROM berkas_peminjaman AS a
+            WHERE a.ktg_id = \'7c681e93-fc9c-4ab5-9062-345caaf3a830\' 
+            AND (a.peminjaman_awal IN (\'2024-12-19\',\'2024-12-20\') OR a.peminjaman_akhir IN (\'2024-12-19\',\'2024-12-20\'))
+            AND a.sesi IN (\'96eec6c8-8a6a-4b2c-bc82-e72cefe6ec47\',\'d9aa3762-c630-4703-bd16-bf0a8a40fe4d\')')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('
+            SELECT * 
+            FROM berkas_peminjaman AS a
+            WHERE a.ktg_id = \'7c681e93-fc9c-4ab5-9062-345caaf3a830\' 
+            AND (a.peminjaman_awal IN (\'2024-12-19\',\'2024-12-20\') OR a.peminjaman_akhir IN (\'2024-12-19\',\'2024-12-20\'))
+            AND a.sesi IN (\'96eec6c8-8a6a-4b2c-bc82-e72cefe6ec47\',\'d9aa3762-c630-4703-bd16-bf0a8a40fe4d\')')
+ 4 APPPATH/Modules/Peminjaman/Models/KatalogModel.php(131): CodeIgniter\Database\BaseConnection->query('
+            SELECT * 
+            FROM berkas_peminjaman AS a
+            WHERE a.ktg_id = ? 
+            AND (a.peminjaman_awal IN ? OR a.peminjaman_akhir IN ?)
+            AND a.sesi IN (\'96eec6c8-8a6a-4b2c-bc82-e72cefe6ec47\',\'d9aa3762-c630-4703-bd16-bf0a8a40fe4d\')', [...])
+ 5 APPPATH/Modules/Peminjaman/Controllers/Katalog.php(148): Modules\Peminjaman\Models\KatalogModel->cekTanggalRentangSesi('7c681e93-fc9c-4ab5-9062-345caaf3a830', [...], [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): Modules\Peminjaman\Controllers\Katalog->cekTanggal('7c681e93-fc9c-4ab5-9062-345caaf3a830')
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(Modules\Peminjaman\Controllers\Katalog))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH/rewrite.php(44): require_once('/Users/apple/www/pusk/ci4/develop/sasana2.0/public/index.php')
+CRITICAL - 2024-12-19 10:15:34 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: peminjaman/katalog/7c681e93-fc9c-4ab5-9062-345caaf3a830/upload-berkas/cek-tanggal]
+in SYSTEMPATH/Security/Security.php on line 262.
+ 1 SYSTEMPATH/Security/Security.php(262): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(52): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/Filters/Filters.php(203): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/Filters/Filters.php(184): CodeIgniter\Filters\Filters->runBefore([...])
+ 5 SYSTEMPATH/CodeIgniter.php(481): CodeIgniter\Filters\Filters->run('peminjaman/katalog/7c681e93-fc9c-4ab5-9062-345caaf3a830/upload-berkas/cek-tanggal', 'before')
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/Users/apple/www/pusk/ci4/develop/sasana2.0/public/index.php')
+INFO - 2024-12-19 10:15:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 10:15:46 --> CSRF token verified.
+INFO - 2024-12-19 10:15:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 10:15:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 10:16:34 --> CSRF token verified.
+INFO - 2024-12-19 10:16:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 10:16:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 10:17:21 --> CSRF token verified.
+INFO - 2024-12-19 10:17:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 10:17:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 10:18:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2024-12-19 10:18:54 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: peminjaman/katalog/7c681e93-fc9c-4ab5-9062-345caaf3a830/upload-berkas/cek-tanggal]
+in SYSTEMPATH/Security/Security.php on line 262.
+ 1 SYSTEMPATH/Security/Security.php(262): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(52): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/Filters/Filters.php(203): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/Filters/Filters.php(184): CodeIgniter\Filters\Filters->runBefore([...])
+ 5 SYSTEMPATH/CodeIgniter.php(481): CodeIgniter\Filters\Filters->run('peminjaman/katalog/7c681e93-fc9c-4ab5-9062-345caaf3a830/upload-berkas/cek-tanggal', 'before')
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/Users/apple/www/pusk/ci4/develop/sasana2.0/public/index.php')
+CRITICAL - 2024-12-19 10:20:11 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: peminjaman/katalog/7c681e93-fc9c-4ab5-9062-345caaf3a830/upload-berkas/cek-tanggal]
+in SYSTEMPATH/Security/Security.php on line 262.
+ 1 SYSTEMPATH/Security/Security.php(262): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(52): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/Filters/Filters.php(203): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/Filters/Filters.php(184): CodeIgniter\Filters\Filters->runBefore([...])
+ 5 SYSTEMPATH/CodeIgniter.php(481): CodeIgniter\Filters\Filters->run('peminjaman/katalog/7c681e93-fc9c-4ab5-9062-345caaf3a830/upload-berkas/cek-tanggal', 'before')
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/Users/apple/www/pusk/ci4/develop/sasana2.0/public/index.php')
+CRITICAL - 2024-12-19 10:20:13 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: peminjaman/katalog/7c681e93-fc9c-4ab5-9062-345caaf3a830/upload-berkas/cek-tanggal]
+in SYSTEMPATH/Security/Security.php on line 262.
+ 1 SYSTEMPATH/Security/Security.php(262): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(52): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/Filters/Filters.php(203): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/Filters/Filters.php(184): CodeIgniter\Filters\Filters->runBefore([...])
+ 5 SYSTEMPATH/CodeIgniter.php(481): CodeIgniter\Filters\Filters->run('peminjaman/katalog/7c681e93-fc9c-4ab5-9062-345caaf3a830/upload-berkas/cek-tanggal', 'before')
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/Users/apple/www/pusk/ci4/develop/sasana2.0/public/index.php')
+CRITICAL - 2024-12-19 10:21:46 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: peminjaman/katalog/7c681e93-fc9c-4ab5-9062-345caaf3a830/upload-berkas/cek-tanggal]
+in SYSTEMPATH/Security/Security.php on line 262.
+ 1 SYSTEMPATH/Security/Security.php(262): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(52): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/Filters/Filters.php(203): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/Filters/Filters.php(184): CodeIgniter\Filters\Filters->runBefore([...])
+ 5 SYSTEMPATH/CodeIgniter.php(481): CodeIgniter\Filters\Filters->run('peminjaman/katalog/7c681e93-fc9c-4ab5-9062-345caaf3a830/upload-berkas/cek-tanggal', 'before')
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/Users/apple/www/pusk/ci4/develop/sasana2.0/public/index.php')
+CRITICAL - 2024-12-19 10:21:47 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: peminjaman/katalog/7c681e93-fc9c-4ab5-9062-345caaf3a830/upload-berkas/cek-tanggal]
+in SYSTEMPATH/Security/Security.php on line 262.
+ 1 SYSTEMPATH/Security/Security.php(262): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(52): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/Filters/Filters.php(203): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/Filters/Filters.php(184): CodeIgniter\Filters\Filters->runBefore([...])
+ 5 SYSTEMPATH/CodeIgniter.php(481): CodeIgniter\Filters\Filters->run('peminjaman/katalog/7c681e93-fc9c-4ab5-9062-345caaf3a830/upload-berkas/cek-tanggal', 'before')
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/Users/apple/www/pusk/ci4/develop/sasana2.0/public/index.php')
+INFO - 2024-12-19 10:21:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 10:22:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 10:22:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 10:22:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 10:24:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 10:27:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 10:28:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 10:28:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 10:29:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 10:29:49 --> CSRF token verified.
+INFO - 2024-12-19 10:29:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2024-12-19 10:29:49 --> TypeError: implode(): Argument #1 ($array) must be of type array, string given
+[Method: POST, Route: peminjaman/katalog/7c681e93-fc9c-4ab5-9062-345caaf3a830/upload-berkas/cek-tanggal]
+in APPPATH/Modules/Peminjaman/Models/KatalogModel.php on line 130.
+ 1 APPPATH/Modules/Peminjaman/Models/KatalogModel.php(130): implode('\',\'', null)
+ 2 APPPATH/Modules/Peminjaman/Controllers/Katalog.php(149): Modules\Peminjaman\Models\KatalogModel->cekTanggalRentangSesi('7c681e93-fc9c-4ab5-9062-345caaf3a830', [...], null)
+ 3 SYSTEMPATH/CodeIgniter.php(933): Modules\Peminjaman\Controllers\Katalog->cekTanggal('7c681e93-fc9c-4ab5-9062-345caaf3a830')
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(Modules\Peminjaman\Controllers\Katalog))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH/rewrite.php(44): require_once('/Users/apple/www/pusk/ci4/develop/sasana2.0/public/index.php')
+CRITICAL - 2024-12-19 10:30:00 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: peminjaman/katalog/7c681e93-fc9c-4ab5-9062-345caaf3a830/upload-berkas/cek-tanggal]
+in SYSTEMPATH/Security/Security.php on line 262.
+ 1 SYSTEMPATH/Security/Security.php(262): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(52): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/Filters/Filters.php(203): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/Filters/Filters.php(184): CodeIgniter\Filters\Filters->runBefore([...])
+ 5 SYSTEMPATH/CodeIgniter.php(481): CodeIgniter\Filters\Filters->run('peminjaman/katalog/7c681e93-fc9c-4ab5-9062-345caaf3a830/upload-berkas/cek-tanggal', 'before')
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/Users/apple/www/pusk/ci4/develop/sasana2.0/public/index.php')
+CRITICAL - 2024-12-19 10:30:44 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: peminjaman/katalog/7c681e93-fc9c-4ab5-9062-345caaf3a830/upload-berkas/cek-tanggal]
+in SYSTEMPATH/Security/Security.php on line 262.
+ 1 SYSTEMPATH/Security/Security.php(262): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(52): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/Filters/Filters.php(203): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/Filters/Filters.php(184): CodeIgniter\Filters\Filters->runBefore([...])
+ 5 SYSTEMPATH/CodeIgniter.php(481): CodeIgniter\Filters\Filters->run('peminjaman/katalog/7c681e93-fc9c-4ab5-9062-345caaf3a830/upload-berkas/cek-tanggal', 'before')
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/Users/apple/www/pusk/ci4/develop/sasana2.0/public/index.php')
+INFO - 2024-12-19 10:31:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 10:31:11 --> CSRF token verified.
+INFO - 2024-12-19 10:31:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 10:31:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 10:32:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 10:32:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 10:34:08 --> CSRF token verified.
+INFO - 2024-12-19 10:34:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 10:34:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 10:34:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 10:34:57 --> CSRF token verified.
+INFO - 2024-12-19 10:34:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 10:34:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 10:36:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 10:37:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 10:37:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+WARNING - 2024-12-19 10:37:53 --> [DEPRECATED] explode(): Passing null to parameter #2 ($string) of type string is deprecated in APPPATH/Modules/Peminjaman/Views/Katalog/upberkas.php on line 68.
+ 1 APPPATH/Modules/Peminjaman/Views/Katalog/upberkas.php(68): explode(',', null)
+ 2 SYSTEMPATH/View/View.php(234): include('/Users/apple/www/pusk/ci4/develop/sasana2.0/app/Modules/Peminjaman/Views/Katalog/upberkas.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('Modules\\Peminjaman\\Views\\Katalog\\upberkas', [], true)
+ 5 APPPATH/Views/layout/admin/v_view.php(4): view('Modules\\Peminjaman\\Views\\Katalog\\upberkas')
+ 6 SYSTEMPATH/View/View.php(234): include('/Users/apple/www/pusk/ci4/develop/sasana2.0/app/Views/layout/admin/v_view.php')
+ 7 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('layout/admin/v_view', [], true)
+ 9 APPPATH/Views/layout/admin/v_body.php(28): view('layout/admin/v_view')
+10 SYSTEMPATH/View/View.php(234): include('/Users/apple/www/pusk/ci4/develop/sasana2.0/app/Views/layout/admin/v_body.php')
+11 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('layout/admin/v_body', [], true)
+13 APPPATH/Views/layout/admin/templates.php(3): view('layout/admin/v_body')
+14 SYSTEMPATH/View/View.php(234): include('/Users/apple/www/pusk/ci4/develop/sasana2.0/app/Views/layout/admin/templates.php')
+15 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+16 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('layout/admin/templates', [], true)
+17 APPPATH/Modules/Peminjaman/Controllers/Katalog.php(121): view('layout/admin/templates', [...])
+18 SYSTEMPATH/CodeIgniter.php(933): Modules\Peminjaman\Controllers\Katalog->upberkas('7c681e93-fc9c-4ab5-9062-345caaf3a830')
+19 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(Modules\Peminjaman\Controllers\Katalog))
+20 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+21 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+22 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+23 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+24 SYSTEMPATH/rewrite.php(44): require_once('/Users/apple/www/pusk/ci4/develop/sasana2.0/public/index.php')
+INFO - 2024-12-19 10:38:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 10:38:14 --> CSRF token verified.
+INFO - 2024-12-19 10:38:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 10:38:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 10:38:20 --> CSRF token verified.
+INFO - 2024-12-19 10:38:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 10:38:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 10:38:38 --> CSRF token verified.
+INFO - 2024-12-19 10:38:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 10:38:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 10:42:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 10:50:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 10:50:43 --> CSRF token verified.
+INFO - 2024-12-19 10:50:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 10:50:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 10:51:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 10:51:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 10:51:43 --> CSRF token verified.
+INFO - 2024-12-19 10:51:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2024-12-19 10:51:48 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: peminjaman/katalog/7c681e93-fc9c-4ab5-9062-345caaf3a830/upload-berkas/cek-tanggal]
+in SYSTEMPATH/Security/Security.php on line 262.
+ 1 SYSTEMPATH/Security/Security.php(262): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(52): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/Filters/Filters.php(203): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/Filters/Filters.php(184): CodeIgniter\Filters\Filters->runBefore([...])
+ 5 SYSTEMPATH/CodeIgniter.php(481): CodeIgniter\Filters\Filters->run('peminjaman/katalog/7c681e93-fc9c-4ab5-9062-345caaf3a830/upload-berkas/cek-tanggal', 'before')
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/Users/apple/www/pusk/ci4/develop/sasana2.0/public/index.php')
+CRITICAL - 2024-12-19 10:51:52 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: peminjaman/katalog/7c681e93-fc9c-4ab5-9062-345caaf3a830/upload-berkas/cek-tanggal]
+in SYSTEMPATH/Security/Security.php on line 262.
+ 1 SYSTEMPATH/Security/Security.php(262): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(52): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/Filters/Filters.php(203): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/Filters/Filters.php(184): CodeIgniter\Filters\Filters->runBefore([...])
+ 5 SYSTEMPATH/CodeIgniter.php(481): CodeIgniter\Filters\Filters->run('peminjaman/katalog/7c681e93-fc9c-4ab5-9062-345caaf3a830/upload-berkas/cek-tanggal', 'before')
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/Users/apple/www/pusk/ci4/develop/sasana2.0/public/index.php')
+CRITICAL - 2024-12-19 10:52:44 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: peminjaman/katalog/7c681e93-fc9c-4ab5-9062-345caaf3a830/upload-berkas/cek-tanggal]
+in SYSTEMPATH/Security/Security.php on line 262.
+ 1 SYSTEMPATH/Security/Security.php(262): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(52): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/Filters/Filters.php(203): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/Filters/Filters.php(184): CodeIgniter\Filters\Filters->runBefore([...])
+ 5 SYSTEMPATH/CodeIgniter.php(481): CodeIgniter\Filters\Filters->run('peminjaman/katalog/7c681e93-fc9c-4ab5-9062-345caaf3a830/upload-berkas/cek-tanggal', 'before')
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/Users/apple/www/pusk/ci4/develop/sasana2.0/public/index.php')
+INFO - 2024-12-19 10:57:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 10:57:36 --> CSRF token verified.
+INFO - 2024-12-19 10:57:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2024-12-19 10:57:40 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: peminjaman/katalog/7c681e93-fc9c-4ab5-9062-345caaf3a830/upload-berkas/cek-tanggal]
+in SYSTEMPATH/Security/Security.php on line 262.
+ 1 SYSTEMPATH/Security/Security.php(262): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(52): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/Filters/Filters.php(203): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/Filters/Filters.php(184): CodeIgniter\Filters\Filters->runBefore([...])
+ 5 SYSTEMPATH/CodeIgniter.php(481): CodeIgniter\Filters\Filters->run('peminjaman/katalog/7c681e93-fc9c-4ab5-9062-345caaf3a830/upload-berkas/cek-tanggal', 'before')
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/Users/apple/www/pusk/ci4/develop/sasana2.0/public/index.php')
+INFO - 2024-12-19 11:00:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 11:00:23 --> CSRF token verified.
+INFO - 2024-12-19 11:00:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 11:00:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2024-12-19 11:00:31 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: peminjaman/katalog/7c681e93-fc9c-4ab5-9062-345caaf3a830/upload-berkas/hapus-tanggal]
+in SYSTEMPATH/Security/Security.php on line 262.
+ 1 SYSTEMPATH/Security/Security.php(262): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(52): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/Filters/Filters.php(203): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/Filters/Filters.php(184): CodeIgniter\Filters\Filters->runBefore([...])
+ 5 SYSTEMPATH/CodeIgniter.php(481): CodeIgniter\Filters\Filters->run('peminjaman/katalog/7c681e93-fc9c-4ab5-9062-345caaf3a830/upload-berkas/hapus-tanggal', 'before')
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/Users/apple/www/pusk/ci4/develop/sasana2.0/public/index.php')
+CRITICAL - 2024-12-19 11:00:32 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: peminjaman/katalog/7c681e93-fc9c-4ab5-9062-345caaf3a830/upload-berkas/hapus-tanggal]
+in SYSTEMPATH/Security/Security.php on line 262.
+ 1 SYSTEMPATH/Security/Security.php(262): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(52): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/Filters/Filters.php(203): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/Filters/Filters.php(184): CodeIgniter\Filters\Filters->runBefore([...])
+ 5 SYSTEMPATH/CodeIgniter.php(481): CodeIgniter\Filters\Filters->run('peminjaman/katalog/7c681e93-fc9c-4ab5-9062-345caaf3a830/upload-berkas/hapus-tanggal', 'before')
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/Users/apple/www/pusk/ci4/develop/sasana2.0/public/index.php')
+INFO - 2024-12-19 11:03:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 11:03:29 --> CSRF token verified.
+INFO - 2024-12-19 11:03:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 11:03:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 11:03:37 --> CSRF token verified.
+INFO - 2024-12-19 11:03:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2024-12-19 11:03:42 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: peminjaman/katalog/7c681e93-fc9c-4ab5-9062-345caaf3a830/upload-berkas/cek-tanggal]
+in SYSTEMPATH/Security/Security.php on line 262.
+ 1 SYSTEMPATH/Security/Security.php(262): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(52): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/Filters/Filters.php(203): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/Filters/Filters.php(184): CodeIgniter\Filters\Filters->runBefore([...])
+ 5 SYSTEMPATH/CodeIgniter.php(481): CodeIgniter\Filters\Filters->run('peminjaman/katalog/7c681e93-fc9c-4ab5-9062-345caaf3a830/upload-berkas/cek-tanggal', 'before')
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/Users/apple/www/pusk/ci4/develop/sasana2.0/public/index.php')
+CRITICAL - 2024-12-19 11:03:51 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: peminjaman/katalog/7c681e93-fc9c-4ab5-9062-345caaf3a830/upload-berkas/cek-tanggal]
+in SYSTEMPATH/Security/Security.php on line 262.
+ 1 SYSTEMPATH/Security/Security.php(262): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(52): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/Filters/Filters.php(203): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/Filters/Filters.php(184): CodeIgniter\Filters\Filters->runBefore([...])
+ 5 SYSTEMPATH/CodeIgniter.php(481): CodeIgniter\Filters\Filters->run('peminjaman/katalog/7c681e93-fc9c-4ab5-9062-345caaf3a830/upload-berkas/cek-tanggal', 'before')
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/Users/apple/www/pusk/ci4/develop/sasana2.0/public/index.php')
+INFO - 2024-12-19 11:09:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 11:10:01 --> CSRF token verified.
+INFO - 2024-12-19 11:10:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 11:10:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 11:10:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 11:10:15 --> CSRF token verified.
+INFO - 2024-12-19 11:10:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 11:10:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 11:10:22 --> CSRF token verified.
+INFO - 2024-12-19 11:10:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 11:10:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 11:10:26 --> CSRF token verified.
+INFO - 2024-12-19 11:10:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 11:10:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 11:10:34 --> CSRF token verified.
+INFO - 2024-12-19 11:10:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2024-12-19 11:10:39 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: peminjaman/katalog/7c681e93-fc9c-4ab5-9062-345caaf3a830/upload-berkas/cek-tanggal]
+in SYSTEMPATH/Security/Security.php on line 262.
+ 1 SYSTEMPATH/Security/Security.php(262): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(52): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/Filters/Filters.php(203): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/Filters/Filters.php(184): CodeIgniter\Filters\Filters->runBefore([...])
+ 5 SYSTEMPATH/CodeIgniter.php(481): CodeIgniter\Filters\Filters->run('peminjaman/katalog/7c681e93-fc9c-4ab5-9062-345caaf3a830/upload-berkas/cek-tanggal', 'before')
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/Users/apple/www/pusk/ci4/develop/sasana2.0/public/index.php')
+INFO - 2024-12-19 11:11:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 11:11:37 --> CSRF token verified.
+INFO - 2024-12-19 11:11:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 11:11:43 --> CSRF token verified.
+INFO - 2024-12-19 11:11:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 11:11:46 --> CSRF token verified.
+INFO - 2024-12-19 11:11:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 11:11:51 --> CSRF token verified.
+INFO - 2024-12-19 11:11:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 11:11:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 11:13:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 11:13:34 --> CSRF token verified.
+INFO - 2024-12-19 11:13:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 11:13:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 11:14:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 11:14:57 --> CSRF token verified.
+INFO - 2024-12-19 11:14:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 11:15:02 --> CSRF token verified.
+INFO - 2024-12-19 11:15:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 11:15:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 11:15:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 11:15:27 --> CSRF token verified.
+INFO - 2024-12-19 11:15:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 11:15:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 11:19:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 11:20:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 11:20:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 11:20:46 --> CSRF token verified.
+INFO - 2024-12-19 11:20:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 11:20:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 11:20:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 11:20:50 --> CSRF token verified.
+INFO - 2024-12-19 11:20:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 11:20:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 11:21:20 --> CSRF token verified.
+INFO - 2024-12-19 11:21:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 11:21:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 11:21:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 11:27:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 11:27:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 11:27:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 11:28:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 11:28:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 11:28:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 11:28:35 --> CSRF token verified.
+INFO - 2024-12-19 11:28:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 11:28:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 11:28:44 --> CSRF token verified.
+INFO - 2024-12-19 11:28:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 11:28:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 11:28:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 11:29:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 11:29:36 --> CSRF token verified.
+INFO - 2024-12-19 11:29:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 11:29:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 11:29:49 --> CSRF token verified.
+INFO - 2024-12-19 11:29:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 11:29:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2024-12-19 11:29:54 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: peminjaman/katalog/7c681e93-fc9c-4ab5-9062-345caaf3a830/upload-berkas/hapus-tanggal]
+in SYSTEMPATH/Security/Security.php on line 262.
+ 1 SYSTEMPATH/Security/Security.php(262): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(52): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/Filters/Filters.php(203): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/Filters/Filters.php(184): CodeIgniter\Filters\Filters->runBefore([...])
+ 5 SYSTEMPATH/CodeIgniter.php(481): CodeIgniter\Filters\Filters->run('peminjaman/katalog/7c681e93-fc9c-4ab5-9062-345caaf3a830/upload-berkas/hapus-tanggal', 'before')
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/Users/apple/www/pusk/ci4/develop/sasana2.0/public/index.php')
+CRITICAL - 2024-12-19 11:29:57 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: peminjaman/katalog/7c681e93-fc9c-4ab5-9062-345caaf3a830/upload-berkas/hapus-tanggal]
+in SYSTEMPATH/Security/Security.php on line 262.
+ 1 SYSTEMPATH/Security/Security.php(262): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(52): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/Filters/Filters.php(203): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/Filters/Filters.php(184): CodeIgniter\Filters\Filters->runBefore([...])
+ 5 SYSTEMPATH/CodeIgniter.php(481): CodeIgniter\Filters\Filters->run('peminjaman/katalog/7c681e93-fc9c-4ab5-9062-345caaf3a830/upload-berkas/hapus-tanggal', 'before')
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/Users/apple/www/pusk/ci4/develop/sasana2.0/public/index.php')
+INFO - 2024-12-19 11:30:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 11:30:11 --> CSRF token verified.
+INFO - 2024-12-19 11:30:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 11:30:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 11:30:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 11:30:35 --> CSRF token verified.
+INFO - 2024-12-19 11:30:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 11:30:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2024-12-19 11:31:04 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: peminjaman/katalog/7c681e93-fc9c-4ab5-9062-345caaf3a830/upload-berkas/hapus-tanggal]
+in SYSTEMPATH/Security/Security.php on line 262.
+ 1 SYSTEMPATH/Security/Security.php(262): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(52): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/Filters/Filters.php(203): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/Filters/Filters.php(184): CodeIgniter\Filters\Filters->runBefore([...])
+ 5 SYSTEMPATH/CodeIgniter.php(481): CodeIgniter\Filters\Filters->run('peminjaman/katalog/7c681e93-fc9c-4ab5-9062-345caaf3a830/upload-berkas/hapus-tanggal', 'before')
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/Users/apple/www/pusk/ci4/develop/sasana2.0/public/index.php')
+CRITICAL - 2024-12-19 11:32:14 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: peminjaman/katalog/7c681e93-fc9c-4ab5-9062-345caaf3a830/upload-berkas/hapus-tanggal]
+in SYSTEMPATH/Security/Security.php on line 262.
+ 1 SYSTEMPATH/Security/Security.php(262): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(52): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/Filters/Filters.php(203): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/Filters/Filters.php(184): CodeIgniter\Filters\Filters->runBefore([...])
+ 5 SYSTEMPATH/CodeIgniter.php(481): CodeIgniter\Filters\Filters->run('peminjaman/katalog/7c681e93-fc9c-4ab5-9062-345caaf3a830/upload-berkas/hapus-tanggal', 'before')
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/Users/apple/www/pusk/ci4/develop/sasana2.0/public/index.php')
+INFO - 2024-12-19 11:32:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 11:32:18 --> CSRF token verified.
+INFO - 2024-12-19 11:32:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 11:32:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 11:32:28 --> CSRF token verified.
+INFO - 2024-12-19 11:32:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 11:32:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 11:32:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2024-12-19 11:32:42 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: peminjaman/katalog/7c681e93-fc9c-4ab5-9062-345caaf3a830/upload-berkas/cek-tanggal]
+in SYSTEMPATH/Security/Security.php on line 262.
+ 1 SYSTEMPATH/Security/Security.php(262): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(52): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/Filters/Filters.php(203): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/Filters/Filters.php(184): CodeIgniter\Filters\Filters->runBefore([...])
+ 5 SYSTEMPATH/CodeIgniter.php(481): CodeIgniter\Filters\Filters->run('peminjaman/katalog/7c681e93-fc9c-4ab5-9062-345caaf3a830/upload-berkas/cek-tanggal', 'before')
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/Users/apple/www/pusk/ci4/develop/sasana2.0/public/index.php')
+INFO - 2024-12-19 11:33:02 --> CSRF token verified.
+INFO - 2024-12-19 11:33:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 11:33:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2024-12-19 11:33:08 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: peminjaman/katalog/7c681e93-fc9c-4ab5-9062-345caaf3a830/upload-berkas/hapus-tanggal]
+in SYSTEMPATH/Security/Security.php on line 262.
+ 1 SYSTEMPATH/Security/Security.php(262): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(52): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/Filters/Filters.php(203): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/Filters/Filters.php(184): CodeIgniter\Filters\Filters->runBefore([...])
+ 5 SYSTEMPATH/CodeIgniter.php(481): CodeIgniter\Filters\Filters->run('peminjaman/katalog/7c681e93-fc9c-4ab5-9062-345caaf3a830/upload-berkas/hapus-tanggal', 'before')
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/Users/apple/www/pusk/ci4/develop/sasana2.0/public/index.php')
+INFO - 2024-12-19 11:33:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 11:33:37 --> CSRF token verified.
+INFO - 2024-12-19 11:33:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 11:33:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 11:33:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 11:33:46 --> CSRF token verified.
+INFO - 2024-12-19 11:33:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 11:33:55 --> CSRF token verified.
+INFO - 2024-12-19 11:33:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 11:33:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2024-12-19 11:34:01 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: peminjaman/katalog/7c681e93-fc9c-4ab5-9062-345caaf3a830/upload-berkas/hapus-tanggal]
+in SYSTEMPATH/Security/Security.php on line 262.
+ 1 SYSTEMPATH/Security/Security.php(262): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(52): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/Filters/Filters.php(203): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/Filters/Filters.php(184): CodeIgniter\Filters\Filters->runBefore([...])
+ 5 SYSTEMPATH/CodeIgniter.php(481): CodeIgniter\Filters\Filters->run('peminjaman/katalog/7c681e93-fc9c-4ab5-9062-345caaf3a830/upload-berkas/hapus-tanggal', 'before')
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/Users/apple/www/pusk/ci4/develop/sasana2.0/public/index.php')
+CRITICAL - 2024-12-19 11:34:02 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: peminjaman/katalog/7c681e93-fc9c-4ab5-9062-345caaf3a830/upload-berkas/hapus-tanggal]
+in SYSTEMPATH/Security/Security.php on line 262.
+ 1 SYSTEMPATH/Security/Security.php(262): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(52): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/Filters/Filters.php(203): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/Filters/Filters.php(184): CodeIgniter\Filters\Filters->runBefore([...])
+ 5 SYSTEMPATH/CodeIgniter.php(481): CodeIgniter\Filters\Filters->run('peminjaman/katalog/7c681e93-fc9c-4ab5-9062-345caaf3a830/upload-berkas/hapus-tanggal', 'before')
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/Users/apple/www/pusk/ci4/develop/sasana2.0/public/index.php')
+INFO - 2024-12-19 11:34:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 11:34:51 --> CSRF token verified.
+INFO - 2024-12-19 11:34:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 11:34:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 11:34:59 --> CSRF token verified.
+INFO - 2024-12-19 11:34:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 11:34:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2024-12-19 11:36:31 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: peminjaman/katalog/7c681e93-fc9c-4ab5-9062-345caaf3a830/upload-berkas/hapus-tanggal]
+in SYSTEMPATH/Security/Security.php on line 262.
+ 1 SYSTEMPATH/Security/Security.php(262): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(52): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/Filters/Filters.php(203): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/Filters/Filters.php(184): CodeIgniter\Filters\Filters->runBefore([...])
+ 5 SYSTEMPATH/CodeIgniter.php(481): CodeIgniter\Filters\Filters->run('peminjaman/katalog/7c681e93-fc9c-4ab5-9062-345caaf3a830/upload-berkas/hapus-tanggal', 'before')
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/Users/apple/www/pusk/ci4/develop/sasana2.0/public/index.php')
+CRITICAL - 2024-12-19 11:36:33 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: peminjaman/katalog/7c681e93-fc9c-4ab5-9062-345caaf3a830/upload-berkas/hapus-tanggal]
+in SYSTEMPATH/Security/Security.php on line 262.
+ 1 SYSTEMPATH/Security/Security.php(262): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(52): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/Filters/Filters.php(203): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/Filters/Filters.php(184): CodeIgniter\Filters\Filters->runBefore([...])
+ 5 SYSTEMPATH/CodeIgniter.php(481): CodeIgniter\Filters\Filters->run('peminjaman/katalog/7c681e93-fc9c-4ab5-9062-345caaf3a830/upload-berkas/hapus-tanggal', 'before')
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/Users/apple/www/pusk/ci4/develop/sasana2.0/public/index.php')
+INFO - 2024-12-19 11:36:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 11:36:57 --> CSRF token verified.
+INFO - 2024-12-19 11:36:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 11:36:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 11:37:05 --> CSRF token verified.
+INFO - 2024-12-19 11:37:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 11:37:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 11:37:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 11:37:08 --> CSRF token verified.
+INFO - 2024-12-19 11:37:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 11:37:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 11:37:18 --> CSRF token verified.
+INFO - 2024-12-19 11:37:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 11:37:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 11:37:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 11:37:22 --> CSRF token verified.
+INFO - 2024-12-19 11:37:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 11:37:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 11:37:38 --> CSRF token verified.
+INFO - 2024-12-19 11:37:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 11:37:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 11:37:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 11:37:44 --> CSRF token verified.
+INFO - 2024-12-19 11:37:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 11:37:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 11:37:55 --> CSRF token verified.
+INFO - 2024-12-19 11:37:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 11:37:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 11:37:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 11:38:01 --> CSRF token verified.
+INFO - 2024-12-19 11:38:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 11:38:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 11:40:42 --> CSRF token verified.
+INFO - 2024-12-19 11:40:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 11:40:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 11:41:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 11:41:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 11:41:23 --> CSRF token verified.
+INFO - 2024-12-19 11:41:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 11:41:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 11:41:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 11:41:31 --> CSRF token verified.
+INFO - 2024-12-19 11:41:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 11:41:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 11:41:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 11:41:40 --> CSRF token verified.
+INFO - 2024-12-19 11:41:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 11:41:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 11:41:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 11:41:53 --> CSRF token verified.
+INFO - 2024-12-19 11:41:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 11:41:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 11:41:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 11:42:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 11:42:47 --> CSRF token verified.
+INFO - 2024-12-19 11:42:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 11:42:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 11:42:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 13:31:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 13:31:13 --> CSRF token verified.
+INFO - 2024-12-19 13:31:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 13:31:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 13:31:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 13:44:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 13:44:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 13:44:16 --> CSRF token verified.
+INFO - 2024-12-19 13:44:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 13:45:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 13:45:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 13:45:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 13:45:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 13:45:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 13:45:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 13:46:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 13:46:22 --> CSRF token verified.
+INFO - 2024-12-19 13:46:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 13:46:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 13:46:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2024-12-19 13:46:35 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: peminjaman/katalog/7c681e93-fc9c-4ab5-9062-345caaf3a830/upload-berkas/cek-tanggal]
+in SYSTEMPATH/Security/Security.php on line 262.
+ 1 SYSTEMPATH/Security/Security.php(262): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(52): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/Filters/Filters.php(203): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/Filters/Filters.php(184): CodeIgniter\Filters\Filters->runBefore([...])
+ 5 SYSTEMPATH/CodeIgniter.php(481): CodeIgniter\Filters\Filters->run('peminjaman/katalog/7c681e93-fc9c-4ab5-9062-345caaf3a830/upload-berkas/cek-tanggal', 'before')
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/Users/apple/www/pusk/ci4/develop/sasana2.0/public/index.php')
+INFO - 2024-12-19 13:46:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 13:46:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 13:46:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 13:46:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 13:47:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 13:47:07 --> CSRF token verified.
+INFO - 2024-12-19 13:47:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 13:47:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 13:47:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 13:47:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 13:47:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 13:47:50 --> CSRF token verified.
+INFO - 2024-12-19 13:47:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 13:47:58 --> CSRF token verified.
+INFO - 2024-12-19 13:47:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 13:47:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 13:47:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 13:50:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 13:50:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 13:50:32 --> CSRF token verified.
+INFO - 2024-12-19 13:50:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 13:50:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 13:50:42 --> CSRF token verified.
+INFO - 2024-12-19 13:50:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 13:50:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 13:50:45 --> CSRF token verified.
+INFO - 2024-12-19 13:50:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 13:50:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 13:50:53 --> CSRF token verified.
+INFO - 2024-12-19 13:50:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2024-12-19 13:51:13 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: peminjaman/katalog/7c681e93-fc9c-4ab5-9062-345caaf3a830/upload-berkas]
+in SYSTEMPATH/Security/Security.php on line 262.
+ 1 SYSTEMPATH/Security/Security.php(262): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(52): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/Filters/Filters.php(203): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/Filters/Filters.php(184): CodeIgniter\Filters\Filters->runBefore([...])
+ 5 SYSTEMPATH/CodeIgniter.php(481): CodeIgniter\Filters\Filters->run('peminjaman/katalog/7c681e93-fc9c-4ab5-9062-345caaf3a830/upload-berkas', 'before')
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/Users/apple/www/pusk/ci4/develop/sasana2.0/public/index.php')
+INFO - 2024-12-19 13:51:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 13:51:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 13:51:23 --> CSRF token verified.
+INFO - 2024-12-19 13:51:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2024-12-19 13:51:23 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: peminjaman/katalog/7c681e93-fc9c-4ab5-9062-345caaf3a830/upload-berkas]
+in SYSTEMPATH/Security/Security.php on line 262.
+ 1 SYSTEMPATH/Security/Security.php(262): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(52): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/Filters/Filters.php(203): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/Filters/Filters.php(184): CodeIgniter\Filters\Filters->runBefore([...])
+ 5 SYSTEMPATH/CodeIgniter.php(481): CodeIgniter\Filters\Filters->run('peminjaman/katalog/7c681e93-fc9c-4ab5-9062-345caaf3a830/upload-berkas', 'before')
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/Users/apple/www/pusk/ci4/develop/sasana2.0/public/index.php')
+INFO - 2024-12-19 13:51:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 13:51:32 --> CSRF token verified.
+INFO - 2024-12-19 13:51:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2024-12-19 13:51:32 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: peminjaman/katalog/7c681e93-fc9c-4ab5-9062-345caaf3a830/upload-berkas]
+in SYSTEMPATH/Security/Security.php on line 262.
+ 1 SYSTEMPATH/Security/Security.php(262): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(52): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/Filters/Filters.php(203): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/Filters/Filters.php(184): CodeIgniter\Filters\Filters->runBefore([...])
+ 5 SYSTEMPATH/CodeIgniter.php(481): CodeIgniter\Filters\Filters->run('peminjaman/katalog/7c681e93-fc9c-4ab5-9062-345caaf3a830/upload-berkas', 'before')
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/Users/apple/www/pusk/ci4/develop/sasana2.0/public/index.php')
+INFO - 2024-12-19 13:51:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2024-12-19 13:51:50 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: peminjaman/katalog/7c681e93-fc9c-4ab5-9062-345caaf3a830/upload-berkas]
+in SYSTEMPATH/Security/Security.php on line 262.
+ 1 SYSTEMPATH/Security/Security.php(262): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(52): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/Filters/Filters.php(203): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/Filters/Filters.php(184): CodeIgniter\Filters\Filters->runBefore([...])
+ 5 SYSTEMPATH/CodeIgniter.php(481): CodeIgniter\Filters\Filters->run('peminjaman/katalog/7c681e93-fc9c-4ab5-9062-345caaf3a830/upload-berkas', 'before')
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/Users/apple/www/pusk/ci4/develop/sasana2.0/public/index.php')
+INFO - 2024-12-19 13:51:50 --> CSRF token verified.
+INFO - 2024-12-19 13:51:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 13:52:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 13:52:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 13:52:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 13:52:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 13:57:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 13:57:59 --> CSRF token verified.
+INFO - 2024-12-19 13:57:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 13:57:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 13:57:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 13:58:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 13:58:42 --> CSRF token verified.
+INFO - 2024-12-19 13:58:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 13:58:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 13:58:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 13:59:04 --> CSRF token verified.
+INFO - 2024-12-19 13:59:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 13:59:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2024-12-19 13:59:06 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: peminjaman/katalog/7c681e93-fc9c-4ab5-9062-345caaf3a830/upload-berkas/hapus-tanggal]
+in SYSTEMPATH/Security/Security.php on line 262.
+ 1 SYSTEMPATH/Security/Security.php(262): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(52): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/Filters/Filters.php(203): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/Filters/Filters.php(184): CodeIgniter\Filters\Filters->runBefore([...])
+ 5 SYSTEMPATH/CodeIgniter.php(481): CodeIgniter\Filters\Filters->run('peminjaman/katalog/7c681e93-fc9c-4ab5-9062-345caaf3a830/upload-berkas/hapus-tanggal', 'before')
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/Users/apple/www/pusk/ci4/develop/sasana2.0/public/index.php')
+CRITICAL - 2024-12-19 13:59:07 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: peminjaman/katalog/7c681e93-fc9c-4ab5-9062-345caaf3a830/upload-berkas/hapus-tanggal]
+in SYSTEMPATH/Security/Security.php on line 262.
+ 1 SYSTEMPATH/Security/Security.php(262): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(52): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/Filters/Filters.php(203): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/Filters/Filters.php(184): CodeIgniter\Filters\Filters->runBefore([...])
+ 5 SYSTEMPATH/CodeIgniter.php(481): CodeIgniter\Filters\Filters->run('peminjaman/katalog/7c681e93-fc9c-4ab5-9062-345caaf3a830/upload-berkas/hapus-tanggal', 'before')
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/Users/apple/www/pusk/ci4/develop/sasana2.0/public/index.php')
+INFO - 2024-12-19 13:59:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 13:59:15 --> CSRF token verified.
+INFO - 2024-12-19 13:59:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 13:59:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 13:59:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 13:59:33 --> CSRF token verified.
+INFO - 2024-12-19 13:59:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 13:59:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 13:59:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 13:59:36 --> CSRF token verified.
+INFO - 2024-12-19 13:59:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 13:59:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 14:04:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 14:04:58 --> CSRF token verified.
+INFO - 2024-12-19 14:04:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 14:04:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 14:04:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 14:05:19 --> CSRF token verified.
+INFO - 2024-12-19 14:05:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 14:05:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 14:05:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 14:05:24 --> CSRF token verified.
+INFO - 2024-12-19 14:05:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 14:05:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 14:07:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 14:07:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 14:07:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 14:07:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 14:09:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 14:09:20 --> CSRF token verified.
+INFO - 2024-12-19 14:09:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 14:09:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 14:09:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 14:09:23 --> CSRF token verified.
+INFO - 2024-12-19 14:09:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 14:09:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 14:09:34 --> CSRF token verified.
+INFO - 2024-12-19 14:09:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 14:09:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 14:09:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 14:09:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 14:09:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 14:09:58 --> CSRF token verified.
+INFO - 2024-12-19 14:09:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 14:10:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 14:10:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 14:10:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 14:10:34 --> CSRF token verified.
+INFO - 2024-12-19 14:10:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 14:10:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 14:10:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 14:13:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 14:13:31 --> CSRF token verified.
+INFO - 2024-12-19 14:13:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 14:13:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 14:13:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 14:13:41 --> CSRF token verified.
+INFO - 2024-12-19 14:13:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 14:13:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 14:13:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 14:13:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 14:13:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 14:13:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 14:13:52 --> CSRF token verified.
+INFO - 2024-12-19 14:13:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 14:14:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 14:14:48 --> CSRF token verified.
+INFO - 2024-12-19 14:14:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 14:14:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 14:15:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 14:15:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 14:15:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 14:15:27 --> CSRF token verified.
+INFO - 2024-12-19 14:15:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 14:15:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 14:15:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 14:15:39 --> CSRF token verified.
+INFO - 2024-12-19 14:15:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 14:15:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 14:15:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 14:16:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 14:16:23 --> CSRF token verified.
+INFO - 2024-12-19 14:16:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 14:16:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 14:16:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 14:16:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 14:16:37 --> CSRF token verified.
+INFO - 2024-12-19 14:16:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 14:18:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 14:19:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 14:19:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 14:19:30 --> CSRF token verified.
+INFO - 2024-12-19 14:19:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 14:19:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 14:19:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 14:19:32 --> CSRF token verified.
+INFO - 2024-12-19 14:19:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 14:19:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 14:19:42 --> CSRF token verified.
+INFO - 2024-12-19 14:19:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 14:19:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 14:19:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 14:19:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 14:20:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 14:20:05 --> CSRF token verified.
+INFO - 2024-12-19 14:20:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 14:20:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 14:34:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 14:34:48 --> CSRF token verified.
+INFO - 2024-12-19 14:34:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 14:34:53 --> CSRF token verified.
+INFO - 2024-12-19 14:34:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 14:34:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 14:34:59 --> CSRF token verified.
+INFO - 2024-12-19 14:34:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 14:35:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 14:35:21 --> CSRF token verified.
+INFO - 2024-12-19 14:35:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 14:35:28 --> CSRF token verified.
+INFO - 2024-12-19 14:35:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 14:35:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 14:35:34 --> CSRF token verified.
+INFO - 2024-12-19 14:35:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 14:35:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 14:37:04 --> CSRF token verified.
+INFO - 2024-12-19 14:37:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 14:37:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 14:37:10 --> CSRF token verified.
+INFO - 2024-12-19 14:37:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 14:37:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 14:37:25 --> CSRF token verified.
+INFO - 2024-12-19 14:37:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 14:37:34 --> CSRF token verified.
+INFO - 2024-12-19 14:37:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 14:37:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 14:38:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 14:40:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 14:42:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 14:42:53 --> CSRF token verified.
+INFO - 2024-12-19 14:42:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 14:42:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 14:43:04 --> CSRF token verified.
+INFO - 2024-12-19 14:43:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 14:43:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 14:43:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 14:44:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 14:46:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 14:47:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 14:48:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 14:48:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 14:48:46 --> CSRF token verified.
+INFO - 2024-12-19 14:48:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+DEBUG - 2024-12-19 14:48:46 --> Row Data: {"ktg_id":"7c681e93-fc9c-4ab5-9062-345caaf3a830","ktg_nama":"Masjid At-Tarbiyah","jis_id":"4b4954aa-de57-4cdd-b69c-11e1a758e5a2","lay_id":"c7f14ab9-2019-42c5-8da7-2b8c0f2f8c94","ktg_kapasitas_min":"10","ktg_kapasitas_max":"500","ktg_foto1":"1734408899_1d85443fd7c13253d7ea.jpg","ktg_foto2":"1734408899_bf89ebbb20ff964bc90e.jpg","ktg_foto3":"1734408899_3adad09938dd74d4ee3f.jpg","ktg_foto4":"1734408899_00902e10c081ce07fff6.jpg","ktg_fasilitas":"771cfabb-725c-4dd7-a189-7237c8e450f1,c53bd76c-7f60-40fd-8afb-c5aeb958d2ca,369af4c4-5710-414b-8436-f6a40ffd46a8,d9355ced-bde4-4290-980d-7ec5e79a3d1c,257a333d-16c5-4fea-829f-582cf4af3760,30fc7469-b489-46f5-a5c0-93a683b36b92,7e995915-8725-4931-88e3-3e6895390848","ktg_durasi":"8","ktg_satuandurasi":"1941e402-4071-4108-bb30-039532b55edf","ktg_biaya":"750000","ktg_deskripsi":"Masjid At-Tarbiyah UIN Malang adalah ikon spiritual dan intelektual yang menawarkan ruang shalat luas dan nyaman, aula serbaguna, ruang kelas, serta perpustakaan dengan koleksi buku keislaman dan literatur ilmiah. Dengan arsitektur megah dan lokasi strategis di dalam kampus, masjid ini menjadi tempat yang sempurna untuk berbagai kegiatan ibadah, seminar, pelatihan, hingga acara pernikahan. Fasilitas modern seperti pendingin udara, sistem tata suara canggih, dan area parkir yang luas dan aman memastikan kenyamanan semua pengguna. Masjid At-Tarbiyah tidak hanya menjadi pusat ibadah bagi mahasiswa dan staf, tetapi juga bagi masyarakat umum. Kegiatan seperti pengajian, dzikir rutin, seminar, workshop, dan bakti sosial sering diadakan di sini. Aula serbaguna dan ruang kelas dapat disewakan untuk berbagai acara, menjadikan masjid ini pilihan utama untuk kegiatan keagamaan dan komunitas.","kds_id":"916b2b07-494f-4ae5-8640-8608a405aeb8","ktg_status":"0","ktg_update":"2024-12-18 14:21:38","jis_nama":"UIN Maulana Malik Ibrahim | Kampus 1","lay_nama":"Penggunaan Gedung dan Ruangan","kds_nama":"Layak"}
+INFO - 2024-12-19 14:48:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 14:48:51 --> CSRF token verified.
+INFO - 2024-12-19 14:48:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+DEBUG - 2024-12-19 14:48:51 --> Row Data: {"ktg_id":"7c681e93-fc9c-4ab5-9062-345caaf3a830","ktg_nama":"Masjid At-Tarbiyah","jis_id":"4b4954aa-de57-4cdd-b69c-11e1a758e5a2","lay_id":"c7f14ab9-2019-42c5-8da7-2b8c0f2f8c94","ktg_kapasitas_min":"10","ktg_kapasitas_max":"500","ktg_foto1":"1734408899_1d85443fd7c13253d7ea.jpg","ktg_foto2":"1734408899_bf89ebbb20ff964bc90e.jpg","ktg_foto3":"1734408899_3adad09938dd74d4ee3f.jpg","ktg_foto4":"1734408899_00902e10c081ce07fff6.jpg","ktg_fasilitas":"771cfabb-725c-4dd7-a189-7237c8e450f1,c53bd76c-7f60-40fd-8afb-c5aeb958d2ca,369af4c4-5710-414b-8436-f6a40ffd46a8,d9355ced-bde4-4290-980d-7ec5e79a3d1c,257a333d-16c5-4fea-829f-582cf4af3760,30fc7469-b489-46f5-a5c0-93a683b36b92,7e995915-8725-4931-88e3-3e6895390848","ktg_durasi":"8","ktg_satuandurasi":"1941e402-4071-4108-bb30-039532b55edf","ktg_biaya":"750000","ktg_deskripsi":"Masjid At-Tarbiyah UIN Malang adalah ikon spiritual dan intelektual yang menawarkan ruang shalat luas dan nyaman, aula serbaguna, ruang kelas, serta perpustakaan dengan koleksi buku keislaman dan literatur ilmiah. Dengan arsitektur megah dan lokasi strategis di dalam kampus, masjid ini menjadi tempat yang sempurna untuk berbagai kegiatan ibadah, seminar, pelatihan, hingga acara pernikahan. Fasilitas modern seperti pendingin udara, sistem tata suara canggih, dan area parkir yang luas dan aman memastikan kenyamanan semua pengguna. Masjid At-Tarbiyah tidak hanya menjadi pusat ibadah bagi mahasiswa dan staf, tetapi juga bagi masyarakat umum. Kegiatan seperti pengajian, dzikir rutin, seminar, workshop, dan bakti sosial sering diadakan di sini. Aula serbaguna dan ruang kelas dapat disewakan untuk berbagai acara, menjadikan masjid ini pilihan utama untuk kegiatan keagamaan dan komunitas.","kds_id":"916b2b07-494f-4ae5-8640-8608a405aeb8","ktg_status":"1","ktg_update":"2024-12-18 14:21:38","jis_nama":"UIN Maulana Malik Ibrahim | Kampus 1","lay_nama":"Penggunaan Gedung dan Ruangan","kds_nama":"Layak"}
+INFO - 2024-12-19 14:51:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 14:51:07 --> CSRF token verified.
+INFO - 2024-12-19 14:51:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+DEBUG - 2024-12-19 14:51:07 --> Row Data: {"ktg_id":"7c681e93-fc9c-4ab5-9062-345caaf3a830","ktg_nama":"Masjid At-Tarbiyah","jis_id":"4b4954aa-de57-4cdd-b69c-11e1a758e5a2","lay_id":"c7f14ab9-2019-42c5-8da7-2b8c0f2f8c94","ktg_kapasitas_min":"10","ktg_kapasitas_max":"500","ktg_foto1":"1734408899_1d85443fd7c13253d7ea.jpg","ktg_foto2":"1734408899_bf89ebbb20ff964bc90e.jpg","ktg_foto3":"1734408899_3adad09938dd74d4ee3f.jpg","ktg_foto4":"1734408899_00902e10c081ce07fff6.jpg","ktg_fasilitas":"771cfabb-725c-4dd7-a189-7237c8e450f1,c53bd76c-7f60-40fd-8afb-c5aeb958d2ca,369af4c4-5710-414b-8436-f6a40ffd46a8,d9355ced-bde4-4290-980d-7ec5e79a3d1c,257a333d-16c5-4fea-829f-582cf4af3760,30fc7469-b489-46f5-a5c0-93a683b36b92,7e995915-8725-4931-88e3-3e6895390848","ktg_durasi":"8","ktg_satuandurasi":"1941e402-4071-4108-bb30-039532b55edf","ktg_biaya":"750000","ktg_deskripsi":"Masjid At-Tarbiyah UIN Malang adalah ikon spiritual dan intelektual yang menawarkan ruang shalat luas dan nyaman, aula serbaguna, ruang kelas, serta perpustakaan dengan koleksi buku keislaman dan literatur ilmiah. Dengan arsitektur megah dan lokasi strategis di dalam kampus, masjid ini menjadi tempat yang sempurna untuk berbagai kegiatan ibadah, seminar, pelatihan, hingga acara pernikahan. Fasilitas modern seperti pendingin udara, sistem tata suara canggih, dan area parkir yang luas dan aman memastikan kenyamanan semua pengguna. Masjid At-Tarbiyah tidak hanya menjadi pusat ibadah bagi mahasiswa dan staf, tetapi juga bagi masyarakat umum. Kegiatan seperti pengajian, dzikir rutin, seminar, workshop, dan bakti sosial sering diadakan di sini. Aula serbaguna dan ruang kelas dapat disewakan untuk berbagai acara, menjadikan masjid ini pilihan utama untuk kegiatan keagamaan dan komunitas.","kds_id":"916b2b07-494f-4ae5-8640-8608a405aeb8","ktg_status":"0","ktg_update":"2024-12-18 14:21:38","jis_nama":"UIN Maulana Malik Ibrahim | Kampus 1","lay_nama":"Penggunaan Gedung dan Ruangan","kds_nama":"Layak"}
+INFO - 2024-12-19 14:51:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 14:51:15 --> CSRF token verified.
+INFO - 2024-12-19 14:51:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 14:51:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 14:51:25 --> CSRF token verified.
+INFO - 2024-12-19 14:51:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+DEBUG - 2024-12-19 14:51:25 --> Row Data: {"ktg_id":"7c681e93-fc9c-4ab5-9062-345caaf3a830","ktg_nama":"Masjid At-Tarbiyah","jis_id":"4b4954aa-de57-4cdd-b69c-11e1a758e5a2","lay_id":"c7f14ab9-2019-42c5-8da7-2b8c0f2f8c94","ktg_kapasitas_min":"10","ktg_kapasitas_max":"500","ktg_foto1":"1734408899_1d85443fd7c13253d7ea.jpg","ktg_foto2":"1734408899_bf89ebbb20ff964bc90e.jpg","ktg_foto3":"1734408899_3adad09938dd74d4ee3f.jpg","ktg_foto4":"1734408899_00902e10c081ce07fff6.jpg","ktg_fasilitas":"771cfabb-725c-4dd7-a189-7237c8e450f1,c53bd76c-7f60-40fd-8afb-c5aeb958d2ca,369af4c4-5710-414b-8436-f6a40ffd46a8,d9355ced-bde4-4290-980d-7ec5e79a3d1c,257a333d-16c5-4fea-829f-582cf4af3760,30fc7469-b489-46f5-a5c0-93a683b36b92,7e995915-8725-4931-88e3-3e6895390848","ktg_durasi":"8","ktg_satuandurasi":"1941e402-4071-4108-bb30-039532b55edf","ktg_biaya":"750000","ktg_deskripsi":"Masjid At-Tarbiyah UIN Malang adalah ikon spiritual dan intelektual yang menawarkan ruang shalat luas dan nyaman, aula serbaguna, ruang kelas, serta perpustakaan dengan koleksi buku keislaman dan literatur ilmiah. Dengan arsitektur megah dan lokasi strategis di dalam kampus, masjid ini menjadi tempat yang sempurna untuk berbagai kegiatan ibadah, seminar, pelatihan, hingga acara pernikahan. Fasilitas modern seperti pendingin udara, sistem tata suara canggih, dan area parkir yang luas dan aman memastikan kenyamanan semua pengguna. Masjid At-Tarbiyah tidak hanya menjadi pusat ibadah bagi mahasiswa dan staf, tetapi juga bagi masyarakat umum. Kegiatan seperti pengajian, dzikir rutin, seminar, workshop, dan bakti sosial sering diadakan di sini. Aula serbaguna dan ruang kelas dapat disewakan untuk berbagai acara, menjadikan masjid ini pilihan utama untuk kegiatan keagamaan dan komunitas.","kds_id":"916b2b07-494f-4ae5-8640-8608a405aeb8","ktg_status":"0","ktg_update":"2024-12-18 14:21:38","jis_nama":"UIN Maulana Malik Ibrahim | Kampus 1","lay_nama":"Penggunaan Gedung dan Ruangan","kds_nama":"Layak"}
+INFO - 2024-12-19 14:51:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 14:51:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 14:51:34 --> CSRF token verified.
+INFO - 2024-12-19 14:51:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 14:51:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 14:51:49 --> CSRF token verified.
+INFO - 2024-12-19 14:51:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 14:51:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 14:52:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 14:53:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 14:53:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 14:54:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 14:54:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 14:55:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 14:55:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 14:56:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 14:56:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 14:57:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 14:57:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 14:58:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 14:58:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 14:59:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 14:59:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 15:21:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2024-12-19 15:21:34 --> ErrorException: Undefined variable $module
+[Method: GET, Route: peminjaman/katalog/7c681e93-fc9c-4ab5-9062-345caaf3a830/upload-berkas]
+in APPPATH/Modules/Peminjaman/Views/Katalog/upberkas.php on line 260.
+ 1 APPPATH/Modules/Peminjaman/Views/Katalog/upberkas.php(260): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $module', '/Users/apple/www/pusk/ci4/develop/sasana2.0/app/Modules/Peminjaman/Views/Katalog/upberkas.php', 260)
+ 2 SYSTEMPATH/View/View.php(234): include('/Users/apple/www/pusk/ci4/develop/sasana2.0/app/Modules/Peminjaman/Views/Katalog/upberkas.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('Modules\\Peminjaman\\Views\\Katalog\\upberkas', [], true)
+ 5 APPPATH/Views/layout/admin/v_view.php(4): view('Modules\\Peminjaman\\Views\\Katalog\\upberkas')
+ 6 SYSTEMPATH/View/View.php(234): include('/Users/apple/www/pusk/ci4/develop/sasana2.0/app/Views/layout/admin/v_view.php')
+ 7 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('layout/admin/v_view', [], true)
+ 9 APPPATH/Views/layout/admin/v_body.php(28): view('layout/admin/v_view')
+10 SYSTEMPATH/View/View.php(234): include('/Users/apple/www/pusk/ci4/develop/sasana2.0/app/Views/layout/admin/v_body.php')
+11 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('layout/admin/v_body', [], true)
+13 APPPATH/Views/layout/admin/templates.php(3): view('layout/admin/v_body')
+14 SYSTEMPATH/View/View.php(234): include('/Users/apple/www/pusk/ci4/develop/sasana2.0/app/Views/layout/admin/templates.php')
+15 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+16 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('layout/admin/templates', [], true)
+17 APPPATH/Modules/Peminjaman/Controllers/Katalog.php(122): view('layout/admin/templates', [...])
+18 SYSTEMPATH/CodeIgniter.php(933): Modules\Peminjaman\Controllers\Katalog->upberkas('7c681e93-fc9c-4ab5-9062-345caaf3a830')
+19 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(Modules\Peminjaman\Controllers\Katalog))
+20 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+21 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+22 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+23 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+24 SYSTEMPATH/rewrite.php(44): require_once('/Users/apple/www/pusk/ci4/develop/sasana2.0/public/index.php')
+INFO - 2024-12-19 15:22:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 15:23:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 15:23:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 15:23:50 --> CSRF token verified.
+INFO - 2024-12-19 15:23:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 15:24:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 15:24:24 --> CSRF token verified.
+INFO - 2024-12-19 15:24:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2024-12-19 15:24:26 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: peminjaman/katalog/7c681e93-fc9c-4ab5-9062-345caaf3a830/upload-berkas/get-cp]
+in SYSTEMPATH/Security/Security.php on line 262.
+ 1 SYSTEMPATH/Security/Security.php(262): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(52): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/Filters/Filters.php(203): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/Filters/Filters.php(184): CodeIgniter\Filters\Filters->runBefore([...])
+ 5 SYSTEMPATH/CodeIgniter.php(481): CodeIgniter\Filters\Filters->run('peminjaman/katalog/7c681e93-fc9c-4ab5-9062-345caaf3a830/upload-berkas/get-cp', 'before')
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/Users/apple/www/pusk/ci4/develop/sasana2.0/public/index.php')
+INFO - 2024-12-19 15:25:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 15:25:59 --> CSRF token verified.
+INFO - 2024-12-19 15:25:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 15:26:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 15:26:22 --> CSRF token verified.
+INFO - 2024-12-19 15:26:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 15:26:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 15:26:36 --> CSRF token verified.
+INFO - 2024-12-19 15:26:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 15:26:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 15:26:49 --> CSRF token verified.
+INFO - 2024-12-19 15:26:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2024-12-19 15:27:35 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: peminjaman/katalog/7c681e93-fc9c-4ab5-9062-345caaf3a830/upload-berkas/get-cp]
+in SYSTEMPATH/Security/Security.php on line 262.
+ 1 SYSTEMPATH/Security/Security.php(262): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(52): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/Filters/Filters.php(203): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/Filters/Filters.php(184): CodeIgniter\Filters\Filters->runBefore([...])
+ 5 SYSTEMPATH/CodeIgniter.php(481): CodeIgniter\Filters\Filters->run('peminjaman/katalog/7c681e93-fc9c-4ab5-9062-345caaf3a830/upload-berkas/get-cp', 'before')
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/Users/apple/www/pusk/ci4/develop/sasana2.0/public/index.php')
+INFO - 2024-12-19 15:27:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 15:27:40 --> CSRF token verified.
+INFO - 2024-12-19 15:27:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 15:28:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 15:28:18 --> CSRF token verified.
+INFO - 2024-12-19 15:28:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 15:28:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 15:28:24 --> CSRF token verified.
+INFO - 2024-12-19 15:28:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+ERROR - 2024-12-19 15:28:25 --> mysqli_sql_exception: Table 'x_sasana2.0.sso_mst_mahasiwa' doesn't exist in /Users/apple/www/pusk/ci4/develop/sasana2.0/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /Users/apple/www/pusk/ci4/develop/sasana2.0/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(312): mysqli->query('SELECT a.mhs_id...', 0)
+#1 /Users/apple/www/pusk/ci4/develop/sasana2.0/vendor/codeigniter4/framework/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT a.mhs_id...')
+#2 /Users/apple/www/pusk/ci4/develop/sasana2.0/vendor/codeigniter4/framework/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT a.mhs_id...')
+#3 /Users/apple/www/pusk/ci4/develop/sasana2.0/app/Modules/Peminjaman/Models/KatalogModel.php(152): CodeIgniter\Database\BaseConnection->query('SELECT a.mhs_id...')
+#4 /Users/apple/www/pusk/ci4/develop/sasana2.0/app/Modules/Peminjaman/Controllers/Katalog.php(138): Modules\Peminjaman\Models\KatalogModel->cpbyId('mahasiswa')
+#5 /Users/apple/www/pusk/ci4/develop/sasana2.0/vendor/codeigniter4/framework/system/CodeIgniter.php(933): Modules\Peminjaman\Controllers\Katalog->cp_byId('7c681e93-fc9c-4...')
+#6 /Users/apple/www/pusk/ci4/develop/sasana2.0/vendor/codeigniter4/framework/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(Modules\Peminjaman\Controllers\Katalog))
+#7 /Users/apple/www/pusk/ci4/develop/sasana2.0/vendor/codeigniter4/framework/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/apple/www/pusk/ci4/develop/sasana2.0/vendor/codeigniter4/framework/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 /Users/apple/www/pusk/ci4/develop/sasana2.0/vendor/codeigniter4/framework/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 /Users/apple/www/pusk/ci4/develop/sasana2.0/public/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 /Users/apple/www/pusk/ci4/develop/sasana2.0/vendor/codeigniter4/framework/system/rewrite.php(44): require_once('/Users/apple/ww...')
+#12 {main}
+CRITICAL - 2024-12-19 15:28:25 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'x_sasana2.0.sso_mst_mahasiwa' doesn't exist
+[Method: POST, Route: peminjaman/katalog/7c681e93-fc9c-4ab5-9062-345caaf3a830/upload-berkas/get-cp]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 APPPATH/Modules/Peminjaman/Models/KatalogModel.php(152): CodeIgniter\Database\BaseConnection->query('SELECT a.mhs_id, a.usm_mail, a.usm_full
+            FROM sso_mst_mahasiwa AS a')
+ 2 APPPATH/Modules/Peminjaman/Controllers/Katalog.php(138): Modules\Peminjaman\Models\KatalogModel->cpbyId('mahasiswa')
+ 3 SYSTEMPATH/CodeIgniter.php(933): Modules\Peminjaman\Controllers\Katalog->cp_byId('7c681e93-fc9c-4ab5-9062-345caaf3a830')
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(Modules\Peminjaman\Controllers\Katalog))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH/rewrite.php(44): require_once('/Users/apple/www/pusk/ci4/develop/sasana2.0/public/index.php')
+CRITICAL - 2024-12-19 15:28:25 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'x_sasana2.0.sso_mst_mahasiwa' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT a.mhs_id, a.usm_mail, a.usm_full
+            FROM sso_mst_mahasiwa AS a')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT a.mhs_id, a.usm_mail, a.usm_full
+            FROM sso_mst_mahasiwa AS a')
+ 3 APPPATH/Modules/Peminjaman/Models/KatalogModel.php(152): CodeIgniter\Database\BaseConnection->query('SELECT a.mhs_id, a.usm_mail, a.usm_full
+            FROM sso_mst_mahasiwa AS a')
+ 4 APPPATH/Modules/Peminjaman/Controllers/Katalog.php(138): Modules\Peminjaman\Models\KatalogModel->cpbyId('mahasiswa')
+ 5 SYSTEMPATH/CodeIgniter.php(933): Modules\Peminjaman\Controllers\Katalog->cp_byId('7c681e93-fc9c-4ab5-9062-345caaf3a830')
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(Modules\Peminjaman\Controllers\Katalog))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH/rewrite.php(44): require_once('/Users/apple/www/pusk/ci4/develop/sasana2.0/public/index.php')
+CRITICAL - 2024-12-19 15:28:25 --> [Caused by] mysqli_sql_exception: Table 'x_sasana2.0.sso_mst_mahasiwa' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('SELECT a.mhs_id, a.usm_mail, a.usm_full
+            FROM sso_mst_mahasiwa AS a', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT a.mhs_id, a.usm_mail, a.usm_full
+            FROM sso_mst_mahasiwa AS a')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT a.mhs_id, a.usm_mail, a.usm_full
+            FROM sso_mst_mahasiwa AS a')
+ 4 APPPATH/Modules/Peminjaman/Models/KatalogModel.php(152): CodeIgniter\Database\BaseConnection->query('SELECT a.mhs_id, a.usm_mail, a.usm_full
+            FROM sso_mst_mahasiwa AS a')
+ 5 APPPATH/Modules/Peminjaman/Controllers/Katalog.php(138): Modules\Peminjaman\Models\KatalogModel->cpbyId('mahasiswa')
+ 6 SYSTEMPATH/CodeIgniter.php(933): Modules\Peminjaman\Controllers\Katalog->cp_byId('7c681e93-fc9c-4ab5-9062-345caaf3a830')
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(Modules\Peminjaman\Controllers\Katalog))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH/rewrite.php(44): require_once('/Users/apple/www/pusk/ci4/develop/sasana2.0/public/index.php')
+INFO - 2024-12-19 15:28:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 15:28:52 --> CSRF token verified.
+INFO - 2024-12-19 15:28:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2024-12-19 15:29:14 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: peminjaman/katalog/7c681e93-fc9c-4ab5-9062-345caaf3a830/upload-berkas/get-cp]
+in SYSTEMPATH/Security/Security.php on line 262.
+ 1 SYSTEMPATH/Security/Security.php(262): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(52): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/Filters/Filters.php(203): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/Filters/Filters.php(184): CodeIgniter\Filters\Filters->runBefore([...])
+ 5 SYSTEMPATH/CodeIgniter.php(481): CodeIgniter\Filters\Filters->run('peminjaman/katalog/7c681e93-fc9c-4ab5-9062-345caaf3a830/upload-berkas/get-cp', 'before')
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/Users/apple/www/pusk/ci4/develop/sasana2.0/public/index.php')
+INFO - 2024-12-19 15:29:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 15:29:20 --> CSRF token verified.
+INFO - 2024-12-19 15:29:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 15:31:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 15:31:06 --> CSRF token verified.
+INFO - 2024-12-19 15:31:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 15:35:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 15:35:08 --> CSRF token verified.
+INFO - 2024-12-19 15:35:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 15:35:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 15:35:23 --> CSRF token verified.
+INFO - 2024-12-19 15:35:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 15:35:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 15:35:25 --> CSRF token verified.
+INFO - 2024-12-19 15:35:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2024-12-19 15:35:49 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: peminjaman/katalog/7c681e93-fc9c-4ab5-9062-345caaf3a830/upload-berkas/get-cp]
+in SYSTEMPATH/Security/Security.php on line 262.
+ 1 SYSTEMPATH/Security/Security.php(262): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(52): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/Filters/Filters.php(203): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/Filters/Filters.php(184): CodeIgniter\Filters\Filters->runBefore([...])
+ 5 SYSTEMPATH/CodeIgniter.php(481): CodeIgniter\Filters\Filters->run('peminjaman/katalog/7c681e93-fc9c-4ab5-9062-345caaf3a830/upload-berkas/get-cp', 'before')
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/Users/apple/www/pusk/ci4/develop/sasana2.0/public/index.php')
+INFO - 2024-12-19 15:36:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 15:37:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 15:37:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 15:37:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 15:37:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 15:38:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 15:38:34 --> CSRF token verified.
+INFO - 2024-12-19 15:38:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 15:39:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 15:39:38 --> CSRF token verified.
+INFO - 2024-12-19 15:39:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 15:39:38 --> CSRF token verified.
+INFO - 2024-12-19 15:39:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 15:39:38 --> CSRF token verified.
+INFO - 2024-12-19 15:39:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 15:39:38 --> CSRF token verified.
+INFO - 2024-12-19 15:39:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 15:39:38 --> CSRF token verified.
+INFO - 2024-12-19 15:39:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 15:39:38 --> CSRF token verified.
+INFO - 2024-12-19 15:39:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 15:39:40 --> CSRF token verified.
+INFO - 2024-12-19 15:39:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 15:39:40 --> CSRF token verified.
+INFO - 2024-12-19 15:39:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 15:39:40 --> CSRF token verified.
+INFO - 2024-12-19 15:39:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 15:39:40 --> CSRF token verified.
+INFO - 2024-12-19 15:39:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 15:39:40 --> CSRF token verified.
+INFO - 2024-12-19 15:39:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 15:39:40 --> CSRF token verified.
+INFO - 2024-12-19 15:39:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 15:39:40 --> CSRF token verified.
+INFO - 2024-12-19 15:39:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 15:39:41 --> CSRF token verified.
+INFO - 2024-12-19 15:39:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 15:39:41 --> CSRF token verified.
+INFO - 2024-12-19 15:39:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 15:39:41 --> CSRF token verified.
+INFO - 2024-12-19 15:39:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 15:39:43 --> CSRF token verified.
+INFO - 2024-12-19 15:39:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 15:39:43 --> CSRF token verified.
+INFO - 2024-12-19 15:39:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 15:39:43 --> CSRF token verified.
+INFO - 2024-12-19 15:39:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 15:41:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 15:41:33 --> CSRF token verified.
+INFO - 2024-12-19 15:41:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 15:41:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 15:41:47 --> CSRF token verified.
+INFO - 2024-12-19 15:41:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2024-12-19 15:41:50 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: peminjaman/katalog/7c681e93-fc9c-4ab5-9062-345caaf3a830/upload-berkas/get-cp]
+in SYSTEMPATH/Security/Security.php on line 262.
+ 1 SYSTEMPATH/Security/Security.php(262): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(52): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/Filters/Filters.php(203): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/Filters/Filters.php(184): CodeIgniter\Filters\Filters->runBefore([...])
+ 5 SYSTEMPATH/CodeIgniter.php(481): CodeIgniter\Filters\Filters->run('peminjaman/katalog/7c681e93-fc9c-4ab5-9062-345caaf3a830/upload-berkas/get-cp', 'before')
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/Users/apple/www/pusk/ci4/develop/sasana2.0/public/index.php')
+INFO - 2024-12-19 15:42:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 15:42:41 --> CSRF token verified.
+INFO - 2024-12-19 15:42:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2024-12-19 15:42:47 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: peminjaman/katalog/7c681e93-fc9c-4ab5-9062-345caaf3a830/upload-berkas/get-cp]
+in SYSTEMPATH/Security/Security.php on line 262.
+ 1 SYSTEMPATH/Security/Security.php(262): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(52): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/Filters/Filters.php(203): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/Filters/Filters.php(184): CodeIgniter\Filters\Filters->runBefore([...])
+ 5 SYSTEMPATH/CodeIgniter.php(481): CodeIgniter\Filters\Filters->run('peminjaman/katalog/7c681e93-fc9c-4ab5-9062-345caaf3a830/upload-berkas/get-cp', 'before')
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/Users/apple/www/pusk/ci4/develop/sasana2.0/public/index.php')
+CRITICAL - 2024-12-19 15:42:50 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: peminjaman/katalog/7c681e93-fc9c-4ab5-9062-345caaf3a830/upload-berkas/get-cp]
+in SYSTEMPATH/Security/Security.php on line 262.
+ 1 SYSTEMPATH/Security/Security.php(262): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(52): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/Filters/Filters.php(203): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/Filters/Filters.php(184): CodeIgniter\Filters\Filters->runBefore([...])
+ 5 SYSTEMPATH/CodeIgniter.php(481): CodeIgniter\Filters\Filters->run('peminjaman/katalog/7c681e93-fc9c-4ab5-9062-345caaf3a830/upload-berkas/get-cp', 'before')
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/Users/apple/www/pusk/ci4/develop/sasana2.0/public/index.php')
+INFO - 2024-12-19 15:43:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 15:43:21 --> CSRF token verified.
+INFO - 2024-12-19 15:43:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 15:44:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 15:44:33 --> CSRF token verified.
+INFO - 2024-12-19 15:44:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2024-12-19 15:44:37 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: peminjaman/katalog/7c681e93-fc9c-4ab5-9062-345caaf3a830/upload-berkas/get-cp]
+in SYSTEMPATH/Security/Security.php on line 262.
+ 1 SYSTEMPATH/Security/Security.php(262): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(52): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/Filters/Filters.php(203): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/Filters/Filters.php(184): CodeIgniter\Filters\Filters->runBefore([...])
+ 5 SYSTEMPATH/CodeIgniter.php(481): CodeIgniter\Filters\Filters->run('peminjaman/katalog/7c681e93-fc9c-4ab5-9062-345caaf3a830/upload-berkas/get-cp', 'before')
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/Users/apple/www/pusk/ci4/develop/sasana2.0/public/index.php')
+INFO - 2024-12-19 15:47:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 15:47:03 --> CSRF token verified.
+INFO - 2024-12-19 15:47:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2024-12-19 15:47:15 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: peminjaman/katalog/7c681e93-fc9c-4ab5-9062-345caaf3a830/upload-berkas/get-cp]
+in SYSTEMPATH/Security/Security.php on line 262.
+ 1 SYSTEMPATH/Security/Security.php(262): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(52): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/Filters/Filters.php(203): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/Filters/Filters.php(184): CodeIgniter\Filters\Filters->runBefore([...])
+ 5 SYSTEMPATH/CodeIgniter.php(481): CodeIgniter\Filters\Filters->run('peminjaman/katalog/7c681e93-fc9c-4ab5-9062-345caaf3a830/upload-berkas/get-cp', 'before')
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/Users/apple/www/pusk/ci4/develop/sasana2.0/public/index.php')
+INFO - 2024-12-19 16:01:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 16:01:32 --> CSRF token verified.
+INFO - 2024-12-19 16:01:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2024-12-19 16:02:40 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: peminjaman/katalog/7c681e93-fc9c-4ab5-9062-345caaf3a830/upload-berkas/get-cp]
+in SYSTEMPATH/Security/Security.php on line 262.
+ 1 SYSTEMPATH/Security/Security.php(262): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(52): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/Filters/Filters.php(203): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/Filters/Filters.php(184): CodeIgniter\Filters\Filters->runBefore([...])
+ 5 SYSTEMPATH/CodeIgniter.php(481): CodeIgniter\Filters\Filters->run('peminjaman/katalog/7c681e93-fc9c-4ab5-9062-345caaf3a830/upload-berkas/get-cp', 'before')
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/Users/apple/www/pusk/ci4/develop/sasana2.0/public/index.php')
+INFO - 2024-12-19 16:07:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 16:07:35 --> CSRF token verified.
+INFO - 2024-12-19 16:07:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 16:13:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 16:13:49 --> CSRF token verified.
+INFO - 2024-12-19 16:13:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 16:14:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 16:14:40 --> CSRF token verified.
+INFO - 2024-12-19 16:14:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 16:15:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 16:15:23 --> CSRF token verified.
+INFO - 2024-12-19 16:15:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 16:16:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 16:16:56 --> CSRF token verified.
+INFO - 2024-12-19 16:16:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 16:17:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 16:17:47 --> CSRF token verified.
+INFO - 2024-12-19 16:17:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 16:18:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 16:18:27 --> CSRF token verified.
+INFO - 2024-12-19 16:18:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 16:20:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 16:22:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 16:23:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 16:23:48 --> CSRF token verified.
+INFO - 2024-12-19 16:23:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 16:24:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 16:24:41 --> CSRF token verified.
+INFO - 2024-12-19 16:24:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 16:24:49 --> CSRF token verified.
+INFO - 2024-12-19 16:24:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 16:25:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 16:26:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 16:26:05 --> CSRF token verified.
+INFO - 2024-12-19 16:26:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 16:26:15 --> CSRF token verified.
+INFO - 2024-12-19 16:26:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 16:26:20 --> CSRF token verified.
+INFO - 2024-12-19 16:26:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 16:26:22 --> CSRF token verified.
+INFO - 2024-12-19 16:26:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 16:27:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 16:27:02 --> CSRF token verified.
+INFO - 2024-12-19 16:27:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 16:27:08 --> CSRF token verified.
+INFO - 2024-12-19 16:27:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 16:27:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 16:27:23 --> CSRF token verified.
+INFO - 2024-12-19 16:27:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 16:27:26 --> CSRF token verified.
+INFO - 2024-12-19 16:27:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 16:27:29 --> CSRF token verified.
+INFO - 2024-12-19 16:27:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-12-19 16:28:04 --> CSRF token verified.
+INFO - 2024-12-19 16:28:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.

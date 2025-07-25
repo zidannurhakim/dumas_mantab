@@ -1,0 +1,1229 @@
+INFO - 2025-01-24 08:47:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 08:47:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 08:47:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 08:47:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 08:47:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 08:47:19 --> CSRF token verified.
+INFO - 2025-01-24 08:47:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 09:01:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 09:01:11 --> CSRF token verified.
+INFO - 2025-01-24 09:01:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 09:01:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 09:01:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 09:01:31 --> CSRF token verified.
+INFO - 2025-01-24 09:01:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 09:01:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 09:01:51 --> CSRF token verified.
+INFO - 2025-01-24 09:01:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 09:01:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 09:04:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2025-01-24 09:04:30 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "Modules\Konfigurasi\Views\tujuannaskah\tambah.php"
+[Method: GET, Route: konfigurasi/tujuan-naskah/tambah]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 41.
+ 1 SYSTEMPATH/View/View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Modules\\Konfigurasi\\Views\\tujuannaskah\\tambah.php')
+ 2 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('Modules\\Konfigurasi\\Views\\tujuannaskah\\tambah', [], true)
+ 3 APPPATH/Views/layout/admin/v_view.php(4): view('Modules\\Konfigurasi\\Views\\tujuannaskah\\tambah')
+ 4 SYSTEMPATH/View/View.php(234): include('/Users/apple/www/pusk/ci4/develop/safira2.0/app/Views/layout/admin/v_view.php')
+ 5 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('layout/admin/v_view', [], true)
+ 7 APPPATH/Views/layout/admin/v_body.php(28): view('layout/admin/v_view')
+ 8 SYSTEMPATH/View/View.php(234): include('/Users/apple/www/pusk/ci4/develop/safira2.0/app/Views/layout/admin/v_body.php')
+ 9 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+10 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('layout/admin/v_body', [], true)
+11 APPPATH/Views/layout/admin/templates.php(3): view('layout/admin/v_body')
+12 SYSTEMPATH/View/View.php(234): include('/Users/apple/www/pusk/ci4/develop/safira2.0/app/Views/layout/admin/templates.php')
+13 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+14 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('layout/admin/templates', [], true)
+15 APPPATH/Modules/Konfigurasi/Controllers/Tujuannaskah.php(43): view('layout/admin/templates', [...])
+16 SYSTEMPATH/CodeIgniter.php(933): Modules\Konfigurasi\Controllers\Tujuannaskah->tambah()
+17 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(Modules\Konfigurasi\Controllers\Tujuannaskah))
+18 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+19 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+20 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+21 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+22 SYSTEMPATH/rewrite.php(44): require_once('/Users/apple/www/pusk/ci4/develop/safira2.0/public/index.php')
+INFO - 2025-01-24 09:05:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 09:05:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 09:05:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 09:05:29 --> CSRF token verified.
+INFO - 2025-01-24 09:05:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 09:05:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 09:05:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 09:05:53 --> CSRF token verified.
+INFO - 2025-01-24 09:05:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 09:05:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 09:12:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 09:12:28 --> CSRF token verified.
+INFO - 2025-01-24 09:12:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 09:12:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 09:12:30 --> CSRF token verified.
+INFO - 2025-01-24 09:12:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 09:14:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 09:14:23 --> CSRF token verified.
+INFO - 2025-01-24 09:14:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 09:15:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 09:15:32 --> CSRF token verified.
+INFO - 2025-01-24 09:15:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 09:15:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 09:15:39 --> CSRF token verified.
+INFO - 2025-01-24 09:15:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 09:15:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 09:16:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 09:16:02 --> CSRF token verified.
+INFO - 2025-01-24 09:16:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 09:17:55 --> CSRF token verified.
+INFO - 2025-01-24 09:17:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 09:17:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 09:17:56 --> CSRF token verified.
+INFO - 2025-01-24 09:17:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 09:18:14 --> CSRF token verified.
+INFO - 2025-01-24 09:18:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 09:18:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 09:18:14 --> CSRF token verified.
+INFO - 2025-01-24 09:18:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 09:18:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 09:18:36 --> CSRF token verified.
+INFO - 2025-01-24 09:18:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 09:18:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 09:18:55 --> CSRF token verified.
+INFO - 2025-01-24 09:18:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 09:18:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 09:18:55 --> CSRF token verified.
+INFO - 2025-01-24 09:18:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 09:18:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 09:18:57 --> CSRF token verified.
+INFO - 2025-01-24 09:18:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 09:19:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 09:19:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 09:19:18 --> CSRF token verified.
+INFO - 2025-01-24 09:19:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 09:19:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 09:19:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 09:19:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 09:19:59 --> CSRF token verified.
+INFO - 2025-01-24 09:19:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+ERROR - 2025-01-24 09:19:59 --> mysqli_sql_exception: Table 'x_safira2.0.konfig_layanan' doesn't exist in /Users/apple/www/pusk/ci4/develop/safira2.0/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /Users/apple/www/pusk/ci4/develop/safira2.0/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(312): mysqli->query('SELECT `a`.*, `...', 0)
+#1 /Users/apple/www/pusk/ci4/develop/safira2.0/vendor/codeigniter4/framework/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `a`.*, `...')
+#2 /Users/apple/www/pusk/ci4/develop/safira2.0/vendor/codeigniter4/framework/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `a`.*, `...')
+#3 /Users/apple/www/pusk/ci4/develop/safira2.0/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `a`.*, `...', Array, false)
+#4 /Users/apple/www/pusk/ci4/develop/safira2.0/app/Modules/Berkas/Models/KatalogModel.php(37): CodeIgniter\Database\BaseBuilder->get()
+#5 /Users/apple/www/pusk/ci4/develop/safira2.0/app/Modules/Berkas/Controllers/Katalog.php(69): Modules\Berkas\Models\KatalogModel->data('10', '0', 'ktg_id', 'asc')
+#6 /Users/apple/www/pusk/ci4/develop/safira2.0/vendor/codeigniter4/framework/system/CodeIgniter.php(933): Modules\Berkas\Controllers\Katalog->data()
+#7 /Users/apple/www/pusk/ci4/develop/safira2.0/vendor/codeigniter4/framework/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(Modules\Berkas\Controllers\Katalog))
+#8 /Users/apple/www/pusk/ci4/develop/safira2.0/vendor/codeigniter4/framework/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Users/apple/www/pusk/ci4/develop/safira2.0/vendor/codeigniter4/framework/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 /Users/apple/www/pusk/ci4/develop/safira2.0/vendor/codeigniter4/framework/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 /Users/apple/www/pusk/ci4/develop/safira2.0/public/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 /Users/apple/www/pusk/ci4/develop/safira2.0/vendor/codeigniter4/framework/system/rewrite.php(44): require_once('/Users/apple/ww...')
+#13 {main}
+CRITICAL - 2025-01-24 09:19:59 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'x_safira2.0.konfig_layanan' doesn't exist
+[Method: POST, Route: berkas/katalog/data]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `a`.*, `b`.`jis_nama`, `c`.`lay_nama`, `d`.`kds_nama`
+FROM `berkas_katalog` `a`
+JOIN `mst_jis` `b` ON `a`.`jis_id` = `b`.`jis_id`
+JOIN `konfig_layanan` `c` ON `a`.`lay_id` = `c`.`lay_id`
+JOIN `konfig_kondisi` `d` ON `a`.`kds_id` = `d`.`kds_id`
+ORDER BY `a`.`ktg_nama` ASC, `ktg_id` ASC
+ LIMIT 10', [], false)
+ 2 APPPATH/Modules/Berkas/Models/KatalogModel.php(37): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH/Modules/Berkas/Controllers/Katalog.php(69): Modules\Berkas\Models\KatalogModel->data('10', '0', 'ktg_id', 'asc')
+ 4 SYSTEMPATH/CodeIgniter.php(933): Modules\Berkas\Controllers\Katalog->data()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(Modules\Berkas\Controllers\Katalog))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/Users/apple/www/pusk/ci4/develop/safira2.0/public/index.php')
+CRITICAL - 2025-01-24 09:19:59 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'x_safira2.0.konfig_layanan' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `a`.*, `b`.`jis_nama`, `c`.`lay_nama`, `d`.`kds_nama`
+FROM `berkas_katalog` `a`
+JOIN `mst_jis` `b` ON `a`.`jis_id` = `b`.`jis_id`
+JOIN `konfig_layanan` `c` ON `a`.`lay_id` = `c`.`lay_id`
+JOIN `konfig_kondisi` `d` ON `a`.`kds_id` = `d`.`kds_id`
+ORDER BY `a`.`ktg_nama` ASC, `ktg_id` ASC
+ LIMIT 10')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `a`.*, `b`.`jis_nama`, `c`.`lay_nama`, `d`.`kds_nama`
+FROM `berkas_katalog` `a`
+JOIN `mst_jis` `b` ON `a`.`jis_id` = `b`.`jis_id`
+JOIN `konfig_layanan` `c` ON `a`.`lay_id` = `c`.`lay_id`
+JOIN `konfig_kondisi` `d` ON `a`.`kds_id` = `d`.`kds_id`
+ORDER BY `a`.`ktg_nama` ASC, `ktg_id` ASC
+ LIMIT 10')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `a`.*, `b`.`jis_nama`, `c`.`lay_nama`, `d`.`kds_nama`
+FROM `berkas_katalog` `a`
+JOIN `mst_jis` `b` ON `a`.`jis_id` = `b`.`jis_id`
+JOIN `konfig_layanan` `c` ON `a`.`lay_id` = `c`.`lay_id`
+JOIN `konfig_kondisi` `d` ON `a`.`kds_id` = `d`.`kds_id`
+ORDER BY `a`.`ktg_nama` ASC, `ktg_id` ASC
+ LIMIT 10', [], false)
+ 4 APPPATH/Modules/Berkas/Models/KatalogModel.php(37): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH/Modules/Berkas/Controllers/Katalog.php(69): Modules\Berkas\Models\KatalogModel->data('10', '0', 'ktg_id', 'asc')
+ 6 SYSTEMPATH/CodeIgniter.php(933): Modules\Berkas\Controllers\Katalog->data()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(Modules\Berkas\Controllers\Katalog))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH/rewrite.php(44): require_once('/Users/apple/www/pusk/ci4/develop/safira2.0/public/index.php')
+CRITICAL - 2025-01-24 09:19:59 --> [Caused by] mysqli_sql_exception: Table 'x_safira2.0.konfig_layanan' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('SELECT `a`.*, `b`.`jis_nama`, `c`.`lay_nama`, `d`.`kds_nama`
+FROM `berkas_katalog` `a`
+JOIN `mst_jis` `b` ON `a`.`jis_id` = `b`.`jis_id`
+JOIN `konfig_layanan` `c` ON `a`.`lay_id` = `c`.`lay_id`
+JOIN `konfig_kondisi` `d` ON `a`.`kds_id` = `d`.`kds_id`
+ORDER BY `a`.`ktg_nama` ASC, `ktg_id` ASC
+ LIMIT 10', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `a`.*, `b`.`jis_nama`, `c`.`lay_nama`, `d`.`kds_nama`
+FROM `berkas_katalog` `a`
+JOIN `mst_jis` `b` ON `a`.`jis_id` = `b`.`jis_id`
+JOIN `konfig_layanan` `c` ON `a`.`lay_id` = `c`.`lay_id`
+JOIN `konfig_kondisi` `d` ON `a`.`kds_id` = `d`.`kds_id`
+ORDER BY `a`.`ktg_nama` ASC, `ktg_id` ASC
+ LIMIT 10')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `a`.*, `b`.`jis_nama`, `c`.`lay_nama`, `d`.`kds_nama`
+FROM `berkas_katalog` `a`
+JOIN `mst_jis` `b` ON `a`.`jis_id` = `b`.`jis_id`
+JOIN `konfig_layanan` `c` ON `a`.`lay_id` = `c`.`lay_id`
+JOIN `konfig_kondisi` `d` ON `a`.`kds_id` = `d`.`kds_id`
+ORDER BY `a`.`ktg_nama` ASC, `ktg_id` ASC
+ LIMIT 10')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `a`.*, `b`.`jis_nama`, `c`.`lay_nama`, `d`.`kds_nama`
+FROM `berkas_katalog` `a`
+JOIN `mst_jis` `b` ON `a`.`jis_id` = `b`.`jis_id`
+JOIN `konfig_layanan` `c` ON `a`.`lay_id` = `c`.`lay_id`
+JOIN `konfig_kondisi` `d` ON `a`.`kds_id` = `d`.`kds_id`
+ORDER BY `a`.`ktg_nama` ASC, `ktg_id` ASC
+ LIMIT 10', [], false)
+ 5 APPPATH/Modules/Berkas/Models/KatalogModel.php(37): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Modules/Berkas/Controllers/Katalog.php(69): Modules\Berkas\Models\KatalogModel->data('10', '0', 'ktg_id', 'asc')
+ 7 SYSTEMPATH/CodeIgniter.php(933): Modules\Berkas\Controllers\Katalog->data()
+ 8 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(Modules\Berkas\Controllers\Katalog))
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH/rewrite.php(44): require_once('/Users/apple/www/pusk/ci4/develop/safira2.0/public/index.php')
+INFO - 2025-01-24 09:20:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 09:20:02 --> CSRF token verified.
+INFO - 2025-01-24 09:20:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+ERROR - 2025-01-24 09:20:02 --> mysqli_sql_exception: Table 'x_safira2.0.konfig_layanan' doesn't exist in /Users/apple/www/pusk/ci4/develop/safira2.0/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /Users/apple/www/pusk/ci4/develop/safira2.0/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(312): mysqli->query('SELECT `a`.*, `...', 0)
+#1 /Users/apple/www/pusk/ci4/develop/safira2.0/vendor/codeigniter4/framework/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `a`.*, `...')
+#2 /Users/apple/www/pusk/ci4/develop/safira2.0/vendor/codeigniter4/framework/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `a`.*, `...')
+#3 /Users/apple/www/pusk/ci4/develop/safira2.0/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `a`.*, `...', Array, false)
+#4 /Users/apple/www/pusk/ci4/develop/safira2.0/app/Modules/Berkas/Models/KatalogModel.php(37): CodeIgniter\Database\BaseBuilder->get()
+#5 /Users/apple/www/pusk/ci4/develop/safira2.0/app/Modules/Berkas/Controllers/Katalog.php(69): Modules\Berkas\Models\KatalogModel->data('10', '0', 'ktg_id', 'asc')
+#6 /Users/apple/www/pusk/ci4/develop/safira2.0/vendor/codeigniter4/framework/system/CodeIgniter.php(933): Modules\Berkas\Controllers\Katalog->data()
+#7 /Users/apple/www/pusk/ci4/develop/safira2.0/vendor/codeigniter4/framework/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(Modules\Berkas\Controllers\Katalog))
+#8 /Users/apple/www/pusk/ci4/develop/safira2.0/vendor/codeigniter4/framework/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Users/apple/www/pusk/ci4/develop/safira2.0/vendor/codeigniter4/framework/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 /Users/apple/www/pusk/ci4/develop/safira2.0/vendor/codeigniter4/framework/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 /Users/apple/www/pusk/ci4/develop/safira2.0/public/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 /Users/apple/www/pusk/ci4/develop/safira2.0/vendor/codeigniter4/framework/system/rewrite.php(44): require_once('/Users/apple/ww...')
+#13 {main}
+CRITICAL - 2025-01-24 09:20:02 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'x_safira2.0.konfig_layanan' doesn't exist
+[Method: POST, Route: berkas/katalog/data]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `a`.*, `b`.`jis_nama`, `c`.`lay_nama`, `d`.`kds_nama`
+FROM `berkas_katalog` `a`
+JOIN `mst_jis` `b` ON `a`.`jis_id` = `b`.`jis_id`
+JOIN `konfig_layanan` `c` ON `a`.`lay_id` = `c`.`lay_id`
+JOIN `konfig_kondisi` `d` ON `a`.`kds_id` = `d`.`kds_id`
+ORDER BY `a`.`ktg_nama` ASC, `ktg_id` ASC
+ LIMIT 10', [], false)
+ 2 APPPATH/Modules/Berkas/Models/KatalogModel.php(37): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH/Modules/Berkas/Controllers/Katalog.php(69): Modules\Berkas\Models\KatalogModel->data('10', '0', 'ktg_id', 'asc')
+ 4 SYSTEMPATH/CodeIgniter.php(933): Modules\Berkas\Controllers\Katalog->data()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(Modules\Berkas\Controllers\Katalog))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/Users/apple/www/pusk/ci4/develop/safira2.0/public/index.php')
+CRITICAL - 2025-01-24 09:20:02 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'x_safira2.0.konfig_layanan' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `a`.*, `b`.`jis_nama`, `c`.`lay_nama`, `d`.`kds_nama`
+FROM `berkas_katalog` `a`
+JOIN `mst_jis` `b` ON `a`.`jis_id` = `b`.`jis_id`
+JOIN `konfig_layanan` `c` ON `a`.`lay_id` = `c`.`lay_id`
+JOIN `konfig_kondisi` `d` ON `a`.`kds_id` = `d`.`kds_id`
+ORDER BY `a`.`ktg_nama` ASC, `ktg_id` ASC
+ LIMIT 10')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `a`.*, `b`.`jis_nama`, `c`.`lay_nama`, `d`.`kds_nama`
+FROM `berkas_katalog` `a`
+JOIN `mst_jis` `b` ON `a`.`jis_id` = `b`.`jis_id`
+JOIN `konfig_layanan` `c` ON `a`.`lay_id` = `c`.`lay_id`
+JOIN `konfig_kondisi` `d` ON `a`.`kds_id` = `d`.`kds_id`
+ORDER BY `a`.`ktg_nama` ASC, `ktg_id` ASC
+ LIMIT 10')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `a`.*, `b`.`jis_nama`, `c`.`lay_nama`, `d`.`kds_nama`
+FROM `berkas_katalog` `a`
+JOIN `mst_jis` `b` ON `a`.`jis_id` = `b`.`jis_id`
+JOIN `konfig_layanan` `c` ON `a`.`lay_id` = `c`.`lay_id`
+JOIN `konfig_kondisi` `d` ON `a`.`kds_id` = `d`.`kds_id`
+ORDER BY `a`.`ktg_nama` ASC, `ktg_id` ASC
+ LIMIT 10', [], false)
+ 4 APPPATH/Modules/Berkas/Models/KatalogModel.php(37): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH/Modules/Berkas/Controllers/Katalog.php(69): Modules\Berkas\Models\KatalogModel->data('10', '0', 'ktg_id', 'asc')
+ 6 SYSTEMPATH/CodeIgniter.php(933): Modules\Berkas\Controllers\Katalog->data()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(Modules\Berkas\Controllers\Katalog))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH/rewrite.php(44): require_once('/Users/apple/www/pusk/ci4/develop/safira2.0/public/index.php')
+CRITICAL - 2025-01-24 09:20:02 --> [Caused by] mysqli_sql_exception: Table 'x_safira2.0.konfig_layanan' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('SELECT `a`.*, `b`.`jis_nama`, `c`.`lay_nama`, `d`.`kds_nama`
+FROM `berkas_katalog` `a`
+JOIN `mst_jis` `b` ON `a`.`jis_id` = `b`.`jis_id`
+JOIN `konfig_layanan` `c` ON `a`.`lay_id` = `c`.`lay_id`
+JOIN `konfig_kondisi` `d` ON `a`.`kds_id` = `d`.`kds_id`
+ORDER BY `a`.`ktg_nama` ASC, `ktg_id` ASC
+ LIMIT 10', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `a`.*, `b`.`jis_nama`, `c`.`lay_nama`, `d`.`kds_nama`
+FROM `berkas_katalog` `a`
+JOIN `mst_jis` `b` ON `a`.`jis_id` = `b`.`jis_id`
+JOIN `konfig_layanan` `c` ON `a`.`lay_id` = `c`.`lay_id`
+JOIN `konfig_kondisi` `d` ON `a`.`kds_id` = `d`.`kds_id`
+ORDER BY `a`.`ktg_nama` ASC, `ktg_id` ASC
+ LIMIT 10')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `a`.*, `b`.`jis_nama`, `c`.`lay_nama`, `d`.`kds_nama`
+FROM `berkas_katalog` `a`
+JOIN `mst_jis` `b` ON `a`.`jis_id` = `b`.`jis_id`
+JOIN `konfig_layanan` `c` ON `a`.`lay_id` = `c`.`lay_id`
+JOIN `konfig_kondisi` `d` ON `a`.`kds_id` = `d`.`kds_id`
+ORDER BY `a`.`ktg_nama` ASC, `ktg_id` ASC
+ LIMIT 10')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `a`.*, `b`.`jis_nama`, `c`.`lay_nama`, `d`.`kds_nama`
+FROM `berkas_katalog` `a`
+JOIN `mst_jis` `b` ON `a`.`jis_id` = `b`.`jis_id`
+JOIN `konfig_layanan` `c` ON `a`.`lay_id` = `c`.`lay_id`
+JOIN `konfig_kondisi` `d` ON `a`.`kds_id` = `d`.`kds_id`
+ORDER BY `a`.`ktg_nama` ASC, `ktg_id` ASC
+ LIMIT 10', [], false)
+ 5 APPPATH/Modules/Berkas/Models/KatalogModel.php(37): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Modules/Berkas/Controllers/Katalog.php(69): Modules\Berkas\Models\KatalogModel->data('10', '0', 'ktg_id', 'asc')
+ 7 SYSTEMPATH/CodeIgniter.php(933): Modules\Berkas\Controllers\Katalog->data()
+ 8 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(Modules\Berkas\Controllers\Katalog))
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH/rewrite.php(44): require_once('/Users/apple/www/pusk/ci4/develop/safira2.0/public/index.php')
+INFO - 2025-01-24 09:20:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+ERROR - 2025-01-24 09:20:04 --> mysqli_sql_exception: Table 'x_safira2.0.konfig_layanan' doesn't exist in /Users/apple/www/pusk/ci4/develop/safira2.0/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /Users/apple/www/pusk/ci4/develop/safira2.0/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(312): mysqli->query('SELECT * FROM k...', 0)
+#1 /Users/apple/www/pusk/ci4/develop/safira2.0/vendor/codeigniter4/framework/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM k...')
+#2 /Users/apple/www/pusk/ci4/develop/safira2.0/vendor/codeigniter4/framework/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM k...')
+#3 /Users/apple/www/pusk/ci4/develop/safira2.0/app/Modules/Berkas/Models/KatalogModel.php(102): CodeIgniter\Database\BaseConnection->query('SELECT * FROM k...')
+#4 /Users/apple/www/pusk/ci4/develop/safira2.0/app/Modules/Berkas/Controllers/Katalog.php(125): Modules\Berkas\Models\KatalogModel->data_layanan()
+#5 /Users/apple/www/pusk/ci4/develop/safira2.0/vendor/codeigniter4/framework/system/CodeIgniter.php(933): Modules\Berkas\Controllers\Katalog->tambah()
+#6 /Users/apple/www/pusk/ci4/develop/safira2.0/vendor/codeigniter4/framework/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(Modules\Berkas\Controllers\Katalog))
+#7 /Users/apple/www/pusk/ci4/develop/safira2.0/vendor/codeigniter4/framework/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/apple/www/pusk/ci4/develop/safira2.0/vendor/codeigniter4/framework/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 /Users/apple/www/pusk/ci4/develop/safira2.0/vendor/codeigniter4/framework/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 /Users/apple/www/pusk/ci4/develop/safira2.0/public/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 /Users/apple/www/pusk/ci4/develop/safira2.0/vendor/codeigniter4/framework/system/rewrite.php(44): require_once('/Users/apple/ww...')
+#12 {main}
+CRITICAL - 2025-01-24 09:20:04 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'x_safira2.0.konfig_layanan' doesn't exist
+[Method: GET, Route: berkas/katalog/tambah]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 APPPATH/Modules/Berkas/Models/KatalogModel.php(102): CodeIgniter\Database\BaseConnection->query('SELECT * FROM konfig_layanan AS a WHERE a.lay_delete = 0 ORDER BY a.lay_nama ASC')
+ 2 APPPATH/Modules/Berkas/Controllers/Katalog.php(125): Modules\Berkas\Models\KatalogModel->data_layanan()
+ 3 SYSTEMPATH/CodeIgniter.php(933): Modules\Berkas\Controllers\Katalog->tambah()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(Modules\Berkas\Controllers\Katalog))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH/rewrite.php(44): require_once('/Users/apple/www/pusk/ci4/develop/safira2.0/public/index.php')
+CRITICAL - 2025-01-24 09:20:04 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'x_safira2.0.konfig_layanan' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM konfig_layanan AS a WHERE a.lay_delete = 0 ORDER BY a.lay_nama ASC')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM konfig_layanan AS a WHERE a.lay_delete = 0 ORDER BY a.lay_nama ASC')
+ 3 APPPATH/Modules/Berkas/Models/KatalogModel.php(102): CodeIgniter\Database\BaseConnection->query('SELECT * FROM konfig_layanan AS a WHERE a.lay_delete = 0 ORDER BY a.lay_nama ASC')
+ 4 APPPATH/Modules/Berkas/Controllers/Katalog.php(125): Modules\Berkas\Models\KatalogModel->data_layanan()
+ 5 SYSTEMPATH/CodeIgniter.php(933): Modules\Berkas\Controllers\Katalog->tambah()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(Modules\Berkas\Controllers\Katalog))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH/rewrite.php(44): require_once('/Users/apple/www/pusk/ci4/develop/safira2.0/public/index.php')
+CRITICAL - 2025-01-24 09:20:04 --> [Caused by] mysqli_sql_exception: Table 'x_safira2.0.konfig_layanan' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('SELECT * FROM konfig_layanan AS a WHERE a.lay_delete = 0 ORDER BY a.lay_nama ASC', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM konfig_layanan AS a WHERE a.lay_delete = 0 ORDER BY a.lay_nama ASC')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM konfig_layanan AS a WHERE a.lay_delete = 0 ORDER BY a.lay_nama ASC')
+ 4 APPPATH/Modules/Berkas/Models/KatalogModel.php(102): CodeIgniter\Database\BaseConnection->query('SELECT * FROM konfig_layanan AS a WHERE a.lay_delete = 0 ORDER BY a.lay_nama ASC')
+ 5 APPPATH/Modules/Berkas/Controllers/Katalog.php(125): Modules\Berkas\Models\KatalogModel->data_layanan()
+ 6 SYSTEMPATH/CodeIgniter.php(933): Modules\Berkas\Controllers\Katalog->tambah()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(Modules\Berkas\Controllers\Katalog))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH/rewrite.php(44): require_once('/Users/apple/www/pusk/ci4/develop/safira2.0/public/index.php')
+INFO - 2025-01-24 09:20:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 09:20:05 --> CSRF token verified.
+INFO - 2025-01-24 09:20:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+ERROR - 2025-01-24 09:20:06 --> mysqli_sql_exception: Table 'x_safira2.0.konfig_layanan' doesn't exist in /Users/apple/www/pusk/ci4/develop/safira2.0/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /Users/apple/www/pusk/ci4/develop/safira2.0/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(312): mysqli->query('SELECT `a`.*, `...', 0)
+#1 /Users/apple/www/pusk/ci4/develop/safira2.0/vendor/codeigniter4/framework/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `a`.*, `...')
+#2 /Users/apple/www/pusk/ci4/develop/safira2.0/vendor/codeigniter4/framework/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `a`.*, `...')
+#3 /Users/apple/www/pusk/ci4/develop/safira2.0/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `a`.*, `...', Array, false)
+#4 /Users/apple/www/pusk/ci4/develop/safira2.0/app/Modules/Berkas/Models/KatalogModel.php(37): CodeIgniter\Database\BaseBuilder->get()
+#5 /Users/apple/www/pusk/ci4/develop/safira2.0/app/Modules/Berkas/Controllers/Katalog.php(69): Modules\Berkas\Models\KatalogModel->data('10', '0', 'ktg_id', 'asc')
+#6 /Users/apple/www/pusk/ci4/develop/safira2.0/vendor/codeigniter4/framework/system/CodeIgniter.php(933): Modules\Berkas\Controllers\Katalog->data()
+#7 /Users/apple/www/pusk/ci4/develop/safira2.0/vendor/codeigniter4/framework/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(Modules\Berkas\Controllers\Katalog))
+#8 /Users/apple/www/pusk/ci4/develop/safira2.0/vendor/codeigniter4/framework/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Users/apple/www/pusk/ci4/develop/safira2.0/vendor/codeigniter4/framework/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 /Users/apple/www/pusk/ci4/develop/safira2.0/vendor/codeigniter4/framework/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 /Users/apple/www/pusk/ci4/develop/safira2.0/public/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 /Users/apple/www/pusk/ci4/develop/safira2.0/vendor/codeigniter4/framework/system/rewrite.php(44): require_once('/Users/apple/ww...')
+#13 {main}
+CRITICAL - 2025-01-24 09:20:06 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'x_safira2.0.konfig_layanan' doesn't exist
+[Method: POST, Route: berkas/katalog/data]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `a`.*, `b`.`jis_nama`, `c`.`lay_nama`, `d`.`kds_nama`
+FROM `berkas_katalog` `a`
+JOIN `mst_jis` `b` ON `a`.`jis_id` = `b`.`jis_id`
+JOIN `konfig_layanan` `c` ON `a`.`lay_id` = `c`.`lay_id`
+JOIN `konfig_kondisi` `d` ON `a`.`kds_id` = `d`.`kds_id`
+ORDER BY `a`.`ktg_nama` ASC, `ktg_id` ASC
+ LIMIT 10', [], false)
+ 2 APPPATH/Modules/Berkas/Models/KatalogModel.php(37): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH/Modules/Berkas/Controllers/Katalog.php(69): Modules\Berkas\Models\KatalogModel->data('10', '0', 'ktg_id', 'asc')
+ 4 SYSTEMPATH/CodeIgniter.php(933): Modules\Berkas\Controllers\Katalog->data()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(Modules\Berkas\Controllers\Katalog))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/Users/apple/www/pusk/ci4/develop/safira2.0/public/index.php')
+CRITICAL - 2025-01-24 09:20:06 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'x_safira2.0.konfig_layanan' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `a`.*, `b`.`jis_nama`, `c`.`lay_nama`, `d`.`kds_nama`
+FROM `berkas_katalog` `a`
+JOIN `mst_jis` `b` ON `a`.`jis_id` = `b`.`jis_id`
+JOIN `konfig_layanan` `c` ON `a`.`lay_id` = `c`.`lay_id`
+JOIN `konfig_kondisi` `d` ON `a`.`kds_id` = `d`.`kds_id`
+ORDER BY `a`.`ktg_nama` ASC, `ktg_id` ASC
+ LIMIT 10')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `a`.*, `b`.`jis_nama`, `c`.`lay_nama`, `d`.`kds_nama`
+FROM `berkas_katalog` `a`
+JOIN `mst_jis` `b` ON `a`.`jis_id` = `b`.`jis_id`
+JOIN `konfig_layanan` `c` ON `a`.`lay_id` = `c`.`lay_id`
+JOIN `konfig_kondisi` `d` ON `a`.`kds_id` = `d`.`kds_id`
+ORDER BY `a`.`ktg_nama` ASC, `ktg_id` ASC
+ LIMIT 10')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `a`.*, `b`.`jis_nama`, `c`.`lay_nama`, `d`.`kds_nama`
+FROM `berkas_katalog` `a`
+JOIN `mst_jis` `b` ON `a`.`jis_id` = `b`.`jis_id`
+JOIN `konfig_layanan` `c` ON `a`.`lay_id` = `c`.`lay_id`
+JOIN `konfig_kondisi` `d` ON `a`.`kds_id` = `d`.`kds_id`
+ORDER BY `a`.`ktg_nama` ASC, `ktg_id` ASC
+ LIMIT 10', [], false)
+ 4 APPPATH/Modules/Berkas/Models/KatalogModel.php(37): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH/Modules/Berkas/Controllers/Katalog.php(69): Modules\Berkas\Models\KatalogModel->data('10', '0', 'ktg_id', 'asc')
+ 6 SYSTEMPATH/CodeIgniter.php(933): Modules\Berkas\Controllers\Katalog->data()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(Modules\Berkas\Controllers\Katalog))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH/rewrite.php(44): require_once('/Users/apple/www/pusk/ci4/develop/safira2.0/public/index.php')
+CRITICAL - 2025-01-24 09:20:06 --> [Caused by] mysqli_sql_exception: Table 'x_safira2.0.konfig_layanan' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('SELECT `a`.*, `b`.`jis_nama`, `c`.`lay_nama`, `d`.`kds_nama`
+FROM `berkas_katalog` `a`
+JOIN `mst_jis` `b` ON `a`.`jis_id` = `b`.`jis_id`
+JOIN `konfig_layanan` `c` ON `a`.`lay_id` = `c`.`lay_id`
+JOIN `konfig_kondisi` `d` ON `a`.`kds_id` = `d`.`kds_id`
+ORDER BY `a`.`ktg_nama` ASC, `ktg_id` ASC
+ LIMIT 10', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `a`.*, `b`.`jis_nama`, `c`.`lay_nama`, `d`.`kds_nama`
+FROM `berkas_katalog` `a`
+JOIN `mst_jis` `b` ON `a`.`jis_id` = `b`.`jis_id`
+JOIN `konfig_layanan` `c` ON `a`.`lay_id` = `c`.`lay_id`
+JOIN `konfig_kondisi` `d` ON `a`.`kds_id` = `d`.`kds_id`
+ORDER BY `a`.`ktg_nama` ASC, `ktg_id` ASC
+ LIMIT 10')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `a`.*, `b`.`jis_nama`, `c`.`lay_nama`, `d`.`kds_nama`
+FROM `berkas_katalog` `a`
+JOIN `mst_jis` `b` ON `a`.`jis_id` = `b`.`jis_id`
+JOIN `konfig_layanan` `c` ON `a`.`lay_id` = `c`.`lay_id`
+JOIN `konfig_kondisi` `d` ON `a`.`kds_id` = `d`.`kds_id`
+ORDER BY `a`.`ktg_nama` ASC, `ktg_id` ASC
+ LIMIT 10')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `a`.*, `b`.`jis_nama`, `c`.`lay_nama`, `d`.`kds_nama`
+FROM `berkas_katalog` `a`
+JOIN `mst_jis` `b` ON `a`.`jis_id` = `b`.`jis_id`
+JOIN `konfig_layanan` `c` ON `a`.`lay_id` = `c`.`lay_id`
+JOIN `konfig_kondisi` `d` ON `a`.`kds_id` = `d`.`kds_id`
+ORDER BY `a`.`ktg_nama` ASC, `ktg_id` ASC
+ LIMIT 10', [], false)
+ 5 APPPATH/Modules/Berkas/Models/KatalogModel.php(37): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Modules/Berkas/Controllers/Katalog.php(69): Modules\Berkas\Models\KatalogModel->data('10', '0', 'ktg_id', 'asc')
+ 7 SYSTEMPATH/CodeIgniter.php(933): Modules\Berkas\Controllers\Katalog->data()
+ 8 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(Modules\Berkas\Controllers\Katalog))
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH/rewrite.php(44): require_once('/Users/apple/www/pusk/ci4/develop/safira2.0/public/index.php')
+INFO - 2025-01-24 09:20:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 09:20:18 --> CSRF token verified.
+INFO - 2025-01-24 09:20:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+ERROR - 2025-01-24 09:20:18 --> mysqli_sql_exception: Table 'x_safira2.0.konfig_layanan' doesn't exist in /Users/apple/www/pusk/ci4/develop/safira2.0/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /Users/apple/www/pusk/ci4/develop/safira2.0/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(312): mysqli->query('SELECT `a`.*, `...', 0)
+#1 /Users/apple/www/pusk/ci4/develop/safira2.0/vendor/codeigniter4/framework/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `a`.*, `...')
+#2 /Users/apple/www/pusk/ci4/develop/safira2.0/vendor/codeigniter4/framework/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `a`.*, `...')
+#3 /Users/apple/www/pusk/ci4/develop/safira2.0/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `a`.*, `...', Array, false)
+#4 /Users/apple/www/pusk/ci4/develop/safira2.0/app/Modules/Berkas/Models/KatalogModel.php(37): CodeIgniter\Database\BaseBuilder->get()
+#5 /Users/apple/www/pusk/ci4/develop/safira2.0/app/Modules/Berkas/Controllers/Katalog.php(69): Modules\Berkas\Models\KatalogModel->data('10', '0', 'ktg_id', 'asc')
+#6 /Users/apple/www/pusk/ci4/develop/safira2.0/vendor/codeigniter4/framework/system/CodeIgniter.php(933): Modules\Berkas\Controllers\Katalog->data()
+#7 /Users/apple/www/pusk/ci4/develop/safira2.0/vendor/codeigniter4/framework/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(Modules\Berkas\Controllers\Katalog))
+#8 /Users/apple/www/pusk/ci4/develop/safira2.0/vendor/codeigniter4/framework/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Users/apple/www/pusk/ci4/develop/safira2.0/vendor/codeigniter4/framework/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 /Users/apple/www/pusk/ci4/develop/safira2.0/vendor/codeigniter4/framework/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 /Users/apple/www/pusk/ci4/develop/safira2.0/public/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 /Users/apple/www/pusk/ci4/develop/safira2.0/vendor/codeigniter4/framework/system/rewrite.php(44): require_once('/Users/apple/ww...')
+#13 {main}
+CRITICAL - 2025-01-24 09:20:18 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'x_safira2.0.konfig_layanan' doesn't exist
+[Method: POST, Route: berkas/katalog/data]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `a`.*, `b`.`jis_nama`, `c`.`lay_nama`, `d`.`kds_nama`
+FROM `berkas_katalog` `a`
+JOIN `mst_jis` `b` ON `a`.`jis_id` = `b`.`jis_id`
+JOIN `konfig_layanan` `c` ON `a`.`lay_id` = `c`.`lay_id`
+JOIN `konfig_kondisi` `d` ON `a`.`kds_id` = `d`.`kds_id`
+ORDER BY `a`.`ktg_nama` ASC, `ktg_id` ASC
+ LIMIT 10', [], false)
+ 2 APPPATH/Modules/Berkas/Models/KatalogModel.php(37): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH/Modules/Berkas/Controllers/Katalog.php(69): Modules\Berkas\Models\KatalogModel->data('10', '0', 'ktg_id', 'asc')
+ 4 SYSTEMPATH/CodeIgniter.php(933): Modules\Berkas\Controllers\Katalog->data()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(Modules\Berkas\Controllers\Katalog))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/Users/apple/www/pusk/ci4/develop/safira2.0/public/index.php')
+CRITICAL - 2025-01-24 09:20:18 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'x_safira2.0.konfig_layanan' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `a`.*, `b`.`jis_nama`, `c`.`lay_nama`, `d`.`kds_nama`
+FROM `berkas_katalog` `a`
+JOIN `mst_jis` `b` ON `a`.`jis_id` = `b`.`jis_id`
+JOIN `konfig_layanan` `c` ON `a`.`lay_id` = `c`.`lay_id`
+JOIN `konfig_kondisi` `d` ON `a`.`kds_id` = `d`.`kds_id`
+ORDER BY `a`.`ktg_nama` ASC, `ktg_id` ASC
+ LIMIT 10')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `a`.*, `b`.`jis_nama`, `c`.`lay_nama`, `d`.`kds_nama`
+FROM `berkas_katalog` `a`
+JOIN `mst_jis` `b` ON `a`.`jis_id` = `b`.`jis_id`
+JOIN `konfig_layanan` `c` ON `a`.`lay_id` = `c`.`lay_id`
+JOIN `konfig_kondisi` `d` ON `a`.`kds_id` = `d`.`kds_id`
+ORDER BY `a`.`ktg_nama` ASC, `ktg_id` ASC
+ LIMIT 10')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `a`.*, `b`.`jis_nama`, `c`.`lay_nama`, `d`.`kds_nama`
+FROM `berkas_katalog` `a`
+JOIN `mst_jis` `b` ON `a`.`jis_id` = `b`.`jis_id`
+JOIN `konfig_layanan` `c` ON `a`.`lay_id` = `c`.`lay_id`
+JOIN `konfig_kondisi` `d` ON `a`.`kds_id` = `d`.`kds_id`
+ORDER BY `a`.`ktg_nama` ASC, `ktg_id` ASC
+ LIMIT 10', [], false)
+ 4 APPPATH/Modules/Berkas/Models/KatalogModel.php(37): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH/Modules/Berkas/Controllers/Katalog.php(69): Modules\Berkas\Models\KatalogModel->data('10', '0', 'ktg_id', 'asc')
+ 6 SYSTEMPATH/CodeIgniter.php(933): Modules\Berkas\Controllers\Katalog->data()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(Modules\Berkas\Controllers\Katalog))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH/rewrite.php(44): require_once('/Users/apple/www/pusk/ci4/develop/safira2.0/public/index.php')
+CRITICAL - 2025-01-24 09:20:18 --> [Caused by] mysqli_sql_exception: Table 'x_safira2.0.konfig_layanan' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('SELECT `a`.*, `b`.`jis_nama`, `c`.`lay_nama`, `d`.`kds_nama`
+FROM `berkas_katalog` `a`
+JOIN `mst_jis` `b` ON `a`.`jis_id` = `b`.`jis_id`
+JOIN `konfig_layanan` `c` ON `a`.`lay_id` = `c`.`lay_id`
+JOIN `konfig_kondisi` `d` ON `a`.`kds_id` = `d`.`kds_id`
+ORDER BY `a`.`ktg_nama` ASC, `ktg_id` ASC
+ LIMIT 10', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `a`.*, `b`.`jis_nama`, `c`.`lay_nama`, `d`.`kds_nama`
+FROM `berkas_katalog` `a`
+JOIN `mst_jis` `b` ON `a`.`jis_id` = `b`.`jis_id`
+JOIN `konfig_layanan` `c` ON `a`.`lay_id` = `c`.`lay_id`
+JOIN `konfig_kondisi` `d` ON `a`.`kds_id` = `d`.`kds_id`
+ORDER BY `a`.`ktg_nama` ASC, `ktg_id` ASC
+ LIMIT 10')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `a`.*, `b`.`jis_nama`, `c`.`lay_nama`, `d`.`kds_nama`
+FROM `berkas_katalog` `a`
+JOIN `mst_jis` `b` ON `a`.`jis_id` = `b`.`jis_id`
+JOIN `konfig_layanan` `c` ON `a`.`lay_id` = `c`.`lay_id`
+JOIN `konfig_kondisi` `d` ON `a`.`kds_id` = `d`.`kds_id`
+ORDER BY `a`.`ktg_nama` ASC, `ktg_id` ASC
+ LIMIT 10')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `a`.*, `b`.`jis_nama`, `c`.`lay_nama`, `d`.`kds_nama`
+FROM `berkas_katalog` `a`
+JOIN `mst_jis` `b` ON `a`.`jis_id` = `b`.`jis_id`
+JOIN `konfig_layanan` `c` ON `a`.`lay_id` = `c`.`lay_id`
+JOIN `konfig_kondisi` `d` ON `a`.`kds_id` = `d`.`kds_id`
+ORDER BY `a`.`ktg_nama` ASC, `ktg_id` ASC
+ LIMIT 10', [], false)
+ 5 APPPATH/Modules/Berkas/Models/KatalogModel.php(37): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Modules/Berkas/Controllers/Katalog.php(69): Modules\Berkas\Models\KatalogModel->data('10', '0', 'ktg_id', 'asc')
+ 7 SYSTEMPATH/CodeIgniter.php(933): Modules\Berkas\Controllers\Katalog->data()
+ 8 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(Modules\Berkas\Controllers\Katalog))
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH/rewrite.php(44): require_once('/Users/apple/www/pusk/ci4/develop/safira2.0/public/index.php')
+INFO - 2025-01-24 09:20:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 09:20:37 --> CSRF token verified.
+INFO - 2025-01-24 09:20:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+DEBUG - 2025-01-24 09:20:37 --> Row Data: {"ktg_id":"7c681e93-fc9c-4ab5-9062-345caaf3a830","ktg_nama":"Masjid At-Tarbiyah","jis_id":"4b4954aa-de57-4cdd-b69c-11e1a758e5a2","lay_id":"c7f14ab9-2019-42c5-8da7-2b8c0f2f8c94","ktg_kapasitas_min":"10","ktg_kapasitas_max":"500","ktg_foto1":"1734408899_1d85443fd7c13253d7ea.jpg","ktg_foto2":"1734408899_bf89ebbb20ff964bc90e.jpg","ktg_foto3":"1734408899_3adad09938dd74d4ee3f.jpg","ktg_foto4":"1734408899_00902e10c081ce07fff6.jpg","ktg_fasilitas":"771cfabb-725c-4dd7-a189-7237c8e450f1,c53bd76c-7f60-40fd-8afb-c5aeb958d2ca,369af4c4-5710-414b-8436-f6a40ffd46a8,d9355ced-bde4-4290-980d-7ec5e79a3d1c,257a333d-16c5-4fea-829f-582cf4af3760,30fc7469-b489-46f5-a5c0-93a683b36b92,7e995915-8725-4931-88e3-3e6895390848","ktg_durasi":"8","ktg_satuandurasi":"1941e402-4071-4108-bb30-039532b55edf","ktg_biaya":"750000","ktg_deskripsi":"Masjid At-Tarbiyah UIN Malang adalah ikon spiritual dan intelektual yang menawarkan ruang shalat luas dan nyaman, aula serbaguna, ruang kelas, serta perpustakaan dengan koleksi buku keislaman dan literatur ilmiah. Dengan arsitektur megah dan lokasi strategis di dalam kampus, masjid ini menjadi tempat yang sempurna untuk berbagai kegiatan ibadah, seminar, pelatihan, hingga acara pernikahan. Fasilitas modern seperti pendingin udara, sistem tata suara canggih, dan area parkir yang luas dan aman memastikan kenyamanan semua pengguna. Masjid At-Tarbiyah tidak hanya menjadi pusat ibadah bagi mahasiswa dan staf, tetapi juga bagi masyarakat umum. Kegiatan seperti pengajian, dzikir rutin, seminar, workshop, dan bakti sosial sering diadakan di sini. Aula serbaguna dan ruang kelas dapat disewakan untuk berbagai acara, menjadikan masjid ini pilihan utama untuk kegiatan keagamaan dan komunitas.","kds_id":"916b2b07-494f-4ae5-8640-8608a405aeb8","ktg_status":"0","ktg_update":"2024-12-18 14:21:38","jis_nama":"UIN Maulana Malik Ibrahim | Kampus 1","lay_nama":"Penggunaan Gedung dan Ruangan","kds_nama":"Layak"}
+INFO - 2025-01-24 09:20:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 09:23:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 09:23:21 --> CSRF token verified.
+INFO - 2025-01-24 09:23:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 09:23:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 09:23:23 --> CSRF token verified.
+INFO - 2025-01-24 09:23:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 09:23:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 09:23:39 --> CSRF token verified.
+INFO - 2025-01-24 09:23:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 09:24:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 09:24:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 09:24:27 --> CSRF token verified.
+INFO - 2025-01-24 09:24:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 09:24:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 09:24:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 09:24:35 --> CSRF token verified.
+INFO - 2025-01-24 09:24:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 09:24:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 09:24:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 09:24:40 --> CSRF token verified.
+INFO - 2025-01-24 09:24:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 09:24:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 09:24:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 09:24:44 --> CSRF token verified.
+INFO - 2025-01-24 09:24:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 09:24:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 09:25:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 09:25:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 09:27:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 09:27:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 09:28:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 09:28:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 09:28:24 --> CSRF token verified.
+INFO - 2025-01-24 09:28:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 09:28:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 09:28:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 09:36:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 09:40:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 09:41:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 09:41:16 --> CSRF token verified.
+INFO - 2025-01-24 09:41:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 09:41:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 09:41:17 --> CSRF token verified.
+INFO - 2025-01-24 09:41:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 09:41:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 09:41:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 09:41:31 --> CSRF token verified.
+INFO - 2025-01-24 09:41:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 09:41:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 09:41:32 --> CSRF token verified.
+INFO - 2025-01-24 09:41:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 09:46:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 09:46:30 --> CSRF token verified.
+INFO - 2025-01-24 09:46:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 09:47:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 09:47:36 --> CSRF token verified.
+INFO - 2025-01-24 09:47:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+ERROR - 2025-01-24 09:47:36 --> mysqli_sql_exception: Unknown column 'b.s_id' in 'on clause' in /Users/apple/www/pusk/ci4/develop/safira2.0/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /Users/apple/www/pusk/ci4/develop/safira2.0/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(312): mysqli->query('SELECT COUNT(*)...', 0)
+#1 /Users/apple/www/pusk/ci4/develop/safira2.0/vendor/codeigniter4/framework/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 /Users/apple/www/pusk/ci4/develop/safira2.0/vendor/codeigniter4/framework/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 /Users/apple/www/pusk/ci4/develop/safira2.0/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1728): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 /Users/apple/www/pusk/ci4/develop/safira2.0/app/Modules/Konfigurasi/Models/TujuannaskahModel.php(66): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 /Users/apple/www/pusk/ci4/develop/safira2.0/app/Modules/Konfigurasi/Controllers/Tujuannaskah.php(51): Modules\Konfigurasi\Models\TujuannaskahModel->countAll()
+#6 /Users/apple/www/pusk/ci4/develop/safira2.0/vendor/codeigniter4/framework/system/CodeIgniter.php(933): Modules\Konfigurasi\Controllers\Tujuannaskah->data()
+#7 /Users/apple/www/pusk/ci4/develop/safira2.0/vendor/codeigniter4/framework/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(Modules\Konfigurasi\Controllers\Tujuannaskah))
+#8 /Users/apple/www/pusk/ci4/develop/safira2.0/vendor/codeigniter4/framework/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Users/apple/www/pusk/ci4/develop/safira2.0/vendor/codeigniter4/framework/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 /Users/apple/www/pusk/ci4/develop/safira2.0/vendor/codeigniter4/framework/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 /Users/apple/www/pusk/ci4/develop/safira2.0/public/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 /Users/apple/www/pusk/ci4/develop/safira2.0/vendor/codeigniter4/framework/system/rewrite.php(44): require_once('/Users/apple/ww...')
+#13 {main}
+CRITICAL - 2025-01-24 09:47:36 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'b.s_id' in 'on clause'
+[Method: POST, Route: konfigurasi/tujuan-naskah/data]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1728): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `konfig_tujuannaskah` `a`
+JOIN `x_user` `b` ON `a`.`usr_id` = `b`.`usr_id`
+JOIN `mst_subsatker` `c` ON `b`.`s_id` = `c`.`s_id`', [], false)
+ 2 APPPATH/Modules/Konfigurasi/Models/TujuannaskahModel.php(66): CodeIgniter\Database\BaseBuilder->countAllResults()
+ 3 APPPATH/Modules/Konfigurasi/Controllers/Tujuannaskah.php(51): Modules\Konfigurasi\Models\TujuannaskahModel->countAll()
+ 4 SYSTEMPATH/CodeIgniter.php(933): Modules\Konfigurasi\Controllers\Tujuannaskah->data()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(Modules\Konfigurasi\Controllers\Tujuannaskah))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/Users/apple/www/pusk/ci4/develop/safira2.0/public/index.php')
+CRITICAL - 2025-01-24 09:47:36 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'b.s_id' in 'on clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `konfig_tujuannaskah` `a`
+JOIN `x_user` `b` ON `a`.`usr_id` = `b`.`usr_id`
+JOIN `mst_subsatker` `c` ON `b`.`s_id` = `c`.`s_id`')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `konfig_tujuannaskah` `a`
+JOIN `x_user` `b` ON `a`.`usr_id` = `b`.`usr_id`
+JOIN `mst_subsatker` `c` ON `b`.`s_id` = `c`.`s_id`')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(1728): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `konfig_tujuannaskah` `a`
+JOIN `x_user` `b` ON `a`.`usr_id` = `b`.`usr_id`
+JOIN `mst_subsatker` `c` ON `b`.`s_id` = `c`.`s_id`', [], false)
+ 4 APPPATH/Modules/Konfigurasi/Models/TujuannaskahModel.php(66): CodeIgniter\Database\BaseBuilder->countAllResults()
+ 5 APPPATH/Modules/Konfigurasi/Controllers/Tujuannaskah.php(51): Modules\Konfigurasi\Models\TujuannaskahModel->countAll()
+ 6 SYSTEMPATH/CodeIgniter.php(933): Modules\Konfigurasi\Controllers\Tujuannaskah->data()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(Modules\Konfigurasi\Controllers\Tujuannaskah))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH/rewrite.php(44): require_once('/Users/apple/www/pusk/ci4/develop/safira2.0/public/index.php')
+CRITICAL - 2025-01-24 09:47:36 --> [Caused by] mysqli_sql_exception: Unknown column 'b.s_id' in 'on clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('SELECT COUNT(*) AS `numrows`
+FROM `konfig_tujuannaskah` `a`
+JOIN `x_user` `b` ON `a`.`usr_id` = `b`.`usr_id`
+JOIN `mst_subsatker` `c` ON `b`.`s_id` = `c`.`s_id`', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `konfig_tujuannaskah` `a`
+JOIN `x_user` `b` ON `a`.`usr_id` = `b`.`usr_id`
+JOIN `mst_subsatker` `c` ON `b`.`s_id` = `c`.`s_id`')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `konfig_tujuannaskah` `a`
+JOIN `x_user` `b` ON `a`.`usr_id` = `b`.`usr_id`
+JOIN `mst_subsatker` `c` ON `b`.`s_id` = `c`.`s_id`')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1728): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `konfig_tujuannaskah` `a`
+JOIN `x_user` `b` ON `a`.`usr_id` = `b`.`usr_id`
+JOIN `mst_subsatker` `c` ON `b`.`s_id` = `c`.`s_id`', [], false)
+ 5 APPPATH/Modules/Konfigurasi/Models/TujuannaskahModel.php(66): CodeIgniter\Database\BaseBuilder->countAllResults()
+ 6 APPPATH/Modules/Konfigurasi/Controllers/Tujuannaskah.php(51): Modules\Konfigurasi\Models\TujuannaskahModel->countAll()
+ 7 SYSTEMPATH/CodeIgniter.php(933): Modules\Konfigurasi\Controllers\Tujuannaskah->data()
+ 8 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(Modules\Konfigurasi\Controllers\Tujuannaskah))
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH/rewrite.php(44): require_once('/Users/apple/www/pusk/ci4/develop/safira2.0/public/index.php')
+INFO - 2025-01-24 09:47:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 09:47:46 --> CSRF token verified.
+INFO - 2025-01-24 09:47:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+ERROR - 2025-01-24 09:47:46 --> mysqli_sql_exception: Unknown column 'b.s_id' in 'on clause' in /Users/apple/www/pusk/ci4/develop/safira2.0/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /Users/apple/www/pusk/ci4/develop/safira2.0/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(312): mysqli->query('SELECT COUNT(*)...', 0)
+#1 /Users/apple/www/pusk/ci4/develop/safira2.0/vendor/codeigniter4/framework/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 /Users/apple/www/pusk/ci4/develop/safira2.0/vendor/codeigniter4/framework/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 /Users/apple/www/pusk/ci4/develop/safira2.0/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1728): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 /Users/apple/www/pusk/ci4/develop/safira2.0/app/Modules/Konfigurasi/Models/TujuannaskahModel.php(66): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 /Users/apple/www/pusk/ci4/develop/safira2.0/app/Modules/Konfigurasi/Controllers/Tujuannaskah.php(51): Modules\Konfigurasi\Models\TujuannaskahModel->countAll()
+#6 /Users/apple/www/pusk/ci4/develop/safira2.0/vendor/codeigniter4/framework/system/CodeIgniter.php(933): Modules\Konfigurasi\Controllers\Tujuannaskah->data()
+#7 /Users/apple/www/pusk/ci4/develop/safira2.0/vendor/codeigniter4/framework/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(Modules\Konfigurasi\Controllers\Tujuannaskah))
+#8 /Users/apple/www/pusk/ci4/develop/safira2.0/vendor/codeigniter4/framework/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Users/apple/www/pusk/ci4/develop/safira2.0/vendor/codeigniter4/framework/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 /Users/apple/www/pusk/ci4/develop/safira2.0/vendor/codeigniter4/framework/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 /Users/apple/www/pusk/ci4/develop/safira2.0/public/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 /Users/apple/www/pusk/ci4/develop/safira2.0/vendor/codeigniter4/framework/system/rewrite.php(44): require_once('/Users/apple/ww...')
+#13 {main}
+CRITICAL - 2025-01-24 09:47:46 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'b.s_id' in 'on clause'
+[Method: POST, Route: konfigurasi/tujuan-naskah/data]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1728): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `konfig_tujuannaskah` `a`
+JOIN `x_user` `b` ON `a`.`usr_id` = `b`.`usr_id`
+JOIN `mst_subsatker` `c` ON `b`.`s_id` = `c`.`s_id`', [], false)
+ 2 APPPATH/Modules/Konfigurasi/Models/TujuannaskahModel.php(66): CodeIgniter\Database\BaseBuilder->countAllResults()
+ 3 APPPATH/Modules/Konfigurasi/Controllers/Tujuannaskah.php(51): Modules\Konfigurasi\Models\TujuannaskahModel->countAll()
+ 4 SYSTEMPATH/CodeIgniter.php(933): Modules\Konfigurasi\Controllers\Tujuannaskah->data()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(Modules\Konfigurasi\Controllers\Tujuannaskah))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/Users/apple/www/pusk/ci4/develop/safira2.0/public/index.php')
+CRITICAL - 2025-01-24 09:47:46 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'b.s_id' in 'on clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `konfig_tujuannaskah` `a`
+JOIN `x_user` `b` ON `a`.`usr_id` = `b`.`usr_id`
+JOIN `mst_subsatker` `c` ON `b`.`s_id` = `c`.`s_id`')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `konfig_tujuannaskah` `a`
+JOIN `x_user` `b` ON `a`.`usr_id` = `b`.`usr_id`
+JOIN `mst_subsatker` `c` ON `b`.`s_id` = `c`.`s_id`')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(1728): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `konfig_tujuannaskah` `a`
+JOIN `x_user` `b` ON `a`.`usr_id` = `b`.`usr_id`
+JOIN `mst_subsatker` `c` ON `b`.`s_id` = `c`.`s_id`', [], false)
+ 4 APPPATH/Modules/Konfigurasi/Models/TujuannaskahModel.php(66): CodeIgniter\Database\BaseBuilder->countAllResults()
+ 5 APPPATH/Modules/Konfigurasi/Controllers/Tujuannaskah.php(51): Modules\Konfigurasi\Models\TujuannaskahModel->countAll()
+ 6 SYSTEMPATH/CodeIgniter.php(933): Modules\Konfigurasi\Controllers\Tujuannaskah->data()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(Modules\Konfigurasi\Controllers\Tujuannaskah))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH/rewrite.php(44): require_once('/Users/apple/www/pusk/ci4/develop/safira2.0/public/index.php')
+CRITICAL - 2025-01-24 09:47:46 --> [Caused by] mysqli_sql_exception: Unknown column 'b.s_id' in 'on clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('SELECT COUNT(*) AS `numrows`
+FROM `konfig_tujuannaskah` `a`
+JOIN `x_user` `b` ON `a`.`usr_id` = `b`.`usr_id`
+JOIN `mst_subsatker` `c` ON `b`.`s_id` = `c`.`s_id`', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `konfig_tujuannaskah` `a`
+JOIN `x_user` `b` ON `a`.`usr_id` = `b`.`usr_id`
+JOIN `mst_subsatker` `c` ON `b`.`s_id` = `c`.`s_id`')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `konfig_tujuannaskah` `a`
+JOIN `x_user` `b` ON `a`.`usr_id` = `b`.`usr_id`
+JOIN `mst_subsatker` `c` ON `b`.`s_id` = `c`.`s_id`')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1728): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `konfig_tujuannaskah` `a`
+JOIN `x_user` `b` ON `a`.`usr_id` = `b`.`usr_id`
+JOIN `mst_subsatker` `c` ON `b`.`s_id` = `c`.`s_id`', [], false)
+ 5 APPPATH/Modules/Konfigurasi/Models/TujuannaskahModel.php(66): CodeIgniter\Database\BaseBuilder->countAllResults()
+ 6 APPPATH/Modules/Konfigurasi/Controllers/Tujuannaskah.php(51): Modules\Konfigurasi\Models\TujuannaskahModel->countAll()
+ 7 SYSTEMPATH/CodeIgniter.php(933): Modules\Konfigurasi\Controllers\Tujuannaskah->data()
+ 8 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(Modules\Konfigurasi\Controllers\Tujuannaskah))
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH/rewrite.php(44): require_once('/Users/apple/www/pusk/ci4/develop/safira2.0/public/index.php')
+INFO - 2025-01-24 09:48:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 09:48:16 --> CSRF token verified.
+INFO - 2025-01-24 09:48:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 09:48:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 09:48:27 --> CSRF token verified.
+INFO - 2025-01-24 09:48:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 09:48:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 09:48:40 --> CSRF token verified.
+INFO - 2025-01-24 09:48:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 09:48:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 09:48:44 --> CSRF token verified.
+INFO - 2025-01-24 09:48:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 09:48:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 09:48:52 --> CSRF token verified.
+INFO - 2025-01-24 09:48:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 09:48:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 09:48:54 --> CSRF token verified.
+INFO - 2025-01-24 09:48:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 09:48:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 09:49:04 --> CSRF token verified.
+INFO - 2025-01-24 09:49:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 09:49:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 09:49:12 --> CSRF token verified.
+INFO - 2025-01-24 09:49:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 09:49:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 09:49:30 --> CSRF token verified.
+INFO - 2025-01-24 09:49:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 09:49:33 --> CSRF token verified.
+INFO - 2025-01-24 09:49:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 09:49:34 --> CSRF token verified.
+INFO - 2025-01-24 09:49:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 09:49:35 --> CSRF token verified.
+INFO - 2025-01-24 09:49:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 09:49:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 09:49:51 --> CSRF token verified.
+INFO - 2025-01-24 09:49:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 09:49:52 --> CSRF token verified.
+INFO - 2025-01-24 09:49:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 09:49:54 --> CSRF token verified.
+INFO - 2025-01-24 09:49:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 09:49:56 --> CSRF token verified.
+INFO - 2025-01-24 09:49:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 09:49:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 09:50:00 --> CSRF token verified.
+INFO - 2025-01-24 09:50:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 10:04:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 10:10:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2025-01-24 10:10:41 --> ErrorException: Undefined variable $penandatanganan
+[Method: GET, Route: konfigurasi/tujuan-naskah/3b60659b-4624-40ad-95db-98e9ec6f7016/edit]
+in APPPATH/Modules/Konfigurasi/Views/tujuannaskah/edit.php on line 37.
+ 1 APPPATH/Modules/Konfigurasi/Views/tujuannaskah/edit.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $penandatanganan', '/Users/apple/www/pusk/ci4/develop/safira2.0/app/Modules/Konfigurasi/Views/tujuannaskah/edit.php', 37)
+ 2 SYSTEMPATH/View/View.php(234): include('/Users/apple/www/pusk/ci4/develop/safira2.0/app/Modules/Konfigurasi/Views/tujuannaskah/edit.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('Modules\\Konfigurasi\\Views\\tujuannaskah\\edit', [], true)
+ 5 APPPATH/Views/layout/admin/v_view.php(4): view('Modules\\Konfigurasi\\Views\\tujuannaskah\\edit')
+ 6 SYSTEMPATH/View/View.php(234): include('/Users/apple/www/pusk/ci4/develop/safira2.0/app/Views/layout/admin/v_view.php')
+ 7 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('layout/admin/v_view', [], true)
+ 9 APPPATH/Views/layout/admin/v_body.php(28): view('layout/admin/v_view')
+10 SYSTEMPATH/View/View.php(234): include('/Users/apple/www/pusk/ci4/develop/safira2.0/app/Views/layout/admin/v_body.php')
+11 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('layout/admin/v_body', [], true)
+13 APPPATH/Views/layout/admin/templates.php(3): view('layout/admin/v_body')
+14 SYSTEMPATH/View/View.php(234): include('/Users/apple/www/pusk/ci4/develop/safira2.0/app/Views/layout/admin/templates.php')
+15 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+16 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('layout/admin/templates', [], true)
+17 APPPATH/Modules/Konfigurasi/Controllers/Tujuannaskah.php(176): view('layout/admin/templates', [...])
+18 SYSTEMPATH/CodeIgniter.php(933): Modules\Konfigurasi\Controllers\Tujuannaskah->edit('3b60659b-4624-40ad-95db-98e9ec6f7016')
+19 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(Modules\Konfigurasi\Controllers\Tujuannaskah))
+20 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+21 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+22 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+23 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+24 SYSTEMPATH/rewrite.php(44): require_once('/Users/apple/www/pusk/ci4/develop/safira2.0/public/index.php')
+INFO - 2025-01-24 10:10:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2025-01-24 10:10:48 --> ErrorException: Undefined variable $user
+[Method: GET, Route: konfigurasi/tujuan-naskah/3b60659b-4624-40ad-95db-98e9ec6f7016/edit]
+in APPPATH/Modules/Konfigurasi/Views/tujuannaskah/edit.php on line 45.
+ 1 APPPATH/Modules/Konfigurasi/Views/tujuannaskah/edit.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', '/Users/apple/www/pusk/ci4/develop/safira2.0/app/Modules/Konfigurasi/Views/tujuannaskah/edit.php', 45)
+ 2 SYSTEMPATH/View/View.php(234): include('/Users/apple/www/pusk/ci4/develop/safira2.0/app/Modules/Konfigurasi/Views/tujuannaskah/edit.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('Modules\\Konfigurasi\\Views\\tujuannaskah\\edit', [], true)
+ 5 APPPATH/Views/layout/admin/v_view.php(4): view('Modules\\Konfigurasi\\Views\\tujuannaskah\\edit')
+ 6 SYSTEMPATH/View/View.php(234): include('/Users/apple/www/pusk/ci4/develop/safira2.0/app/Views/layout/admin/v_view.php')
+ 7 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('layout/admin/v_view', [], true)
+ 9 APPPATH/Views/layout/admin/v_body.php(28): view('layout/admin/v_view')
+10 SYSTEMPATH/View/View.php(234): include('/Users/apple/www/pusk/ci4/develop/safira2.0/app/Views/layout/admin/v_body.php')
+11 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('layout/admin/v_body', [], true)
+13 APPPATH/Views/layout/admin/templates.php(3): view('layout/admin/v_body')
+14 SYSTEMPATH/View/View.php(234): include('/Users/apple/www/pusk/ci4/develop/safira2.0/app/Views/layout/admin/templates.php')
+15 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+16 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('layout/admin/templates', [], true)
+17 APPPATH/Modules/Konfigurasi/Controllers/Tujuannaskah.php(176): view('layout/admin/templates', [...])
+18 SYSTEMPATH/CodeIgniter.php(933): Modules\Konfigurasi\Controllers\Tujuannaskah->edit('3b60659b-4624-40ad-95db-98e9ec6f7016')
+19 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(Modules\Konfigurasi\Controllers\Tujuannaskah))
+20 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+21 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+22 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+23 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+24 SYSTEMPATH/rewrite.php(44): require_once('/Users/apple/www/pusk/ci4/develop/safira2.0/public/index.php')
+INFO - 2025-01-24 10:11:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 10:13:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 10:13:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 10:13:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 10:13:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 10:14:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 10:14:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 10:14:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 10:19:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 10:19:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 10:19:45 --> CSRF token verified.
+INFO - 2025-01-24 10:19:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 10:19:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 10:19:53 --> CSRF token verified.
+INFO - 2025-01-24 10:19:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 10:19:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 10:19:56 --> CSRF token verified.
+INFO - 2025-01-24 10:19:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 10:20:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 10:20:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 10:20:30 --> CSRF token verified.
+INFO - 2025-01-24 10:20:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 10:20:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 10:20:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 10:20:35 --> CSRF token verified.
+INFO - 2025-01-24 10:20:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 10:20:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 10:20:46 --> CSRF token verified.
+INFO - 2025-01-24 10:20:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 10:20:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 10:20:48 --> CSRF token verified.
+INFO - 2025-01-24 10:20:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 10:20:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 10:20:53 --> CSRF token verified.
+INFO - 2025-01-24 10:20:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 10:20:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 10:20:55 --> CSRF token verified.
+INFO - 2025-01-24 10:20:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 10:21:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 10:21:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 10:21:09 --> CSRF token verified.
+INFO - 2025-01-24 10:21:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 10:22:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 10:22:23 --> CSRF token verified.
+INFO - 2025-01-24 10:22:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 10:22:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 10:22:24 --> CSRF token verified.
+INFO - 2025-01-24 10:22:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 10:29:15 --> CSRF token verified.
+INFO - 2025-01-24 10:29:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 10:29:15 --> CSRF token verified.
+INFO - 2025-01-24 10:29:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 10:29:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 10:29:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 10:29:20 --> CSRF token verified.
+INFO - 2025-01-24 10:29:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 10:31:34 --> CSRF token verified.
+INFO - 2025-01-24 10:31:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 10:31:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 10:31:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 10:31:40 --> CSRF token verified.
+INFO - 2025-01-24 10:31:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 10:41:19 --> CSRF token verified.
+INFO - 2025-01-24 10:41:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 10:41:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 10:41:22 --> CSRF token verified.
+INFO - 2025-01-24 10:41:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 13:30:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 13:30:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 13:30:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 13:30:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 13:30:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 13:30:57 --> CSRF token verified.
+INFO - 2025-01-24 13:30:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 13:31:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 13:40:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 13:40:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 13:41:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 13:41:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 13:41:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 13:42:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 13:42:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 13:42:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 13:42:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 13:43:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 13:44:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 13:44:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 13:44:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 13:44:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 13:45:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 13:45:41 --> CSRF token verified.
+INFO - 2025-01-24 13:45:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 13:45:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 13:48:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 13:48:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 13:49:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 13:49:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 13:49:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 13:49:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 14:26:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 14:26:40 --> CSRF token verified.
+INFO - 2025-01-24 14:26:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 14:27:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 14:27:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 14:27:07 --> CSRF token verified.
+INFO - 2025-01-24 14:27:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 14:28:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 14:39:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 14:42:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 14:42:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 14:44:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 14:44:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 14:45:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 14:45:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 14:46:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 14:46:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 14:46:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 14:48:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 15:52:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 15:53:23 --> CSRF token verified.
+CRITICAL - 2025-01-24 15:53:35 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: naskah-masuk/registrasi/proses-tambah]
+in SYSTEMPATH/Security/Security.php on line 262.
+ 1 SYSTEMPATH/Security/Security.php(262): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(52): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/Filters/Filters.php(203): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/Filters/Filters.php(184): CodeIgniter\Filters\Filters->runBefore([...])
+ 5 SYSTEMPATH/CodeIgniter.php(481): CodeIgniter\Filters\Filters->run('naskah-masuk/registrasi/proses-tambah', 'before')
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/Users/apple/www/pusk/ci4/develop/safira2.0/public/index.php')
+CRITICAL - 2025-01-24 15:55:03 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: naskah-masuk/registrasi/proses-tambah]
+in SYSTEMPATH/Security/Security.php on line 262.
+ 1 SYSTEMPATH/Security/Security.php(262): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(52): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/Filters/Filters.php(203): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/Filters/Filters.php(184): CodeIgniter\Filters\Filters->runBefore([...])
+ 5 SYSTEMPATH/CodeIgniter.php(481): CodeIgniter\Filters\Filters->run('naskah-masuk/registrasi/proses-tambah', 'before')
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/Users/apple/www/pusk/ci4/develop/safira2.0/public/index.php')
+INFO - 2025-01-24 15:55:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 15:56:44 --> CSRF token verified.
+CRITICAL - 2025-01-24 15:57:29 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: naskah-masuk/registrasi/proses-tambah]
+in SYSTEMPATH/Security/Security.php on line 262.
+ 1 SYSTEMPATH/Security/Security.php(262): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(52): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/Filters/Filters.php(203): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/Filters/Filters.php(184): CodeIgniter\Filters\Filters->runBefore([...])
+ 5 SYSTEMPATH/CodeIgniter.php(481): CodeIgniter\Filters\Filters->run('naskah-masuk/registrasi/proses-tambah', 'before')
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/Users/apple/www/pusk/ci4/develop/safira2.0/public/index.php')
+INFO - 2025-01-24 15:57:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 15:58:37 --> CSRF token verified.
+INFO - 2025-01-24 15:58:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 15:59:25 --> CSRF token verified.
+INFO - 2025-01-24 15:59:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 16:00:16 --> CSRF token verified.
+INFO - 2025-01-24 16:00:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2025-01-24 16:00:16 --> ErrorException: Undefined variable $berkasLampiranPath
+[Method: POST, Route: naskah-masuk/registrasi/proses-tambah]
+in APPPATH/Modules/Naskahmasuk/Controllers/Registrasi.php on line 116.
+ 1 APPPATH/Modules/Naskahmasuk/Controllers/Registrasi.php(116): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $berkasLampiranPath', '/Users/apple/www/pusk/ci4/develop/safira2.0/app/Modules/Naskahmasuk/Controllers/Registrasi.php', 116)
+ 2 SYSTEMPATH/CodeIgniter.php(933): Modules\Naskahmasuk\Controllers\Registrasi->prosestambah()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(Modules\Naskahmasuk\Controllers\Registrasi))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH/rewrite.php(44): require_once('/Users/apple/www/pusk/ci4/develop/safira2.0/public/index.php')
+CRITICAL - 2025-01-24 16:00:39 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: naskah-masuk/registrasi/proses-tambah]
+in SYSTEMPATH/Security/Security.php on line 262.
+ 1 SYSTEMPATH/Security/Security.php(262): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(52): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/Filters/Filters.php(203): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/Filters/Filters.php(184): CodeIgniter\Filters\Filters->runBefore([...])
+ 5 SYSTEMPATH/CodeIgniter.php(481): CodeIgniter\Filters\Filters->run('naskah-masuk/registrasi/proses-tambah', 'before')
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/Users/apple/www/pusk/ci4/develop/safira2.0/public/index.php')
+INFO - 2025-01-24 16:01:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 16:01:46 --> CSRF token verified.
+INFO - 2025-01-24 16:01:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+ERROR - 2025-01-24 16:01:46 --> mysqli_sql_exception: Unknown column 'peminjaman_akhir' in 'field list' in /Users/apple/www/pusk/ci4/develop/safira2.0/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /Users/apple/www/pusk/ci4/develop/safira2.0/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(312): mysqli->query('INSERT INTO `pa...', 0)
+#1 /Users/apple/www/pusk/ci4/develop/safira2.0/vendor/codeigniter4/framework/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pa...')
+#2 /Users/apple/www/pusk/ci4/develop/safira2.0/vendor/codeigniter4/framework/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pa...')
+#3 /Users/apple/www/pusk/ci4/develop/safira2.0/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pa...', Array, false)
+#4 /Users/apple/www/pusk/ci4/develop/safira2.0/app/Modules/Naskahmasuk/Models/RegistrasiModel.php(13): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /Users/apple/www/pusk/ci4/develop/safira2.0/app/Modules/Naskahmasuk/Controllers/Registrasi.php(128): Modules\Naskahmasuk\Models\RegistrasiModel->tambah(Array)
+#6 /Users/apple/www/pusk/ci4/develop/safira2.0/vendor/codeigniter4/framework/system/CodeIgniter.php(933): Modules\Naskahmasuk\Controllers\Registrasi->prosestambah()
+#7 /Users/apple/www/pusk/ci4/develop/safira2.0/vendor/codeigniter4/framework/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(Modules\Naskahmasuk\Controllers\Registrasi))
+#8 /Users/apple/www/pusk/ci4/develop/safira2.0/vendor/codeigniter4/framework/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Users/apple/www/pusk/ci4/develop/safira2.0/vendor/codeigniter4/framework/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 /Users/apple/www/pusk/ci4/develop/safira2.0/vendor/codeigniter4/framework/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 /Users/apple/www/pusk/ci4/develop/safira2.0/public/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 /Users/apple/www/pusk/ci4/develop/safira2.0/vendor/codeigniter4/framework/system/rewrite.php(44): require_once('/Users/apple/ww...')
+#13 {main}
+CRITICAL - 2025-01-24 16:01:46 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'peminjaman_akhir' in 'field list'
+[Method: POST, Route: naskah-masuk/registrasi/proses-tambah]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pa_naskahmasuk` (`nm_id`, `nm_namapengirim`, `nm_jabatanpengirim`, `nm_instansipengirim`, `nm_nomornaskah`, `jn_id`, `sifat_id`, `nm_hal`, `nm_ringkasan`, `nm_tanggalnaskah`, `nm_tanggalditerima`, `nm_naskah`, `nm_lampiran`, `tn_id`, `peminjaman_akhir`, `peminjaman_durasi`, `peminjaman_sesi`, `usr_id`, `nm_update`) VALUES (:nm_id:, :nm_namapengirim:, :nm_jabatanpengirim:, :nm_instansipengirim:, :nm_nomornaskah:, :jn_id:, :sifat_id:, :nm_hal:, :nm_ringkasan:, :nm_tanggalnaskah:, :nm_tanggalditerima:, :nm_naskah:, :nm_lampiran:, :tn_id:, :peminjaman_akhir:, :peminjaman_durasi:, :peminjaman_sesi:, :usr_id:, :nm_update:)', [...], false)
+ 2 APPPATH/Modules/Naskahmasuk/Models/RegistrasiModel.php(13): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH/Modules/Naskahmasuk/Controllers/Registrasi.php(128): Modules\Naskahmasuk\Models\RegistrasiModel->tambah([...])
+ 4 SYSTEMPATH/CodeIgniter.php(933): Modules\Naskahmasuk\Controllers\Registrasi->prosestambah()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(Modules\Naskahmasuk\Controllers\Registrasi))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/Users/apple/www/pusk/ci4/develop/safira2.0/public/index.php')
+CRITICAL - 2025-01-24 16:01:46 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'peminjaman_akhir' in 'field list'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pa_naskahmasuk` (`nm_id`, `nm_namapengirim`, `nm_jabatanpengirim`, `nm_instansipengirim`, `nm_nomornaskah`, `jn_id`, `sifat_id`, `nm_hal`, `nm_ringkasan`, `nm_tanggalnaskah`, `nm_tanggalditerima`, `nm_naskah`, `nm_lampiran`, `tn_id`, `peminjaman_akhir`, `peminjaman_durasi`, `peminjaman_sesi`, `usr_id`, `nm_update`) VALUES (\'5939b658-166b-4364-b592-6a6504d3c604\', \'Mahya, S.Kom\', \'Dekan\', \'UIN\', \'BI-241/FHm/HM.01.1/01/2025\', \'397199dc-0625-4b5a-9bb9-e1c5088340a8\', \'0e204173-edea-434f-b466-0eb8c13008ed\', \'Penguatan Jaringan\', \'Memperkuat jaringan internet di lingkungan Fakultas Humaniora dan Website kami agar bisa diakses baik dari dalam dan luar UIN Maulana Malik Ibrahim Malang.\', \'2025-01-22\', \'2025-01-24\', \'uploads/pencatatanarsip/naskahmasuk/1737709306_bd152fffa66c75699576.pdf\', NULL, \'3b60659b-4624-40ad-95db-98e9ec6f7016\', NULL, NULL, NULL, \'a68e9642-97c0-4ffa-b00b-16b494588f48\', \'2025-01-24 16:01:46\')')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pa_naskahmasuk` (`nm_id`, `nm_namapengirim`, `nm_jabatanpengirim`, `nm_instansipengirim`, `nm_nomornaskah`, `jn_id`, `sifat_id`, `nm_hal`, `nm_ringkasan`, `nm_tanggalnaskah`, `nm_tanggalditerima`, `nm_naskah`, `nm_lampiran`, `tn_id`, `peminjaman_akhir`, `peminjaman_durasi`, `peminjaman_sesi`, `usr_id`, `nm_update`) VALUES (\'5939b658-166b-4364-b592-6a6504d3c604\', \'Mahya, S.Kom\', \'Dekan\', \'UIN\', \'BI-241/FHm/HM.01.1/01/2025\', \'397199dc-0625-4b5a-9bb9-e1c5088340a8\', \'0e204173-edea-434f-b466-0eb8c13008ed\', \'Penguatan Jaringan\', \'Memperkuat jaringan internet di lingkungan Fakultas Humaniora dan Website kami agar bisa diakses baik dari dalam dan luar UIN Maulana Malik Ibrahim Malang.\', \'2025-01-22\', \'2025-01-24\', \'uploads/pencatatanarsip/naskahmasuk/1737709306_bd152fffa66c75699576.pdf\', NULL, \'3b60659b-4624-40ad-95db-98e9ec6f7016\', NULL, NULL, NULL, \'a68e9642-97c0-4ffa-b00b-16b494588f48\', \'2025-01-24 16:01:46\')')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pa_naskahmasuk` (`nm_id`, `nm_namapengirim`, `nm_jabatanpengirim`, `nm_instansipengirim`, `nm_nomornaskah`, `jn_id`, `sifat_id`, `nm_hal`, `nm_ringkasan`, `nm_tanggalnaskah`, `nm_tanggalditerima`, `nm_naskah`, `nm_lampiran`, `tn_id`, `peminjaman_akhir`, `peminjaman_durasi`, `peminjaman_sesi`, `usr_id`, `nm_update`) VALUES (:nm_id:, :nm_namapengirim:, :nm_jabatanpengirim:, :nm_instansipengirim:, :nm_nomornaskah:, :jn_id:, :sifat_id:, :nm_hal:, :nm_ringkasan:, :nm_tanggalnaskah:, :nm_tanggalditerima:, :nm_naskah:, :nm_lampiran:, :tn_id:, :peminjaman_akhir:, :peminjaman_durasi:, :peminjaman_sesi:, :usr_id:, :nm_update:)', [...], false)
+ 4 APPPATH/Modules/Naskahmasuk/Models/RegistrasiModel.php(13): CodeIgniter\Database\BaseBuilder->insert([...])
+ 5 APPPATH/Modules/Naskahmasuk/Controllers/Registrasi.php(128): Modules\Naskahmasuk\Models\RegistrasiModel->tambah([...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): Modules\Naskahmasuk\Controllers\Registrasi->prosestambah()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(Modules\Naskahmasuk\Controllers\Registrasi))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH/rewrite.php(44): require_once('/Users/apple/www/pusk/ci4/develop/safira2.0/public/index.php')
+CRITICAL - 2025-01-24 16:01:46 --> [Caused by] mysqli_sql_exception: Unknown column 'peminjaman_akhir' in 'field list'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('INSERT INTO `pa_naskahmasuk` (`nm_id`, `nm_namapengirim`, `nm_jabatanpengirim`, `nm_instansipengirim`, `nm_nomornaskah`, `jn_id`, `sifat_id`, `nm_hal`, `nm_ringkasan`, `nm_tanggalnaskah`, `nm_tanggalditerima`, `nm_naskah`, `nm_lampiran`, `tn_id`, `peminjaman_akhir`, `peminjaman_durasi`, `peminjaman_sesi`, `usr_id`, `nm_update`) VALUES (\'5939b658-166b-4364-b592-6a6504d3c604\', \'Mahya, S.Kom\', \'Dekan\', \'UIN\', \'BI-241/FHm/HM.01.1/01/2025\', \'397199dc-0625-4b5a-9bb9-e1c5088340a8\', \'0e204173-edea-434f-b466-0eb8c13008ed\', \'Penguatan Jaringan\', \'Memperkuat jaringan internet di lingkungan Fakultas Humaniora dan Website kami agar bisa diakses baik dari dalam dan luar UIN Maulana Malik Ibrahim Malang.\', \'2025-01-22\', \'2025-01-24\', \'uploads/pencatatanarsip/naskahmasuk/1737709306_bd152fffa66c75699576.pdf\', NULL, \'3b60659b-4624-40ad-95db-98e9ec6f7016\', NULL, NULL, NULL, \'a68e9642-97c0-4ffa-b00b-16b494588f48\', \'2025-01-24 16:01:46\')', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pa_naskahmasuk` (`nm_id`, `nm_namapengirim`, `nm_jabatanpengirim`, `nm_instansipengirim`, `nm_nomornaskah`, `jn_id`, `sifat_id`, `nm_hal`, `nm_ringkasan`, `nm_tanggalnaskah`, `nm_tanggalditerima`, `nm_naskah`, `nm_lampiran`, `tn_id`, `peminjaman_akhir`, `peminjaman_durasi`, `peminjaman_sesi`, `usr_id`, `nm_update`) VALUES (\'5939b658-166b-4364-b592-6a6504d3c604\', \'Mahya, S.Kom\', \'Dekan\', \'UIN\', \'BI-241/FHm/HM.01.1/01/2025\', \'397199dc-0625-4b5a-9bb9-e1c5088340a8\', \'0e204173-edea-434f-b466-0eb8c13008ed\', \'Penguatan Jaringan\', \'Memperkuat jaringan internet di lingkungan Fakultas Humaniora dan Website kami agar bisa diakses baik dari dalam dan luar UIN Maulana Malik Ibrahim Malang.\', \'2025-01-22\', \'2025-01-24\', \'uploads/pencatatanarsip/naskahmasuk/1737709306_bd152fffa66c75699576.pdf\', NULL, \'3b60659b-4624-40ad-95db-98e9ec6f7016\', NULL, NULL, NULL, \'a68e9642-97c0-4ffa-b00b-16b494588f48\', \'2025-01-24 16:01:46\')')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pa_naskahmasuk` (`nm_id`, `nm_namapengirim`, `nm_jabatanpengirim`, `nm_instansipengirim`, `nm_nomornaskah`, `jn_id`, `sifat_id`, `nm_hal`, `nm_ringkasan`, `nm_tanggalnaskah`, `nm_tanggalditerima`, `nm_naskah`, `nm_lampiran`, `tn_id`, `peminjaman_akhir`, `peminjaman_durasi`, `peminjaman_sesi`, `usr_id`, `nm_update`) VALUES (\'5939b658-166b-4364-b592-6a6504d3c604\', \'Mahya, S.Kom\', \'Dekan\', \'UIN\', \'BI-241/FHm/HM.01.1/01/2025\', \'397199dc-0625-4b5a-9bb9-e1c5088340a8\', \'0e204173-edea-434f-b466-0eb8c13008ed\', \'Penguatan Jaringan\', \'Memperkuat jaringan internet di lingkungan Fakultas Humaniora dan Website kami agar bisa diakses baik dari dalam dan luar UIN Maulana Malik Ibrahim Malang.\', \'2025-01-22\', \'2025-01-24\', \'uploads/pencatatanarsip/naskahmasuk/1737709306_bd152fffa66c75699576.pdf\', NULL, \'3b60659b-4624-40ad-95db-98e9ec6f7016\', NULL, NULL, NULL, \'a68e9642-97c0-4ffa-b00b-16b494588f48\', \'2025-01-24 16:01:46\')')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pa_naskahmasuk` (`nm_id`, `nm_namapengirim`, `nm_jabatanpengirim`, `nm_instansipengirim`, `nm_nomornaskah`, `jn_id`, `sifat_id`, `nm_hal`, `nm_ringkasan`, `nm_tanggalnaskah`, `nm_tanggalditerima`, `nm_naskah`, `nm_lampiran`, `tn_id`, `peminjaman_akhir`, `peminjaman_durasi`, `peminjaman_sesi`, `usr_id`, `nm_update`) VALUES (:nm_id:, :nm_namapengirim:, :nm_jabatanpengirim:, :nm_instansipengirim:, :nm_nomornaskah:, :jn_id:, :sifat_id:, :nm_hal:, :nm_ringkasan:, :nm_tanggalnaskah:, :nm_tanggalditerima:, :nm_naskah:, :nm_lampiran:, :tn_id:, :peminjaman_akhir:, :peminjaman_durasi:, :peminjaman_sesi:, :usr_id:, :nm_update:)', [...], false)
+ 5 APPPATH/Modules/Naskahmasuk/Models/RegistrasiModel.php(13): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH/Modules/Naskahmasuk/Controllers/Registrasi.php(128): Modules\Naskahmasuk\Models\RegistrasiModel->tambah([...])
+ 7 SYSTEMPATH/CodeIgniter.php(933): Modules\Naskahmasuk\Controllers\Registrasi->prosestambah()
+ 8 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(Modules\Naskahmasuk\Controllers\Registrasi))
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH/rewrite.php(44): require_once('/Users/apple/www/pusk/ci4/develop/safira2.0/public/index.php')
+CRITICAL - 2025-01-24 16:02:41 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: naskah-masuk/registrasi/proses-tambah]
+in SYSTEMPATH/Security/Security.php on line 262.
+ 1 SYSTEMPATH/Security/Security.php(262): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(52): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/Filters/Filters.php(203): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/Filters/Filters.php(184): CodeIgniter\Filters\Filters->runBefore([...])
+ 5 SYSTEMPATH/CodeIgniter.php(481): CodeIgniter\Filters\Filters->run('naskah-masuk/registrasi/proses-tambah', 'before')
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/Users/apple/www/pusk/ci4/develop/safira2.0/public/index.php')
+INFO - 2025-01-24 16:02:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 16:03:38 --> CSRF token verified.
+INFO - 2025-01-24 16:03:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 16:03:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 16:03:53 --> CSRF token verified.
+INFO - 2025-01-24 16:03:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 16:03:55 --> CSRF token verified.
+INFO - 2025-01-24 16:03:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 16:03:56 --> CSRF token verified.
+INFO - 2025-01-24 16:03:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 16:03:56 --> CSRF token verified.
+INFO - 2025-01-24 16:03:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 16:03:57 --> CSRF token verified.
+INFO - 2025-01-24 16:03:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 16:03:57 --> CSRF token verified.
+INFO - 2025-01-24 16:03:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 16:03:58 --> CSRF token verified.
+INFO - 2025-01-24 16:03:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 16:03:58 --> CSRF token verified.
+INFO - 2025-01-24 16:03:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 16:03:59 --> CSRF token verified.
+INFO - 2025-01-24 16:03:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 16:03:59 --> CSRF token verified.
+INFO - 2025-01-24 16:03:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 16:04:00 --> CSRF token verified.
+INFO - 2025-01-24 16:04:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 16:04:00 --> CSRF token verified.
+INFO - 2025-01-24 16:04:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 16:04:01 --> CSRF token verified.
+INFO - 2025-01-24 16:04:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 16:04:01 --> CSRF token verified.
+INFO - 2025-01-24 16:04:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 16:04:02 --> CSRF token verified.
+INFO - 2025-01-24 16:04:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 16:04:03 --> CSRF token verified.
+INFO - 2025-01-24 16:04:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 16:04:05 --> CSRF token verified.
+INFO - 2025-01-24 16:04:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 16:04:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-24 16:05:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.

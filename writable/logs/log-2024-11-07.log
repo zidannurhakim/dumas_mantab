@@ -1,0 +1,338 @@
+INFO - 2024-11-07 08:40:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 08:40:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 08:40:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 10:14:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 10:14:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2024-11-07 10:33:02 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "layout/admin/v_content.php"
+[Method: GET, Route: beranda]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 41.
+ 1 SYSTEMPATH/View/View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/admin/v_content.php')
+ 2 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('layout/admin/v_content', [], true)
+ 3 APPPATH/Views/layout/admin/v_body.php(49): view('layout/admin/v_content')
+ 4 SYSTEMPATH/View/View.php(234): include('/Users/apple/www/pusk/ci4/develop/sistem_akademik/app/Views/layout/admin/v_body.php')
+ 5 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('layout/admin/v_body', [], true)
+ 7 APPPATH/Views/layout/admin/templates.php(3): view('layout/admin/v_body')
+ 8 SYSTEMPATH/View/View.php(234): include('/Users/apple/www/pusk/ci4/develop/sistem_akademik/app/Views/layout/admin/templates.php')
+ 9 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+10 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('layout/admin/templates', [], true)
+11 APPPATH/Modules/Beranda/Controllers/Beranda.php(21): view('layout/admin/templates', [...])
+12 SYSTEMPATH/CodeIgniter.php(933): Modules\Beranda\Controllers\Beranda->index()
+13 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(Modules\Beranda\Controllers\Beranda))
+14 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+15 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+16 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+17 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+18 SYSTEMPATH/rewrite.php(44): require_once('/Users/apple/www/pusk/ci4/develop/sistem_akademik/public/index.php')
+INFO - 2024-11-07 10:34:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 10:35:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 10:35:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 10:38:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 10:38:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 10:39:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 10:40:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 10:40:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 10:41:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 10:42:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 10:42:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 10:43:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 10:43:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 10:43:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 10:50:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 10:50:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 10:51:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 10:51:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 10:52:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 10:52:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 10:52:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 10:52:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 10:53:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 10:53:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 10:54:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 10:54:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 10:54:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 10:55:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 10:55:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 10:56:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 10:56:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 10:57:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 10:57:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 10:57:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 10:58:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 10:59:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 10:59:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 10:59:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 10:59:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 10:59:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 10:59:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 11:00:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 11:01:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 11:01:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 11:01:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 11:01:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 11:01:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 11:01:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 11:02:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 11:02:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 11:02:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 11:03:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 11:03:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 11:03:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 11:05:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 11:07:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 11:07:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 11:08:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 11:08:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 11:09:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 11:09:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 11:10:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 11:10:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 11:10:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 11:10:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 11:10:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 13:26:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 13:26:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 13:27:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 13:27:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 13:27:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 13:27:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 13:27:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 13:27:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 13:28:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 13:28:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 13:28:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 13:28:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 13:29:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 13:29:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 13:29:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 13:29:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 13:30:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 13:31:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 13:31:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 13:31:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 13:31:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 13:31:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 13:31:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 13:31:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 13:31:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 13:32:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 13:32:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 13:32:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 13:37:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 13:37:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 13:37:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 13:37:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 13:37:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 13:40:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 13:40:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 13:41:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 13:41:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 13:42:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 13:42:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 13:42:59 --> CSRF token verified.
+INFO - 2024-11-07 13:42:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 13:43:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 13:43:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 13:43:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 13:43:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 13:44:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 13:44:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 13:44:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 13:44:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 13:47:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 13:47:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 13:47:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 13:47:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 13:47:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 13:47:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 13:47:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 13:48:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 13:48:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 13:48:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 13:48:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 13:50:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 13:50:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 13:50:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 13:50:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 13:50:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 13:50:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 13:50:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 13:50:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 13:50:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 13:50:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 13:50:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 13:50:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 13:50:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 13:52:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 13:52:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 13:52:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 14:09:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 14:11:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 14:11:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 14:11:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 14:11:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 14:11:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 14:11:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 14:11:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 14:11:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 14:11:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 14:11:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 14:11:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 14:11:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 14:11:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 14:11:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 14:11:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 14:11:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 14:11:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 14:11:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 14:17:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 14:19:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 14:19:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 14:20:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 14:20:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 14:21:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 14:23:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 14:23:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 14:24:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 14:24:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 14:24:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 14:24:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 14:24:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 14:24:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 14:25:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 14:25:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 14:26:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 14:26:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 14:26:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 14:27:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 14:27:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 14:28:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 14:28:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 14:28:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2024-11-07 14:29:22 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "Modules\Administrasi\Views\JIS\jis_index.php"
+[Method: GET, Route: administrasi/jenis-induk-subsatker]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 41.
+ 1 SYSTEMPATH/View/View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Modules\\Administrasi\\Views\\JIS\\jis_index.php')
+ 2 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('Modules\\Administrasi\\Views\\JIS\\jis_index', [], true)
+ 3 APPPATH/Views/layout/admin/v_view.php(4): view('Modules\\Administrasi\\Views\\JIS\\jis_index')
+ 4 SYSTEMPATH/View/View.php(234): include('/Users/apple/www/pusk/ci4/develop/sistem_akademik/app/Views/layout/admin/v_view.php')
+ 5 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('layout/admin/v_view', [], true)
+ 7 APPPATH/Views/layout/admin/v_body.php(28): view('layout/admin/v_view')
+ 8 SYSTEMPATH/View/View.php(234): include('/Users/apple/www/pusk/ci4/develop/sistem_akademik/app/Views/layout/admin/v_body.php')
+ 9 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+10 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('layout/admin/v_body', [], true)
+11 APPPATH/Views/layout/admin/templates.php(3): view('layout/admin/v_body')
+12 SYSTEMPATH/View/View.php(234): include('/Users/apple/www/pusk/ci4/develop/sistem_akademik/app/Views/layout/admin/templates.php')
+13 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+14 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('layout/admin/templates', [], true)
+15 APPPATH/Modules/Administrasi/Controllers/Jis.php(25): view('layout/admin/templates', [...])
+16 SYSTEMPATH/CodeIgniter.php(933): Modules\Administrasi\Controllers\Jis->index()
+17 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(Modules\Administrasi\Controllers\Jis))
+18 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+19 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+20 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+21 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+22 SYSTEMPATH/rewrite.php(44): require_once('/Users/apple/www/pusk/ci4/develop/sistem_akademik/public/index.php')
+INFO - 2024-11-07 14:29:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 14:29:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 14:29:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 14:30:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 14:30:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 14:31:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 14:31:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 14:32:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 14:32:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 14:32:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 14:34:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 14:34:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 14:34:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 14:34:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 14:34:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 14:34:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 14:35:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 14:36:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 14:36:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 14:37:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 14:37:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 14:37:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 14:38:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 14:38:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 14:38:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 14:38:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 14:38:50 --> CSRF token verified.
+INFO - 2024-11-07 14:38:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 14:38:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 14:43:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 14:43:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 14:43:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 14:43:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 14:43:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 14:43:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 14:43:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 14:43:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 14:43:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2024-11-07 14:44:07 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "Modules\Administrasi\Views\subsatker_index.php"
+[Method: GET, Route: administrasi/subsatker]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 41.
+ 1 SYSTEMPATH/View/View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Modules\\Administrasi\\Views\\subsatker_index.php')
+ 2 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('Modules\\Administrasi\\Views\\subsatker_index', [], true)
+ 3 APPPATH/Views/layout/admin/v_view.php(4): view('Modules\\Administrasi\\Views\\subsatker_index')
+ 4 SYSTEMPATH/View/View.php(234): include('/Users/apple/www/pusk/ci4/develop/sistem_akademik/app/Views/layout/admin/v_view.php')
+ 5 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('layout/admin/v_view', [], true)
+ 7 APPPATH/Views/layout/admin/v_body.php(28): view('layout/admin/v_view')
+ 8 SYSTEMPATH/View/View.php(234): include('/Users/apple/www/pusk/ci4/develop/sistem_akademik/app/Views/layout/admin/v_body.php')
+ 9 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+10 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('layout/admin/v_body', [], true)
+11 APPPATH/Views/layout/admin/templates.php(3): view('layout/admin/v_body')
+12 SYSTEMPATH/View/View.php(234): include('/Users/apple/www/pusk/ci4/develop/sistem_akademik/app/Views/layout/admin/templates.php')
+13 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+14 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('layout/admin/templates', [], true)
+15 APPPATH/Modules/Administrasi/Controllers/Subsatker.php(25): view('layout/admin/templates', [...])
+16 SYSTEMPATH/CodeIgniter.php(933): Modules\Administrasi\Controllers\Subsatker->index()
+17 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(Modules\Administrasi\Controllers\Subsatker))
+18 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+19 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+20 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+21 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+22 SYSTEMPATH/rewrite.php(44): require_once('/Users/apple/www/pusk/ci4/develop/sistem_akademik/public/index.php')
+CRITICAL - 2024-11-07 14:44:25 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "Modules\Administrasi\Views\Subsatker\subsatker_index.php"
+[Method: GET, Route: administrasi/subsatker]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 41.
+ 1 SYSTEMPATH/View/View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Modules\\Administrasi\\Views\\Subsatker\\subsatker_index.php')
+ 2 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('Modules\\Administrasi\\Views\\Subsatker\\subsatker_index', [], true)
+ 3 APPPATH/Views/layout/admin/v_view.php(4): view('Modules\\Administrasi\\Views\\Subsatker\\subsatker_index')
+ 4 SYSTEMPATH/View/View.php(234): include('/Users/apple/www/pusk/ci4/develop/sistem_akademik/app/Views/layout/admin/v_view.php')
+ 5 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('layout/admin/v_view', [], true)
+ 7 APPPATH/Views/layout/admin/v_body.php(28): view('layout/admin/v_view')
+ 8 SYSTEMPATH/View/View.php(234): include('/Users/apple/www/pusk/ci4/develop/sistem_akademik/app/Views/layout/admin/v_body.php')
+ 9 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+10 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('layout/admin/v_body', [], true)
+11 APPPATH/Views/layout/admin/templates.php(3): view('layout/admin/v_body')
+12 SYSTEMPATH/View/View.php(234): include('/Users/apple/www/pusk/ci4/develop/sistem_akademik/app/Views/layout/admin/templates.php')
+13 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+14 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('layout/admin/templates', [], true)
+15 APPPATH/Modules/Administrasi/Controllers/Subsatker.php(25): view('layout/admin/templates', [...])
+16 SYSTEMPATH/CodeIgniter.php(933): Modules\Administrasi\Controllers\Subsatker->index()
+17 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(Modules\Administrasi\Controllers\Subsatker))
+18 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+19 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+20 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+21 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+22 SYSTEMPATH/rewrite.php(44): require_once('/Users/apple/www/pusk/ci4/develop/sistem_akademik/public/index.php')
+INFO - 2024-11-07 14:44:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 14:45:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 14:45:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 14:56:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 14:56:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 14:57:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 14:57:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 14:57:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 14:57:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 14:57:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 14:57:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 14:58:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 14:58:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-07 14:58:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.

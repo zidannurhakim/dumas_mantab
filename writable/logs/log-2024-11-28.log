@@ -1,0 +1,1752 @@
+INFO - 2024-11-28 08:23:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 08:23:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 08:23:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 08:24:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 08:24:21 --> CSRF token verified.
+INFO - 2024-11-28 08:24:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 08:24:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 08:24:23 --> CSRF token verified.
+INFO - 2024-11-28 08:24:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 08:24:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 08:24:27 --> CSRF token verified.
+INFO - 2024-11-28 08:24:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 08:24:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 08:24:30 --> CSRF token verified.
+INFO - 2024-11-28 08:24:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 08:54:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 08:54:59 --> CSRF token verified.
+INFO - 2024-11-28 08:54:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 08:54:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 08:54:59 --> CSRF token verified.
+INFO - 2024-11-28 08:54:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 08:57:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 08:57:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2024-11-28 08:57:15 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: administrasi/subsatker/data]
+in SYSTEMPATH/Security/Security.php on line 262.
+ 1 SYSTEMPATH/Security/Security.php(262): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(52): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/Filters/Filters.php(203): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/Filters/Filters.php(184): CodeIgniter\Filters\Filters->runBefore([...])
+ 5 SYSTEMPATH/CodeIgniter.php(481): CodeIgniter\Filters\Filters->run('administrasi/subsatker/data', 'before')
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/Users/apple/www/pusk/ci4/develop/sistem_akademik/public/index.php')
+INFO - 2024-11-28 08:57:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 08:57:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 08:57:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2024-11-28 08:57:54 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: administrasi/subsatker/data]
+in SYSTEMPATH/Security/Security.php on line 262.
+ 1 SYSTEMPATH/Security/Security.php(262): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(52): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/Filters/Filters.php(203): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/Filters/Filters.php(184): CodeIgniter\Filters\Filters->runBefore([...])
+ 5 SYSTEMPATH/CodeIgniter.php(481): CodeIgniter\Filters\Filters->run('administrasi/subsatker/data', 'before')
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/Users/apple/www/pusk/ci4/develop/sistem_akademik/public/index.php')
+INFO - 2024-11-28 08:58:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2024-11-28 08:58:05 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: administrasi/subsatker/data]
+in SYSTEMPATH/Security/Security.php on line 262.
+ 1 SYSTEMPATH/Security/Security.php(262): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(52): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/Filters/Filters.php(203): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/Filters/Filters.php(184): CodeIgniter\Filters\Filters->runBefore([...])
+ 5 SYSTEMPATH/CodeIgniter.php(481): CodeIgniter\Filters\Filters->run('administrasi/subsatker/data', 'before')
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/Users/apple/www/pusk/ci4/develop/sistem_akademik/public/index.php')
+INFO - 2024-11-28 08:58:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 08:58:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2024-11-28 08:58:57 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: administrasi/subsatker/data]
+in SYSTEMPATH/Security/Security.php on line 262.
+ 1 SYSTEMPATH/Security/Security.php(262): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(52): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/Filters/Filters.php(203): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/Filters/Filters.php(184): CodeIgniter\Filters\Filters->runBefore([...])
+ 5 SYSTEMPATH/CodeIgniter.php(481): CodeIgniter\Filters\Filters->run('administrasi/subsatker/data', 'before')
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/Users/apple/www/pusk/ci4/develop/sistem_akademik/public/index.php')
+INFO - 2024-11-28 09:01:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:01:24 --> CSRF token verified.
+INFO - 2024-11-28 09:01:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:01:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:01:34 --> CSRF token verified.
+INFO - 2024-11-28 09:01:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:01:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:01:42 --> CSRF token verified.
+INFO - 2024-11-28 09:01:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:01:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:01:51 --> CSRF token verified.
+INFO - 2024-11-28 09:01:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:01:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:01:59 --> CSRF token verified.
+INFO - 2024-11-28 09:01:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:03:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:03:41 --> CSRF token verified.
+INFO - 2024-11-28 09:03:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:03:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:03:48 --> CSRF token verified.
+INFO - 2024-11-28 09:03:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:03:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:03:53 --> CSRF token verified.
+INFO - 2024-11-28 09:03:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:04:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:04:23 --> CSRF token verified.
+INFO - 2024-11-28 09:04:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:04:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:04:34 --> CSRF token verified.
+INFO - 2024-11-28 09:04:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:04:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:04:37 --> CSRF token verified.
+INFO - 2024-11-28 09:04:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:04:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:04:49 --> CSRF token verified.
+INFO - 2024-11-28 09:04:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:04:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:04:55 --> CSRF token verified.
+INFO - 2024-11-28 09:04:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:05:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:05:07 --> CSRF token verified.
+INFO - 2024-11-28 09:05:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:05:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:05:12 --> CSRF token verified.
+INFO - 2024-11-28 09:05:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:05:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:05:23 --> CSRF token verified.
+INFO - 2024-11-28 09:05:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:05:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:05:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:05:26 --> CSRF token verified.
+INFO - 2024-11-28 09:05:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:05:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:05:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:05:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:06:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:06:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:06:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:06:41 --> CSRF token verified.
+INFO - 2024-11-28 09:06:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:06:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:06:48 --> CSRF token verified.
+INFO - 2024-11-28 09:06:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:06:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:06:51 --> CSRF token verified.
+INFO - 2024-11-28 09:06:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:06:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:06:59 --> CSRF token verified.
+INFO - 2024-11-28 09:06:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:09:33 --> CSRF token verified.
+INFO - 2024-11-28 09:09:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:09:34 --> CSRF token verified.
+INFO - 2024-11-28 09:09:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:09:34 --> CSRF token verified.
+INFO - 2024-11-28 09:09:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:09:35 --> CSRF token verified.
+INFO - 2024-11-28 09:09:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2024-11-28 09:10:02 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: administrasi/subsatker/proses-tambah]
+in SYSTEMPATH/Security/Security.php on line 262.
+ 1 SYSTEMPATH/Security/Security.php(262): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(52): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/Filters/Filters.php(203): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/Filters/Filters.php(184): CodeIgniter\Filters\Filters->runBefore([...])
+ 5 SYSTEMPATH/CodeIgniter.php(481): CodeIgniter\Filters\Filters->run('administrasi/subsatker/proses-tambah', 'before')
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/Users/apple/www/pusk/ci4/develop/sistem_akademik/public/index.php')
+INFO - 2024-11-28 09:10:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:10:12 --> CSRF token verified.
+INFO - 2024-11-28 09:10:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:10:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:10:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:10:19 --> CSRF token verified.
+INFO - 2024-11-28 09:10:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2024-11-28 09:10:55 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: administrasi/subsatker/proses-tambah]
+in SYSTEMPATH/Security/Security.php on line 262.
+ 1 SYSTEMPATH/Security/Security.php(262): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(52): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/Filters/Filters.php(203): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/Filters/Filters.php(184): CodeIgniter\Filters\Filters->runBefore([...])
+ 5 SYSTEMPATH/CodeIgniter.php(481): CodeIgniter\Filters\Filters->run('administrasi/subsatker/proses-tambah', 'before')
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/Users/apple/www/pusk/ci4/develop/sistem_akademik/public/index.php')
+CRITICAL - 2024-11-28 09:10:58 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: administrasi/subsatker/proses-tambah]
+in SYSTEMPATH/Security/Security.php on line 262.
+ 1 SYSTEMPATH/Security/Security.php(262): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(52): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/Filters/Filters.php(203): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/Filters/Filters.php(184): CodeIgniter\Filters\Filters->runBefore([...])
+ 5 SYSTEMPATH/CodeIgniter.php(481): CodeIgniter\Filters\Filters->run('administrasi/subsatker/proses-tambah', 'before')
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/Users/apple/www/pusk/ci4/develop/sistem_akademik/public/index.php')
+INFO - 2024-11-28 09:10:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:10:59 --> CSRF token verified.
+INFO - 2024-11-28 09:10:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2024-11-28 09:11:05 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: administrasi/subsatker/proses-tambah]
+in SYSTEMPATH/Security/Security.php on line 262.
+ 1 SYSTEMPATH/Security/Security.php(262): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(52): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/Filters/Filters.php(203): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/Filters/Filters.php(184): CodeIgniter\Filters\Filters->runBefore([...])
+ 5 SYSTEMPATH/CodeIgniter.php(481): CodeIgniter\Filters\Filters->run('administrasi/subsatker/proses-tambah', 'before')
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/Users/apple/www/pusk/ci4/develop/sistem_akademik/public/index.php')
+INFO - 2024-11-28 09:11:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:11:07 --> CSRF token verified.
+INFO - 2024-11-28 09:11:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2024-11-28 09:11:19 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: administrasi/subsatker/proses-tambah]
+in SYSTEMPATH/Security/Security.php on line 262.
+ 1 SYSTEMPATH/Security/Security.php(262): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(52): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/Filters/Filters.php(203): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/Filters/Filters.php(184): CodeIgniter\Filters\Filters->runBefore([...])
+ 5 SYSTEMPATH/CodeIgniter.php(481): CodeIgniter\Filters\Filters->run('administrasi/subsatker/proses-tambah', 'before')
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/Users/apple/www/pusk/ci4/develop/sistem_akademik/public/index.php')
+INFO - 2024-11-28 09:11:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:11:21 --> CSRF token verified.
+INFO - 2024-11-28 09:11:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:11:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:11:24 --> CSRF token verified.
+INFO - 2024-11-28 09:11:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:11:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:11:26 --> CSRF token verified.
+INFO - 2024-11-28 09:11:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2024-11-28 09:11:30 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: administrasi/subsatker/proses-tambah]
+in SYSTEMPATH/Security/Security.php on line 262.
+ 1 SYSTEMPATH/Security/Security.php(262): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(52): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/Filters/Filters.php(203): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/Filters/Filters.php(184): CodeIgniter\Filters\Filters->runBefore([...])
+ 5 SYSTEMPATH/CodeIgniter.php(481): CodeIgniter\Filters\Filters->run('administrasi/subsatker/proses-tambah', 'before')
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/Users/apple/www/pusk/ci4/develop/sistem_akademik/public/index.php')
+INFO - 2024-11-28 09:12:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:12:00 --> CSRF token verified.
+INFO - 2024-11-28 09:12:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2024-11-28 09:12:02 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: administrasi/subsatker/proses-tambah]
+in SYSTEMPATH/Security/Security.php on line 262.
+ 1 SYSTEMPATH/Security/Security.php(262): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(52): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/Filters/Filters.php(203): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/Filters/Filters.php(184): CodeIgniter\Filters\Filters->runBefore([...])
+ 5 SYSTEMPATH/CodeIgniter.php(481): CodeIgniter\Filters\Filters->run('administrasi/subsatker/proses-tambah', 'before')
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/Users/apple/www/pusk/ci4/develop/sistem_akademik/public/index.php')
+INFO - 2024-11-28 09:12:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:12:04 --> CSRF token verified.
+INFO - 2024-11-28 09:12:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:12:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:12:05 --> CSRF token verified.
+INFO - 2024-11-28 09:12:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:12:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:12:14 --> CSRF token verified.
+INFO - 2024-11-28 09:12:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2024-11-28 09:12:28 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: administrasi/subsatker/proses-tambah]
+in SYSTEMPATH/Security/Security.php on line 262.
+ 1 SYSTEMPATH/Security/Security.php(262): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(52): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/Filters/Filters.php(203): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/Filters/Filters.php(184): CodeIgniter\Filters\Filters->runBefore([...])
+ 5 SYSTEMPATH/CodeIgniter.php(481): CodeIgniter\Filters\Filters->run('administrasi/subsatker/proses-tambah', 'before')
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/Users/apple/www/pusk/ci4/develop/sistem_akademik/public/index.php')
+CRITICAL - 2024-11-28 09:13:05 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: administrasi/subsatker/proses-tambah]
+in SYSTEMPATH/Security/Security.php on line 262.
+ 1 SYSTEMPATH/Security/Security.php(262): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(52): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/Filters/Filters.php(203): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/Filters/Filters.php(184): CodeIgniter\Filters\Filters->runBefore([...])
+ 5 SYSTEMPATH/CodeIgniter.php(481): CodeIgniter\Filters\Filters->run('administrasi/subsatker/proses-tambah', 'before')
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/Users/apple/www/pusk/ci4/develop/sistem_akademik/public/index.php')
+INFO - 2024-11-28 09:13:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:13:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:13:28 --> CSRF token verified.
+INFO - 2024-11-28 09:13:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2024-11-28 09:13:29 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: administrasi/subsatker/data]
+in SYSTEMPATH/Security/Security.php on line 262.
+ 1 SYSTEMPATH/Security/Security.php(262): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(52): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/Filters/Filters.php(203): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/Filters/Filters.php(184): CodeIgniter\Filters\Filters->runBefore([...])
+ 5 SYSTEMPATH/CodeIgniter.php(481): CodeIgniter\Filters\Filters->run('administrasi/subsatker/data', 'before')
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/Users/apple/www/pusk/ci4/develop/sistem_akademik/public/index.php')
+INFO - 2024-11-28 09:13:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:13:32 --> CSRF token verified.
+INFO - 2024-11-28 09:13:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2024-11-28 09:13:38 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: administrasi/subsatker/proses-tambah]
+in SYSTEMPATH/Security/Security.php on line 262.
+ 1 SYSTEMPATH/Security/Security.php(262): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(52): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/Filters/Filters.php(203): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/Filters/Filters.php(184): CodeIgniter\Filters\Filters->runBefore([...])
+ 5 SYSTEMPATH/CodeIgniter.php(481): CodeIgniter\Filters\Filters->run('administrasi/subsatker/proses-tambah', 'before')
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/Users/apple/www/pusk/ci4/develop/sistem_akademik/public/index.php')
+INFO - 2024-11-28 09:13:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:13:49 --> CSRF token verified.
+INFO - 2024-11-28 09:13:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:13:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:13:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:13:50 --> CSRF token verified.
+INFO - 2024-11-28 09:13:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2024-11-28 09:13:55 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: administrasi/subsatker/proses-tambah]
+in SYSTEMPATH/Security/Security.php on line 262.
+ 1 SYSTEMPATH/Security/Security.php(262): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(52): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/Filters/Filters.php(203): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/Filters/Filters.php(184): CodeIgniter\Filters\Filters->runBefore([...])
+ 5 SYSTEMPATH/CodeIgniter.php(481): CodeIgniter\Filters\Filters->run('administrasi/subsatker/proses-tambah', 'before')
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/Users/apple/www/pusk/ci4/develop/sistem_akademik/public/index.php')
+INFO - 2024-11-28 09:17:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:18:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:18:00 --> CSRF token verified.
+INFO - 2024-11-28 09:18:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2024-11-28 09:18:01 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: administrasi/subsatker/data]
+in SYSTEMPATH/Security/Security.php on line 262.
+ 1 SYSTEMPATH/Security/Security.php(262): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(52): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/Filters/Filters.php(203): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/Filters/Filters.php(184): CodeIgniter\Filters\Filters->runBefore([...])
+ 5 SYSTEMPATH/CodeIgniter.php(481): CodeIgniter\Filters\Filters->run('administrasi/subsatker/data', 'before')
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/Users/apple/www/pusk/ci4/develop/sistem_akademik/public/index.php')
+INFO - 2024-11-28 09:18:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:18:04 --> CSRF token verified.
+INFO - 2024-11-28 09:18:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:18:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:18:06 --> CSRF token verified.
+INFO - 2024-11-28 09:18:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:18:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:18:34 --> CSRF token verified.
+INFO - 2024-11-28 09:18:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:18:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:18:36 --> CSRF token verified.
+INFO - 2024-11-28 09:18:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:18:43 --> CSRF token verified.
+INFO - 2024-11-28 09:18:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:18:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:18:44 --> CSRF token verified.
+INFO - 2024-11-28 09:18:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:18:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:18:49 --> CSRF token verified.
+INFO - 2024-11-28 09:18:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:18:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:18:51 --> CSRF token verified.
+INFO - 2024-11-28 09:18:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:19:12 --> CSRF token verified.
+INFO - 2024-11-28 09:19:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:19:13 --> CSRF token verified.
+INFO - 2024-11-28 09:19:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:19:15 --> CSRF token verified.
+INFO - 2024-11-28 09:19:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:19:21 --> CSRF token verified.
+INFO - 2024-11-28 09:19:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:19:22 --> CSRF token verified.
+INFO - 2024-11-28 09:19:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:19:22 --> CSRF token verified.
+INFO - 2024-11-28 09:19:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:19:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:19:46 --> CSRF token verified.
+INFO - 2024-11-28 09:19:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:19:53 --> CSRF token verified.
+INFO - 2024-11-28 09:19:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:19:57 --> CSRF token verified.
+INFO - 2024-11-28 09:19:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:19:59 --> CSRF token verified.
+INFO - 2024-11-28 09:19:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:20:01 --> CSRF token verified.
+INFO - 2024-11-28 09:20:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:20:01 --> CSRF token verified.
+INFO - 2024-11-28 09:20:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:20:01 --> CSRF token verified.
+INFO - 2024-11-28 09:20:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:20:02 --> CSRF token verified.
+INFO - 2024-11-28 09:20:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:20:02 --> CSRF token verified.
+INFO - 2024-11-28 09:20:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:20:02 --> CSRF token verified.
+INFO - 2024-11-28 09:20:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:20:02 --> CSRF token verified.
+INFO - 2024-11-28 09:20:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:20:02 --> CSRF token verified.
+INFO - 2024-11-28 09:20:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:20:02 --> CSRF token verified.
+INFO - 2024-11-28 09:20:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:20:03 --> CSRF token verified.
+INFO - 2024-11-28 09:20:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:20:03 --> CSRF token verified.
+INFO - 2024-11-28 09:20:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:20:03 --> CSRF token verified.
+INFO - 2024-11-28 09:20:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:20:03 --> CSRF token verified.
+INFO - 2024-11-28 09:20:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:20:03 --> CSRF token verified.
+INFO - 2024-11-28 09:20:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:20:03 --> CSRF token verified.
+INFO - 2024-11-28 09:20:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:20:04 --> CSRF token verified.
+INFO - 2024-11-28 09:20:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:20:04 --> CSRF token verified.
+INFO - 2024-11-28 09:20:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:20:04 --> CSRF token verified.
+INFO - 2024-11-28 09:20:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:20:04 --> CSRF token verified.
+INFO - 2024-11-28 09:20:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:20:04 --> CSRF token verified.
+INFO - 2024-11-28 09:20:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:20:04 --> CSRF token verified.
+INFO - 2024-11-28 09:20:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:20:05 --> CSRF token verified.
+INFO - 2024-11-28 09:20:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:20:05 --> CSRF token verified.
+INFO - 2024-11-28 09:20:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:20:05 --> CSRF token verified.
+INFO - 2024-11-28 09:20:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:20:05 --> CSRF token verified.
+INFO - 2024-11-28 09:20:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:20:05 --> CSRF token verified.
+INFO - 2024-11-28 09:20:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:20:06 --> CSRF token verified.
+INFO - 2024-11-28 09:20:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:20:06 --> CSRF token verified.
+INFO - 2024-11-28 09:20:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:20:06 --> CSRF token verified.
+INFO - 2024-11-28 09:20:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:20:06 --> CSRF token verified.
+INFO - 2024-11-28 09:20:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:20:07 --> CSRF token verified.
+INFO - 2024-11-28 09:20:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:20:13 --> CSRF token verified.
+INFO - 2024-11-28 09:20:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:20:14 --> CSRF token verified.
+INFO - 2024-11-28 09:20:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:20:14 --> CSRF token verified.
+INFO - 2024-11-28 09:20:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:20:15 --> CSRF token verified.
+INFO - 2024-11-28 09:20:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:20:15 --> CSRF token verified.
+INFO - 2024-11-28 09:20:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:20:16 --> CSRF token verified.
+INFO - 2024-11-28 09:20:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:20:17 --> CSRF token verified.
+INFO - 2024-11-28 09:20:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:20:17 --> CSRF token verified.
+INFO - 2024-11-28 09:20:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:20:23 --> CSRF token verified.
+INFO - 2024-11-28 09:20:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:20:23 --> CSRF token verified.
+INFO - 2024-11-28 09:20:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:20:31 --> CSRF token verified.
+INFO - 2024-11-28 09:20:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:20:35 --> CSRF token verified.
+INFO - 2024-11-28 09:20:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:20:38 --> CSRF token verified.
+INFO - 2024-11-28 09:20:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:20:40 --> CSRF token verified.
+INFO - 2024-11-28 09:20:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:20:46 --> CSRF token verified.
+INFO - 2024-11-28 09:20:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:20:47 --> CSRF token verified.
+INFO - 2024-11-28 09:20:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:20:48 --> CSRF token verified.
+INFO - 2024-11-28 09:20:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:20:51 --> CSRF token verified.
+INFO - 2024-11-28 09:20:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:20:51 --> CSRF token verified.
+INFO - 2024-11-28 09:20:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:20:52 --> CSRF token verified.
+INFO - 2024-11-28 09:20:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:20:53 --> CSRF token verified.
+INFO - 2024-11-28 09:20:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:20:58 --> CSRF token verified.
+INFO - 2024-11-28 09:20:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:21:06 --> CSRF token verified.
+INFO - 2024-11-28 09:21:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:21:07 --> CSRF token verified.
+INFO - 2024-11-28 09:21:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:21:08 --> CSRF token verified.
+INFO - 2024-11-28 09:21:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:21:12 --> CSRF token verified.
+INFO - 2024-11-28 09:21:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:21:14 --> CSRF token verified.
+INFO - 2024-11-28 09:21:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:21:15 --> CSRF token verified.
+INFO - 2024-11-28 09:21:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:21:27 --> CSRF token verified.
+INFO - 2024-11-28 09:21:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:33:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:33:52 --> CSRF token verified.
+INFO - 2024-11-28 09:33:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:34:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:34:07 --> CSRF token verified.
+INFO - 2024-11-28 09:34:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:34:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:34:09 --> CSRF token verified.
+INFO - 2024-11-28 09:34:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:34:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:34:11 --> CSRF token verified.
+INFO - 2024-11-28 09:34:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:34:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:34:12 --> CSRF token verified.
+INFO - 2024-11-28 09:34:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:34:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:34:14 --> CSRF token verified.
+INFO - 2024-11-28 09:34:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:34:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:34:16 --> CSRF token verified.
+INFO - 2024-11-28 09:34:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:34:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:34:17 --> CSRF token verified.
+INFO - 2024-11-28 09:34:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:34:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:34:19 --> CSRF token verified.
+INFO - 2024-11-28 09:34:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:34:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:34:21 --> CSRF token verified.
+INFO - 2024-11-28 09:34:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:34:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:34:24 --> CSRF token verified.
+INFO - 2024-11-28 09:34:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:34:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:34:26 --> CSRF token verified.
+INFO - 2024-11-28 09:34:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:34:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:34:28 --> CSRF token verified.
+INFO - 2024-11-28 09:34:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:34:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:34:33 --> CSRF token verified.
+INFO - 2024-11-28 09:34:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:34:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:34:35 --> CSRF token verified.
+INFO - 2024-11-28 09:34:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:41:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:41:02 --> CSRF token verified.
+INFO - 2024-11-28 09:41:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:41:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2024-11-28 09:41:12 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: administrasi/subsatker/46313cae-ae01-4ff0-b17d-aecb8f155e5c/proses-edit]
+in SYSTEMPATH/Security/Security.php on line 262.
+ 1 SYSTEMPATH/Security/Security.php(262): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(52): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/Filters/Filters.php(203): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/Filters/Filters.php(184): CodeIgniter\Filters\Filters->runBefore([...])
+ 5 SYSTEMPATH/CodeIgniter.php(481): CodeIgniter\Filters\Filters->run('administrasi/subsatker/46313cae-ae01-4ff0-b17d-aecb8f155e5c/proses-edit', 'before')
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/Users/apple/www/pusk/ci4/develop/sistem_akademik/public/index.php')
+INFO - 2024-11-28 09:41:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:41:30 --> CSRF token verified.
+INFO - 2024-11-28 09:41:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:41:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:41:32 --> CSRF token verified.
+INFO - 2024-11-28 09:41:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:41:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:41:38 --> CSRF token verified.
+INFO - 2024-11-28 09:41:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:41:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:41:39 --> CSRF token verified.
+INFO - 2024-11-28 09:41:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:43:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:44:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:44:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:44:11 --> CSRF token verified.
+INFO - 2024-11-28 09:44:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:44:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:44:20 --> CSRF token verified.
+INFO - 2024-11-28 09:44:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:49:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2024-11-28 09:49:07 --> ErrorException: Undefined variable $jis
+[Method: GET, Route: administrasi/jenis-induk-subsatker]
+in APPPATH/Modules/Administrasi/Views/Jis/index.php on line 46.
+ 1 APPPATH/Modules/Administrasi/Views/Jis/index.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $jis', '/Users/apple/www/pusk/ci4/develop/sistem_akademik/app/Modules/Administrasi/Views/Jis/index.php', 46)
+ 2 SYSTEMPATH/View/View.php(234): include('/Users/apple/www/pusk/ci4/develop/sistem_akademik/app/Modules/Administrasi/Views/Jis/index.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('Modules\\Administrasi\\Views\\Jis\\index', [], true)
+ 5 APPPATH/Views/layout/admin/v_view.php(4): view('Modules\\Administrasi\\Views\\Jis\\index')
+ 6 SYSTEMPATH/View/View.php(234): include('/Users/apple/www/pusk/ci4/develop/sistem_akademik/app/Views/layout/admin/v_view.php')
+ 7 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('layout/admin/v_view', [], true)
+ 9 APPPATH/Views/layout/admin/v_body.php(28): view('layout/admin/v_view')
+10 SYSTEMPATH/View/View.php(234): include('/Users/apple/www/pusk/ci4/develop/sistem_akademik/app/Views/layout/admin/v_body.php')
+11 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('layout/admin/v_body', [], true)
+13 APPPATH/Views/layout/admin/templates.php(3): view('layout/admin/v_body')
+14 SYSTEMPATH/View/View.php(234): include('/Users/apple/www/pusk/ci4/develop/sistem_akademik/app/Views/layout/admin/templates.php')
+15 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+16 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('layout/admin/templates', [], true)
+17 APPPATH/Modules/Administrasi/Controllers/Jis.php(31): view('layout/admin/templates', [...])
+18 SYSTEMPATH/CodeIgniter.php(933): Modules\Administrasi\Controllers\Jis->index()
+19 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(Modules\Administrasi\Controllers\Jis))
+20 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+21 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+22 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+23 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+24 SYSTEMPATH/rewrite.php(44): require_once('/Users/apple/www/pusk/ci4/develop/sistem_akademik/public/index.php')
+INFO - 2024-11-28 09:49:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:51:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:53:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:53:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:53:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:54:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:55:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:55:35 --> CSRF token verified.
+INFO - 2024-11-28 09:55:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:55:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2024-11-28 09:55:56 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: administrasi/jenis-induk-subsatker/data]
+in SYSTEMPATH/Security/Security.php on line 262.
+ 1 SYSTEMPATH/Security/Security.php(262): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(52): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/Filters/Filters.php(203): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/Filters/Filters.php(184): CodeIgniter\Filters\Filters->runBefore([...])
+ 5 SYSTEMPATH/CodeIgniter.php(481): CodeIgniter\Filters\Filters->run('administrasi/jenis-induk-subsatker/data', 'before')
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/Users/apple/www/pusk/ci4/develop/sistem_akademik/public/index.php')
+INFO - 2024-11-28 09:56:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:56:01 --> CSRF token verified.
+INFO - 2024-11-28 09:56:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:56:12 --> CSRF token verified.
+INFO - 2024-11-28 09:56:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:56:12 --> CSRF token verified.
+INFO - 2024-11-28 09:56:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:56:13 --> CSRF token verified.
+INFO - 2024-11-28 09:56:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:56:14 --> CSRF token verified.
+INFO - 2024-11-28 09:56:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:56:14 --> CSRF token verified.
+INFO - 2024-11-28 09:56:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:56:15 --> CSRF token verified.
+INFO - 2024-11-28 09:56:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:56:16 --> CSRF token verified.
+INFO - 2024-11-28 09:56:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:56:16 --> CSRF token verified.
+INFO - 2024-11-28 09:56:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:56:17 --> CSRF token verified.
+INFO - 2024-11-28 09:56:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:56:17 --> CSRF token verified.
+INFO - 2024-11-28 09:56:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:56:19 --> CSRF token verified.
+INFO - 2024-11-28 09:56:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:56:21 --> CSRF token verified.
+INFO - 2024-11-28 09:56:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:56:21 --> CSRF token verified.
+INFO - 2024-11-28 09:56:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:56:23 --> CSRF token verified.
+INFO - 2024-11-28 09:56:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:56:24 --> CSRF token verified.
+INFO - 2024-11-28 09:56:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:56:25 --> CSRF token verified.
+INFO - 2024-11-28 09:56:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:56:26 --> CSRF token verified.
+INFO - 2024-11-28 09:56:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:56:27 --> CSRF token verified.
+INFO - 2024-11-28 09:56:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:56:28 --> CSRF token verified.
+INFO - 2024-11-28 09:56:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:56:30 --> CSRF token verified.
+INFO - 2024-11-28 09:56:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:56:36 --> CSRF token verified.
+INFO - 2024-11-28 09:56:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:56:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:56:37 --> CSRF token verified.
+INFO - 2024-11-28 09:56:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:56:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:56:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:56:49 --> CSRF token verified.
+INFO - 2024-11-28 09:56:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:56:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:57:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:57:23 --> CSRF token verified.
+INFO - 2024-11-28 09:57:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:57:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:57:24 --> CSRF token verified.
+INFO - 2024-11-28 09:57:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:57:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:57:28 --> CSRF token verified.
+INFO - 2024-11-28 09:57:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:57:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:57:29 --> CSRF token verified.
+INFO - 2024-11-28 09:57:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:57:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:57:37 --> CSRF token verified.
+INFO - 2024-11-28 09:57:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:57:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:57:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:57:48 --> CSRF token verified.
+INFO - 2024-11-28 09:57:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:57:53 --> CSRF token verified.
+INFO - 2024-11-28 09:57:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:57:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:57:53 --> CSRF token verified.
+INFO - 2024-11-28 09:57:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:57:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:57:55 --> CSRF token verified.
+INFO - 2024-11-28 09:57:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:58:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:58:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:58:02 --> CSRF token verified.
+INFO - 2024-11-28 09:58:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:58:10 --> CSRF token verified.
+INFO - 2024-11-28 09:58:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:58:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:58:10 --> CSRF token verified.
+INFO - 2024-11-28 09:58:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:58:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:58:15 --> CSRF token verified.
+INFO - 2024-11-28 09:58:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:58:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:58:15 --> CSRF token verified.
+INFO - 2024-11-28 09:58:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:58:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:58:19 --> CSRF token verified.
+INFO - 2024-11-28 09:58:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:58:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:58:19 --> CSRF token verified.
+INFO - 2024-11-28 09:58:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:58:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2024-11-28 09:58:30 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: administrasi/grup-jabatan/data]
+in SYSTEMPATH/Security/Security.php on line 262.
+ 1 SYSTEMPATH/Security/Security.php(262): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(52): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/Filters/Filters.php(203): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/Filters/Filters.php(184): CodeIgniter\Filters\Filters->runBefore([...])
+ 5 SYSTEMPATH/CodeIgniter.php(481): CodeIgniter\Filters\Filters->run('administrasi/grup-jabatan/data', 'before')
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/Users/apple/www/pusk/ci4/develop/sistem_akademik/public/index.php')
+INFO - 2024-11-28 09:58:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:58:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2024-11-28 09:58:33 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: administrasi/grup-jabatan/data]
+in SYSTEMPATH/Security/Security.php on line 262.
+ 1 SYSTEMPATH/Security/Security.php(262): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(52): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/Filters/Filters.php(203): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/Filters/Filters.php(184): CodeIgniter\Filters\Filters->runBefore([...])
+ 5 SYSTEMPATH/CodeIgniter.php(481): CodeIgniter\Filters\Filters->run('administrasi/grup-jabatan/data', 'before')
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/Users/apple/www/pusk/ci4/develop/sistem_akademik/public/index.php')
+INFO - 2024-11-28 09:59:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 09:59:59 --> CSRF token verified.
+INFO - 2024-11-28 09:59:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 10:00:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 10:00:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 10:00:53 --> CSRF token verified.
+INFO - 2024-11-28 10:00:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 10:00:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2024-11-28 10:01:09 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: administrasi/grup-jabatan/proses-tambah]
+in SYSTEMPATH/Security/Security.php on line 262.
+ 1 SYSTEMPATH/Security/Security.php(262): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(52): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/Filters/Filters.php(203): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/Filters/Filters.php(184): CodeIgniter\Filters\Filters->runBefore([...])
+ 5 SYSTEMPATH/CodeIgniter.php(481): CodeIgniter\Filters\Filters->run('administrasi/grup-jabatan/proses-tambah', 'before')
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/Users/apple/www/pusk/ci4/develop/sistem_akademik/public/index.php')
+INFO - 2024-11-28 10:01:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 10:01:38 --> CSRF token verified.
+INFO - 2024-11-28 10:01:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 10:01:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 10:01:38 --> CSRF token verified.
+INFO - 2024-11-28 10:01:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 10:01:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 10:01:53 --> CSRF token verified.
+INFO - 2024-11-28 10:01:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 10:01:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 10:01:54 --> CSRF token verified.
+INFO - 2024-11-28 10:01:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 10:01:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 10:01:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 10:01:58 --> CSRF token verified.
+INFO - 2024-11-28 10:01:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 10:03:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2024-11-28 10:03:39 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: administrasi/jabatan/data]
+in SYSTEMPATH/Security/Security.php on line 262.
+ 1 SYSTEMPATH/Security/Security.php(262): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(52): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/Filters/Filters.php(203): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/Filters/Filters.php(184): CodeIgniter\Filters\Filters->runBefore([...])
+ 5 SYSTEMPATH/CodeIgniter.php(481): CodeIgniter\Filters\Filters->run('administrasi/jabatan/data', 'before')
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/Users/apple/www/pusk/ci4/develop/sistem_akademik/public/index.php')
+INFO - 2024-11-28 10:04:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 10:04:59 --> CSRF token verified.
+INFO - 2024-11-28 10:04:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 10:06:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 10:06:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 10:06:15 --> CSRF token verified.
+INFO - 2024-11-28 10:06:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 10:06:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2024-11-28 10:07:02 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: administrasi/jabatan/proses-tambah]
+in SYSTEMPATH/Security/Security.php on line 262.
+ 1 SYSTEMPATH/Security/Security.php(262): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(52): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/Filters/Filters.php(203): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/Filters/Filters.php(184): CodeIgniter\Filters\Filters->runBefore([...])
+ 5 SYSTEMPATH/CodeIgniter.php(481): CodeIgniter\Filters\Filters->run('administrasi/jabatan/proses-tambah', 'before')
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/Users/apple/www/pusk/ci4/develop/sistem_akademik/public/index.php')
+INFO - 2024-11-28 10:07:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 10:07:37 --> CSRF token verified.
+INFO - 2024-11-28 10:07:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 10:07:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 10:07:38 --> CSRF token verified.
+INFO - 2024-11-28 10:07:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 10:07:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 10:07:49 --> CSRF token verified.
+INFO - 2024-11-28 10:07:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 10:07:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 10:07:50 --> CSRF token verified.
+INFO - 2024-11-28 10:07:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 10:07:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 10:07:56 --> CSRF token verified.
+INFO - 2024-11-28 10:07:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 10:07:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 10:07:57 --> CSRF token verified.
+INFO - 2024-11-28 10:07:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 10:10:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 10:11:08 --> CSRF token verified.
+INFO - 2024-11-28 10:11:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 10:11:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 10:11:09 --> CSRF token verified.
+INFO - 2024-11-28 10:11:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 10:11:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 10:11:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 10:11:16 --> CSRF token verified.
+INFO - 2024-11-28 10:11:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 10:12:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 10:12:18 --> CSRF token verified.
+INFO - 2024-11-28 10:12:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 10:12:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 10:12:27 --> CSRF token verified.
+INFO - 2024-11-28 10:12:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 10:13:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2024-11-28 10:13:44 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: administrasi/fakultas/data]
+in SYSTEMPATH/Security/Security.php on line 262.
+ 1 SYSTEMPATH/Security/Security.php(262): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(52): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/Filters/Filters.php(203): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/Filters/Filters.php(184): CodeIgniter\Filters\Filters->runBefore([...])
+ 5 SYSTEMPATH/CodeIgniter.php(481): CodeIgniter\Filters\Filters->run('administrasi/fakultas/data', 'before')
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/Users/apple/www/pusk/ci4/develop/sistem_akademik/public/index.php')
+INFO - 2024-11-28 10:15:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 10:15:27 --> CSRF token verified.
+INFO - 2024-11-28 10:15:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 10:15:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 10:15:53 --> CSRF token verified.
+INFO - 2024-11-28 10:15:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 10:15:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 10:15:54 --> CSRF token verified.
+INFO - 2024-11-28 10:15:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 10:15:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 10:16:01 --> CSRF token verified.
+INFO - 2024-11-28 10:16:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 10:16:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 10:16:01 --> CSRF token verified.
+INFO - 2024-11-28 10:16:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 10:16:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 10:16:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 10:16:07 --> CSRF token verified.
+INFO - 2024-11-28 10:16:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 10:16:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2024-11-28 10:16:50 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: administrasi/program-studi/data]
+in SYSTEMPATH/Security/Security.php on line 262.
+ 1 SYSTEMPATH/Security/Security.php(262): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(52): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/Filters/Filters.php(203): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/Filters/Filters.php(184): CodeIgniter\Filters\Filters->runBefore([...])
+ 5 SYSTEMPATH/CodeIgniter.php(481): CodeIgniter\Filters\Filters->run('administrasi/program-studi/data', 'before')
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/Users/apple/www/pusk/ci4/develop/sistem_akademik/public/index.php')
+INFO - 2024-11-28 10:18:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2024-11-28 10:18:15 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: administrasi/program-studi/data]
+in SYSTEMPATH/Security/Security.php on line 262.
+ 1 SYSTEMPATH/Security/Security.php(262): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(52): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/Filters/Filters.php(203): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/Filters/Filters.php(184): CodeIgniter\Filters\Filters->runBefore([...])
+ 5 SYSTEMPATH/CodeIgniter.php(481): CodeIgniter\Filters\Filters->run('administrasi/program-studi/data', 'before')
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/Users/apple/www/pusk/ci4/develop/sistem_akademik/public/index.php')
+INFO - 2024-11-28 10:18:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 10:18:29 --> CSRF token verified.
+INFO - 2024-11-28 10:18:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 10:18:39 --> CSRF token verified.
+INFO - 2024-11-28 10:18:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 10:18:40 --> CSRF token verified.
+INFO - 2024-11-28 10:18:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 10:18:40 --> CSRF token verified.
+INFO - 2024-11-28 10:18:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 10:18:40 --> CSRF token verified.
+INFO - 2024-11-28 10:18:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 10:18:41 --> CSRF token verified.
+INFO - 2024-11-28 10:18:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 10:18:42 --> CSRF token verified.
+INFO - 2024-11-28 10:18:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 10:18:42 --> CSRF token verified.
+INFO - 2024-11-28 10:18:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 10:19:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 10:19:10 --> CSRF token verified.
+INFO - 2024-11-28 10:19:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 10:19:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 10:19:11 --> CSRF token verified.
+INFO - 2024-11-28 10:19:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 10:19:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 10:19:34 --> CSRF token verified.
+INFO - 2024-11-28 10:19:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 10:19:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 10:19:35 --> CSRF token verified.
+INFO - 2024-11-28 10:19:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 10:19:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 10:19:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 10:19:38 --> CSRF token verified.
+INFO - 2024-11-28 10:19:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 10:35:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2024-11-28 10:35:40 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: administrasi/jenis-pegawai/data]
+in SYSTEMPATH/Security/Security.php on line 262.
+ 1 SYSTEMPATH/Security/Security.php(262): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(52): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/Filters/Filters.php(203): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/Filters/Filters.php(184): CodeIgniter\Filters\Filters->runBefore([...])
+ 5 SYSTEMPATH/CodeIgniter.php(481): CodeIgniter\Filters\Filters->run('administrasi/jenis-pegawai/data', 'before')
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/Users/apple/www/pusk/ci4/develop/sistem_akademik/public/index.php')
+INFO - 2024-11-28 10:37:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 10:37:12 --> CSRF token verified.
+INFO - 2024-11-28 10:37:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 10:37:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 10:37:18 --> CSRF token verified.
+INFO - 2024-11-28 10:37:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 10:37:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 10:37:19 --> CSRF token verified.
+INFO - 2024-11-28 10:37:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 10:37:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 10:37:23 --> CSRF token verified.
+INFO - 2024-11-28 10:37:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 10:37:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 10:37:25 --> CSRF token verified.
+INFO - 2024-11-28 10:37:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 10:37:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 10:37:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 10:37:27 --> CSRF token verified.
+INFO - 2024-11-28 10:37:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 13:38:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 13:38:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 13:39:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 13:39:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 13:39:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 13:39:51 --> CSRF token verified.
+INFO - 2024-11-28 13:39:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 13:39:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 13:39:54 --> CSRF token verified.
+INFO - 2024-11-28 13:39:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 13:40:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 13:40:21 --> CSRF token verified.
+INFO - 2024-11-28 13:40:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 13:40:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 13:40:23 --> CSRF token verified.
+INFO - 2024-11-28 13:40:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 13:40:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 13:40:26 --> CSRF token verified.
+INFO - 2024-11-28 13:40:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 13:40:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 13:40:28 --> CSRF token verified.
+INFO - 2024-11-28 13:40:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 13:40:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 13:40:32 --> CSRF token verified.
+INFO - 2024-11-28 13:40:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 13:41:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 13:41:18 --> CSRF token verified.
+INFO - 2024-11-28 13:41:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 13:41:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 13:41:20 --> CSRF token verified.
+INFO - 2024-11-28 13:41:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 13:41:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 13:41:23 --> CSRF token verified.
+INFO - 2024-11-28 13:41:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 13:41:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 13:41:25 --> CSRF token verified.
+INFO - 2024-11-28 13:41:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 13:41:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 13:41:27 --> CSRF token verified.
+INFO - 2024-11-28 13:41:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 13:41:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 13:41:28 --> CSRF token verified.
+INFO - 2024-11-28 13:41:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 13:45:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 13:45:18 --> CSRF token verified.
+INFO - 2024-11-28 13:45:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 13:45:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 13:45:27 --> CSRF token verified.
+INFO - 2024-11-28 13:45:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 13:45:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 13:45:32 --> CSRF token verified.
+INFO - 2024-11-28 13:45:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 13:45:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 13:45:46 --> CSRF token verified.
+INFO - 2024-11-28 13:45:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 13:45:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 13:45:51 --> CSRF token verified.
+INFO - 2024-11-28 13:45:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 13:45:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 13:45:58 --> CSRF token verified.
+INFO - 2024-11-28 13:45:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 13:46:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 13:46:11 --> CSRF token verified.
+INFO - 2024-11-28 13:46:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 13:46:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 13:46:38 --> CSRF token verified.
+INFO - 2024-11-28 13:46:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 13:46:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 13:46:45 --> CSRF token verified.
+INFO - 2024-11-28 13:46:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 13:46:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 13:46:48 --> CSRF token verified.
+INFO - 2024-11-28 13:46:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 13:47:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 13:47:03 --> CSRF token verified.
+INFO - 2024-11-28 13:47:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 13:47:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 13:47:19 --> CSRF token verified.
+INFO - 2024-11-28 13:47:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 13:49:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 13:49:52 --> CSRF token verified.
+INFO - 2024-11-28 13:49:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 13:50:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 13:50:37 --> CSRF token verified.
+INFO - 2024-11-28 13:50:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 13:51:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 13:51:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 13:51:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 13:51:50 --> CSRF token verified.
+INFO - 2024-11-28 13:51:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 13:51:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 13:52:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 13:52:04 --> CSRF token verified.
+INFO - 2024-11-28 13:52:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 13:52:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 13:52:08 --> CSRF token verified.
+INFO - 2024-11-28 13:52:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 13:52:10 --> CSRF token verified.
+INFO - 2024-11-28 13:52:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 13:52:11 --> CSRF token verified.
+INFO - 2024-11-28 13:52:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 13:52:11 --> CSRF token verified.
+INFO - 2024-11-28 13:52:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 13:52:12 --> CSRF token verified.
+INFO - 2024-11-28 13:52:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 13:52:12 --> CSRF token verified.
+INFO - 2024-11-28 13:52:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 13:52:13 --> CSRF token verified.
+INFO - 2024-11-28 13:52:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 13:52:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 13:52:18 --> CSRF token verified.
+INFO - 2024-11-28 13:52:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 13:52:19 --> CSRF token verified.
+INFO - 2024-11-28 13:52:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 13:52:20 --> CSRF token verified.
+INFO - 2024-11-28 13:52:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 13:52:20 --> CSRF token verified.
+INFO - 2024-11-28 13:52:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 13:52:21 --> CSRF token verified.
+INFO - 2024-11-28 13:52:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 13:52:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 13:52:27 --> CSRF token verified.
+INFO - 2024-11-28 13:52:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 13:52:29 --> CSRF token verified.
+INFO - 2024-11-28 13:52:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 13:52:29 --> CSRF token verified.
+INFO - 2024-11-28 13:52:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 13:52:30 --> CSRF token verified.
+INFO - 2024-11-28 13:52:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 13:52:31 --> CSRF token verified.
+INFO - 2024-11-28 13:52:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 13:52:32 --> CSRF token verified.
+INFO - 2024-11-28 13:52:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 13:52:35 --> CSRF token verified.
+INFO - 2024-11-28 13:52:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 13:52:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 13:53:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 13:53:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 13:53:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 13:53:13 --> CSRF token verified.
+INFO - 2024-11-28 13:53:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 13:53:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 13:53:15 --> CSRF token verified.
+INFO - 2024-11-28 13:53:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 13:53:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 13:53:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 13:53:20 --> CSRF token verified.
+INFO - 2024-11-28 13:53:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 13:53:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 13:53:24 --> CSRF token verified.
+INFO - 2024-11-28 13:53:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 13:53:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 13:53:26 --> CSRF token verified.
+INFO - 2024-11-28 13:53:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 13:53:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 13:53:28 --> CSRF token verified.
+INFO - 2024-11-28 13:53:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 13:53:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 13:53:30 --> CSRF token verified.
+INFO - 2024-11-28 13:53:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 13:53:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 13:53:33 --> CSRF token verified.
+INFO - 2024-11-28 13:53:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 13:53:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 13:53:35 --> CSRF token verified.
+INFO - 2024-11-28 13:53:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 13:53:36 --> CSRF token verified.
+INFO - 2024-11-28 13:53:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 13:53:45 --> CSRF token verified.
+INFO - 2024-11-28 13:53:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 13:53:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 13:54:00 --> CSRF token verified.
+INFO - 2024-11-28 13:54:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 13:54:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 13:54:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 13:54:08 --> CSRF token verified.
+INFO - 2024-11-28 13:54:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 13:54:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 13:54:19 --> CSRF token verified.
+INFO - 2024-11-28 13:54:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 13:54:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 13:54:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 13:54:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 13:54:39 --> CSRF token verified.
+INFO - 2024-11-28 13:54:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 13:54:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 13:54:47 --> CSRF token verified.
+INFO - 2024-11-28 13:54:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 13:54:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 13:54:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 13:55:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 13:55:01 --> CSRF token verified.
+INFO - 2024-11-28 13:55:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 13:55:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 13:55:03 --> CSRF token verified.
+INFO - 2024-11-28 13:55:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 13:55:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 13:55:04 --> CSRF token verified.
+INFO - 2024-11-28 13:55:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 13:55:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 13:55:06 --> CSRF token verified.
+INFO - 2024-11-28 13:55:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 13:55:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 13:55:09 --> CSRF token verified.
+INFO - 2024-11-28 13:55:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 13:55:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 13:55:11 --> CSRF token verified.
+INFO - 2024-11-28 13:55:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 13:55:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 13:55:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 13:55:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 13:55:19 --> CSRF token verified.
+INFO - 2024-11-28 13:55:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 13:55:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 13:55:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 13:56:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 13:56:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 13:56:16 --> CSRF token verified.
+INFO - 2024-11-28 13:56:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 13:58:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 13:58:44 --> CSRF token verified.
+INFO - 2024-11-28 13:58:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 13:58:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 13:58:45 --> CSRF token verified.
+INFO - 2024-11-28 13:58:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 13:58:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 13:58:47 --> CSRF token verified.
+INFO - 2024-11-28 13:58:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 13:58:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 13:58:49 --> CSRF token verified.
+INFO - 2024-11-28 13:58:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 13:59:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 13:59:26 --> CSRF token verified.
+INFO - 2024-11-28 13:59:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 13:59:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 13:59:59 --> CSRF token verified.
+INFO - 2024-11-28 13:59:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 14:00:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 14:00:01 --> CSRF token verified.
+INFO - 2024-11-28 14:00:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 14:00:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 14:00:10 --> CSRF token verified.
+INFO - 2024-11-28 14:00:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 14:00:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 14:00:18 --> CSRF token verified.
+INFO - 2024-11-28 14:00:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 14:00:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 14:00:20 --> CSRF token verified.
+INFO - 2024-11-28 14:00:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 14:00:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 14:00:22 --> CSRF token verified.
+INFO - 2024-11-28 14:00:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 14:00:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 14:00:24 --> CSRF token verified.
+INFO - 2024-11-28 14:00:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 14:00:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 14:00:26 --> CSRF token verified.
+INFO - 2024-11-28 14:00:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 14:01:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 14:01:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 14:03:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 14:03:31 --> CSRF token verified.
+INFO - 2024-11-28 14:03:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 14:03:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 14:03:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 14:03:39 --> CSRF token verified.
+INFO - 2024-11-28 14:03:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 14:07:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 14:07:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 14:07:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 14:07:37 --> CSRF token verified.
+INFO - 2024-11-28 14:07:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 14:07:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 14:07:39 --> CSRF token verified.
+INFO - 2024-11-28 14:07:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 14:07:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 14:07:42 --> CSRF token verified.
+INFO - 2024-11-28 14:07:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 14:07:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 14:07:49 --> CSRF token verified.
+INFO - 2024-11-28 14:07:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 14:07:52 --> CSRF token verified.
+INFO - 2024-11-28 14:07:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 14:07:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 14:07:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 14:08:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 14:08:03 --> CSRF token verified.
+INFO - 2024-11-28 14:08:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 14:11:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 14:11:07 --> CSRF token verified.
+INFO - 2024-11-28 14:11:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 14:11:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 14:11:25 --> CSRF token verified.
+INFO - 2024-11-28 14:11:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 14:11:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 14:11:28 --> CSRF token verified.
+INFO - 2024-11-28 14:11:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 14:11:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 14:11:30 --> CSRF token verified.
+INFO - 2024-11-28 14:11:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 14:11:31 --> CSRF token verified.
+INFO - 2024-11-28 14:11:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 14:11:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 14:11:35 --> CSRF token verified.
+INFO - 2024-11-28 14:11:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 14:14:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 14:14:18 --> CSRF token verified.
+INFO - 2024-11-28 14:14:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 14:14:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 14:15:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 14:15:17 --> CSRF token verified.
+INFO - 2024-11-28 14:15:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 14:15:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 14:15:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 14:15:51 --> CSRF token verified.
+INFO - 2024-11-28 14:15:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 14:15:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 14:15:52 --> CSRF token verified.
+INFO - 2024-11-28 14:15:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 14:16:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 14:16:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 14:16:05 --> CSRF token verified.
+INFO - 2024-11-28 14:16:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 14:16:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 14:16:06 --> CSRF token verified.
+INFO - 2024-11-28 14:16:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 14:16:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2024-11-28 14:16:10 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: administrasi/jenjang/proses-tambah]
+in SYSTEMPATH/Security/Security.php on line 262.
+ 1 SYSTEMPATH/Security/Security.php(262): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(52): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/Filters/Filters.php(203): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/Filters/Filters.php(184): CodeIgniter\Filters\Filters->runBefore([...])
+ 5 SYSTEMPATH/CodeIgniter.php(481): CodeIgniter\Filters\Filters->run('administrasi/jenjang/proses-tambah', 'before')
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/Users/apple/www/pusk/ci4/develop/sistem_akademik/public/index.php')
+INFO - 2024-11-28 14:16:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 14:16:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 14:16:19 --> CSRF token verified.
+INFO - 2024-11-28 14:16:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 14:16:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 14:16:20 --> CSRF token verified.
+INFO - 2024-11-28 14:16:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 14:16:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 14:16:43 --> CSRF token verified.
+INFO - 2024-11-28 14:16:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 14:16:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 14:16:45 --> CSRF token verified.
+INFO - 2024-11-28 14:16:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 14:19:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 14:19:29 --> CSRF token verified.
+INFO - 2024-11-28 14:19:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 14:19:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 14:19:48 --> CSRF token verified.
+INFO - 2024-11-28 14:19:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 14:20:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 14:20:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 14:20:14 --> CSRF token verified.
+INFO - 2024-11-28 14:20:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 14:20:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 14:20:20 --> CSRF token verified.
+INFO - 2024-11-28 14:20:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 14:20:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 14:20:25 --> CSRF token verified.
+INFO - 2024-11-28 14:20:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 14:23:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 14:23:15 --> CSRF token verified.
+INFO - 2024-11-28 14:23:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 14:23:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 14:23:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 14:23:20 --> CSRF token verified.
+INFO - 2024-11-28 14:23:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 14:23:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 14:23:23 --> CSRF token verified.
+INFO - 2024-11-28 14:23:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 14:23:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 14:23:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 14:23:27 --> CSRF token verified.
+INFO - 2024-11-28 14:23:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 14:23:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 14:23:29 --> CSRF token verified.
+INFO - 2024-11-28 14:23:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 14:23:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 14:23:32 --> CSRF token verified.
+INFO - 2024-11-28 14:23:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 14:23:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 14:23:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 14:23:36 --> CSRF token verified.
+INFO - 2024-11-28 14:23:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 14:23:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 14:23:37 --> CSRF token verified.
+INFO - 2024-11-28 14:23:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 14:23:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 14:23:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 14:23:41 --> CSRF token verified.
+INFO - 2024-11-28 14:23:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 14:23:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 14:23:43 --> CSRF token verified.
+INFO - 2024-11-28 14:23:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 14:23:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+ERROR - 2024-11-28 14:23:46 --> mysqli_sql_exception: Unknown column 'a.id' in 'where clause' in /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(312): mysqli->query('SELECT * FROM m...', 0)
+#1 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM m...')
+#2 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM m...')
+#3 /Users/apple/www/pusk/ci4/develop/sistem_akademik/app/Modules/Administrasi/Models/JenjangModel.php(64): CodeIgniter\Database\BaseConnection->query('SELECT * FROM m...', Array)
+#4 /Users/apple/www/pusk/ci4/develop/sistem_akademik/app/Modules/Administrasi/Controllers/Jenjang.php(132): Modules\Administrasi\Models\JenjangModel->data_id('33a4874f-0aee-4...')
+#5 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/CodeIgniter.php(933): Modules\Administrasi\Controllers\Jenjang->edit('33a4874f-0aee-4...')
+#6 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(Modules\Administrasi\Controllers\Jenjang))
+#7 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 /Users/apple/www/pusk/ci4/develop/sistem_akademik/public/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/rewrite.php(44): require_once('/Users/apple/ww...')
+#12 {main}
+CRITICAL - 2024-11-28 14:23:46 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'a.id' in 'where clause'
+[Method: GET, Route: administrasi/jenjang/33a4874f-0aee-41d3-b54a-24a007fa6e91/edit]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 APPPATH/Modules/Administrasi/Models/JenjangModel.php(64): CodeIgniter\Database\BaseConnection->query('SELECT * FROM mst_jenjang AS s WHERE a.id = ?', [...])
+ 2 APPPATH/Modules/Administrasi/Controllers/Jenjang.php(132): Modules\Administrasi\Models\JenjangModel->data_id('33a4874f-0aee-41d3-b54a-24a007fa6e91')
+ 3 SYSTEMPATH/CodeIgniter.php(933): Modules\Administrasi\Controllers\Jenjang->edit('33a4874f-0aee-41d3-b54a-24a007fa6e91')
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(Modules\Administrasi\Controllers\Jenjang))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH/rewrite.php(44): require_once('/Users/apple/www/pusk/ci4/develop/sistem_akademik/public/index.php')
+CRITICAL - 2024-11-28 14:23:46 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'a.id' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM mst_jenjang AS s WHERE a.id = \'33a4874f-0aee-41d3-b54a-24a007fa6e91\'')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM mst_jenjang AS s WHERE a.id = \'33a4874f-0aee-41d3-b54a-24a007fa6e91\'')
+ 3 APPPATH/Modules/Administrasi/Models/JenjangModel.php(64): CodeIgniter\Database\BaseConnection->query('SELECT * FROM mst_jenjang AS s WHERE a.id = ?', [...])
+ 4 APPPATH/Modules/Administrasi/Controllers/Jenjang.php(132): Modules\Administrasi\Models\JenjangModel->data_id('33a4874f-0aee-41d3-b54a-24a007fa6e91')
+ 5 SYSTEMPATH/CodeIgniter.php(933): Modules\Administrasi\Controllers\Jenjang->edit('33a4874f-0aee-41d3-b54a-24a007fa6e91')
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(Modules\Administrasi\Controllers\Jenjang))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH/rewrite.php(44): require_once('/Users/apple/www/pusk/ci4/develop/sistem_akademik/public/index.php')
+CRITICAL - 2024-11-28 14:23:46 --> [Caused by] mysqli_sql_exception: Unknown column 'a.id' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('SELECT * FROM mst_jenjang AS s WHERE a.id = \'33a4874f-0aee-41d3-b54a-24a007fa6e91\'', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM mst_jenjang AS s WHERE a.id = \'33a4874f-0aee-41d3-b54a-24a007fa6e91\'')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM mst_jenjang AS s WHERE a.id = \'33a4874f-0aee-41d3-b54a-24a007fa6e91\'')
+ 4 APPPATH/Modules/Administrasi/Models/JenjangModel.php(64): CodeIgniter\Database\BaseConnection->query('SELECT * FROM mst_jenjang AS s WHERE a.id = ?', [...])
+ 5 APPPATH/Modules/Administrasi/Controllers/Jenjang.php(132): Modules\Administrasi\Models\JenjangModel->data_id('33a4874f-0aee-41d3-b54a-24a007fa6e91')
+ 6 SYSTEMPATH/CodeIgniter.php(933): Modules\Administrasi\Controllers\Jenjang->edit('33a4874f-0aee-41d3-b54a-24a007fa6e91')
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(Modules\Administrasi\Controllers\Jenjang))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH/rewrite.php(44): require_once('/Users/apple/www/pusk/ci4/develop/sistem_akademik/public/index.php')
+INFO - 2024-11-28 14:24:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+ERROR - 2024-11-28 14:24:30 --> mysqli_sql_exception: Unknown column 'a.id' in 'where clause' in /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(312): mysqli->query('SELECT * FROM m...', 0)
+#1 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM m...')
+#2 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM m...')
+#3 /Users/apple/www/pusk/ci4/develop/sistem_akademik/app/Modules/Administrasi/Models/JenjangModel.php(64): CodeIgniter\Database\BaseConnection->query('SELECT * FROM m...', Array)
+#4 /Users/apple/www/pusk/ci4/develop/sistem_akademik/app/Modules/Administrasi/Controllers/Jenjang.php(132): Modules\Administrasi\Models\JenjangModel->data_id('33a4874f-0aee-4...')
+#5 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/CodeIgniter.php(933): Modules\Administrasi\Controllers\Jenjang->edit('33a4874f-0aee-4...')
+#6 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(Modules\Administrasi\Controllers\Jenjang))
+#7 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 /Users/apple/www/pusk/ci4/develop/sistem_akademik/public/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/rewrite.php(44): require_once('/Users/apple/ww...')
+#12 {main}
+CRITICAL - 2024-11-28 14:24:30 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'a.id' in 'where clause'
+[Method: GET, Route: administrasi/jenjang/33a4874f-0aee-41d3-b54a-24a007fa6e91/edit]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 APPPATH/Modules/Administrasi/Models/JenjangModel.php(64): CodeIgniter\Database\BaseConnection->query('SELECT * FROM mst_jenjang AS s WHERE a.id = ?', [...])
+ 2 APPPATH/Modules/Administrasi/Controllers/Jenjang.php(132): Modules\Administrasi\Models\JenjangModel->data_id('33a4874f-0aee-41d3-b54a-24a007fa6e91')
+ 3 SYSTEMPATH/CodeIgniter.php(933): Modules\Administrasi\Controllers\Jenjang->edit('33a4874f-0aee-41d3-b54a-24a007fa6e91')
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(Modules\Administrasi\Controllers\Jenjang))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH/rewrite.php(44): require_once('/Users/apple/www/pusk/ci4/develop/sistem_akademik/public/index.php')
+CRITICAL - 2024-11-28 14:24:30 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'a.id' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM mst_jenjang AS s WHERE a.id = \'33a4874f-0aee-41d3-b54a-24a007fa6e91\'')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM mst_jenjang AS s WHERE a.id = \'33a4874f-0aee-41d3-b54a-24a007fa6e91\'')
+ 3 APPPATH/Modules/Administrasi/Models/JenjangModel.php(64): CodeIgniter\Database\BaseConnection->query('SELECT * FROM mst_jenjang AS s WHERE a.id = ?', [...])
+ 4 APPPATH/Modules/Administrasi/Controllers/Jenjang.php(132): Modules\Administrasi\Models\JenjangModel->data_id('33a4874f-0aee-41d3-b54a-24a007fa6e91')
+ 5 SYSTEMPATH/CodeIgniter.php(933): Modules\Administrasi\Controllers\Jenjang->edit('33a4874f-0aee-41d3-b54a-24a007fa6e91')
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(Modules\Administrasi\Controllers\Jenjang))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH/rewrite.php(44): require_once('/Users/apple/www/pusk/ci4/develop/sistem_akademik/public/index.php')
+CRITICAL - 2024-11-28 14:24:30 --> [Caused by] mysqli_sql_exception: Unknown column 'a.id' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('SELECT * FROM mst_jenjang AS s WHERE a.id = \'33a4874f-0aee-41d3-b54a-24a007fa6e91\'', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM mst_jenjang AS s WHERE a.id = \'33a4874f-0aee-41d3-b54a-24a007fa6e91\'')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM mst_jenjang AS s WHERE a.id = \'33a4874f-0aee-41d3-b54a-24a007fa6e91\'')
+ 4 APPPATH/Modules/Administrasi/Models/JenjangModel.php(64): CodeIgniter\Database\BaseConnection->query('SELECT * FROM mst_jenjang AS s WHERE a.id = ?', [...])
+ 5 APPPATH/Modules/Administrasi/Controllers/Jenjang.php(132): Modules\Administrasi\Models\JenjangModel->data_id('33a4874f-0aee-41d3-b54a-24a007fa6e91')
+ 6 SYSTEMPATH/CodeIgniter.php(933): Modules\Administrasi\Controllers\Jenjang->edit('33a4874f-0aee-41d3-b54a-24a007fa6e91')
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(Modules\Administrasi\Controllers\Jenjang))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH/rewrite.php(44): require_once('/Users/apple/www/pusk/ci4/develop/sistem_akademik/public/index.php')
+INFO - 2024-11-28 14:24:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 14:24:35 --> CSRF token verified.
+INFO - 2024-11-28 14:24:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 14:24:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+ERROR - 2024-11-28 14:24:51 --> mysqli_sql_exception: Unknown column 'a.id' in 'where clause' in /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(312): mysqli->query('SELECT * FROM m...', 0)
+#1 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM m...')
+#2 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM m...')
+#3 /Users/apple/www/pusk/ci4/develop/sistem_akademik/app/Modules/Administrasi/Models/JenjangModel.php(64): CodeIgniter\Database\BaseConnection->query('SELECT * FROM m...', Array)
+#4 /Users/apple/www/pusk/ci4/develop/sistem_akademik/app/Modules/Administrasi/Controllers/Jenjang.php(132): Modules\Administrasi\Models\JenjangModel->data_id('33a4874f-0aee-4...')
+#5 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/CodeIgniter.php(933): Modules\Administrasi\Controllers\Jenjang->edit('33a4874f-0aee-4...')
+#6 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(Modules\Administrasi\Controllers\Jenjang))
+#7 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 /Users/apple/www/pusk/ci4/develop/sistem_akademik/public/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/rewrite.php(44): require_once('/Users/apple/ww...')
+#12 {main}
+CRITICAL - 2024-11-28 14:24:51 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'a.id' in 'where clause'
+[Method: GET, Route: administrasi/jenjang/33a4874f-0aee-41d3-b54a-24a007fa6e91/edit]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 APPPATH/Modules/Administrasi/Models/JenjangModel.php(64): CodeIgniter\Database\BaseConnection->query('SELECT * FROM mst_jenjang AS s WHERE a.id = ?', [...])
+ 2 APPPATH/Modules/Administrasi/Controllers/Jenjang.php(132): Modules\Administrasi\Models\JenjangModel->data_id('33a4874f-0aee-41d3-b54a-24a007fa6e91')
+ 3 SYSTEMPATH/CodeIgniter.php(933): Modules\Administrasi\Controllers\Jenjang->edit('33a4874f-0aee-41d3-b54a-24a007fa6e91')
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(Modules\Administrasi\Controllers\Jenjang))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH/rewrite.php(44): require_once('/Users/apple/www/pusk/ci4/develop/sistem_akademik/public/index.php')
+CRITICAL - 2024-11-28 14:24:51 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'a.id' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM mst_jenjang AS s WHERE a.id = \'33a4874f-0aee-41d3-b54a-24a007fa6e91\'')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM mst_jenjang AS s WHERE a.id = \'33a4874f-0aee-41d3-b54a-24a007fa6e91\'')
+ 3 APPPATH/Modules/Administrasi/Models/JenjangModel.php(64): CodeIgniter\Database\BaseConnection->query('SELECT * FROM mst_jenjang AS s WHERE a.id = ?', [...])
+ 4 APPPATH/Modules/Administrasi/Controllers/Jenjang.php(132): Modules\Administrasi\Models\JenjangModel->data_id('33a4874f-0aee-41d3-b54a-24a007fa6e91')
+ 5 SYSTEMPATH/CodeIgniter.php(933): Modules\Administrasi\Controllers\Jenjang->edit('33a4874f-0aee-41d3-b54a-24a007fa6e91')
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(Modules\Administrasi\Controllers\Jenjang))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH/rewrite.php(44): require_once('/Users/apple/www/pusk/ci4/develop/sistem_akademik/public/index.php')
+CRITICAL - 2024-11-28 14:24:51 --> [Caused by] mysqli_sql_exception: Unknown column 'a.id' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('SELECT * FROM mst_jenjang AS s WHERE a.id = \'33a4874f-0aee-41d3-b54a-24a007fa6e91\'', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM mst_jenjang AS s WHERE a.id = \'33a4874f-0aee-41d3-b54a-24a007fa6e91\'')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM mst_jenjang AS s WHERE a.id = \'33a4874f-0aee-41d3-b54a-24a007fa6e91\'')
+ 4 APPPATH/Modules/Administrasi/Models/JenjangModel.php(64): CodeIgniter\Database\BaseConnection->query('SELECT * FROM mst_jenjang AS s WHERE a.id = ?', [...])
+ 5 APPPATH/Modules/Administrasi/Controllers/Jenjang.php(132): Modules\Administrasi\Models\JenjangModel->data_id('33a4874f-0aee-41d3-b54a-24a007fa6e91')
+ 6 SYSTEMPATH/CodeIgniter.php(933): Modules\Administrasi\Controllers\Jenjang->edit('33a4874f-0aee-41d3-b54a-24a007fa6e91')
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(Modules\Administrasi\Controllers\Jenjang))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH/rewrite.php(44): require_once('/Users/apple/www/pusk/ci4/develop/sistem_akademik/public/index.php')
+INFO - 2024-11-28 14:25:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 14:25:14 --> CSRF token verified.
+INFO - 2024-11-28 14:25:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 14:25:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 14:25:15 --> CSRF token verified.
+INFO - 2024-11-28 14:25:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 14:25:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 14:25:21 --> CSRF token verified.
+INFO - 2024-11-28 14:25:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 14:25:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 14:25:22 --> CSRF token verified.
+INFO - 2024-11-28 14:25:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 14:25:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 14:25:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 14:25:28 --> CSRF token verified.
+INFO - 2024-11-28 14:25:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 14:25:30 --> CSRF token verified.
+INFO - 2024-11-28 14:25:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 14:25:30 --> CSRF token verified.
+INFO - 2024-11-28 14:25:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 14:25:31 --> CSRF token verified.
+INFO - 2024-11-28 14:25:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 14:25:31 --> CSRF token verified.
+INFO - 2024-11-28 14:25:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 14:25:32 --> CSRF token verified.
+INFO - 2024-11-28 14:25:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 14:25:37 --> CSRF token verified.
+INFO - 2024-11-28 14:25:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 14:25:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 14:25:43 --> CSRF token verified.
+INFO - 2024-11-28 14:25:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 14:25:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 14:25:43 --> CSRF token verified.
+INFO - 2024-11-28 14:25:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 14:25:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 14:25:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 14:25:50 --> CSRF token verified.
+INFO - 2024-11-28 14:25:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 14:25:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 14:25:55 --> CSRF token verified.
+INFO - 2024-11-28 14:25:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 14:25:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 14:25:56 --> CSRF token verified.
+INFO - 2024-11-28 14:25:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 14:25:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 14:25:59 --> CSRF token verified.
+INFO - 2024-11-28 14:25:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 14:27:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+ERROR - 2024-11-28 14:27:12 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ASC' at line 1 in /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(312): mysqli->query('SELECT * FROM m...', 0)
+#1 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM m...')
+#2 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM m...')
+#3 /Users/apple/www/pusk/ci4/develop/sistem_akademik/app/Modules/Administrasi/Models/ProdiModel.php(71): CodeIgniter\Database\BaseConnection->query('SELECT * FROM m...')
+#4 /Users/apple/www/pusk/ci4/develop/sistem_akademik/app/Modules/Administrasi/Controllers/Prodi.php(105): Modules\Administrasi\Models\ProdiModel->data_jenjang()
+#5 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/CodeIgniter.php(933): Modules\Administrasi\Controllers\Prodi->tambah()
+#6 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(Modules\Administrasi\Controllers\Prodi))
+#7 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 /Users/apple/www/pusk/ci4/develop/sistem_akademik/public/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/rewrite.php(44): require_once('/Users/apple/ww...')
+#12 {main}
+CRITICAL - 2024-11-28 14:27:12 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ASC' at line 1
+[Method: GET, Route: administrasi/program-studi/tambah]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 APPPATH/Modules/Administrasi/Models/ProdiModel.php(71): CodeIgniter\Database\BaseConnection->query('SELECT * FROM mst_jenjang AS a WHERE a.status = \'Y\' ASC')
+ 2 APPPATH/Modules/Administrasi/Controllers/Prodi.php(105): Modules\Administrasi\Models\ProdiModel->data_jenjang()
+ 3 SYSTEMPATH/CodeIgniter.php(933): Modules\Administrasi\Controllers\Prodi->tambah()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(Modules\Administrasi\Controllers\Prodi))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH/rewrite.php(44): require_once('/Users/apple/www/pusk/ci4/develop/sistem_akademik/public/index.php')
+CRITICAL - 2024-11-28 14:27:12 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ASC' at line 1
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM mst_jenjang AS a WHERE a.status = \'Y\' ASC')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM mst_jenjang AS a WHERE a.status = \'Y\' ASC')
+ 3 APPPATH/Modules/Administrasi/Models/ProdiModel.php(71): CodeIgniter\Database\BaseConnection->query('SELECT * FROM mst_jenjang AS a WHERE a.status = \'Y\' ASC')
+ 4 APPPATH/Modules/Administrasi/Controllers/Prodi.php(105): Modules\Administrasi\Models\ProdiModel->data_jenjang()
+ 5 SYSTEMPATH/CodeIgniter.php(933): Modules\Administrasi\Controllers\Prodi->tambah()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(Modules\Administrasi\Controllers\Prodi))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH/rewrite.php(44): require_once('/Users/apple/www/pusk/ci4/develop/sistem_akademik/public/index.php')
+CRITICAL - 2024-11-28 14:27:12 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ASC' at line 1
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('SELECT * FROM mst_jenjang AS a WHERE a.status = \'Y\' ASC', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM mst_jenjang AS a WHERE a.status = \'Y\' ASC')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM mst_jenjang AS a WHERE a.status = \'Y\' ASC')
+ 4 APPPATH/Modules/Administrasi/Models/ProdiModel.php(71): CodeIgniter\Database\BaseConnection->query('SELECT * FROM mst_jenjang AS a WHERE a.status = \'Y\' ASC')
+ 5 APPPATH/Modules/Administrasi/Controllers/Prodi.php(105): Modules\Administrasi\Models\ProdiModel->data_jenjang()
+ 6 SYSTEMPATH/CodeIgniter.php(933): Modules\Administrasi\Controllers\Prodi->tambah()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(Modules\Administrasi\Controllers\Prodi))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH/rewrite.php(44): require_once('/Users/apple/www/pusk/ci4/develop/sistem_akademik/public/index.php')
+INFO - 2024-11-28 14:27:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 14:28:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 14:29:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 14:29:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 14:29:39 --> CSRF token verified.
+INFO - 2024-11-28 14:29:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 14:29:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 14:29:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 14:29:46 --> CSRF token verified.
+INFO - 2024-11-28 14:29:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 14:31:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 14:31:09 --> CSRF token verified.
+INFO - 2024-11-28 14:31:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 14:31:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 14:31:12 --> CSRF token verified.
+INFO - 2024-11-28 14:31:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 14:31:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 14:31:13 --> CSRF token verified.
+INFO - 2024-11-28 14:31:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 14:31:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 14:31:17 --> CSRF token verified.
+INFO - 2024-11-28 14:31:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 14:31:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 14:31:54 --> CSRF token verified.
+INFO - 2024-11-28 14:31:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 14:31:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 14:31:56 --> CSRF token verified.
+INFO - 2024-11-28 14:31:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 14:31:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 14:31:59 --> CSRF token verified.
+INFO - 2024-11-28 14:31:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 14:32:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 14:32:20 --> CSRF token verified.
+INFO - 2024-11-28 14:32:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 14:32:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 14:33:00 --> CSRF token verified.
+INFO - 2024-11-28 14:33:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 14:33:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-28 14:33:03 --> CSRF token verified.
+INFO - 2024-11-28 14:33:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.

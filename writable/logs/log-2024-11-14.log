@@ -1,0 +1,424 @@
+INFO - 2024-11-14 08:02:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-14 08:54:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-14 08:54:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-14 08:54:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-14 08:54:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-14 08:54:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-14 08:54:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-14 08:54:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-14 08:54:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-14 08:55:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-14 08:55:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-14 15:02:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-14 15:03:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-14 15:03:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-14 15:04:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-14 15:04:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-14 15:04:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-14 15:04:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-14 15:04:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-14 15:04:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-14 15:04:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-14 15:04:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-14 15:04:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-14 15:04:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-14 15:04:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-14 15:04:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-14 15:04:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-14 15:04:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-14 15:04:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-14 15:04:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-14 15:04:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-14 15:04:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-14 15:04:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-14 15:04:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-14 15:04:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-14 15:04:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-14 15:05:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-14 15:05:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-14 15:05:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-14 15:05:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-14 15:09:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2024-11-14 15:09:45 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "Modules\Administrasi\Views\Jabatan\index.php"
+[Method: GET, Route: administrasi/jabatan]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 41.
+ 1 SYSTEMPATH/View/View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Modules\\Administrasi\\Views\\Jabatan\\index.php')
+ 2 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('Modules\\Administrasi\\Views\\Jabatan\\index', [], true)
+ 3 APPPATH/Views/layout/admin/v_view.php(4): view('Modules\\Administrasi\\Views\\Jabatan\\index')
+ 4 SYSTEMPATH/View/View.php(234): include('/Users/apple/www/pusk/ci4/develop/sistem_akademik/app/Views/layout/admin/v_view.php')
+ 5 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('layout/admin/v_view', [], true)
+ 7 APPPATH/Views/layout/admin/v_body.php(28): view('layout/admin/v_view')
+ 8 SYSTEMPATH/View/View.php(234): include('/Users/apple/www/pusk/ci4/develop/sistem_akademik/app/Views/layout/admin/v_body.php')
+ 9 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+10 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('layout/admin/v_body', [], true)
+11 APPPATH/Views/layout/admin/templates.php(3): view('layout/admin/v_body')
+12 SYSTEMPATH/View/View.php(234): include('/Users/apple/www/pusk/ci4/develop/sistem_akademik/app/Views/layout/admin/templates.php')
+13 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+14 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('layout/admin/templates', [], true)
+15 APPPATH/Modules/Administrasi/Controllers/Jabatan.php(31): view('layout/admin/templates', [...])
+16 SYSTEMPATH/CodeIgniter.php(933): Modules\Administrasi\Controllers\Jabatan->index()
+17 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(Modules\Administrasi\Controllers\Jabatan))
+18 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+19 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+20 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+21 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+22 SYSTEMPATH/rewrite.php(44): require_once('/Users/apple/www/pusk/ci4/develop/sistem_akademik/public/index.php')
+INFO - 2024-11-14 15:09:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-14 15:10:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-14 15:10:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-14 15:10:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-14 15:10:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-14 15:10:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-14 15:15:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-14 15:15:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-14 15:25:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-14 15:25:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-14 15:27:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-14 15:27:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-14 15:27:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-14 15:27:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-14 15:28:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-14 15:28:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+ERROR - 2024-11-14 15:28:09 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.`jab_induk_grup`)
+ORDER BY `b`.`gj_level` ASC, `a`.`jab_level` ASC, `jab_id` AS' at line 3 in /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(312): mysqli->query('SELECT `a`.*, `...', 0)
+#1 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `a`.*, `...')
+#2 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `a`.*, `...')
+#3 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `a`.*, `...', Array, false)
+#4 /Users/apple/www/pusk/ci4/develop/sistem_akademik/app/Modules/Administrasi/Models/JabatanModel.php(34): CodeIgniter\Database\BaseBuilder->get()
+#5 /Users/apple/www/pusk/ci4/develop/sistem_akademik/app/Modules/Administrasi/Controllers/Jabatan.php(56): Modules\Administrasi\Models\JabatanModel->data('10', '0', 'jab_id', 'asc')
+#6 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/CodeIgniter.php(933): Modules\Administrasi\Controllers\Jabatan->data()
+#7 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(Modules\Administrasi\Controllers\Jabatan))
+#8 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 /Users/apple/www/pusk/ci4/develop/sistem_akademik/public/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/rewrite.php(44): require_once('/Users/apple/ww...')
+#13 {main}
+CRITICAL - 2024-11-14 15:28:09 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.`jab_induk_grup`)
+ORDER BY `b`.`gj_level` ASC, `a`.`jab_level` ASC, `jab_id` AS' at line 3
+[Method: POST, Route: administrasi/jabatan/data]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `a`.*, `b`.`gj_id`, `b`.`gj_nama`, `b`.`gj_level`
+FROM `mst_jabatan` `a`
+JOIN `mst_grupjabatan` `b` USING (`a`.`jab_induk_grup`)
+ORDER BY `b`.`gj_level` ASC, `a`.`jab_level` ASC, `jab_id` ASC
+ LIMIT 10', [], false)
+ 2 APPPATH/Modules/Administrasi/Models/JabatanModel.php(34): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH/Modules/Administrasi/Controllers/Jabatan.php(56): Modules\Administrasi\Models\JabatanModel->data('10', '0', 'jab_id', 'asc')
+ 4 SYSTEMPATH/CodeIgniter.php(933): Modules\Administrasi\Controllers\Jabatan->data()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(Modules\Administrasi\Controllers\Jabatan))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/Users/apple/www/pusk/ci4/develop/sistem_akademik/public/index.php')
+CRITICAL - 2024-11-14 15:28:09 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.`jab_induk_grup`)
+ORDER BY `b`.`gj_level` ASC, `a`.`jab_level` ASC, `jab_id` AS' at line 3
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `a`.*, `b`.`gj_id`, `b`.`gj_nama`, `b`.`gj_level`
+FROM `mst_jabatan` `a`
+JOIN `mst_grupjabatan` `b` USING (`a`.`jab_induk_grup`)
+ORDER BY `b`.`gj_level` ASC, `a`.`jab_level` ASC, `jab_id` ASC
+ LIMIT 10')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `a`.*, `b`.`gj_id`, `b`.`gj_nama`, `b`.`gj_level`
+FROM `mst_jabatan` `a`
+JOIN `mst_grupjabatan` `b` USING (`a`.`jab_induk_grup`)
+ORDER BY `b`.`gj_level` ASC, `a`.`jab_level` ASC, `jab_id` ASC
+ LIMIT 10')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `a`.*, `b`.`gj_id`, `b`.`gj_nama`, `b`.`gj_level`
+FROM `mst_jabatan` `a`
+JOIN `mst_grupjabatan` `b` USING (`a`.`jab_induk_grup`)
+ORDER BY `b`.`gj_level` ASC, `a`.`jab_level` ASC, `jab_id` ASC
+ LIMIT 10', [], false)
+ 4 APPPATH/Modules/Administrasi/Models/JabatanModel.php(34): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH/Modules/Administrasi/Controllers/Jabatan.php(56): Modules\Administrasi\Models\JabatanModel->data('10', '0', 'jab_id', 'asc')
+ 6 SYSTEMPATH/CodeIgniter.php(933): Modules\Administrasi\Controllers\Jabatan->data()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(Modules\Administrasi\Controllers\Jabatan))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH/rewrite.php(44): require_once('/Users/apple/www/pusk/ci4/develop/sistem_akademik/public/index.php')
+CRITICAL - 2024-11-14 15:28:09 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.`jab_induk_grup`)
+ORDER BY `b`.`gj_level` ASC, `a`.`jab_level` ASC, `jab_id` AS' at line 3
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('SELECT `a`.*, `b`.`gj_id`, `b`.`gj_nama`, `b`.`gj_level`
+FROM `mst_jabatan` `a`
+JOIN `mst_grupjabatan` `b` USING (`a`.`jab_induk_grup`)
+ORDER BY `b`.`gj_level` ASC, `a`.`jab_level` ASC, `jab_id` ASC
+ LIMIT 10', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `a`.*, `b`.`gj_id`, `b`.`gj_nama`, `b`.`gj_level`
+FROM `mst_jabatan` `a`
+JOIN `mst_grupjabatan` `b` USING (`a`.`jab_induk_grup`)
+ORDER BY `b`.`gj_level` ASC, `a`.`jab_level` ASC, `jab_id` ASC
+ LIMIT 10')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `a`.*, `b`.`gj_id`, `b`.`gj_nama`, `b`.`gj_level`
+FROM `mst_jabatan` `a`
+JOIN `mst_grupjabatan` `b` USING (`a`.`jab_induk_grup`)
+ORDER BY `b`.`gj_level` ASC, `a`.`jab_level` ASC, `jab_id` ASC
+ LIMIT 10')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `a`.*, `b`.`gj_id`, `b`.`gj_nama`, `b`.`gj_level`
+FROM `mst_jabatan` `a`
+JOIN `mst_grupjabatan` `b` USING (`a`.`jab_induk_grup`)
+ORDER BY `b`.`gj_level` ASC, `a`.`jab_level` ASC, `jab_id` ASC
+ LIMIT 10', [], false)
+ 5 APPPATH/Modules/Administrasi/Models/JabatanModel.php(34): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Modules/Administrasi/Controllers/Jabatan.php(56): Modules\Administrasi\Models\JabatanModel->data('10', '0', 'jab_id', 'asc')
+ 7 SYSTEMPATH/CodeIgniter.php(933): Modules\Administrasi\Controllers\Jabatan->data()
+ 8 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(Modules\Administrasi\Controllers\Jabatan))
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH/rewrite.php(44): require_once('/Users/apple/www/pusk/ci4/develop/sistem_akademik/public/index.php')
+INFO - 2024-11-14 15:28:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-14 15:28:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+ERROR - 2024-11-14 15:28:44 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.`jab_induk_grup`)
+ORDER BY `b`.`gj_level` ASC, `a`.`jab_level` ASC, `jab_id` AS' at line 3 in /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(312): mysqli->query('SELECT `a`.*, `...', 0)
+#1 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `a`.*, `...')
+#2 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `a`.*, `...')
+#3 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `a`.*, `...', Array, false)
+#4 /Users/apple/www/pusk/ci4/develop/sistem_akademik/app/Modules/Administrasi/Models/JabatanModel.php(34): CodeIgniter\Database\BaseBuilder->get()
+#5 /Users/apple/www/pusk/ci4/develop/sistem_akademik/app/Modules/Administrasi/Controllers/Jabatan.php(56): Modules\Administrasi\Models\JabatanModel->data('10', '0', 'jab_id', 'asc')
+#6 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/CodeIgniter.php(933): Modules\Administrasi\Controllers\Jabatan->data()
+#7 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(Modules\Administrasi\Controllers\Jabatan))
+#8 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 /Users/apple/www/pusk/ci4/develop/sistem_akademik/public/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/rewrite.php(44): require_once('/Users/apple/ww...')
+#13 {main}
+CRITICAL - 2024-11-14 15:28:44 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.`jab_induk_grup`)
+ORDER BY `b`.`gj_level` ASC, `a`.`jab_level` ASC, `jab_id` AS' at line 3
+[Method: POST, Route: administrasi/jabatan/data]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `a`.*, `b`.`gj_id`, `b`.`gj_nama`, `b`.`gj_level`
+FROM `mst_jabatan` `a`
+JOIN `mst_grupjabatan` `b` USING (`a`.`jab_induk_grup`)
+ORDER BY `b`.`gj_level` ASC, `a`.`jab_level` ASC, `jab_id` ASC
+ LIMIT 10', [], false)
+ 2 APPPATH/Modules/Administrasi/Models/JabatanModel.php(34): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH/Modules/Administrasi/Controllers/Jabatan.php(56): Modules\Administrasi\Models\JabatanModel->data('10', '0', 'jab_id', 'asc')
+ 4 SYSTEMPATH/CodeIgniter.php(933): Modules\Administrasi\Controllers\Jabatan->data()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(Modules\Administrasi\Controllers\Jabatan))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/Users/apple/www/pusk/ci4/develop/sistem_akademik/public/index.php')
+CRITICAL - 2024-11-14 15:28:44 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.`jab_induk_grup`)
+ORDER BY `b`.`gj_level` ASC, `a`.`jab_level` ASC, `jab_id` AS' at line 3
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `a`.*, `b`.`gj_id`, `b`.`gj_nama`, `b`.`gj_level`
+FROM `mst_jabatan` `a`
+JOIN `mst_grupjabatan` `b` USING (`a`.`jab_induk_grup`)
+ORDER BY `b`.`gj_level` ASC, `a`.`jab_level` ASC, `jab_id` ASC
+ LIMIT 10')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `a`.*, `b`.`gj_id`, `b`.`gj_nama`, `b`.`gj_level`
+FROM `mst_jabatan` `a`
+JOIN `mst_grupjabatan` `b` USING (`a`.`jab_induk_grup`)
+ORDER BY `b`.`gj_level` ASC, `a`.`jab_level` ASC, `jab_id` ASC
+ LIMIT 10')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `a`.*, `b`.`gj_id`, `b`.`gj_nama`, `b`.`gj_level`
+FROM `mst_jabatan` `a`
+JOIN `mst_grupjabatan` `b` USING (`a`.`jab_induk_grup`)
+ORDER BY `b`.`gj_level` ASC, `a`.`jab_level` ASC, `jab_id` ASC
+ LIMIT 10', [], false)
+ 4 APPPATH/Modules/Administrasi/Models/JabatanModel.php(34): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH/Modules/Administrasi/Controllers/Jabatan.php(56): Modules\Administrasi\Models\JabatanModel->data('10', '0', 'jab_id', 'asc')
+ 6 SYSTEMPATH/CodeIgniter.php(933): Modules\Administrasi\Controllers\Jabatan->data()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(Modules\Administrasi\Controllers\Jabatan))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH/rewrite.php(44): require_once('/Users/apple/www/pusk/ci4/develop/sistem_akademik/public/index.php')
+CRITICAL - 2024-11-14 15:28:44 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.`jab_induk_grup`)
+ORDER BY `b`.`gj_level` ASC, `a`.`jab_level` ASC, `jab_id` AS' at line 3
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('SELECT `a`.*, `b`.`gj_id`, `b`.`gj_nama`, `b`.`gj_level`
+FROM `mst_jabatan` `a`
+JOIN `mst_grupjabatan` `b` USING (`a`.`jab_induk_grup`)
+ORDER BY `b`.`gj_level` ASC, `a`.`jab_level` ASC, `jab_id` ASC
+ LIMIT 10', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `a`.*, `b`.`gj_id`, `b`.`gj_nama`, `b`.`gj_level`
+FROM `mst_jabatan` `a`
+JOIN `mst_grupjabatan` `b` USING (`a`.`jab_induk_grup`)
+ORDER BY `b`.`gj_level` ASC, `a`.`jab_level` ASC, `jab_id` ASC
+ LIMIT 10')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `a`.*, `b`.`gj_id`, `b`.`gj_nama`, `b`.`gj_level`
+FROM `mst_jabatan` `a`
+JOIN `mst_grupjabatan` `b` USING (`a`.`jab_induk_grup`)
+ORDER BY `b`.`gj_level` ASC, `a`.`jab_level` ASC, `jab_id` ASC
+ LIMIT 10')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `a`.*, `b`.`gj_id`, `b`.`gj_nama`, `b`.`gj_level`
+FROM `mst_jabatan` `a`
+JOIN `mst_grupjabatan` `b` USING (`a`.`jab_induk_grup`)
+ORDER BY `b`.`gj_level` ASC, `a`.`jab_level` ASC, `jab_id` ASC
+ LIMIT 10', [], false)
+ 5 APPPATH/Modules/Administrasi/Models/JabatanModel.php(34): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Modules/Administrasi/Controllers/Jabatan.php(56): Modules\Administrasi\Models\JabatanModel->data('10', '0', 'jab_id', 'asc')
+ 7 SYSTEMPATH/CodeIgniter.php(933): Modules\Administrasi\Controllers\Jabatan->data()
+ 8 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(Modules\Administrasi\Controllers\Jabatan))
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH/rewrite.php(44): require_once('/Users/apple/www/pusk/ci4/develop/sistem_akademik/public/index.php')
+INFO - 2024-11-14 15:29:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-14 15:29:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-14 15:29:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-14 15:29:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-14 15:29:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-14 15:32:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-14 15:32:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-14 15:33:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-14 15:34:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-14 15:34:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-14 15:38:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-14 15:38:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-14 15:39:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-14 15:40:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-14 15:40:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-14 15:40:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-14 15:41:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+ERROR - 2024-11-14 15:41:06 --> mysqli_sql_exception: Column 'jab_level' cannot be null in /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(312): mysqli->query('INSERT INTO `ms...', 0)
+#1 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ms...')
+#2 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ms...')
+#3 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ms...', Array, false)
+#4 /Users/apple/www/pusk/ci4/develop/sistem_akademik/app/Modules/Administrasi/Models/JabatanModel.php(78): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /Users/apple/www/pusk/ci4/develop/sistem_akademik/app/Modules/Administrasi/Controllers/Jabatan.php(121): Modules\Administrasi\Models\JabatanModel->tambah(Array)
+#6 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/CodeIgniter.php(933): Modules\Administrasi\Controllers\Jabatan->prosestambah()
+#7 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(Modules\Administrasi\Controllers\Jabatan))
+#8 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 /Users/apple/www/pusk/ci4/develop/sistem_akademik/public/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/rewrite.php(44): require_once('/Users/apple/ww...')
+#13 {main}
+CRITICAL - 2024-11-14 15:41:06 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'jab_level' cannot be null
+[Method: POST, Route: administrasi/jabatan/proses-tambah]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `mst_jabatan` (`jab_id`, `jab_grup_eselon`, `jab_nama`, `jab_singkat`, `jab_induk_grup`, `jab_level`, `jab_update`) VALUES (:jab_id:, :jab_grup_eselon:, :jab_nama:, :jab_singkat:, :jab_induk_grup:, :jab_level:, :jab_update:)', [...], false)
+ 2 APPPATH/Modules/Administrasi/Models/JabatanModel.php(78): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH/Modules/Administrasi/Controllers/Jabatan.php(121): Modules\Administrasi\Models\JabatanModel->tambah([...])
+ 4 SYSTEMPATH/CodeIgniter.php(933): Modules\Administrasi\Controllers\Jabatan->prosestambah()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(Modules\Administrasi\Controllers\Jabatan))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/Users/apple/www/pusk/ci4/develop/sistem_akademik/public/index.php')
+CRITICAL - 2024-11-14 15:41:06 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'jab_level' cannot be null
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `mst_jabatan` (`jab_id`, `jab_grup_eselon`, `jab_nama`, `jab_singkat`, `jab_induk_grup`, `jab_level`, `jab_update`) VALUES (\'6da8a977-023e-401d-be60-b9ab705a231e\', \'Pimpinan Non Eselon\', \'Rektor\', \'Rektor\', \'13800db7-1c24-46fc-9250-367abf4824e0\', NULL, \'2024-11-14 15:41:06\')')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `mst_jabatan` (`jab_id`, `jab_grup_eselon`, `jab_nama`, `jab_singkat`, `jab_induk_grup`, `jab_level`, `jab_update`) VALUES (\'6da8a977-023e-401d-be60-b9ab705a231e\', \'Pimpinan Non Eselon\', \'Rektor\', \'Rektor\', \'13800db7-1c24-46fc-9250-367abf4824e0\', NULL, \'2024-11-14 15:41:06\')')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `mst_jabatan` (`jab_id`, `jab_grup_eselon`, `jab_nama`, `jab_singkat`, `jab_induk_grup`, `jab_level`, `jab_update`) VALUES (:jab_id:, :jab_grup_eselon:, :jab_nama:, :jab_singkat:, :jab_induk_grup:, :jab_level:, :jab_update:)', [...], false)
+ 4 APPPATH/Modules/Administrasi/Models/JabatanModel.php(78): CodeIgniter\Database\BaseBuilder->insert([...])
+ 5 APPPATH/Modules/Administrasi/Controllers/Jabatan.php(121): Modules\Administrasi\Models\JabatanModel->tambah([...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): Modules\Administrasi\Controllers\Jabatan->prosestambah()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(Modules\Administrasi\Controllers\Jabatan))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH/rewrite.php(44): require_once('/Users/apple/www/pusk/ci4/develop/sistem_akademik/public/index.php')
+CRITICAL - 2024-11-14 15:41:06 --> [Caused by] mysqli_sql_exception: Column 'jab_level' cannot be null
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('INSERT INTO `mst_jabatan` (`jab_id`, `jab_grup_eselon`, `jab_nama`, `jab_singkat`, `jab_induk_grup`, `jab_level`, `jab_update`) VALUES (\'6da8a977-023e-401d-be60-b9ab705a231e\', \'Pimpinan Non Eselon\', \'Rektor\', \'Rektor\', \'13800db7-1c24-46fc-9250-367abf4824e0\', NULL, \'2024-11-14 15:41:06\')', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `mst_jabatan` (`jab_id`, `jab_grup_eselon`, `jab_nama`, `jab_singkat`, `jab_induk_grup`, `jab_level`, `jab_update`) VALUES (\'6da8a977-023e-401d-be60-b9ab705a231e\', \'Pimpinan Non Eselon\', \'Rektor\', \'Rektor\', \'13800db7-1c24-46fc-9250-367abf4824e0\', NULL, \'2024-11-14 15:41:06\')')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `mst_jabatan` (`jab_id`, `jab_grup_eselon`, `jab_nama`, `jab_singkat`, `jab_induk_grup`, `jab_level`, `jab_update`) VALUES (\'6da8a977-023e-401d-be60-b9ab705a231e\', \'Pimpinan Non Eselon\', \'Rektor\', \'Rektor\', \'13800db7-1c24-46fc-9250-367abf4824e0\', NULL, \'2024-11-14 15:41:06\')')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `mst_jabatan` (`jab_id`, `jab_grup_eselon`, `jab_nama`, `jab_singkat`, `jab_induk_grup`, `jab_level`, `jab_update`) VALUES (:jab_id:, :jab_grup_eselon:, :jab_nama:, :jab_singkat:, :jab_induk_grup:, :jab_level:, :jab_update:)', [...], false)
+ 5 APPPATH/Modules/Administrasi/Models/JabatanModel.php(78): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH/Modules/Administrasi/Controllers/Jabatan.php(121): Modules\Administrasi\Models\JabatanModel->tambah([...])
+ 7 SYSTEMPATH/CodeIgniter.php(933): Modules\Administrasi\Controllers\Jabatan->prosestambah()
+ 8 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(Modules\Administrasi\Controllers\Jabatan))
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH/rewrite.php(44): require_once('/Users/apple/www/pusk/ci4/develop/sistem_akademik/public/index.php')
+INFO - 2024-11-14 15:41:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-14 15:41:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-14 15:41:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-14 15:41:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-14 15:41:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-14 15:41:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-14 15:42:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-14 15:42:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-14 15:42:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-14 15:42:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-14 15:42:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-14 15:42:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-14 15:42:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-14 15:43:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-14 15:43:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-14 15:43:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-14 15:43:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-14 15:43:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-14 15:43:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-14 15:44:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-14 15:44:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-14 15:44:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-14 15:44:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-14 15:44:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-14 15:44:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-14 15:45:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-14 15:45:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-14 15:46:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-14 15:46:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-14 15:46:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-14 15:46:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-14 15:46:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-14 15:46:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-14 15:46:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-14 15:46:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-14 15:46:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-14 15:46:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-14 15:46:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-14 15:47:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-14 15:47:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-14 15:47:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-14 15:47:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-14 15:47:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-14 15:47:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-14 15:47:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-14 15:47:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-14 15:47:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-14 15:47:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-14 15:47:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-14 15:47:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-14 15:47:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-14 15:48:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-14 15:48:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-14 15:48:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-14 15:48:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-14 15:48:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-14 15:48:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-14 15:48:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-14 15:48:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-14 15:49:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-14 15:49:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-14 15:49:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-14 15:49:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-14 15:49:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-14 15:49:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-14 15:49:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-14 15:49:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-14 15:49:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-14 15:49:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-14 15:50:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-14 15:50:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-14 15:50:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-14 15:50:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-14 15:50:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-14 15:50:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-14 15:55:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-14 15:55:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.

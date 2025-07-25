@@ -1,0 +1,92 @@
+INFO - 2025-02-28 08:02:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-28 08:02:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-28 08:02:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-28 08:02:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-28 08:03:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-28 08:03:42 --> CSRF token verified.
+INFO - 2025-02-28 08:03:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-28 08:03:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-28 08:03:49 --> CSRF token verified.
+INFO - 2025-02-28 08:03:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-28 08:04:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-28 08:04:28 --> CSRF token verified.
+INFO - 2025-02-28 08:04:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-28 08:04:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-28 08:04:29 --> CSRF token verified.
+INFO - 2025-02-28 08:04:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-28 09:18:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-28 09:19:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-28 09:19:49 --> CSRF token verified.
+INFO - 2025-02-28 09:19:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-28 09:20:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-28 09:20:07 --> CSRF token verified.
+INFO - 2025-02-28 09:20:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-28 09:20:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2025-02-28 09:20:07 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "Modules\Konfigurasi\Views\penomoran\tambah.php"
+[Method: GET, Route: konfigurasi/penomoran/tambah]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 41.
+ 1 SYSTEMPATH/View/View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Modules\\Konfigurasi\\Views\\penomoran\\tambah.php')
+ 2 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('Modules\\Konfigurasi\\Views\\penomoran\\tambah', [], true)
+ 3 APPPATH/Views/layout/admin/v_view.php(4): view('Modules\\Konfigurasi\\Views\\penomoran\\tambah')
+ 4 SYSTEMPATH/View/View.php(234): include('/Users/apple/www/pusk/ci4/production/safira/web/app/Views/layout/admin/v_view.php')
+ 5 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('layout/admin/v_view', [], true)
+ 7 APPPATH/Views/layout/admin/v_body.php(28): view('layout/admin/v_view')
+ 8 SYSTEMPATH/View/View.php(234): include('/Users/apple/www/pusk/ci4/production/safira/web/app/Views/layout/admin/v_body.php')
+ 9 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+10 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('layout/admin/v_body', [], true)
+11 APPPATH/Views/layout/admin/templates.php(3): view('layout/admin/v_body')
+12 SYSTEMPATH/View/View.php(234): include('/Users/apple/www/pusk/ci4/production/safira/web/app/Views/layout/admin/templates.php')
+13 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+14 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('layout/admin/templates', [], true)
+15 APPPATH/Modules/Konfigurasi/Controllers/Penomoran.php(42): view('layout/admin/templates', [...])
+16 SYSTEMPATH/CodeIgniter.php(933): Modules\Konfigurasi\Controllers\Penomoran->tambah()
+17 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(Modules\Konfigurasi\Controllers\Penomoran))
+18 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+19 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+20 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+21 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+22 SYSTEMPATH/rewrite.php(44): require_once('/Users/apple/www/pusk/ci4/production/safira/web/public/index.php')
+INFO - 2025-02-28 09:20:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-28 09:22:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-28 09:23:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-28 09:23:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-28 09:27:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-28 09:27:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-28 09:29:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-28 09:29:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-28 09:44:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-28 09:45:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-28 09:47:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-28 09:47:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-28 09:47:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-28 09:48:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-28 09:48:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-28 09:48:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-28 09:48:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-28 09:50:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-28 09:50:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-28 09:50:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-28 10:00:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-28 10:00:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-28 10:01:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-28 10:01:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-28 11:01:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-28 11:01:50 --> CSRF token verified.
+INFO - 2025-02-28 11:01:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-28 11:01:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-28 11:01:52 --> CSRF token verified.
+INFO - 2025-02-28 11:01:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-28 11:01:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-28 11:01:54 --> CSRF token verified.
+INFO - 2025-02-28 11:01:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-28 11:01:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-28 11:01:56 --> CSRF token verified.
+INFO - 2025-02-28 11:01:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-28 11:01:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-28 11:01:58 --> CSRF token verified.
+INFO - 2025-02-28 11:01:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-28 11:03:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-28 11:03:51 --> CSRF token verified.
+INFO - 2025-02-28 11:03:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-02-28 11:03:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.

@@ -1,0 +1,141 @@
+INFO - 2025-01-16 13:34:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-16 13:34:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-16 13:34:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-16 13:34:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-16 13:34:57 --> CSRF token verified.
+INFO - 2025-01-16 13:34:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-16 13:34:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-16 13:34:59 --> CSRF token verified.
+INFO - 2025-01-16 13:34:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-16 13:35:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-16 13:35:03 --> CSRF token verified.
+INFO - 2025-01-16 13:35:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-16 13:35:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-16 13:35:47 --> CSRF token verified.
+INFO - 2025-01-16 13:35:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+DEBUG - 2025-01-16 13:35:48 --> Row Data: {"ktg_id":"7c681e93-fc9c-4ab5-9062-345caaf3a830","ktg_nama":"Masjid At-Tarbiyah","jis_id":"4b4954aa-de57-4cdd-b69c-11e1a758e5a2","lay_id":"c7f14ab9-2019-42c5-8da7-2b8c0f2f8c94","ktg_kapasitas_min":"10","ktg_kapasitas_max":"500","ktg_foto1":"1734408899_1d85443fd7c13253d7ea.jpg","ktg_foto2":"1734408899_bf89ebbb20ff964bc90e.jpg","ktg_foto3":"1734408899_3adad09938dd74d4ee3f.jpg","ktg_foto4":"1734408899_00902e10c081ce07fff6.jpg","ktg_fasilitas":"771cfabb-725c-4dd7-a189-7237c8e450f1,c53bd76c-7f60-40fd-8afb-c5aeb958d2ca,369af4c4-5710-414b-8436-f6a40ffd46a8,d9355ced-bde4-4290-980d-7ec5e79a3d1c,257a333d-16c5-4fea-829f-582cf4af3760,30fc7469-b489-46f5-a5c0-93a683b36b92,7e995915-8725-4931-88e3-3e6895390848","ktg_durasi":"8","ktg_satuandurasi":"1941e402-4071-4108-bb30-039532b55edf","ktg_biaya":"750000","ktg_deskripsi":"Masjid At-Tarbiyah UIN Malang adalah ikon spiritual dan intelektual yang menawarkan ruang shalat luas dan nyaman, aula serbaguna, ruang kelas, serta perpustakaan dengan koleksi buku keislaman dan literatur ilmiah. Dengan arsitektur megah dan lokasi strategis di dalam kampus, masjid ini menjadi tempat yang sempurna untuk berbagai kegiatan ibadah, seminar, pelatihan, hingga acara pernikahan. Fasilitas modern seperti pendingin udara, sistem tata suara canggih, dan area parkir yang luas dan aman memastikan kenyamanan semua pengguna. Masjid At-Tarbiyah tidak hanya menjadi pusat ibadah bagi mahasiswa dan staf, tetapi juga bagi masyarakat umum. Kegiatan seperti pengajian, dzikir rutin, seminar, workshop, dan bakti sosial sering diadakan di sini. Aula serbaguna dan ruang kelas dapat disewakan untuk berbagai acara, menjadikan masjid ini pilihan utama untuk kegiatan keagamaan dan komunitas.","kds_id":"916b2b07-494f-4ae5-8640-8608a405aeb8","ktg_status":"0","ktg_update":"2024-12-18 14:21:38","jis_nama":"UIN Maulana Malik Ibrahim | Kampus 1","lay_nama":"Penggunaan Gedung dan Ruangan","kds_nama":"Layak"}
+INFO - 2025-01-16 13:35:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-16 13:35:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-16 13:36:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-16 13:36:04 --> CSRF token verified.
+INFO - 2025-01-16 13:36:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-16 13:36:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-16 13:36:09 --> CSRF token verified.
+INFO - 2025-01-16 13:36:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-16 13:56:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-16 13:56:08 --> CSRF token verified.
+INFO - 2025-01-16 13:56:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-16 13:56:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-16 13:56:10 --> CSRF token verified.
+INFO - 2025-01-16 13:56:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+DEBUG - 2025-01-16 13:56:10 --> Row Data: {"ktg_id":"7c681e93-fc9c-4ab5-9062-345caaf3a830","ktg_nama":"Masjid At-Tarbiyah","jis_id":"4b4954aa-de57-4cdd-b69c-11e1a758e5a2","lay_id":"c7f14ab9-2019-42c5-8da7-2b8c0f2f8c94","ktg_kapasitas_min":"10","ktg_kapasitas_max":"500","ktg_foto1":"1734408899_1d85443fd7c13253d7ea.jpg","ktg_foto2":"1734408899_bf89ebbb20ff964bc90e.jpg","ktg_foto3":"1734408899_3adad09938dd74d4ee3f.jpg","ktg_foto4":"1734408899_00902e10c081ce07fff6.jpg","ktg_fasilitas":"771cfabb-725c-4dd7-a189-7237c8e450f1,c53bd76c-7f60-40fd-8afb-c5aeb958d2ca,369af4c4-5710-414b-8436-f6a40ffd46a8,d9355ced-bde4-4290-980d-7ec5e79a3d1c,257a333d-16c5-4fea-829f-582cf4af3760,30fc7469-b489-46f5-a5c0-93a683b36b92,7e995915-8725-4931-88e3-3e6895390848","ktg_durasi":"8","ktg_satuandurasi":"1941e402-4071-4108-bb30-039532b55edf","ktg_biaya":"750000","ktg_deskripsi":"Masjid At-Tarbiyah UIN Malang adalah ikon spiritual dan intelektual yang menawarkan ruang shalat luas dan nyaman, aula serbaguna, ruang kelas, serta perpustakaan dengan koleksi buku keislaman dan literatur ilmiah. Dengan arsitektur megah dan lokasi strategis di dalam kampus, masjid ini menjadi tempat yang sempurna untuk berbagai kegiatan ibadah, seminar, pelatihan, hingga acara pernikahan. Fasilitas modern seperti pendingin udara, sistem tata suara canggih, dan area parkir yang luas dan aman memastikan kenyamanan semua pengguna. Masjid At-Tarbiyah tidak hanya menjadi pusat ibadah bagi mahasiswa dan staf, tetapi juga bagi masyarakat umum. Kegiatan seperti pengajian, dzikir rutin, seminar, workshop, dan bakti sosial sering diadakan di sini. Aula serbaguna dan ruang kelas dapat disewakan untuk berbagai acara, menjadikan masjid ini pilihan utama untuk kegiatan keagamaan dan komunitas.","kds_id":"916b2b07-494f-4ae5-8640-8608a405aeb8","ktg_status":"0","ktg_update":"2024-12-18 14:21:38","jis_nama":"UIN Maulana Malik Ibrahim | Kampus 1","lay_nama":"Penggunaan Gedung dan Ruangan","kds_nama":"Layak"}
+INFO - 2025-01-16 13:56:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-16 14:14:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-16 14:15:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-16 14:17:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-16 14:17:02 --> CSRF token verified.
+INFO - 2025-01-16 14:17:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-16 14:17:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-16 14:17:04 --> CSRF token verified.
+INFO - 2025-01-16 14:17:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+DEBUG - 2025-01-16 14:17:04 --> Row Data: {"ktg_id":"7c681e93-fc9c-4ab5-9062-345caaf3a830","ktg_nama":"Masjid At-Tarbiyah","jis_id":"4b4954aa-de57-4cdd-b69c-11e1a758e5a2","lay_id":"c7f14ab9-2019-42c5-8da7-2b8c0f2f8c94","ktg_kapasitas_min":"10","ktg_kapasitas_max":"500","ktg_foto1":"1734408899_1d85443fd7c13253d7ea.jpg","ktg_foto2":"1734408899_bf89ebbb20ff964bc90e.jpg","ktg_foto3":"1734408899_3adad09938dd74d4ee3f.jpg","ktg_foto4":"1734408899_00902e10c081ce07fff6.jpg","ktg_fasilitas":"771cfabb-725c-4dd7-a189-7237c8e450f1,c53bd76c-7f60-40fd-8afb-c5aeb958d2ca,369af4c4-5710-414b-8436-f6a40ffd46a8,d9355ced-bde4-4290-980d-7ec5e79a3d1c,257a333d-16c5-4fea-829f-582cf4af3760,30fc7469-b489-46f5-a5c0-93a683b36b92,7e995915-8725-4931-88e3-3e6895390848","ktg_durasi":"8","ktg_satuandurasi":"1941e402-4071-4108-bb30-039532b55edf","ktg_biaya":"750000","ktg_deskripsi":"Masjid At-Tarbiyah UIN Malang adalah ikon spiritual dan intelektual yang menawarkan ruang shalat luas dan nyaman, aula serbaguna, ruang kelas, serta perpustakaan dengan koleksi buku keislaman dan literatur ilmiah. Dengan arsitektur megah dan lokasi strategis di dalam kampus, masjid ini menjadi tempat yang sempurna untuk berbagai kegiatan ibadah, seminar, pelatihan, hingga acara pernikahan. Fasilitas modern seperti pendingin udara, sistem tata suara canggih, dan area parkir yang luas dan aman memastikan kenyamanan semua pengguna. Masjid At-Tarbiyah tidak hanya menjadi pusat ibadah bagi mahasiswa dan staf, tetapi juga bagi masyarakat umum. Kegiatan seperti pengajian, dzikir rutin, seminar, workshop, dan bakti sosial sering diadakan di sini. Aula serbaguna dan ruang kelas dapat disewakan untuk berbagai acara, menjadikan masjid ini pilihan utama untuk kegiatan keagamaan dan komunitas.","kds_id":"916b2b07-494f-4ae5-8640-8608a405aeb8","ktg_status":"0","ktg_update":"2024-12-18 14:21:38","jis_nama":"UIN Maulana Malik Ibrahim | Kampus 1","lay_nama":"Penggunaan Gedung dan Ruangan","kds_nama":"Layak"}
+INFO - 2025-01-16 14:17:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-16 14:17:09 --> CSRF token verified.
+INFO - 2025-01-16 14:17:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-16 14:18:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-16 14:18:26 --> CSRF token verified.
+INFO - 2025-01-16 14:18:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-16 14:18:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-16 14:19:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2025-01-16 14:19:13 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "Modules\Peminjaman\Views\Lacak\detail.php"
+[Method: GET, Route: peminjaman/lacak-peminjaman/97b654e6-a392-4633-96a2-fb8731b56f33/detail]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 41.
+ 1 SYSTEMPATH/View/View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Modules\\Peminjaman\\Views\\Lacak\\detail.php')
+ 2 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('Modules\\Peminjaman\\Views\\Lacak\\detail', [], true)
+ 3 APPPATH/Views/layout/admin/v_view.php(4): view('Modules\\Peminjaman\\Views\\Lacak\\detail')
+ 4 SYSTEMPATH/View/View.php(234): include('/Users/apple/www/pusk/ci4/develop/sasana2.0/app/Views/layout/admin/v_view.php')
+ 5 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('layout/admin/v_view', [], true)
+ 7 APPPATH/Views/layout/admin/v_body.php(28): view('layout/admin/v_view')
+ 8 SYSTEMPATH/View/View.php(234): include('/Users/apple/www/pusk/ci4/develop/sasana2.0/app/Views/layout/admin/v_body.php')
+ 9 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+10 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('layout/admin/v_body', [], true)
+11 APPPATH/Views/layout/admin/templates.php(3): view('layout/admin/v_body')
+12 SYSTEMPATH/View/View.php(234): include('/Users/apple/www/pusk/ci4/develop/sasana2.0/app/Views/layout/admin/templates.php')
+13 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+14 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('layout/admin/templates', [], true)
+15 APPPATH/Modules/Peminjaman/Controllers/Lacak.php(138): view('layout/admin/templates', [...])
+16 SYSTEMPATH/CodeIgniter.php(933): Modules\Peminjaman\Controllers\Lacak->detail('97b654e6-a392-4633-96a2-fb8731b56f33')
+17 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(Modules\Peminjaman\Controllers\Lacak))
+18 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+19 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+20 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+21 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+22 SYSTEMPATH/rewrite.php(44): require_once('/Users/apple/www/pusk/ci4/develop/sasana2.0/public/index.php')
+INFO - 2025-01-16 14:21:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-16 14:22:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-16 14:23:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-16 14:23:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-16 14:23:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-16 14:23:09 --> CSRF token verified.
+INFO - 2025-01-16 14:23:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-16 14:31:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-16 14:31:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-16 14:31:45 --> CSRF token verified.
+INFO - 2025-01-16 14:31:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-16 14:31:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-16 14:33:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-16 14:33:33 --> CSRF token verified.
+INFO - 2025-01-16 14:33:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-16 14:37:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-16 14:37:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-16 14:37:37 --> CSRF token verified.
+INFO - 2025-01-16 14:37:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-16 14:37:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-16 14:38:00 --> CSRF token verified.
+INFO - 2025-01-16 14:38:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-16 14:38:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-16 14:38:02 --> CSRF token verified.
+INFO - 2025-01-16 14:38:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-16 14:39:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-16 14:39:27 --> CSRF token verified.
+INFO - 2025-01-16 14:39:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-16 14:39:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-16 14:39:28 --> CSRF token verified.
+INFO - 2025-01-16 14:39:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-16 14:39:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-16 14:39:38 --> CSRF token verified.
+INFO - 2025-01-16 14:39:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-16 14:39:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-16 14:39:39 --> CSRF token verified.
+INFO - 2025-01-16 14:39:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-16 14:39:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-16 14:39:52 --> CSRF token verified.
+INFO - 2025-01-16 14:39:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-16 14:39:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-16 14:39:53 --> CSRF token verified.
+INFO - 2025-01-16 14:39:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-16 14:41:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-16 14:41:04 --> CSRF token verified.
+INFO - 2025-01-16 14:41:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-16 14:41:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-16 14:41:26 --> CSRF token verified.
+INFO - 2025-01-16 14:41:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-16 14:41:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-16 14:41:28 --> CSRF token verified.
+INFO - 2025-01-16 14:41:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+DEBUG - 2025-01-16 14:41:28 --> Row Data: {"ktg_id":"7c681e93-fc9c-4ab5-9062-345caaf3a830","ktg_nama":"Masjid At-Tarbiyah","jis_id":"4b4954aa-de57-4cdd-b69c-11e1a758e5a2","lay_id":"c7f14ab9-2019-42c5-8da7-2b8c0f2f8c94","ktg_kapasitas_min":"10","ktg_kapasitas_max":"500","ktg_foto1":"1734408899_1d85443fd7c13253d7ea.jpg","ktg_foto2":"1734408899_bf89ebbb20ff964bc90e.jpg","ktg_foto3":"1734408899_3adad09938dd74d4ee3f.jpg","ktg_foto4":"1734408899_00902e10c081ce07fff6.jpg","ktg_fasilitas":"771cfabb-725c-4dd7-a189-7237c8e450f1,c53bd76c-7f60-40fd-8afb-c5aeb958d2ca,369af4c4-5710-414b-8436-f6a40ffd46a8,d9355ced-bde4-4290-980d-7ec5e79a3d1c,257a333d-16c5-4fea-829f-582cf4af3760,30fc7469-b489-46f5-a5c0-93a683b36b92,7e995915-8725-4931-88e3-3e6895390848","ktg_durasi":"8","ktg_satuandurasi":"1941e402-4071-4108-bb30-039532b55edf","ktg_biaya":"750000","ktg_deskripsi":"Masjid At-Tarbiyah UIN Malang adalah ikon spiritual dan intelektual yang menawarkan ruang shalat luas dan nyaman, aula serbaguna, ruang kelas, serta perpustakaan dengan koleksi buku keislaman dan literatur ilmiah. Dengan arsitektur megah dan lokasi strategis di dalam kampus, masjid ini menjadi tempat yang sempurna untuk berbagai kegiatan ibadah, seminar, pelatihan, hingga acara pernikahan. Fasilitas modern seperti pendingin udara, sistem tata suara canggih, dan area parkir yang luas dan aman memastikan kenyamanan semua pengguna. Masjid At-Tarbiyah tidak hanya menjadi pusat ibadah bagi mahasiswa dan staf, tetapi juga bagi masyarakat umum. Kegiatan seperti pengajian, dzikir rutin, seminar, workshop, dan bakti sosial sering diadakan di sini. Aula serbaguna dan ruang kelas dapat disewakan untuk berbagai acara, menjadikan masjid ini pilihan utama untuk kegiatan keagamaan dan komunitas.","kds_id":"916b2b07-494f-4ae5-8640-8608a405aeb8","ktg_status":"0","ktg_update":"2024-12-18 14:21:38","jis_nama":"UIN Maulana Malik Ibrahim | Kampus 1","lay_nama":"Penggunaan Gedung dan Ruangan","kds_nama":"Layak"}
+INFO - 2025-01-16 14:41:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-16 14:41:30 --> CSRF token verified.
+INFO - 2025-01-16 14:41:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-16 14:42:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-16 14:42:17 --> CSRF token verified.
+INFO - 2025-01-16 14:42:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+DEBUG - 2025-01-16 14:42:17 --> Row Data: {"ktg_id":"7c681e93-fc9c-4ab5-9062-345caaf3a830","ktg_nama":"Masjid At-Tarbiyah","jis_id":"4b4954aa-de57-4cdd-b69c-11e1a758e5a2","lay_id":"c7f14ab9-2019-42c5-8da7-2b8c0f2f8c94","ktg_kapasitas_min":"10","ktg_kapasitas_max":"500","ktg_foto1":"1734408899_1d85443fd7c13253d7ea.jpg","ktg_foto2":"1734408899_bf89ebbb20ff964bc90e.jpg","ktg_foto3":"1734408899_3adad09938dd74d4ee3f.jpg","ktg_foto4":"1734408899_00902e10c081ce07fff6.jpg","ktg_fasilitas":"771cfabb-725c-4dd7-a189-7237c8e450f1,c53bd76c-7f60-40fd-8afb-c5aeb958d2ca,369af4c4-5710-414b-8436-f6a40ffd46a8,d9355ced-bde4-4290-980d-7ec5e79a3d1c,257a333d-16c5-4fea-829f-582cf4af3760,30fc7469-b489-46f5-a5c0-93a683b36b92,7e995915-8725-4931-88e3-3e6895390848","ktg_durasi":"8","ktg_satuandurasi":"1941e402-4071-4108-bb30-039532b55edf","ktg_biaya":"750000","ktg_deskripsi":"Masjid At-Tarbiyah UIN Malang adalah ikon spiritual dan intelektual yang menawarkan ruang shalat luas dan nyaman, aula serbaguna, ruang kelas, serta perpustakaan dengan koleksi buku keislaman dan literatur ilmiah. Dengan arsitektur megah dan lokasi strategis di dalam kampus, masjid ini menjadi tempat yang sempurna untuk berbagai kegiatan ibadah, seminar, pelatihan, hingga acara pernikahan. Fasilitas modern seperti pendingin udara, sistem tata suara canggih, dan area parkir yang luas dan aman memastikan kenyamanan semua pengguna. Masjid At-Tarbiyah tidak hanya menjadi pusat ibadah bagi mahasiswa dan staf, tetapi juga bagi masyarakat umum. Kegiatan seperti pengajian, dzikir rutin, seminar, workshop, dan bakti sosial sering diadakan di sini. Aula serbaguna dan ruang kelas dapat disewakan untuk berbagai acara, menjadikan masjid ini pilihan utama untuk kegiatan keagamaan dan komunitas.","kds_id":"916b2b07-494f-4ae5-8640-8608a405aeb8","ktg_status":"0","ktg_update":"2024-12-18 14:21:38","jis_nama":"UIN Maulana Malik Ibrahim | Kampus 1","lay_nama":"Penggunaan Gedung dan Ruangan","kds_nama":"Layak"}
+INFO - 2025-01-16 14:42:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-16 14:42:36 --> CSRF token verified.
+INFO - 2025-01-16 14:42:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+DEBUG - 2025-01-16 14:42:36 --> Row Data: {"ktg_id":"7c681e93-fc9c-4ab5-9062-345caaf3a830","ktg_nama":"Masjid At-Tarbiyah","jis_id":"4b4954aa-de57-4cdd-b69c-11e1a758e5a2","lay_id":"c7f14ab9-2019-42c5-8da7-2b8c0f2f8c94","ktg_kapasitas_min":"10","ktg_kapasitas_max":"500","ktg_foto1":"1734408899_1d85443fd7c13253d7ea.jpg","ktg_foto2":"1734408899_bf89ebbb20ff964bc90e.jpg","ktg_foto3":"1734408899_3adad09938dd74d4ee3f.jpg","ktg_foto4":"1734408899_00902e10c081ce07fff6.jpg","ktg_fasilitas":"771cfabb-725c-4dd7-a189-7237c8e450f1,c53bd76c-7f60-40fd-8afb-c5aeb958d2ca,369af4c4-5710-414b-8436-f6a40ffd46a8,d9355ced-bde4-4290-980d-7ec5e79a3d1c,257a333d-16c5-4fea-829f-582cf4af3760,30fc7469-b489-46f5-a5c0-93a683b36b92,7e995915-8725-4931-88e3-3e6895390848","ktg_durasi":"8","ktg_satuandurasi":"1941e402-4071-4108-bb30-039532b55edf","ktg_biaya":"750000","ktg_deskripsi":"Masjid At-Tarbiyah UIN Malang adalah ikon spiritual dan intelektual yang menawarkan ruang shalat luas dan nyaman, aula serbaguna, ruang kelas, serta perpustakaan dengan koleksi buku keislaman dan literatur ilmiah. Dengan arsitektur megah dan lokasi strategis di dalam kampus, masjid ini menjadi tempat yang sempurna untuk berbagai kegiatan ibadah, seminar, pelatihan, hingga acara pernikahan. Fasilitas modern seperti pendingin udara, sistem tata suara canggih, dan area parkir yang luas dan aman memastikan kenyamanan semua pengguna. Masjid At-Tarbiyah tidak hanya menjadi pusat ibadah bagi mahasiswa dan staf, tetapi juga bagi masyarakat umum. Kegiatan seperti pengajian, dzikir rutin, seminar, workshop, dan bakti sosial sering diadakan di sini. Aula serbaguna dan ruang kelas dapat disewakan untuk berbagai acara, menjadikan masjid ini pilihan utama untuk kegiatan keagamaan dan komunitas.","kds_id":"916b2b07-494f-4ae5-8640-8608a405aeb8","ktg_status":"0","ktg_update":"2024-12-18 14:21:38","jis_nama":"UIN Maulana Malik Ibrahim | Kampus 1","lay_nama":"Penggunaan Gedung dan Ruangan","kds_nama":"Layak"}
+INFO - 2025-01-16 14:42:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-01-16 14:42:56 --> CSRF token verified.
+INFO - 2025-01-16 14:42:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.

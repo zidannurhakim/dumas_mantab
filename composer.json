@@ -1,0 +1,36 @@
+{
+    "name": "simpletine/codeigniter4-hmvc",
+    "description": "CodeIgniter4 HMVC Architecture",
+    "license": "MIT",
+    "type": "project",
+    "homepage": "https://codeigniter.com",
+    "require": {
+        "php": "^7.4 || ^8.0",
+        "codeigniter4/framework": "4.5.5",
+        "dompdf/dompdf": "dev-master",
+        "firebase/php-jwt": "^6.10",
+        "google/apiclient": "^2.0@dev",
+        "phpoffice/phpword": "dev-master",
+        "ramsey/uuid": "5.x-dev"
+    },
+    "require-dev": {
+        "fakerphp/faker": "^1.23.1",
+        "mikey179/vfsstream": "^1.6",
+        "phpstan/phpstan": "2.0.x-dev",
+        "phpunit/phpunit": "^9.1"
+    },
+    "autoload": {
+        "exclude-from-classmap": [
+            "**/Database/Migrations/**"
+        ]
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "preferred-install": "dist",
+        "sort-packages": true
+    },
+    "scripts": {
+        "test": "phpunit"
+    },
+    "minimum-stability": "dev"
+}

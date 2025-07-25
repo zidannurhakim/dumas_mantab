@@ -1,0 +1,136 @@
+INFO - 2024-11-16 22:38:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-16 22:38:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-16 22:38:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-16 22:41:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-16 22:42:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-16 22:42:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-16 22:42:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-16 22:42:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-16 22:44:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-16 22:44:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-16 22:44:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-16 22:45:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-16 22:45:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-16 22:46:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-16 22:47:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-16 22:47:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+WARNING - 2024-11-16 22:50:11 --> [DEPRECATED] nl2br(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Modules/Beranda/Controllers/Beranda.php on line 50.
+ 1 APPPATH/Modules/Beranda/Controllers/Beranda.php(50): nl2br(null)
+ 2 SYSTEMPATH/CodeIgniter.php(933): Modules\Beranda\Controllers\Beranda->stream()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(Modules\Beranda\Controllers\Beranda))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH/rewrite.php(44): require_once('/Users/apple/www/pusk/ci4/develop/sistem_akademik/public/index.php')
+WARNING - 2024-11-16 22:50:16 --> [DEPRECATED] nl2br(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Modules/Beranda/Controllers/Beranda.php on line 50.
+ 1 APPPATH/Modules/Beranda/Controllers/Beranda.php(50): nl2br(null)
+ 2 SYSTEMPATH/CodeIgniter.php(933): Modules\Beranda\Controllers\Beranda->stream()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(Modules\Beranda\Controllers\Beranda))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH/rewrite.php(44): require_once('/Users/apple/www/pusk/ci4/develop/sistem_akademik/public/index.php')
+ERROR - 2024-11-16 22:50:16 --> mysqli_sql_exception: Query execution was interrupted in /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(312): mysqli->query('SELECT GET_LOCK...', 0)
+#1 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT GET_LOCK...')
+#2 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT GET_LOCK...')
+#3 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/Session/Handlers/Database/MySQLiHandler.php(31): CodeIgniter\Database\BaseConnection->query('SELECT GET_LOCK...')
+#4 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/Session/Handlers/DatabaseHandler.php(117): CodeIgniter\Session\Handlers\Database\MySQLiHandler->lockSession('jf44bd545g90rs2...')
+#5 [internal function]: CodeIgniter\Session\Handlers\DatabaseHandler->read('jf44bd545g90rs2...')
+#6 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/Session/Session.php(920): session_start()
+#7 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/Session/Session.php(242): CodeIgniter\Session\Session->startSession()
+#8 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/Config/Services.php(710): CodeIgniter\Session\Session->start()
+#9 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/Config/BaseService.php(312): CodeIgniter\Config\Services::session(Object(Config\Session), false)
+#10 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/Config/BaseService.php(251): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#11 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/Config/Services.php(668): CodeIgniter\Config\BaseService::getSharedInstance('session', NULL)
+#12 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/Config/BaseService.php(321): CodeIgniter\Config\Services::session()
+#13 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/Config/BaseService.php(202): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#14 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/Common.php(998): CodeIgniter\Config\BaseService::get('session')
+#15 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/Common.php(971): service('session')
+#16 /Users/apple/www/pusk/ci4/develop/sistem_akademik/app/Controllers/Auth.php(32): session()
+#17 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\Auth->index()
+#18 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#19 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#20 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#21 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#22 /Users/apple/www/pusk/ci4/develop/sistem_akademik/public/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#23 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/rewrite.php(44): require_once('/Users/apple/ww...')
+#24 {main}
+CRITICAL - 2024-11-16 22:50:16 --> CodeIgniter\Database\Exceptions\DatabaseException: Query execution was interrupted
+[Method: GET, Route: /]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 SYSTEMPATH/Session/Handlers/Database/MySQLiHandler.php(31): CodeIgniter\Database\BaseConnection->query('SELECT GET_LOCK(\'6c7b241cd245724d690aea90eccc334a\', 300) AS ci_session_lock')
+ 2 SYSTEMPATH/Session/Handlers/DatabaseHandler.php(117): CodeIgniter\Session\Handlers\Database\MySQLiHandler->lockSession('jf44bd545g90rs2vgc3kr5oem24ob4u9')
+ 3 [internal function]: CodeIgniter\Session\Handlers\DatabaseHandler->read('jf44bd545g90rs2vgc3kr5oem24ob4u9')
+ 4 SYSTEMPATH/Session/Session.php(920): session_start()
+ 5 SYSTEMPATH/Session/Session.php(242): CodeIgniter\Session\Session->startSession()
+ 6 SYSTEMPATH/Config/Services.php(710): CodeIgniter\Session\Session->start()
+ 7 SYSTEMPATH/Config/BaseService.php(312): CodeIgniter\Config\Services::session(Object(Config\Session), false)
+ 8 SYSTEMPATH/Config/BaseService.php(251): CodeIgniter\Config\BaseService::__callStatic('session', [...])
+ 9 SYSTEMPATH/Config/Services.php(668): CodeIgniter\Config\BaseService::getSharedInstance('session', null)
+10 SYSTEMPATH/Config/BaseService.php(321): CodeIgniter\Config\Services::session()
+11 SYSTEMPATH/Config/BaseService.php(202): CodeIgniter\Config\BaseService::__callStatic('session', [])
+12 SYSTEMPATH/Common.php(998): CodeIgniter\Config\BaseService::get('session')
+13 SYSTEMPATH/Common.php(971): service('session')
+14 APPPATH/Controllers/Auth.php(32): session()
+15 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Auth->index()
+16 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+17 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+18 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+19 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+20 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+21 SYSTEMPATH/rewrite.php(44): require_once('/Users/apple/www/pusk/ci4/develop/sistem_akademik/public/index.php')
+CRITICAL - 2024-11-16 22:50:16 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Query execution was interrupted
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT GET_LOCK(\'6c7b241cd245724d690aea90eccc334a\', 300) AS ci_session_lock')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT GET_LOCK(\'6c7b241cd245724d690aea90eccc334a\', 300) AS ci_session_lock')
+ 3 SYSTEMPATH/Session/Handlers/Database/MySQLiHandler.php(31): CodeIgniter\Database\BaseConnection->query('SELECT GET_LOCK(\'6c7b241cd245724d690aea90eccc334a\', 300) AS ci_session_lock')
+ 4 SYSTEMPATH/Session/Handlers/DatabaseHandler.php(117): CodeIgniter\Session\Handlers\Database\MySQLiHandler->lockSession('jf44bd545g90rs2vgc3kr5oem24ob4u9')
+ 5 [internal function]: CodeIgniter\Session\Handlers\DatabaseHandler->read('jf44bd545g90rs2vgc3kr5oem24ob4u9')
+ 6 SYSTEMPATH/Session/Session.php(920): session_start()
+ 7 SYSTEMPATH/Session/Session.php(242): CodeIgniter\Session\Session->startSession()
+ 8 SYSTEMPATH/Config/Services.php(710): CodeIgniter\Session\Session->start()
+ 9 SYSTEMPATH/Config/BaseService.php(312): CodeIgniter\Config\Services::session(Object(Config\Session), false)
+10 SYSTEMPATH/Config/BaseService.php(251): CodeIgniter\Config\BaseService::__callStatic('session', [...])
+11 SYSTEMPATH/Config/Services.php(668): CodeIgniter\Config\BaseService::getSharedInstance('session', null)
+12 SYSTEMPATH/Config/BaseService.php(321): CodeIgniter\Config\Services::session()
+13 SYSTEMPATH/Config/BaseService.php(202): CodeIgniter\Config\BaseService::__callStatic('session', [])
+14 SYSTEMPATH/Common.php(998): CodeIgniter\Config\BaseService::get('session')
+15 SYSTEMPATH/Common.php(971): service('session')
+16 APPPATH/Controllers/Auth.php(32): session()
+17 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Auth->index()
+18 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+19 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+20 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+21 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+22 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+23 SYSTEMPATH/rewrite.php(44): require_once('/Users/apple/www/pusk/ci4/develop/sistem_akademik/public/index.php')
+CRITICAL - 2024-11-16 22:50:16 --> [Caused by] mysqli_sql_exception: Query execution was interrupted
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('SELECT GET_LOCK(\'6c7b241cd245724d690aea90eccc334a\', 300) AS ci_session_lock', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT GET_LOCK(\'6c7b241cd245724d690aea90eccc334a\', 300) AS ci_session_lock')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT GET_LOCK(\'6c7b241cd245724d690aea90eccc334a\', 300) AS ci_session_lock')
+ 4 SYSTEMPATH/Session/Handlers/Database/MySQLiHandler.php(31): CodeIgniter\Database\BaseConnection->query('SELECT GET_LOCK(\'6c7b241cd245724d690aea90eccc334a\', 300) AS ci_session_lock')
+ 5 SYSTEMPATH/Session/Handlers/DatabaseHandler.php(117): CodeIgniter\Session\Handlers\Database\MySQLiHandler->lockSession('jf44bd545g90rs2vgc3kr5oem24ob4u9')
+ 6 [internal function]: CodeIgniter\Session\Handlers\DatabaseHandler->read('jf44bd545g90rs2vgc3kr5oem24ob4u9')
+ 7 SYSTEMPATH/Session/Session.php(920): session_start()
+ 8 SYSTEMPATH/Session/Session.php(242): CodeIgniter\Session\Session->startSession()
+ 9 SYSTEMPATH/Config/Services.php(710): CodeIgniter\Session\Session->start()
+10 SYSTEMPATH/Config/BaseService.php(312): CodeIgniter\Config\Services::session(Object(Config\Session), false)
+11 SYSTEMPATH/Config/BaseService.php(251): CodeIgniter\Config\BaseService::__callStatic('session', [...])
+12 SYSTEMPATH/Config/Services.php(668): CodeIgniter\Config\BaseService::getSharedInstance('session', null)
+13 SYSTEMPATH/Config/BaseService.php(321): CodeIgniter\Config\Services::session()
+14 SYSTEMPATH/Config/BaseService.php(202): CodeIgniter\Config\BaseService::__callStatic('session', [])
+15 SYSTEMPATH/Common.php(998): CodeIgniter\Config\BaseService::get('session')
+16 SYSTEMPATH/Common.php(971): service('session')
+17 APPPATH/Controllers/Auth.php(32): session()
+18 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Auth->index()
+19 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+20 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+21 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+22 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+23 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+24 SYSTEMPATH/rewrite.php(44): require_once('/Users/apple/www/pusk/ci4/develop/sistem_akademik/public/index.php')

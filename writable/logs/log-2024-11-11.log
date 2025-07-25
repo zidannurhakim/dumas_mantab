@@ -1,0 +1,416 @@
+INFO - 2024-11-11 08:38:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 08:38:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 08:38:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 08:38:39 --> CSRF token verified.
+INFO - 2024-11-11 08:40:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 08:41:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 08:41:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 08:41:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 08:41:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 08:41:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 08:42:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 08:42:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 08:43:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 08:43:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 08:44:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 08:44:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+ERROR - 2024-11-11 08:45:00 --> mysqli_sql_exception: Unknown column 's.jis_nama' in 'order clause' in /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(312): mysqli->query('SELECT `s`.*, `...', 0)
+#1 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `s`.*, `...')
+#2 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `s`.*, `...')
+#3 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `s`.*, `...', Array, false)
+#4 /Users/apple/www/pusk/ci4/develop/sistem_akademik/app/Modules/Administrasi/Models/SubsatkerModel.php(33): CodeIgniter\Database\BaseBuilder->get()
+#5 /Users/apple/www/pusk/ci4/develop/sistem_akademik/app/Modules/Administrasi/Controllers/Subsatker.php(50): Modules\Administrasi\Models\SubsatkerModel->data('10', '0', 's_id', 'asc')
+#6 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/CodeIgniter.php(933): Modules\Administrasi\Controllers\Subsatker->data()
+#7 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(Modules\Administrasi\Controllers\Subsatker))
+#8 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 /Users/apple/www/pusk/ci4/develop/sistem_akademik/public/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/rewrite.php(44): require_once('/Users/apple/ww...')
+#13 {main}
+CRITICAL - 2024-11-11 08:45:00 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 's.jis_nama' in 'order clause'
+[Method: POST, Route: administrasi/subsatker/data]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `s`.*, `jis`.`jis_nama`
+FROM `x_subsatker` `s`
+JOIN `x_jis` `jis` ON `s`.`jis_id` = `jis`.`jis_id`
+ORDER BY `s`.`jis_nama` ASC, `s_id` ASC
+ LIMIT 10', [], false)
+ 2 APPPATH/Modules/Administrasi/Models/SubsatkerModel.php(33): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH/Modules/Administrasi/Controllers/Subsatker.php(50): Modules\Administrasi\Models\SubsatkerModel->data('10', '0', 's_id', 'asc')
+ 4 SYSTEMPATH/CodeIgniter.php(933): Modules\Administrasi\Controllers\Subsatker->data()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(Modules\Administrasi\Controllers\Subsatker))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/Users/apple/www/pusk/ci4/develop/sistem_akademik/public/index.php')
+CRITICAL - 2024-11-11 08:45:00 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 's.jis_nama' in 'order clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `s`.*, `jis`.`jis_nama`
+FROM `x_subsatker` `s`
+JOIN `x_jis` `jis` ON `s`.`jis_id` = `jis`.`jis_id`
+ORDER BY `s`.`jis_nama` ASC, `s_id` ASC
+ LIMIT 10')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `s`.*, `jis`.`jis_nama`
+FROM `x_subsatker` `s`
+JOIN `x_jis` `jis` ON `s`.`jis_id` = `jis`.`jis_id`
+ORDER BY `s`.`jis_nama` ASC, `s_id` ASC
+ LIMIT 10')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `s`.*, `jis`.`jis_nama`
+FROM `x_subsatker` `s`
+JOIN `x_jis` `jis` ON `s`.`jis_id` = `jis`.`jis_id`
+ORDER BY `s`.`jis_nama` ASC, `s_id` ASC
+ LIMIT 10', [], false)
+ 4 APPPATH/Modules/Administrasi/Models/SubsatkerModel.php(33): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH/Modules/Administrasi/Controllers/Subsatker.php(50): Modules\Administrasi\Models\SubsatkerModel->data('10', '0', 's_id', 'asc')
+ 6 SYSTEMPATH/CodeIgniter.php(933): Modules\Administrasi\Controllers\Subsatker->data()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(Modules\Administrasi\Controllers\Subsatker))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH/rewrite.php(44): require_once('/Users/apple/www/pusk/ci4/develop/sistem_akademik/public/index.php')
+CRITICAL - 2024-11-11 08:45:00 --> [Caused by] mysqli_sql_exception: Unknown column 's.jis_nama' in 'order clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('SELECT `s`.*, `jis`.`jis_nama`
+FROM `x_subsatker` `s`
+JOIN `x_jis` `jis` ON `s`.`jis_id` = `jis`.`jis_id`
+ORDER BY `s`.`jis_nama` ASC, `s_id` ASC
+ LIMIT 10', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `s`.*, `jis`.`jis_nama`
+FROM `x_subsatker` `s`
+JOIN `x_jis` `jis` ON `s`.`jis_id` = `jis`.`jis_id`
+ORDER BY `s`.`jis_nama` ASC, `s_id` ASC
+ LIMIT 10')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `s`.*, `jis`.`jis_nama`
+FROM `x_subsatker` `s`
+JOIN `x_jis` `jis` ON `s`.`jis_id` = `jis`.`jis_id`
+ORDER BY `s`.`jis_nama` ASC, `s_id` ASC
+ LIMIT 10')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `s`.*, `jis`.`jis_nama`
+FROM `x_subsatker` `s`
+JOIN `x_jis` `jis` ON `s`.`jis_id` = `jis`.`jis_id`
+ORDER BY `s`.`jis_nama` ASC, `s_id` ASC
+ LIMIT 10', [], false)
+ 5 APPPATH/Modules/Administrasi/Models/SubsatkerModel.php(33): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Modules/Administrasi/Controllers/Subsatker.php(50): Modules\Administrasi\Models\SubsatkerModel->data('10', '0', 's_id', 'asc')
+ 7 SYSTEMPATH/CodeIgniter.php(933): Modules\Administrasi\Controllers\Subsatker->data()
+ 8 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(Modules\Administrasi\Controllers\Subsatker))
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH/rewrite.php(44): require_once('/Users/apple/www/pusk/ci4/develop/sistem_akademik/public/index.php')
+INFO - 2024-11-11 08:45:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+ERROR - 2024-11-11 08:45:08 --> mysqli_sql_exception: Unknown column 's.jis_nama' in 'order clause' in /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(312): mysqli->query('SELECT `s`.*, `...', 0)
+#1 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `s`.*, `...')
+#2 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `s`.*, `...')
+#3 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `s`.*, `...', Array, false)
+#4 /Users/apple/www/pusk/ci4/develop/sistem_akademik/app/Modules/Administrasi/Models/SubsatkerModel.php(33): CodeIgniter\Database\BaseBuilder->get()
+#5 /Users/apple/www/pusk/ci4/develop/sistem_akademik/app/Modules/Administrasi/Controllers/Subsatker.php(50): Modules\Administrasi\Models\SubsatkerModel->data('10', '0', 's_id', 'asc')
+#6 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/CodeIgniter.php(933): Modules\Administrasi\Controllers\Subsatker->data()
+#7 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(Modules\Administrasi\Controllers\Subsatker))
+#8 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 /Users/apple/www/pusk/ci4/develop/sistem_akademik/public/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/rewrite.php(44): require_once('/Users/apple/ww...')
+#13 {main}
+CRITICAL - 2024-11-11 08:45:08 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 's.jis_nama' in 'order clause'
+[Method: POST, Route: administrasi/subsatker/data]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `s`.*, `jis`.`jis_nama`
+FROM `x_subsatker` `s`
+JOIN `x_jis` `jis` ON `s`.`jis_id` = `jis`.`jis_id`
+ORDER BY `s`.`jis_nama` ASC, `s_id` ASC
+ LIMIT 10', [], false)
+ 2 APPPATH/Modules/Administrasi/Models/SubsatkerModel.php(33): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH/Modules/Administrasi/Controllers/Subsatker.php(50): Modules\Administrasi\Models\SubsatkerModel->data('10', '0', 's_id', 'asc')
+ 4 SYSTEMPATH/CodeIgniter.php(933): Modules\Administrasi\Controllers\Subsatker->data()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(Modules\Administrasi\Controllers\Subsatker))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/Users/apple/www/pusk/ci4/develop/sistem_akademik/public/index.php')
+CRITICAL - 2024-11-11 08:45:08 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 's.jis_nama' in 'order clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `s`.*, `jis`.`jis_nama`
+FROM `x_subsatker` `s`
+JOIN `x_jis` `jis` ON `s`.`jis_id` = `jis`.`jis_id`
+ORDER BY `s`.`jis_nama` ASC, `s_id` ASC
+ LIMIT 10')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `s`.*, `jis`.`jis_nama`
+FROM `x_subsatker` `s`
+JOIN `x_jis` `jis` ON `s`.`jis_id` = `jis`.`jis_id`
+ORDER BY `s`.`jis_nama` ASC, `s_id` ASC
+ LIMIT 10')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `s`.*, `jis`.`jis_nama`
+FROM `x_subsatker` `s`
+JOIN `x_jis` `jis` ON `s`.`jis_id` = `jis`.`jis_id`
+ORDER BY `s`.`jis_nama` ASC, `s_id` ASC
+ LIMIT 10', [], false)
+ 4 APPPATH/Modules/Administrasi/Models/SubsatkerModel.php(33): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH/Modules/Administrasi/Controllers/Subsatker.php(50): Modules\Administrasi\Models\SubsatkerModel->data('10', '0', 's_id', 'asc')
+ 6 SYSTEMPATH/CodeIgniter.php(933): Modules\Administrasi\Controllers\Subsatker->data()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(Modules\Administrasi\Controllers\Subsatker))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH/rewrite.php(44): require_once('/Users/apple/www/pusk/ci4/develop/sistem_akademik/public/index.php')
+CRITICAL - 2024-11-11 08:45:08 --> [Caused by] mysqli_sql_exception: Unknown column 's.jis_nama' in 'order clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('SELECT `s`.*, `jis`.`jis_nama`
+FROM `x_subsatker` `s`
+JOIN `x_jis` `jis` ON `s`.`jis_id` = `jis`.`jis_id`
+ORDER BY `s`.`jis_nama` ASC, `s_id` ASC
+ LIMIT 10', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `s`.*, `jis`.`jis_nama`
+FROM `x_subsatker` `s`
+JOIN `x_jis` `jis` ON `s`.`jis_id` = `jis`.`jis_id`
+ORDER BY `s`.`jis_nama` ASC, `s_id` ASC
+ LIMIT 10')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `s`.*, `jis`.`jis_nama`
+FROM `x_subsatker` `s`
+JOIN `x_jis` `jis` ON `s`.`jis_id` = `jis`.`jis_id`
+ORDER BY `s`.`jis_nama` ASC, `s_id` ASC
+ LIMIT 10')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `s`.*, `jis`.`jis_nama`
+FROM `x_subsatker` `s`
+JOIN `x_jis` `jis` ON `s`.`jis_id` = `jis`.`jis_id`
+ORDER BY `s`.`jis_nama` ASC, `s_id` ASC
+ LIMIT 10', [], false)
+ 5 APPPATH/Modules/Administrasi/Models/SubsatkerModel.php(33): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Modules/Administrasi/Controllers/Subsatker.php(50): Modules\Administrasi\Models\SubsatkerModel->data('10', '0', 's_id', 'asc')
+ 7 SYSTEMPATH/CodeIgniter.php(933): Modules\Administrasi\Controllers\Subsatker->data()
+ 8 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(Modules\Administrasi\Controllers\Subsatker))
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH/rewrite.php(44): require_once('/Users/apple/www/pusk/ci4/develop/sistem_akademik/public/index.php')
+INFO - 2024-11-11 08:45:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 08:45:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 08:45:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 08:45:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 08:45:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 08:46:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 08:46:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 08:46:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 08:46:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 08:46:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 08:46:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 08:46:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 08:48:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2024-11-11 08:48:26 --> CodeIgniter\Database\Exceptions\DatabaseException: You must set the database table to be used with your query.
+[Method: POST, Route: administrasi/subsatker/data]
+in SYSTEMPATH/Database/BaseConnection.php on line 927.
+ 1 SYSTEMPATH/Model.php(716): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH/Model.php(922): CodeIgniter\Model->builder()
+ 3 APPPATH/Modules/Administrasi/Controllers/Subsatker.php(45): CodeIgniter\Model->__call('countAll', [])
+ 4 SYSTEMPATH/CodeIgniter.php(933): Modules\Administrasi\Controllers\Subsatker->data()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(Modules\Administrasi\Controllers\Subsatker))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/Users/apple/www/pusk/ci4/develop/sistem_akademik/public/index.php')
+INFO - 2024-11-11 08:48:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 08:48:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 08:51:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 08:51:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 08:52:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 08:52:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 08:52:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 08:54:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 08:54:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 08:54:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 08:54:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 08:54:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 08:54:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 08:54:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 08:54:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 08:54:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 08:54:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 09:03:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 09:03:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 09:03:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 09:03:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 09:04:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 09:04:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 09:04:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 09:04:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 09:04:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 09:06:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 09:06:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 09:09:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 09:09:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 09:09:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 09:09:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 09:09:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 09:09:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 09:09:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 09:09:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 09:17:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 09:20:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 09:20:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 09:20:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 09:20:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 09:24:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 09:24:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 09:24:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 09:24:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 09:24:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 09:27:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 09:27:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 09:27:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 09:28:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 09:28:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 09:28:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 09:28:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 09:28:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 09:28:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 09:28:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 09:30:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 09:30:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 09:30:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 09:30:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 09:47:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 09:47:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 09:47:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2024-11-11 09:47:49 --> ErrorException: Undefined variable $jis
+[Method: GET, Route: administrasi/subsatker]
+in APPPATH/Modules/Administrasi/Views/Subsatker/index.php on line 79.
+ 1 APPPATH/Modules/Administrasi/Views/Subsatker/index.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $jis', '/Users/apple/www/pusk/ci4/develop/sistem_akademik/app/Modules/Administrasi/Views/Subsatker/index.php', 79)
+ 2 SYSTEMPATH/View/View.php(234): include('/Users/apple/www/pusk/ci4/develop/sistem_akademik/app/Modules/Administrasi/Views/Subsatker/index.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('Modules\\Administrasi\\Views\\Subsatker\\index', [], true)
+ 5 APPPATH/Views/layout/admin/v_view.php(4): view('Modules\\Administrasi\\Views\\Subsatker\\index')
+ 6 SYSTEMPATH/View/View.php(234): include('/Users/apple/www/pusk/ci4/develop/sistem_akademik/app/Views/layout/admin/v_view.php')
+ 7 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('layout/admin/v_view', [], true)
+ 9 APPPATH/Views/layout/admin/v_body.php(28): view('layout/admin/v_view')
+10 SYSTEMPATH/View/View.php(234): include('/Users/apple/www/pusk/ci4/develop/sistem_akademik/app/Views/layout/admin/v_body.php')
+11 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('layout/admin/v_body', [], true)
+13 APPPATH/Views/layout/admin/templates.php(3): view('layout/admin/v_body')
+14 SYSTEMPATH/View/View.php(234): include('/Users/apple/www/pusk/ci4/develop/sistem_akademik/app/Views/layout/admin/templates.php')
+15 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+16 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('layout/admin/templates', [], true)
+17 APPPATH/Modules/Administrasi/Controllers/Subsatker.php(24): view('layout/admin/templates', [...])
+18 SYSTEMPATH/CodeIgniter.php(933): Modules\Administrasi\Controllers\Subsatker->index()
+19 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(Modules\Administrasi\Controllers\Subsatker))
+20 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+21 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+22 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+23 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+24 SYSTEMPATH/rewrite.php(44): require_once('/Users/apple/www/pusk/ci4/develop/sistem_akademik/public/index.php')
+INFO - 2024-11-11 09:47:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 09:48:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2024-11-11 09:48:03 --> ErrorException: Undefined variable $jis
+[Method: GET, Route: administrasi/subsatker]
+in APPPATH/Modules/Administrasi/Views/Subsatker/index.php on line 79.
+ 1 APPPATH/Modules/Administrasi/Views/Subsatker/index.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $jis', '/Users/apple/www/pusk/ci4/develop/sistem_akademik/app/Modules/Administrasi/Views/Subsatker/index.php', 79)
+ 2 SYSTEMPATH/View/View.php(234): include('/Users/apple/www/pusk/ci4/develop/sistem_akademik/app/Modules/Administrasi/Views/Subsatker/index.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('Modules\\Administrasi\\Views\\Subsatker\\index', [], true)
+ 5 APPPATH/Views/layout/admin/v_view.php(4): view('Modules\\Administrasi\\Views\\Subsatker\\index')
+ 6 SYSTEMPATH/View/View.php(234): include('/Users/apple/www/pusk/ci4/develop/sistem_akademik/app/Views/layout/admin/v_view.php')
+ 7 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('layout/admin/v_view', [], true)
+ 9 APPPATH/Views/layout/admin/v_body.php(28): view('layout/admin/v_view')
+10 SYSTEMPATH/View/View.php(234): include('/Users/apple/www/pusk/ci4/develop/sistem_akademik/app/Views/layout/admin/v_body.php')
+11 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('layout/admin/v_body', [], true)
+13 APPPATH/Views/layout/admin/templates.php(3): view('layout/admin/v_body')
+14 SYSTEMPATH/View/View.php(234): include('/Users/apple/www/pusk/ci4/develop/sistem_akademik/app/Views/layout/admin/templates.php')
+15 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+16 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('layout/admin/templates', [], true)
+17 APPPATH/Modules/Administrasi/Controllers/Subsatker.php(24): view('layout/admin/templates', [...])
+18 SYSTEMPATH/CodeIgniter.php(933): Modules\Administrasi\Controllers\Subsatker->index()
+19 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(Modules\Administrasi\Controllers\Subsatker))
+20 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+21 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+22 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+23 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+24 SYSTEMPATH/rewrite.php(44): require_once('/Users/apple/www/pusk/ci4/develop/sistem_akademik/public/index.php')
+INFO - 2024-11-11 09:49:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 09:49:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 10:04:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 10:05:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 10:05:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 10:05:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 10:05:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 10:06:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 10:08:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 10:08:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 10:08:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 10:08:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 10:09:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 10:09:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 10:09:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 10:10:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 10:10:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 10:10:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 10:10:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 10:12:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 10:13:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 10:13:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 10:16:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 10:16:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 10:16:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 10:17:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 10:17:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 10:17:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 10:17:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 10:31:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 10:33:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 10:33:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 10:33:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 10:33:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 10:33:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 13:16:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 13:43:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 15:24:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 15:24:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 15:24:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 15:24:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 15:24:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 15:27:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 15:27:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 15:28:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 15:28:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 15:28:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 15:28:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 15:28:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 15:28:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 15:28:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 15:29:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 15:29:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 15:29:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 15:29:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 15:30:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 15:41:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 15:41:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 15:41:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 15:42:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 15:43:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 15:48:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 15:55:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 15:56:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 15:56:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 15:56:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 15:57:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 15:57:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 15:57:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 15:58:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 15:59:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 16:03:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 16:03:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-11 16:04:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.

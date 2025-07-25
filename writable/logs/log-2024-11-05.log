@@ -1,0 +1,850 @@
+INFO - 2024-11-05 15:27:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-05 15:28:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-05 15:28:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-05 15:28:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-05 15:29:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-05 15:29:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-05 15:29:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-05 15:29:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-05 15:29:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-05 15:29:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2024-11-05 15:30:33 --> ErrorException: file_put_contents(/Users/apple/www/pusk/ci4/develop/sistem_akademik/app/Modules/Administrasi/Subsatker/Controllers/Administrasi/Subsatker.php): Failed to open stream: No such file or directory
+[Method: CLI, Route: make:module/Administrasi/Subsatker]
+in APPPATH/Commands/ModuleGenerate.php on line 135.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_put_contents(/Users/apple/www/pusk/ci4/develop/sistem_akademik/app/Modules/Administrasi/Subsatker/Controllers/Administrasi/Subsatker.php): Failed to open stream: No such file or directory', '/Users/apple/www/pusk/ci4/develop/sistem_akademik/app/Commands/ModuleGenerate.php', 135)
+ 2 APPPATH/Commands/ModuleGenerate.php(135): file_put_contents('/Users/apple/www/pusk/ci4/develop/sistem_akademik/app/Modules/Administrasi/Subsatker/Controllers/Administrasi/Subsatker.php', '<?php
+
+namespace Modules\\Administrasi\\Subsatker\\Controllers;
+
+use App\\Controllers\\BaseController;
+
+class Administrasi/Subsatker extends BaseController
+{
+    protected $folder_directory = "Modules\\\\Administrasi/Subsatker\\\\Views\\\\";
+
+    public function index()
+    {
+        return view($this->folder_directory . \'index\');
+    }
+}')
+ 3 APPPATH/Commands/ModuleGenerate.php(81): App\Commands\ModuleGenerate->generateFiles('Modules/Administrasi/Subsatker', 'Administrasi/Subsatker')
+ 4 SYSTEMPATH/CLI/Commands.php(70): App\Commands\ModuleGenerate->run([])
+ 5 SYSTEMPATH/CLI/Console.php(48): CodeIgniter\CLI\Commands->run('make:module', [...])
+ 6 SYSTEMPATH/Boot.php(351): CodeIgniter\CLI\Console->run()
+ 7 SYSTEMPATH/Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+ 8 ROOTPATH/spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+CRITICAL - 2024-11-05 15:30:53 --> ErrorException: file_put_contents(/Users/apple/www/pusk/ci4/develop/sistem_akademik/app/Modules/Administrasi/Subsatker/Controllers/Administrasi/Subsatker.php): Failed to open stream: No such file or directory
+[Method: CLI, Route: make:module/Administrasi/Subsatker]
+in APPPATH/Commands/ModuleGenerate.php on line 135.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_put_contents(/Users/apple/www/pusk/ci4/develop/sistem_akademik/app/Modules/Administrasi/Subsatker/Controllers/Administrasi/Subsatker.php): Failed to open stream: No such file or directory', '/Users/apple/www/pusk/ci4/develop/sistem_akademik/app/Commands/ModuleGenerate.php', 135)
+ 2 APPPATH/Commands/ModuleGenerate.php(135): file_put_contents('/Users/apple/www/pusk/ci4/develop/sistem_akademik/app/Modules/Administrasi/Subsatker/Controllers/Administrasi/Subsatker.php', '<?php
+
+namespace Modules\\Administrasi\\Subsatker\\Controllers;
+
+use App\\Controllers\\BaseController;
+
+class Administrasi/Subsatker extends BaseController
+{
+    protected $folder_directory = "Modules\\\\Administrasi/Subsatker\\\\Views\\\\";
+
+    public function index()
+    {
+        return view($this->folder_directory . \'index\');
+    }
+}')
+ 3 APPPATH/Commands/ModuleGenerate.php(81): App\Commands\ModuleGenerate->generateFiles('Modules/Administrasi/Subsatker', 'Administrasi/Subsatker')
+ 4 SYSTEMPATH/CLI/Commands.php(70): App\Commands\ModuleGenerate->run([])
+ 5 SYSTEMPATH/CLI/Console.php(48): CodeIgniter\CLI\Commands->run('make:module', [...])
+ 6 SYSTEMPATH/Boot.php(351): CodeIgniter\CLI\Console->run()
+ 7 SYSTEMPATH/Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+ 8 ROOTPATH/spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+INFO - 2024-11-05 15:31:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-05 15:32:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-05 15:33:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-05 15:34:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-05 15:35:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-05 15:35:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-05 15:35:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-05 15:35:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-05 15:36:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-05 15:36:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-05 15:36:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-05 15:36:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-05 15:36:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-05 15:39:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-05 15:39:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-05 15:39:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-05 15:39:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-05 15:40:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-05 15:40:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-05 15:40:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-05 15:53:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-05 15:53:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-05 15:53:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-05 15:54:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-05 15:54:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-05 15:54:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-05 15:56:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-05 15:56:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-05 15:56:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-05 15:56:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-05 15:56:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-05 15:57:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-05 15:57:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-05 15:58:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-05 15:59:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-05 16:00:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-05 16:04:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-05 16:04:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-05 16:07:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-05 16:08:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-05 16:08:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+ERROR - 2024-11-05 16:11:44 --> mysqli_sql_exception: Table 'y_siakad.st_ci_sessions' doesn't exist in /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(312): mysqli->query('SELECT `data`\nF...', 0)
+#1 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `data`\nF...')
+#2 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `data`\nF...')
+#3 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `data`\nF...', Array, false)
+#4 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/Session/Handlers/DatabaseHandler.php(135): CodeIgniter\Database\BaseBuilder->get()
+#5 [internal function]: CodeIgniter\Session\Handlers\DatabaseHandler->read('keal23od8mus2ff...')
+#6 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/Session/Session.php(920): session_start()
+#7 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/Session/Session.php(242): CodeIgniter\Session\Session->startSession()
+#8 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/Config/Services.php(710): CodeIgniter\Session\Session->start()
+#9 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/Config/BaseService.php(312): CodeIgniter\Config\Services::session(Object(Config\Session), false)
+#10 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/Config/BaseService.php(251): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#11 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/Config/Services.php(668): CodeIgniter\Config\BaseService::getSharedInstance('session', NULL)
+#12 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/Config/BaseService.php(321): CodeIgniter\Config\Services::session()
+#13 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/Config/BaseService.php(202): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#14 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/Common.php(998): CodeIgniter\Config\BaseService::get('session')
+#15 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/Common.php(971): service('session')
+#16 /Users/apple/www/pusk/ci4/develop/sistem_akademik/app/Views/layout/vertikal/v_sidebar.php(14): session()
+#17 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/View/View.php(234): include('/Users/apple/ww...')
+#18 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#19 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/Common.php(1171): CodeIgniter\View\View->render('layout/vertikal...', Array, true)
+#20 /Users/apple/www/pusk/ci4/develop/sistem_akademik/app/Views/layout/vertikal/v_body.php(62): view('layout/vertikal...')
+#21 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/View/View.php(234): include('/Users/apple/ww...')
+#22 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#23 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/Common.php(1171): CodeIgniter\View\View->render('layout/vertikal...', Array, true)
+#24 /Users/apple/www/pusk/ci4/develop/sistem_akademik/app/Views/layout/vertikal/templates.php(3): view('layout/vertikal...')
+#25 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/View/View.php(234): include('/Users/apple/ww...')
+#26 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#27 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/Common.php(1171): CodeIgniter\View\View->render('layout/vertikal...', Array, true)
+#28 /Users/apple/www/pusk/ci4/develop/sistem_akademik/app/Modules/Administrasi/Controllers/Administrasi.php(21): view('layout/vertikal...', Array)
+#29 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/CodeIgniter.php(933): Modules\Administrasi\Controllers\Administrasi->subsatker()
+#30 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(Modules\Administrasi\Controllers\Administrasi))
+#31 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#32 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#33 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#34 /Users/apple/www/pusk/ci4/develop/sistem_akademik/public/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#35 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/rewrite.php(44): require_once('/Users/apple/ww...')
+#36 {main}
+CRITICAL - 2024-11-05 16:11:44 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'y_siakad.st_ci_sessions' doesn't exist
+[Method: GET, Route: administrasi/referensi-subsatker]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `data`
+FROM `st_ci_sessions`
+WHERE `id` = :id:', [...], false)
+ 2 SYSTEMPATH/Session/Handlers/DatabaseHandler.php(135): CodeIgniter\Database\BaseBuilder->get()
+ 3 [internal function]: CodeIgniter\Session\Handlers\DatabaseHandler->read('keal23od8mus2ffe7naj6e27nd4nus64')
+ 4 SYSTEMPATH/Session/Session.php(920): session_start()
+ 5 SYSTEMPATH/Session/Session.php(242): CodeIgniter\Session\Session->startSession()
+ 6 SYSTEMPATH/Config/Services.php(710): CodeIgniter\Session\Session->start()
+ 7 SYSTEMPATH/Config/BaseService.php(312): CodeIgniter\Config\Services::session(Object(Config\Session), false)
+ 8 SYSTEMPATH/Config/BaseService.php(251): CodeIgniter\Config\BaseService::__callStatic('session', [...])
+ 9 SYSTEMPATH/Config/Services.php(668): CodeIgniter\Config\BaseService::getSharedInstance('session', null)
+10 SYSTEMPATH/Config/BaseService.php(321): CodeIgniter\Config\Services::session()
+11 SYSTEMPATH/Config/BaseService.php(202): CodeIgniter\Config\BaseService::__callStatic('session', [])
+12 SYSTEMPATH/Common.php(998): CodeIgniter\Config\BaseService::get('session')
+13 SYSTEMPATH/Common.php(971): service('session')
+14 APPPATH/Views/layout/vertikal/v_sidebar.php(14): session()
+15 SYSTEMPATH/View/View.php(234): include('/Users/apple/www/pusk/ci4/develop/sistem_akademik/app/Views/layout/vertikal/v_sidebar.php')
+16 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+17 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('layout/vertikal/v_sidebar', [], true)
+18 APPPATH/Views/layout/vertikal/v_body.php(62): view('layout/vertikal/v_sidebar')
+19 SYSTEMPATH/View/View.php(234): include('/Users/apple/www/pusk/ci4/develop/sistem_akademik/app/Views/layout/vertikal/v_body.php')
+20 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+21 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('layout/vertikal/v_body', [], true)
+22 APPPATH/Views/layout/vertikal/templates.php(3): view('layout/vertikal/v_body')
+23 SYSTEMPATH/View/View.php(234): include('/Users/apple/www/pusk/ci4/develop/sistem_akademik/app/Views/layout/vertikal/templates.php')
+24 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+25 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('layout/vertikal/templates', [], true)
+26 APPPATH/Modules/Administrasi/Controllers/Administrasi.php(21): view('layout/vertikal/templates', [...])
+27 SYSTEMPATH/CodeIgniter.php(933): Modules\Administrasi\Controllers\Administrasi->subsatker()
+28 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(Modules\Administrasi\Controllers\Administrasi))
+29 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+30 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+31 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+32 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+33 SYSTEMPATH/rewrite.php(44): require_once('/Users/apple/www/pusk/ci4/develop/sistem_akademik/public/index.php')
+CRITICAL - 2024-11-05 16:11:44 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'y_siakad.st_ci_sessions' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `data`
+FROM `st_ci_sessions`
+WHERE `id` = \'ci_sessions:keal23od8mus2ffe7naj6e27nd4nus64\'')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `data`
+FROM `st_ci_sessions`
+WHERE `id` = \'ci_sessions:keal23od8mus2ffe7naj6e27nd4nus64\'')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `data`
+FROM `st_ci_sessions`
+WHERE `id` = :id:', [...], false)
+ 4 SYSTEMPATH/Session/Handlers/DatabaseHandler.php(135): CodeIgniter\Database\BaseBuilder->get()
+ 5 [internal function]: CodeIgniter\Session\Handlers\DatabaseHandler->read('keal23od8mus2ffe7naj6e27nd4nus64')
+ 6 SYSTEMPATH/Session/Session.php(920): session_start()
+ 7 SYSTEMPATH/Session/Session.php(242): CodeIgniter\Session\Session->startSession()
+ 8 SYSTEMPATH/Config/Services.php(710): CodeIgniter\Session\Session->start()
+ 9 SYSTEMPATH/Config/BaseService.php(312): CodeIgniter\Config\Services::session(Object(Config\Session), false)
+10 SYSTEMPATH/Config/BaseService.php(251): CodeIgniter\Config\BaseService::__callStatic('session', [...])
+11 SYSTEMPATH/Config/Services.php(668): CodeIgniter\Config\BaseService::getSharedInstance('session', null)
+12 SYSTEMPATH/Config/BaseService.php(321): CodeIgniter\Config\Services::session()
+13 SYSTEMPATH/Config/BaseService.php(202): CodeIgniter\Config\BaseService::__callStatic('session', [])
+14 SYSTEMPATH/Common.php(998): CodeIgniter\Config\BaseService::get('session')
+15 SYSTEMPATH/Common.php(971): service('session')
+16 APPPATH/Views/layout/vertikal/v_sidebar.php(14): session()
+17 SYSTEMPATH/View/View.php(234): include('/Users/apple/www/pusk/ci4/develop/sistem_akademik/app/Views/layout/vertikal/v_sidebar.php')
+18 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+19 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('layout/vertikal/v_sidebar', [], true)
+20 APPPATH/Views/layout/vertikal/v_body.php(62): view('layout/vertikal/v_sidebar')
+21 SYSTEMPATH/View/View.php(234): include('/Users/apple/www/pusk/ci4/develop/sistem_akademik/app/Views/layout/vertikal/v_body.php')
+22 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+23 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('layout/vertikal/v_body', [], true)
+24 APPPATH/Views/layout/vertikal/templates.php(3): view('layout/vertikal/v_body')
+25 SYSTEMPATH/View/View.php(234): include('/Users/apple/www/pusk/ci4/develop/sistem_akademik/app/Views/layout/vertikal/templates.php')
+26 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+27 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('layout/vertikal/templates', [], true)
+28 APPPATH/Modules/Administrasi/Controllers/Administrasi.php(21): view('layout/vertikal/templates', [...])
+29 SYSTEMPATH/CodeIgniter.php(933): Modules\Administrasi\Controllers\Administrasi->subsatker()
+30 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(Modules\Administrasi\Controllers\Administrasi))
+31 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+32 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+33 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+34 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+35 SYSTEMPATH/rewrite.php(44): require_once('/Users/apple/www/pusk/ci4/develop/sistem_akademik/public/index.php')
+CRITICAL - 2024-11-05 16:11:44 --> [Caused by] mysqli_sql_exception: Table 'y_siakad.st_ci_sessions' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('SELECT `data`
+FROM `st_ci_sessions`
+WHERE `id` = \'ci_sessions:keal23od8mus2ffe7naj6e27nd4nus64\'', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `data`
+FROM `st_ci_sessions`
+WHERE `id` = \'ci_sessions:keal23od8mus2ffe7naj6e27nd4nus64\'')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `data`
+FROM `st_ci_sessions`
+WHERE `id` = \'ci_sessions:keal23od8mus2ffe7naj6e27nd4nus64\'')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `data`
+FROM `st_ci_sessions`
+WHERE `id` = :id:', [...], false)
+ 5 SYSTEMPATH/Session/Handlers/DatabaseHandler.php(135): CodeIgniter\Database\BaseBuilder->get()
+ 6 [internal function]: CodeIgniter\Session\Handlers\DatabaseHandler->read('keal23od8mus2ffe7naj6e27nd4nus64')
+ 7 SYSTEMPATH/Session/Session.php(920): session_start()
+ 8 SYSTEMPATH/Session/Session.php(242): CodeIgniter\Session\Session->startSession()
+ 9 SYSTEMPATH/Config/Services.php(710): CodeIgniter\Session\Session->start()
+10 SYSTEMPATH/Config/BaseService.php(312): CodeIgniter\Config\Services::session(Object(Config\Session), false)
+11 SYSTEMPATH/Config/BaseService.php(251): CodeIgniter\Config\BaseService::__callStatic('session', [...])
+12 SYSTEMPATH/Config/Services.php(668): CodeIgniter\Config\BaseService::getSharedInstance('session', null)
+13 SYSTEMPATH/Config/BaseService.php(321): CodeIgniter\Config\Services::session()
+14 SYSTEMPATH/Config/BaseService.php(202): CodeIgniter\Config\BaseService::__callStatic('session', [])
+15 SYSTEMPATH/Common.php(998): CodeIgniter\Config\BaseService::get('session')
+16 SYSTEMPATH/Common.php(971): service('session')
+17 APPPATH/Views/layout/vertikal/v_sidebar.php(14): session()
+18 SYSTEMPATH/View/View.php(234): include('/Users/apple/www/pusk/ci4/develop/sistem_akademik/app/Views/layout/vertikal/v_sidebar.php')
+19 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+20 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('layout/vertikal/v_sidebar', [], true)
+21 APPPATH/Views/layout/vertikal/v_body.php(62): view('layout/vertikal/v_sidebar')
+22 SYSTEMPATH/View/View.php(234): include('/Users/apple/www/pusk/ci4/develop/sistem_akademik/app/Views/layout/vertikal/v_body.php')
+23 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+24 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('layout/vertikal/v_body', [], true)
+25 APPPATH/Views/layout/vertikal/templates.php(3): view('layout/vertikal/v_body')
+26 SYSTEMPATH/View/View.php(234): include('/Users/apple/www/pusk/ci4/develop/sistem_akademik/app/Views/layout/vertikal/templates.php')
+27 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+28 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('layout/vertikal/templates', [], true)
+29 APPPATH/Modules/Administrasi/Controllers/Administrasi.php(21): view('layout/vertikal/templates', [...])
+30 SYSTEMPATH/CodeIgniter.php(933): Modules\Administrasi\Controllers\Administrasi->subsatker()
+31 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(Modules\Administrasi\Controllers\Administrasi))
+32 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+33 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+34 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+35 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+36 SYSTEMPATH/rewrite.php(44): require_once('/Users/apple/www/pusk/ci4/develop/sistem_akademik/public/index.php')
+ERROR - 2024-11-05 16:11:46 --> mysqli_sql_exception: Table 'y_siakad.st_ci_sessions' doesn't exist in /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(312): mysqli->query('SELECT `data`\nF...', 0)
+#1 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `data`\nF...')
+#2 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `data`\nF...')
+#3 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `data`\nF...', Array, false)
+#4 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/Session/Handlers/DatabaseHandler.php(135): CodeIgniter\Database\BaseBuilder->get()
+#5 [internal function]: CodeIgniter\Session\Handlers\DatabaseHandler->read('keal23od8mus2ff...')
+#6 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/Session/Session.php(920): session_start()
+#7 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/Session/Session.php(242): CodeIgniter\Session\Session->startSession()
+#8 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/Config/Services.php(710): CodeIgniter\Session\Session->start()
+#9 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/Config/BaseService.php(312): CodeIgniter\Config\Services::session(Object(Config\Session), false)
+#10 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/Config/BaseService.php(251): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#11 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/Config/Services.php(668): CodeIgniter\Config\BaseService::getSharedInstance('session', NULL)
+#12 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/Config/BaseService.php(321): CodeIgniter\Config\Services::session()
+#13 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/Config/BaseService.php(202): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#14 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/Common.php(998): CodeIgniter\Config\BaseService::get('session')
+#15 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/Common.php(971): service('session')
+#16 /Users/apple/www/pusk/ci4/develop/sistem_akademik/app/Views/layout/vertikal/v_sidebar.php(14): session()
+#17 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/View/View.php(234): include('/Users/apple/ww...')
+#18 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#19 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/Common.php(1171): CodeIgniter\View\View->render('layout/vertikal...', Array, true)
+#20 /Users/apple/www/pusk/ci4/develop/sistem_akademik/app/Views/layout/vertikal/v_body.php(62): view('layout/vertikal...')
+#21 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/View/View.php(234): include('/Users/apple/ww...')
+#22 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#23 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/Common.php(1171): CodeIgniter\View\View->render('layout/vertikal...', Array, true)
+#24 /Users/apple/www/pusk/ci4/develop/sistem_akademik/app/Views/layout/vertikal/templates.php(3): view('layout/vertikal...')
+#25 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/View/View.php(234): include('/Users/apple/ww...')
+#26 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#27 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/Common.php(1171): CodeIgniter\View\View->render('layout/vertikal...', Array, true)
+#28 /Users/apple/www/pusk/ci4/develop/sistem_akademik/app/Modules/Administrasi/Controllers/Administrasi.php(21): view('layout/vertikal...', Array)
+#29 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/CodeIgniter.php(933): Modules\Administrasi\Controllers\Administrasi->subsatker()
+#30 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(Modules\Administrasi\Controllers\Administrasi))
+#31 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#32 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#33 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#34 /Users/apple/www/pusk/ci4/develop/sistem_akademik/public/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#35 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/rewrite.php(44): require_once('/Users/apple/ww...')
+#36 {main}
+CRITICAL - 2024-11-05 16:11:46 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'y_siakad.st_ci_sessions' doesn't exist
+[Method: GET, Route: administrasi/referensi-subsatker]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `data`
+FROM `st_ci_sessions`
+WHERE `id` = :id:', [...], false)
+ 2 SYSTEMPATH/Session/Handlers/DatabaseHandler.php(135): CodeIgniter\Database\BaseBuilder->get()
+ 3 [internal function]: CodeIgniter\Session\Handlers\DatabaseHandler->read('keal23od8mus2ffe7naj6e27nd4nus64')
+ 4 SYSTEMPATH/Session/Session.php(920): session_start()
+ 5 SYSTEMPATH/Session/Session.php(242): CodeIgniter\Session\Session->startSession()
+ 6 SYSTEMPATH/Config/Services.php(710): CodeIgniter\Session\Session->start()
+ 7 SYSTEMPATH/Config/BaseService.php(312): CodeIgniter\Config\Services::session(Object(Config\Session), false)
+ 8 SYSTEMPATH/Config/BaseService.php(251): CodeIgniter\Config\BaseService::__callStatic('session', [...])
+ 9 SYSTEMPATH/Config/Services.php(668): CodeIgniter\Config\BaseService::getSharedInstance('session', null)
+10 SYSTEMPATH/Config/BaseService.php(321): CodeIgniter\Config\Services::session()
+11 SYSTEMPATH/Config/BaseService.php(202): CodeIgniter\Config\BaseService::__callStatic('session', [])
+12 SYSTEMPATH/Common.php(998): CodeIgniter\Config\BaseService::get('session')
+13 SYSTEMPATH/Common.php(971): service('session')
+14 APPPATH/Views/layout/vertikal/v_sidebar.php(14): session()
+15 SYSTEMPATH/View/View.php(234): include('/Users/apple/www/pusk/ci4/develop/sistem_akademik/app/Views/layout/vertikal/v_sidebar.php')
+16 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+17 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('layout/vertikal/v_sidebar', [], true)
+18 APPPATH/Views/layout/vertikal/v_body.php(62): view('layout/vertikal/v_sidebar')
+19 SYSTEMPATH/View/View.php(234): include('/Users/apple/www/pusk/ci4/develop/sistem_akademik/app/Views/layout/vertikal/v_body.php')
+20 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+21 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('layout/vertikal/v_body', [], true)
+22 APPPATH/Views/layout/vertikal/templates.php(3): view('layout/vertikal/v_body')
+23 SYSTEMPATH/View/View.php(234): include('/Users/apple/www/pusk/ci4/develop/sistem_akademik/app/Views/layout/vertikal/templates.php')
+24 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+25 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('layout/vertikal/templates', [], true)
+26 APPPATH/Modules/Administrasi/Controllers/Administrasi.php(21): view('layout/vertikal/templates', [...])
+27 SYSTEMPATH/CodeIgniter.php(933): Modules\Administrasi\Controllers\Administrasi->subsatker()
+28 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(Modules\Administrasi\Controllers\Administrasi))
+29 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+30 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+31 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+32 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+33 SYSTEMPATH/rewrite.php(44): require_once('/Users/apple/www/pusk/ci4/develop/sistem_akademik/public/index.php')
+CRITICAL - 2024-11-05 16:11:46 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'y_siakad.st_ci_sessions' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `data`
+FROM `st_ci_sessions`
+WHERE `id` = \'ci_sessions:keal23od8mus2ffe7naj6e27nd4nus64\'')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `data`
+FROM `st_ci_sessions`
+WHERE `id` = \'ci_sessions:keal23od8mus2ffe7naj6e27nd4nus64\'')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `data`
+FROM `st_ci_sessions`
+WHERE `id` = :id:', [...], false)
+ 4 SYSTEMPATH/Session/Handlers/DatabaseHandler.php(135): CodeIgniter\Database\BaseBuilder->get()
+ 5 [internal function]: CodeIgniter\Session\Handlers\DatabaseHandler->read('keal23od8mus2ffe7naj6e27nd4nus64')
+ 6 SYSTEMPATH/Session/Session.php(920): session_start()
+ 7 SYSTEMPATH/Session/Session.php(242): CodeIgniter\Session\Session->startSession()
+ 8 SYSTEMPATH/Config/Services.php(710): CodeIgniter\Session\Session->start()
+ 9 SYSTEMPATH/Config/BaseService.php(312): CodeIgniter\Config\Services::session(Object(Config\Session), false)
+10 SYSTEMPATH/Config/BaseService.php(251): CodeIgniter\Config\BaseService::__callStatic('session', [...])
+11 SYSTEMPATH/Config/Services.php(668): CodeIgniter\Config\BaseService::getSharedInstance('session', null)
+12 SYSTEMPATH/Config/BaseService.php(321): CodeIgniter\Config\Services::session()
+13 SYSTEMPATH/Config/BaseService.php(202): CodeIgniter\Config\BaseService::__callStatic('session', [])
+14 SYSTEMPATH/Common.php(998): CodeIgniter\Config\BaseService::get('session')
+15 SYSTEMPATH/Common.php(971): service('session')
+16 APPPATH/Views/layout/vertikal/v_sidebar.php(14): session()
+17 SYSTEMPATH/View/View.php(234): include('/Users/apple/www/pusk/ci4/develop/sistem_akademik/app/Views/layout/vertikal/v_sidebar.php')
+18 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+19 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('layout/vertikal/v_sidebar', [], true)
+20 APPPATH/Views/layout/vertikal/v_body.php(62): view('layout/vertikal/v_sidebar')
+21 SYSTEMPATH/View/View.php(234): include('/Users/apple/www/pusk/ci4/develop/sistem_akademik/app/Views/layout/vertikal/v_body.php')
+22 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+23 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('layout/vertikal/v_body', [], true)
+24 APPPATH/Views/layout/vertikal/templates.php(3): view('layout/vertikal/v_body')
+25 SYSTEMPATH/View/View.php(234): include('/Users/apple/www/pusk/ci4/develop/sistem_akademik/app/Views/layout/vertikal/templates.php')
+26 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+27 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('layout/vertikal/templates', [], true)
+28 APPPATH/Modules/Administrasi/Controllers/Administrasi.php(21): view('layout/vertikal/templates', [...])
+29 SYSTEMPATH/CodeIgniter.php(933): Modules\Administrasi\Controllers\Administrasi->subsatker()
+30 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(Modules\Administrasi\Controllers\Administrasi))
+31 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+32 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+33 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+34 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+35 SYSTEMPATH/rewrite.php(44): require_once('/Users/apple/www/pusk/ci4/develop/sistem_akademik/public/index.php')
+CRITICAL - 2024-11-05 16:11:46 --> [Caused by] mysqli_sql_exception: Table 'y_siakad.st_ci_sessions' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('SELECT `data`
+FROM `st_ci_sessions`
+WHERE `id` = \'ci_sessions:keal23od8mus2ffe7naj6e27nd4nus64\'', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `data`
+FROM `st_ci_sessions`
+WHERE `id` = \'ci_sessions:keal23od8mus2ffe7naj6e27nd4nus64\'')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `data`
+FROM `st_ci_sessions`
+WHERE `id` = \'ci_sessions:keal23od8mus2ffe7naj6e27nd4nus64\'')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `data`
+FROM `st_ci_sessions`
+WHERE `id` = :id:', [...], false)
+ 5 SYSTEMPATH/Session/Handlers/DatabaseHandler.php(135): CodeIgniter\Database\BaseBuilder->get()
+ 6 [internal function]: CodeIgniter\Session\Handlers\DatabaseHandler->read('keal23od8mus2ffe7naj6e27nd4nus64')
+ 7 SYSTEMPATH/Session/Session.php(920): session_start()
+ 8 SYSTEMPATH/Session/Session.php(242): CodeIgniter\Session\Session->startSession()
+ 9 SYSTEMPATH/Config/Services.php(710): CodeIgniter\Session\Session->start()
+10 SYSTEMPATH/Config/BaseService.php(312): CodeIgniter\Config\Services::session(Object(Config\Session), false)
+11 SYSTEMPATH/Config/BaseService.php(251): CodeIgniter\Config\BaseService::__callStatic('session', [...])
+12 SYSTEMPATH/Config/Services.php(668): CodeIgniter\Config\BaseService::getSharedInstance('session', null)
+13 SYSTEMPATH/Config/BaseService.php(321): CodeIgniter\Config\Services::session()
+14 SYSTEMPATH/Config/BaseService.php(202): CodeIgniter\Config\BaseService::__callStatic('session', [])
+15 SYSTEMPATH/Common.php(998): CodeIgniter\Config\BaseService::get('session')
+16 SYSTEMPATH/Common.php(971): service('session')
+17 APPPATH/Views/layout/vertikal/v_sidebar.php(14): session()
+18 SYSTEMPATH/View/View.php(234): include('/Users/apple/www/pusk/ci4/develop/sistem_akademik/app/Views/layout/vertikal/v_sidebar.php')
+19 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+20 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('layout/vertikal/v_sidebar', [], true)
+21 APPPATH/Views/layout/vertikal/v_body.php(62): view('layout/vertikal/v_sidebar')
+22 SYSTEMPATH/View/View.php(234): include('/Users/apple/www/pusk/ci4/develop/sistem_akademik/app/Views/layout/vertikal/v_body.php')
+23 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+24 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('layout/vertikal/v_body', [], true)
+25 APPPATH/Views/layout/vertikal/templates.php(3): view('layout/vertikal/v_body')
+26 SYSTEMPATH/View/View.php(234): include('/Users/apple/www/pusk/ci4/develop/sistem_akademik/app/Views/layout/vertikal/templates.php')
+27 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+28 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('layout/vertikal/templates', [], true)
+29 APPPATH/Modules/Administrasi/Controllers/Administrasi.php(21): view('layout/vertikal/templates', [...])
+30 SYSTEMPATH/CodeIgniter.php(933): Modules\Administrasi\Controllers\Administrasi->subsatker()
+31 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(Modules\Administrasi\Controllers\Administrasi))
+32 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+33 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+34 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+35 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+36 SYSTEMPATH/rewrite.php(44): require_once('/Users/apple/www/pusk/ci4/develop/sistem_akademik/public/index.php')
+INFO - 2024-11-05 16:12:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-05 16:12:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-05 16:13:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-05 16:13:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-05 16:14:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-05 16:14:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-05 16:14:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-05 16:14:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-05 16:15:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-05 16:15:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-05 16:16:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-05 16:19:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-05 16:20:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-05 16:20:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+ERROR - 2024-11-05 16:23:28 --> mysqli_sql_exception: Table 'y_siakad.subsatker' doesn't exist in /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(312): mysqli->query('SELECT * FROM s...', 0)
+#1 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM s...')
+#2 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM s...')
+#3 /Users/apple/www/pusk/ci4/develop/sistem_akademik/app/Modules/Administrasi/Models/AdministrasiModel.php(11): CodeIgniter\Database\BaseConnection->query('SELECT * FROM s...')
+#4 /Users/apple/www/pusk/ci4/develop/sistem_akademik/app/Modules/Administrasi/Controllers/Administrasi.php(18): Modules\Administrasi\Models\AdministrasiModel->subsatker_data()
+#5 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/CodeIgniter.php(933): Modules\Administrasi\Controllers\Administrasi->subsatker()
+#6 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(Modules\Administrasi\Controllers\Administrasi))
+#7 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 /Users/apple/www/pusk/ci4/develop/sistem_akademik/public/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/rewrite.php(44): require_once('/Users/apple/ww...')
+#12 {main}
+CRITICAL - 2024-11-05 16:23:28 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'y_siakad.subsatker' doesn't exist
+[Method: GET, Route: administrasi/referensi-subsatker]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 APPPATH/Modules/Administrasi/Models/AdministrasiModel.php(11): CodeIgniter\Database\BaseConnection->query('SELECT * FROM subsatker')
+ 2 APPPATH/Modules/Administrasi/Controllers/Administrasi.php(18): Modules\Administrasi\Models\AdministrasiModel->subsatker_data()
+ 3 SYSTEMPATH/CodeIgniter.php(933): Modules\Administrasi\Controllers\Administrasi->subsatker()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(Modules\Administrasi\Controllers\Administrasi))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH/rewrite.php(44): require_once('/Users/apple/www/pusk/ci4/develop/sistem_akademik/public/index.php')
+CRITICAL - 2024-11-05 16:23:28 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'y_siakad.subsatker' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM subsatker')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM subsatker')
+ 3 APPPATH/Modules/Administrasi/Models/AdministrasiModel.php(11): CodeIgniter\Database\BaseConnection->query('SELECT * FROM subsatker')
+ 4 APPPATH/Modules/Administrasi/Controllers/Administrasi.php(18): Modules\Administrasi\Models\AdministrasiModel->subsatker_data()
+ 5 SYSTEMPATH/CodeIgniter.php(933): Modules\Administrasi\Controllers\Administrasi->subsatker()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(Modules\Administrasi\Controllers\Administrasi))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH/rewrite.php(44): require_once('/Users/apple/www/pusk/ci4/develop/sistem_akademik/public/index.php')
+CRITICAL - 2024-11-05 16:23:28 --> [Caused by] mysqli_sql_exception: Table 'y_siakad.subsatker' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('SELECT * FROM subsatker', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM subsatker')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM subsatker')
+ 4 APPPATH/Modules/Administrasi/Models/AdministrasiModel.php(11): CodeIgniter\Database\BaseConnection->query('SELECT * FROM subsatker')
+ 5 APPPATH/Modules/Administrasi/Controllers/Administrasi.php(18): Modules\Administrasi\Models\AdministrasiModel->subsatker_data()
+ 6 SYSTEMPATH/CodeIgniter.php(933): Modules\Administrasi\Controllers\Administrasi->subsatker()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(Modules\Administrasi\Controllers\Administrasi))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH/rewrite.php(44): require_once('/Users/apple/www/pusk/ci4/develop/sistem_akademik/public/index.php')
+INFO - 2024-11-05 16:23:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-05 16:26:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-05 16:26:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-05 16:26:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-05 16:28:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-05 16:29:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-05 16:29:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2024-11-05 16:29:11 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "Modules\Administrasi\Views\jis_index.php"
+[Method: GET, Route: administrasi/jenis-induk-subsatker]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 41.
+ 1 SYSTEMPATH/View/View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Modules\\Administrasi\\Views\\jis_index.php')
+ 2 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('Modules\\Administrasi\\Views\\jis_index', [], true)
+ 3 APPPATH/Views/layout/vertikal/v_content.php(6): view('Modules\\Administrasi\\Views\\jis_index')
+ 4 SYSTEMPATH/View/View.php(234): include('/Users/apple/www/pusk/ci4/develop/sistem_akademik/app/Views/layout/vertikal/v_content.php')
+ 5 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('layout/vertikal/v_content', [], true)
+ 7 APPPATH/Views/layout/vertikal/v_body.php(71): view('layout/vertikal/v_content')
+ 8 SYSTEMPATH/View/View.php(234): include('/Users/apple/www/pusk/ci4/develop/sistem_akademik/app/Views/layout/vertikal/v_body.php')
+ 9 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+10 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('layout/vertikal/v_body', [], true)
+11 APPPATH/Views/layout/vertikal/templates.php(3): view('layout/vertikal/v_body')
+12 SYSTEMPATH/View/View.php(234): include('/Users/apple/www/pusk/ci4/develop/sistem_akademik/app/Views/layout/vertikal/templates.php')
+13 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+14 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('layout/vertikal/templates', [], true)
+15 APPPATH/Modules/Administrasi/Controllers/Administrasi.php(25): view('layout/vertikal/templates', [...])
+16 SYSTEMPATH/CodeIgniter.php(933): Modules\Administrasi\Controllers\Administrasi->jis()
+17 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(Modules\Administrasi\Controllers\Administrasi))
+18 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+19 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+20 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+21 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+22 SYSTEMPATH/rewrite.php(44): require_once('/Users/apple/www/pusk/ci4/develop/sistem_akademik/public/index.php')
+INFO - 2024-11-05 16:29:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-05 16:29:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-05 16:32:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-05 15:37:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-05 15:37:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-05 15:38:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-05 15:38:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-05 15:38:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-05 15:39:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-05 15:47:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-05 15:48:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-05 15:48:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2024-11-05 15:48:39 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: administrasi/jenis-induk-subsatker/proses-tambah]
+in SYSTEMPATH/Security/Security.php on line 262.
+ 1 SYSTEMPATH/Security/Security.php(262): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(52): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/Filters/Filters.php(203): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/Filters/Filters.php(184): CodeIgniter\Filters\Filters->runBefore([...])
+ 5 SYSTEMPATH/CodeIgniter.php(481): CodeIgniter\Filters\Filters->run('administrasi/jenis-induk-subsatker/proses-tambah', 'before')
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/Users/apple/www/pusk/ci4/develop/sistem_akademik/public/index.php')
+INFO - 2024-11-05 15:48:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-05 15:48:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-05 15:49:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2024-11-05 15:49:23 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: administrasi/jenis-induk-subsatker/proses-tambah]
+in SYSTEMPATH/Security/Security.php on line 262.
+ 1 SYSTEMPATH/Security/Security.php(262): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(52): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/Filters/Filters.php(203): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/Filters/Filters.php(184): CodeIgniter\Filters\Filters->runBefore([...])
+ 5 SYSTEMPATH/CodeIgniter.php(481): CodeIgniter\Filters\Filters->run('administrasi/jenis-induk-subsatker/proses-tambah', 'before')
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/Users/apple/www/pusk/ci4/develop/sistem_akademik/public/index.php')
+CRITICAL - 2024-11-05 15:50:17 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: administrasi/jenis-induk-subsatker/proses-tambah]
+in SYSTEMPATH/Security/Security.php on line 262.
+ 1 SYSTEMPATH/Security/Security.php(262): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(52): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/Filters/Filters.php(203): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/Filters/Filters.php(184): CodeIgniter\Filters\Filters->runBefore([...])
+ 5 SYSTEMPATH/CodeIgniter.php(481): CodeIgniter\Filters\Filters->run('administrasi/jenis-induk-subsatker/proses-tambah', 'before')
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/Users/apple/www/pusk/ci4/develop/sistem_akademik/public/index.php')
+INFO - 2024-11-05 15:50:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-05 15:50:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-05 15:50:24 --> CSRF token verified.
+ERROR - 2024-11-05 15:50:24 --> mysqli_sql_exception: Table 'y_siakad.st_x_jis' doesn't exist in /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(312): mysqli->query('INSERT INTO `st...', 0)
+#1 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `st...')
+#2 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `st...')
+#3 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `st...', Array, false)
+#4 /Users/apple/www/pusk/ci4/develop/sistem_akademik/app/Modules/Administrasi/Models/AdministrasiModel.php(20): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /Users/apple/www/pusk/ci4/develop/sistem_akademik/app/Modules/Administrasi/Controllers/Administrasi.php(37): Modules\Administrasi\Models\AdministrasiModel->jis_tambah(Array)
+#6 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/CodeIgniter.php(933): Modules\Administrasi\Controllers\Administrasi->jis_prosestambah()
+#7 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(Modules\Administrasi\Controllers\Administrasi))
+#8 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 /Users/apple/www/pusk/ci4/develop/sistem_akademik/public/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/rewrite.php(44): require_once('/Users/apple/ww...')
+#13 {main}
+CRITICAL - 2024-11-05 15:50:24 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'y_siakad.st_x_jis' doesn't exist
+[Method: POST, Route: administrasi/jenis-induk-subsatker/proses-tambah]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `st_x_jis` (`jis_id`, `jis_nama`, `jis_update`) VALUES (:jis_id:, :jis_nama:, :jis_update:)', [...], false)
+ 2 APPPATH/Modules/Administrasi/Models/AdministrasiModel.php(20): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH/Modules/Administrasi/Controllers/Administrasi.php(37): Modules\Administrasi\Models\AdministrasiModel->jis_tambah([...])
+ 4 SYSTEMPATH/CodeIgniter.php(933): Modules\Administrasi\Controllers\Administrasi->jis_prosestambah()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(Modules\Administrasi\Controllers\Administrasi))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/Users/apple/www/pusk/ci4/develop/sistem_akademik/public/index.php')
+CRITICAL - 2024-11-05 15:50:24 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'y_siakad.st_x_jis' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `st_x_jis` (`jis_id`, `jis_nama`, `jis_update`) VALUES (\'12633650-b182-4f7a-b8a6-6166d79ec952\', \'UIN Maulana Malik Ibrahim | Kampus 1\', \'2024-11-05 15:50:24\')')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `st_x_jis` (`jis_id`, `jis_nama`, `jis_update`) VALUES (\'12633650-b182-4f7a-b8a6-6166d79ec952\', \'UIN Maulana Malik Ibrahim | Kampus 1\', \'2024-11-05 15:50:24\')')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `st_x_jis` (`jis_id`, `jis_nama`, `jis_update`) VALUES (:jis_id:, :jis_nama:, :jis_update:)', [...], false)
+ 4 APPPATH/Modules/Administrasi/Models/AdministrasiModel.php(20): CodeIgniter\Database\BaseBuilder->insert([...])
+ 5 APPPATH/Modules/Administrasi/Controllers/Administrasi.php(37): Modules\Administrasi\Models\AdministrasiModel->jis_tambah([...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): Modules\Administrasi\Controllers\Administrasi->jis_prosestambah()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(Modules\Administrasi\Controllers\Administrasi))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH/rewrite.php(44): require_once('/Users/apple/www/pusk/ci4/develop/sistem_akademik/public/index.php')
+CRITICAL - 2024-11-05 15:50:24 --> [Caused by] mysqli_sql_exception: Table 'y_siakad.st_x_jis' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('INSERT INTO `st_x_jis` (`jis_id`, `jis_nama`, `jis_update`) VALUES (\'12633650-b182-4f7a-b8a6-6166d79ec952\', \'UIN Maulana Malik Ibrahim | Kampus 1\', \'2024-11-05 15:50:24\')', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `st_x_jis` (`jis_id`, `jis_nama`, `jis_update`) VALUES (\'12633650-b182-4f7a-b8a6-6166d79ec952\', \'UIN Maulana Malik Ibrahim | Kampus 1\', \'2024-11-05 15:50:24\')')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `st_x_jis` (`jis_id`, `jis_nama`, `jis_update`) VALUES (\'12633650-b182-4f7a-b8a6-6166d79ec952\', \'UIN Maulana Malik Ibrahim | Kampus 1\', \'2024-11-05 15:50:24\')')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `st_x_jis` (`jis_id`, `jis_nama`, `jis_update`) VALUES (:jis_id:, :jis_nama:, :jis_update:)', [...], false)
+ 5 APPPATH/Modules/Administrasi/Models/AdministrasiModel.php(20): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH/Modules/Administrasi/Controllers/Administrasi.php(37): Modules\Administrasi\Models\AdministrasiModel->jis_tambah([...])
+ 7 SYSTEMPATH/CodeIgniter.php(933): Modules\Administrasi\Controllers\Administrasi->jis_prosestambah()
+ 8 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(Modules\Administrasi\Controllers\Administrasi))
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH/rewrite.php(44): require_once('/Users/apple/www/pusk/ci4/develop/sistem_akademik/public/index.php')
+INFO - 2024-11-05 15:56:38 --> CSRF token verified.
+ERROR - 2024-11-05 15:56:38 --> mysqli_sql_exception: Table 'y_siakad.ci_sessions' doesn't exist in /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(312): mysqli->query('SELECT `data`\nF...', 0)
+#1 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `data`\nF...')
+#2 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `data`\nF...')
+#3 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `data`\nF...', Array, false)
+#4 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/Session/Handlers/DatabaseHandler.php(135): CodeIgniter\Database\BaseBuilder->get()
+#5 [internal function]: CodeIgniter\Session\Handlers\DatabaseHandler->read('6vi17btvdep59hb...')
+#6 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/Session/Session.php(920): session_start()
+#7 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/Session/Session.php(242): CodeIgniter\Session\Session->startSession()
+#8 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/Config/Services.php(710): CodeIgniter\Session\Session->start()
+#9 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/Config/BaseService.php(312): CodeIgniter\Config\Services::session(Object(Config\Session), false)
+#10 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/Config/BaseService.php(251): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#11 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/Config/Services.php(668): CodeIgniter\Config\BaseService::getSharedInstance('session', NULL)
+#12 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/Config/BaseService.php(321): CodeIgniter\Config\Services::session()
+#13 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/Config/BaseService.php(202): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#14 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/Common.php(998): CodeIgniter\Config\BaseService::get('session')
+#15 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/Common.php(971): service('session')
+#16 /Users/apple/www/pusk/ci4/develop/sistem_akademik/app/Modules/Administrasi/Controllers/Administrasi.php(44): session()
+#17 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/CodeIgniter.php(933): Modules\Administrasi\Controllers\Administrasi->jis_prosestambah()
+#18 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(Modules\Administrasi\Controllers\Administrasi))
+#19 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#20 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#21 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#22 /Users/apple/www/pusk/ci4/develop/sistem_akademik/public/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#23 /Users/apple/www/pusk/ci4/develop/sistem_akademik/vendor/codeigniter4/framework/system/rewrite.php(44): require_once('/Users/apple/ww...')
+#24 {main}
+CRITICAL - 2024-11-05 15:56:38 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'y_siakad.ci_sessions' doesn't exist
+[Method: POST, Route: administrasi/jenis-induk-subsatker/proses-tambah]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `data`
+FROM `ci_sessions`
+WHERE `id` = :id:', [...], false)
+ 2 SYSTEMPATH/Session/Handlers/DatabaseHandler.php(135): CodeIgniter\Database\BaseBuilder->get()
+ 3 [internal function]: CodeIgniter\Session\Handlers\DatabaseHandler->read('6vi17btvdep59hbuc3iatloc2lhio00g')
+ 4 SYSTEMPATH/Session/Session.php(920): session_start()
+ 5 SYSTEMPATH/Session/Session.php(242): CodeIgniter\Session\Session->startSession()
+ 6 SYSTEMPATH/Config/Services.php(710): CodeIgniter\Session\Session->start()
+ 7 SYSTEMPATH/Config/BaseService.php(312): CodeIgniter\Config\Services::session(Object(Config\Session), false)
+ 8 SYSTEMPATH/Config/BaseService.php(251): CodeIgniter\Config\BaseService::__callStatic('session', [...])
+ 9 SYSTEMPATH/Config/Services.php(668): CodeIgniter\Config\BaseService::getSharedInstance('session', null)
+10 SYSTEMPATH/Config/BaseService.php(321): CodeIgniter\Config\Services::session()
+11 SYSTEMPATH/Config/BaseService.php(202): CodeIgniter\Config\BaseService::__callStatic('session', [])
+12 SYSTEMPATH/Common.php(998): CodeIgniter\Config\BaseService::get('session')
+13 SYSTEMPATH/Common.php(971): service('session')
+14 APPPATH/Modules/Administrasi/Controllers/Administrasi.php(44): session()
+15 SYSTEMPATH/CodeIgniter.php(933): Modules\Administrasi\Controllers\Administrasi->jis_prosestambah()
+16 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(Modules\Administrasi\Controllers\Administrasi))
+17 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+18 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+19 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+20 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+21 SYSTEMPATH/rewrite.php(44): require_once('/Users/apple/www/pusk/ci4/develop/sistem_akademik/public/index.php')
+CRITICAL - 2024-11-05 15:56:38 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'y_siakad.ci_sessions' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `data`
+FROM `ci_sessions`
+WHERE `id` = \'ci_sessions:6vi17btvdep59hbuc3iatloc2lhio00g\'')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `data`
+FROM `ci_sessions`
+WHERE `id` = \'ci_sessions:6vi17btvdep59hbuc3iatloc2lhio00g\'')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `data`
+FROM `ci_sessions`
+WHERE `id` = :id:', [...], false)
+ 4 SYSTEMPATH/Session/Handlers/DatabaseHandler.php(135): CodeIgniter\Database\BaseBuilder->get()
+ 5 [internal function]: CodeIgniter\Session\Handlers\DatabaseHandler->read('6vi17btvdep59hbuc3iatloc2lhio00g')
+ 6 SYSTEMPATH/Session/Session.php(920): session_start()
+ 7 SYSTEMPATH/Session/Session.php(242): CodeIgniter\Session\Session->startSession()
+ 8 SYSTEMPATH/Config/Services.php(710): CodeIgniter\Session\Session->start()
+ 9 SYSTEMPATH/Config/BaseService.php(312): CodeIgniter\Config\Services::session(Object(Config\Session), false)
+10 SYSTEMPATH/Config/BaseService.php(251): CodeIgniter\Config\BaseService::__callStatic('session', [...])
+11 SYSTEMPATH/Config/Services.php(668): CodeIgniter\Config\BaseService::getSharedInstance('session', null)
+12 SYSTEMPATH/Config/BaseService.php(321): CodeIgniter\Config\Services::session()
+13 SYSTEMPATH/Config/BaseService.php(202): CodeIgniter\Config\BaseService::__callStatic('session', [])
+14 SYSTEMPATH/Common.php(998): CodeIgniter\Config\BaseService::get('session')
+15 SYSTEMPATH/Common.php(971): service('session')
+16 APPPATH/Modules/Administrasi/Controllers/Administrasi.php(44): session()
+17 SYSTEMPATH/CodeIgniter.php(933): Modules\Administrasi\Controllers\Administrasi->jis_prosestambah()
+18 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(Modules\Administrasi\Controllers\Administrasi))
+19 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+20 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+21 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+22 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+23 SYSTEMPATH/rewrite.php(44): require_once('/Users/apple/www/pusk/ci4/develop/sistem_akademik/public/index.php')
+CRITICAL - 2024-11-05 15:56:38 --> [Caused by] mysqli_sql_exception: Table 'y_siakad.ci_sessions' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('SELECT `data`
+FROM `ci_sessions`
+WHERE `id` = \'ci_sessions:6vi17btvdep59hbuc3iatloc2lhio00g\'', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `data`
+FROM `ci_sessions`
+WHERE `id` = \'ci_sessions:6vi17btvdep59hbuc3iatloc2lhio00g\'')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `data`
+FROM `ci_sessions`
+WHERE `id` = \'ci_sessions:6vi17btvdep59hbuc3iatloc2lhio00g\'')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `data`
+FROM `ci_sessions`
+WHERE `id` = :id:', [...], false)
+ 5 SYSTEMPATH/Session/Handlers/DatabaseHandler.php(135): CodeIgniter\Database\BaseBuilder->get()
+ 6 [internal function]: CodeIgniter\Session\Handlers\DatabaseHandler->read('6vi17btvdep59hbuc3iatloc2lhio00g')
+ 7 SYSTEMPATH/Session/Session.php(920): session_start()
+ 8 SYSTEMPATH/Session/Session.php(242): CodeIgniter\Session\Session->startSession()
+ 9 SYSTEMPATH/Config/Services.php(710): CodeIgniter\Session\Session->start()
+10 SYSTEMPATH/Config/BaseService.php(312): CodeIgniter\Config\Services::session(Object(Config\Session), false)
+11 SYSTEMPATH/Config/BaseService.php(251): CodeIgniter\Config\BaseService::__callStatic('session', [...])
+12 SYSTEMPATH/Config/Services.php(668): CodeIgniter\Config\BaseService::getSharedInstance('session', null)
+13 SYSTEMPATH/Config/BaseService.php(321): CodeIgniter\Config\Services::session()
+14 SYSTEMPATH/Config/BaseService.php(202): CodeIgniter\Config\BaseService::__callStatic('session', [])
+15 SYSTEMPATH/Common.php(998): CodeIgniter\Config\BaseService::get('session')
+16 SYSTEMPATH/Common.php(971): service('session')
+17 APPPATH/Modules/Administrasi/Controllers/Administrasi.php(44): session()
+18 SYSTEMPATH/CodeIgniter.php(933): Modules\Administrasi\Controllers\Administrasi->jis_prosestambah()
+19 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(Modules\Administrasi\Controllers\Administrasi))
+20 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+21 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+22 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+23 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+24 SYSTEMPATH/rewrite.php(44): require_once('/Users/apple/www/pusk/ci4/develop/sistem_akademik/public/index.php')
+INFO - 2024-11-05 15:57:02 --> CSRF token verified.
+INFO - 2024-11-05 15:57:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-05 15:57:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-05 15:57:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-05 15:59:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-05 15:59:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-05 15:59:48 --> CSRF token verified.
+INFO - 2024-11-05 15:59:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-05 15:59:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-05 15:59:53 --> CSRF token verified.
+INFO - 2024-11-05 15:59:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-05 15:59:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-05 15:59:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-05 16:00:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-05 16:01:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-05 16:01:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-05 16:02:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-05 16:03:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-05 16:03:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-05 16:03:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-05 21:29:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-05 21:29:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-05 21:32:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-05 21:32:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-05 21:33:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-05 21:33:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-05 21:34:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-05 21:35:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-05 21:36:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-05 21:36:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-05 21:37:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2024-11-05 21:37:22 --> ErrorException: Undefined property: stdClass::$id
+[Method: GET, Route: administrasi/jenis-induk-subsatker/4b4954aa-de57-4cdd-b69c-11e1a758e5a2/edit]
+in APPPATH/Modules/Administrasi/Views/jis_edit.php on line 40.
+ 1 APPPATH/Modules/Administrasi/Views/jis_edit.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$id', '/Users/apple/www/pusk/ci4/develop/sistem_akademik/app/Modules/Administrasi/Views/jis_edit.php', 40)
+ 2 SYSTEMPATH/View/View.php(234): include('/Users/apple/www/pusk/ci4/develop/sistem_akademik/app/Modules/Administrasi/Views/jis_edit.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('Modules\\Administrasi\\Views\\jis_edit', [], true)
+ 5 APPPATH/Views/layout/vertikal/v_content.php(6): view('Modules\\Administrasi\\Views\\jis_edit')
+ 6 SYSTEMPATH/View/View.php(234): include('/Users/apple/www/pusk/ci4/develop/sistem_akademik/app/Views/layout/vertikal/v_content.php')
+ 7 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('layout/vertikal/v_content', [], true)
+ 9 APPPATH/Views/layout/vertikal/v_body.php(71): view('layout/vertikal/v_content')
+10 SYSTEMPATH/View/View.php(234): include('/Users/apple/www/pusk/ci4/develop/sistem_akademik/app/Views/layout/vertikal/v_body.php')
+11 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('layout/vertikal/v_body', [], true)
+13 APPPATH/Views/layout/vertikal/templates.php(3): view('layout/vertikal/v_body')
+14 SYSTEMPATH/View/View.php(234): include('/Users/apple/www/pusk/ci4/develop/sistem_akademik/app/Views/layout/vertikal/templates.php')
+15 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+16 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('layout/vertikal/templates', [], true)
+17 APPPATH/Modules/Administrasi/Controllers/Administrasi.php(57): view('layout/vertikal/templates', [...])
+18 SYSTEMPATH/CodeIgniter.php(933): Modules\Administrasi\Controllers\Administrasi->jis_edit('4b4954aa-de57-4cdd-b69c-11e1a758e5a2')
+19 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(Modules\Administrasi\Controllers\Administrasi))
+20 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+21 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+22 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+23 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+24 SYSTEMPATH/rewrite.php(44): require_once('/Users/apple/www/pusk/ci4/develop/sistem_akademik/public/index.php')
+INFO - 2024-11-05 21:39:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-05 21:39:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-05 21:39:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-05 21:39:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-05 21:41:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-05 21:41:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-05 21:41:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-05 21:41:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-05 21:45:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-05 21:46:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-05 21:46:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-05 21:46:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-05 21:46:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-05 21:46:58 --> CSRF token verified.
+INFO - 2024-11-05 21:46:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-05 21:46:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-05 21:47:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-05 21:47:02 --> CSRF token verified.
+INFO - 2024-11-05 21:47:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-05 21:47:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-05 21:47:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-05 21:47:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-05 21:47:17 --> CSRF token verified.
+INFO - 2024-11-05 21:47:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-11-05 21:47:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
