@@ -12,9 +12,9 @@
     <meta name="email" content="ahmadzidan.nh@gmail.com" />
     <meta name="Version" content="v1.0.0" />
     <title><?= $title ?> | <?= env('APPNAME') ?></title>
-    <link rel="icon" href="<?= base_url('assets/other/logo.png')?>" type="image/x-icon">
-    <link rel="shortcut icon" href="<?= base_url('assets/other/logo.png')?>" type="image/x-icon">
-    <link rel="apple-touch-icon" href="<?= base_url('assets/other/logo.png')?>">
+    <link rel="icon" href="<?= base_url('assets/other/logo_man3bwi.png')?>" type="image/x-icon">
+    <link rel="shortcut icon" href="<?= base_url('assets/other/logo_man3bwi.png')?>" type="image/x-icon">
+    <link rel="apple-touch-icon" href="<?= base_url('assets/other/logo_man3bwi.png')?>">
     <link href="<?= base_url('assets/admin/assets/libs/morris.js/morris.css'); ?>" rel="stylesheet" type="text/css" />
     <link href="<?= base_url('assets/admin/assets/css/style.min.css'); ?>" rel="stylesheet" type="text/css">
     <link href="<?= base_url('assets/admin/assets/css/icons.min.css'); ?>" rel="stylesheet" type="text/css">

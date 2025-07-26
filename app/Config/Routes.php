@@ -7,7 +7,7 @@ use CodeIgniter\Router\RouteCollection;
  */
 
 $routes->get('/', 'Auth::index');
-$routes->get('/login-siam', 'Auth::loginSiam');
+// $routes->get('/login-siam', 'Auth::loginSiam');
 $routes->get('/login', 'Auth::bypassLogin');
 $routes->get('/proses-login', 'Auth::loginGoogle');
 $routes->get('/refresh-session', 'Auth::refresh');
@@ -75,73 +75,16 @@ $routes->group(
 
 
 $routes->group(
-    'administrasi', ['namespace' => '\Modules\Administrasi\Controllers'], 
+    'layanan', ['namespace' => '\Modules\Layanan\Controllers'], 
     function ($routes) 
     {
-        $routes->get('jenis-induk-subsatker', 'Jis::index');
-        $routes->post('jenis-induk-subsatker/data', 'Jis::data');
-        $routes->post('jenis-induk-subsatker/proses-tambah', 'Jis::prosestambah');
-        $routes->get('jenis-induk-subsatker/(:any)/edit', 'Jis::edit/$1');
-        $routes->post('jenis-induk-subsatker/(:any)/proses-edit', 'Jis::update/$1');
-        $routes->get('jenis-induk-subsatker/(:any)/hapus', 'Jis::hapus/$1');
-        
-        $routes->get('subsatker', 'Subsatker::index');
-        $routes->post('subsatker/data', 'Subsatker::data');
-        $routes->get('subsatker/data-chart', 'Subsatker::chart');
-        $routes->post('subsatker/proses-tambah', 'Subsatker::prosestambah');
-        $routes->get('subsatker/(:any)/edit', 'Subsatker::edit/$1');
-        $routes->post('subsatker/(:any)/proses-edit', 'Subsatker::update/$1');
-        $routes->get('subsatker/(:any)/hapus', 'Subsatker::hapus/$1');
-
-        $routes->get('grup-jabatan', 'Grupjabatan::index');
-        $routes->get('grup-jabatan/tambah', 'Grupjabatan::tambah');
-        $routes->post('grup-jabatan/data', 'Grupjabatan::data');
-        $routes->post('grup-jabatan/proses-tambah', 'Grupjabatan::prosestambah');
-        $routes->get('grup-jabatan/(:any)/edit', 'Grupjabatan::edit/$1');
-        $routes->post('grup-jabatan/(:any)/proses-edit', 'Grupjabatan::update/$1');
-        $routes->get('grup-jabatan/(:any)/hapus', 'Grupjabatan::hapus/$1');
-
-        $routes->get('jabatan', 'Jabatan::index');
-        $routes->get('jabatan/tambah', 'Jabatan::tambah');
-        $routes->post('jabatan/data', 'Jabatan::data');
-        $routes->post('jabatan/master-data', 'Jabatan::masterdata');
-        $routes->post('jabatan/data-grup-jabatan', 'Jabatan::data_grupjabatan');
-        $routes->post('jabatan/proses-tambah', 'Jabatan::prosestambah');
-        // $routes->get('jabatan/(:any)/edit', 'Jabatan::edit/$1');
-        // $routes->post('jabatan/(:any)/proses-edit', 'Jabatan::update/$1');
-        $routes->post('jabatan/hapus', 'Jabatan::hapus');
-
-        $routes->get('fakultas', 'Fakultas::index');
-        $routes->get('fakultas/tambah', 'Fakultas::tambah');
-        $routes->post('fakultas/data', 'Fakultas::data');
-        $routes->post('fakultas/proses-tambah', 'Fakultas::prosestambah');
-        $routes->get('fakultas/(:any)/edit', 'Fakultas::edit/$1');
-        $routes->post('fakultas/(:any)/proses-edit', 'Fakultas::update/$1');
-        $routes->get('fakultas/(:any)/hapus', 'Fakultas::hapus/$1');
-
-        $routes->get('program-studi', 'Prodi::index');
-        $routes->get('program-studi/tambah', 'Prodi::tambah');
-        $routes->post('program-studi/data', 'Prodi::data');
-        $routes->post('program-studi/proses-tambah', 'Prodi::prosestambah');
-        $routes->get('program-studi/(:any)/edit', 'Prodi::edit/$1');
-        $routes->post('program-studi/(:any)/proses-edit', 'Prodi::update/$1');
-        $routes->get('program-studi/(:any)/hapus', 'Prodi::hapus/$1');
-
-        $routes->get('jenis-pegawai', 'Jenispegawai::index');
-        $routes->get('jenis-pegawai/tambah', 'Jenispegawai::tambah');
-        $routes->post('jenis-pegawai/data', 'Jenispegawai::data');
-        $routes->post('jenis-pegawai/proses-tambah', 'Jenispegawai::prosestambah');
-        $routes->get('jenis-pegawai/(:any)/edit', 'Jenispegawai::edit/$1');
-        $routes->post('jenis-pegawai/(:any)/proses-edit', 'Jenispegawai::update/$1');
-        $routes->get('jenis-pegawai/(:any)/hapus', 'Jenispegawai::hapus/$1');
-
-        $routes->get('jenjang', 'Jenjang::index');
-        $routes->get('jenjang/tambah', 'Jenjang::tambah');
-        $routes->post('jenjang/data', 'Jenjang::data');
-        $routes->post('jenjang/proses-tambah', 'Jenjang::prosestambah');
-        $routes->get('jenjang/(:any)/edit', 'Jenjang::edit/$1');
-        $routes->post('jenjang/(:any)/proses-edit', 'Jenjang::update/$1');
-        $routes->get('jenjang/(:any)/hapus', 'Jenjang::hapus/$1');
+        $routes->get('jenis', 'Jenis::index');
+        $routes->get('jenis/tambah', 'Jenis::tambah');
+        $routes->post('jenis/tambah/proses-tambah', 'Jenis::prosestambah');
+        $routes->post('jenis/data', 'Jenis::data');
+        $routes->get('jenis/(:any)/edit', 'Jenis::edit/$1');
+        $routes->post('jenis/(:any)/edit/proses-edit', 'Jenis::update/$1');
+        $routes->post('jenis/hapus', 'Jenis::hapus');
     }
 
 );

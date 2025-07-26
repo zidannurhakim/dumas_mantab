@@ -20,12 +20,6 @@ class Beranda extends BaseController
 
     function index()
     {
-        $usr_id = session()->usr_id;
-        $model = new BerandaModel();
-        // $data['total_arsip'] = $model->data_total();
-        // $data['total_naskahmasuk'] = $model->data_naskahmasuk($usr_id);
-        // $data['total_disposisi'] = $model->data_disposisi($usr_id);
-        // $data['total_tembusan'] = $model->data_tembusan($usr_id);
         $data['indukmodule'] = $this->indukmodule;
         $data['subindukmodule'] = $this->subindukmodule;
         $data['title'] = $this->title;
