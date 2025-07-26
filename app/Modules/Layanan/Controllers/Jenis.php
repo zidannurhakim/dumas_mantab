@@ -9,9 +9,9 @@ use Ramsey\Uuid\Uuid;
 class Jenis extends BaseController
 {
     protected $folder_directory = "Modules\\Layanan\\Views\\jenis\\";
-    private $indukmodule = 'Tata Layanan';
+    private $indukmodule = 'Tata Kelola Layanan';
     private $subindukmodule = '';
-    private $title = 'Jenis Layanan';
+    private $title = 'Jenis';
 
     function __construct()
     {

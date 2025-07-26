@@ -26,7 +26,7 @@
                                         <div class="p-5">
                                             <div class="text-center mb-5">
                                                 <a class="text-dark font-size-22 font-family-secondary" href="<?=base_url('')?>">
-                                                    <b><h1><?= env('APPNAME') ?></h1></b>
+                                                    <h1><b><?= env('APPNAME') ?></b></h1>
                                                 </a>
                                             </div>
     
@@ -39,7 +39,8 @@
                                                         <?= lang('Errors.sorryCannotFind') ?>
                                                     <?php endif; ?>
                                                 </h1>
-                                                <p class="text-muted mb-4 w-75 m-auto">Silahkan Cek Kembali Atau Bisa Hubungi Admin.</p>
+                                                <h5 class="text-muted font-size-15 mb-3">For Help &amp; Support</h5>
+                                                <p class="font-size-13"><span class="font-weight-bold"><span class="font-weight-bold">Email : </span>mavic@man3banyuwangi.id</p>
                                             </div>
     
                                             <div class="row mt-4">

@@ -3,12 +3,12 @@
         <div class="main-menu">
             <div class="logo-box">
                 <a href="<?= base_url('beranda'); ?>" class="logo-light">
-                    <img src="<?= base_url('assets/other/logo_man3bwi.png') ?>" alt="logo" class="logo-lg" height="32">
-                    <img src="<?= base_url('assets/other/logo_man3bwi.png') ?>" alt="small logo" class="logo-sm" height="32">
+                    <img src="<?= base_url('assets/other/logo_man3bwi.png') ?>" alt="logo" class="logo-lg" height="38">
+                    <img src="<?= base_url('assets/other/logo_man3bwi.png') ?>" alt="small logo" class="logo-sm" height="38">
                 </a>
                 <a href="<?= base_url('beranda'); ?>" class="logo-dark">
-                    <img src="<?= base_url('assets/other/logo_man3bwi.png') ?>" alt="dark logo" class="logo-lg" height="32">
-                    <img src="<?= base_url('assets/other/logo_man3bwi.png') ?>" alt="small logo" class="logo-sm" height="32">
+                    <img src="<?= base_url('assets/other/logo_man3bwi.png') ?>" alt="dark logo" class="logo-lg" height="38">
+                    <img src="<?= base_url('assets/other/logo_man3bwi.png') ?>" alt="small logo" class="logo-sm" height="38">
                 </a>
             </div>
             <div data-simplebar>
