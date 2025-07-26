@@ -49,8 +49,61 @@
             </div>
         </div>
     </div>
+    <div class="card">
+        <div class="card-body">
+            <h5 class="text-center"><b>Struktur Unit MAN 3 Banyuwangi</b></h5>
+            <hr>
+            <div class="accordion accordion-flush border border-secondary" id="detStruktur">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="detSOI">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#detStrukturOne" aria-expanded="false" aria-controls="detStrukturOne">
+                            <i data-lucide="book"></i>&nbsp; Detail 
+                        </button>
+                    </h2>
+                    <div id="detStrukturOne" class="accordion-collapse collapse" aria-labelledby="detSOI"
+                        data-bs-parent="#detStruktur">
+                        <div class="accordion-body">
+                            <div class="card">
+                                <div class="card-body">
+                                    <div class="dd" id="nestable">
+                                        <ol class="dd-list"></ol>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<link rel="stylesheet" href="<?= base_url('assets/admin/nestable/jquery.nestable.css')?>">
+<script src="<?= base_url('assets/admin/nestable/jquery.nestable.js')?>"></script>
+<script>
+    $(document).ready(function () {
+        $.getJSON("<?= base_url('layanan/unit/data-chart'); ?>", function (data) {
+            // console.log(data);
+            function buildNestable(items) {
+                let html = '<ol class="dd-list">';
+                items.forEach(item => {
+                    html += `<li class="dd-item" data-id="${item.id}">
+                                <div class="dd-handle">${item.name}</div>`;
+                    if (item.children && item.children.length > 0) {
+                        html += buildNestable(item.children);
+                    }
+                    html += '</li>';
+                });
+                html += '</ol>';
+                return html;
+            }
+
+            $('#nestable .dd-list').html(buildNestable(data));
+        });
+    });
+</script>
 <script src="https://cdn.datatables.net/1.10.25/js/jquery.dataTables.min.js"></script>
 <script>
 $(document).ready(function() {
@@ -61,7 +114,7 @@ $(document).ready(function() {
         "processing": true,
         "serverSide": true,
         "ajax": {
-            "url": "<?= base_url('layanan/jenis/data'); ?>",
+            "url": "<?= base_url('layanan/unit/data'); ?>",
             "type": "POST",
             "data": function(d) {
                 d[csrfName] = csrfHash;
@@ -74,9 +127,9 @@ $(document).ready(function() {
         },
         "columns": [
             { "data": "no" },
-            { "data": "lay_nama" },
-            { "data": "lay_status" },
-            { "data": "lay_update" },
+            { "data": "unit_nama" },
+            { "data": "unit_status" },
+            { "data": "unit_update" },
             { "data": "aksi", "orderable": false, "searchable": false }
         ],
         "drawCallback": function(settings) {

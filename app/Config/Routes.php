@@ -89,7 +89,9 @@ $routes->group(
         
         $routes->get('unit', 'Unit::index');
         $routes->get('unit/tambah', 'Unit::tambah');
+        $routes->post('unit/data', 'Unit::data');
         $routes->post('unit/data-unit', 'Unit::data_unit');
+        $routes->get('unit/data-chart', 'Unit::data_chart');
         $routes->post('unit/tambah/proses-tambah', 'Unit::prosestambah');
     }
 

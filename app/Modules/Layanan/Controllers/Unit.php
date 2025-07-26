@@ -29,6 +29,102 @@ class Unit extends BaseController
         return view('layout/admin/templates', $data);
     }
 
+    function data()
+    {
+        $request = \Config\Services::request();
+        $model = new UnitModel();
+
+        // Mendapatkan parameter dari DataTables
+        $limit = $request->getPost('length'); // Limit untuk jumlah data yang ditampilkan
+        $start = $request->getPost('start'); // Offset data
+        $orderColumnIndex = $request->getPost('order')[0]['column']; // Indeks kolom untuk pengurutan
+        $orderDirection = $request->getPost('order')[0]['dir']; // Arah pengurutan (ASC/DESC)
+        $search = $request->getPost('search')['value']; // Nilai pencarian
+
+        $columns = [
+            'a.unit_id',
+            'a.unit_nama',
+            'a.unit_status',
+            'a.unit_update',
+            'nama1',
+            'nama2',
+            'nama3',
+            'nama4',
+            'nama5'
+        ];
+        $orderColumn = isset($columns[$orderColumnIndex]) ? $columns[$orderColumnIndex] : 'unit_id';
+
+        $totalData = $model->countAll();
+        $totalFiltered = $totalData;
+
+        if (empty($search)) {
+            $result = $model->data($limit, $start, $orderColumn, $orderDirection);
+        } else {
+            $result = $model->data($limit, $start, $orderColumn, $orderDirection, $search);
+            $totalFiltered = $model->countFiltered($search);
+        }
+
+        $data = [];
+        $count = $start;
+        foreach ($result as $val) {
+            $count++;
+            $unit_nama_parts = [];
+
+            if (!empty($val->unit_nama)) {
+                $unit_nama_parts[] = $val->unit_nama;
+            }
+
+            if (!empty($val->nama1)) {
+                $unit_nama_parts[] = $val->nama1;
+            }
+
+            if (!empty($val->nama2)) {
+                $unit_nama_parts[] = $val->nama2;
+            }
+
+            if (!empty($val->nama3)) {
+                $unit_nama_parts[] = $val->nama3;
+            }
+
+            if (!empty($val->nama4)) {
+                $unit_nama_parts[] = $val->nama4;
+            }
+
+            if (!empty($val->nama5)) {
+                $unit_nama_parts[] = $val->nama5;
+            }
+
+            $unit_nama = implode(' - ', $unit_nama_parts);
+            $row = [
+                'no' => $count,
+                'unit_update' => $val->unit_update,
+                'unit_nama' => wordwrap($unit_nama, 60, "<br>", false),
+                'unit_status' => $val->unit_status == 1 ? '<span class="badge bg-success">Aktif</span>':'<span class="badge bg-danger">Tidak Aktif</span>',
+                'aksi' => '
+                    <a class="btn btn-warning btn-sm waves-effect waves-light" href="' . base_url('layanan/unit/'.$val->unit_id.'/edit') .'">
+                        <i data-lucide="edit"></i> Edit
+                    </a>
+                    <button class="btn btn-danger btn-sm waves-effect waves-light btn-delete" data-id="' . $val->unit_id . '">
+                        <i data-lucide="trash"></i> Hapus
+                    </button>'
+
+            ];
+            $data[] = $row;
+        }
+
+        $token = csrf_hash();
+        // Menyiapkan response JSON untuk DataTables
+        $json_data = [
+            "draw" => intval($request->getPost('draw')),
+            "recordsTotal" => $totalData,
+            "recordsFiltered" => $totalFiltered,
+            "data" => $data,
+            "csrfHash" => $token
+        ];
+
+        return $this->response->setJSON($json_data);
+    }
+
     function tambah()
     {
         $data['indukmodule'] = $this->indukmodule;
@@ -126,5 +222,34 @@ class Unit extends BaseController
             'results' => $data,
             csrf_token() => csrf_hash()
         ]);
+    }
+
+    function data_chart()
+    {
+        $model = new UnitModel();
+        $data = $model->data_all();
+
+        // Ubah data menjadi array asosiatif
+        $items = [];
+        foreach ($data as $val) {
+            $items[$val->unit_id] = [
+                'id' => $val->unit_id,
+                'name' => $val->unit_nama,
+                'parent' => ($val->unit_unitid === 'KOSONG' || empty($val->unit_unitid)) ? 0 : $val->unit_unitid,
+                'children' => [] // Placeholder untuk anak
+            ];
+        }
+
+        $tree = [];
+        foreach ($items as &$item) {
+            if ($item['parent'] != 0 && isset($items[$item['parent']])) {
+                $items[$item['parent']]['children'][] = &$item;
+            } else {
+                $tree[] = &$item; // Root node
+            }
+        }
+        unset($item);
+
+        return $this->response->setJSON($tree);
     }
 }
