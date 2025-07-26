@@ -74,9 +74,9 @@ class Leveluser extends BaseController
                     <a class="btn btn-warning btn-sm waves-effect waves-light" href="' . base_url('manajemen/level-user/'.$val->usg_id.'/edit') .'">
                         <i data-lucide="edit"></i>  Edit
                     </a>
-                    <a class="btn btn-danger btn-sm waves-effect waves-light" href="' . base_url('manajemen/level-user/'.$val->usg_id.'/hapus') .'">
-                        <i data-lucide="trash"></i>  Hapus
-                    </a>'
+                    <button class="btn btn-danger btn-sm waves-effect waves-light btn-delete" data-id="' . $val->usg_id . '">
+                        <i data-lucide="trash"></i> Hapus
+                    </button>'
 
             ];
             $data[] = $row;
@@ -190,40 +190,56 @@ class Leveluser extends BaseController
         return redirect()->to('manajemen/level-user');
     }
 
-    function hapus($id)
+    function hapus()
     {
-        if (session()->usg_name == 'Superadmin') 
-        {
-            $model = new LeveluserModel();
-            if($model->hapus($id))
-            {
-                $model->hapus_privmod($id); //Hapus di privmod juga
-                $model->hapus_userrole($id);
-                $sessFlashdata = [
-                    'sweetAlert' => [
-                        'message' => 'Data berhasil terhapus.',
-                        'icon' => 'success'
-                    ],
-                ];
+        $model = new LeveluserModel();
+        $kirimID = $this->request->getPost('kirimID');
+        $token = csrf_hash();
+
+        if (empty($kirimID)) {
+            return $this->response->setJSON([
+                csrf_token() => $token,
+                'status' => 'error',
+                'message' => 'ID data tidak ditemukan.'
+            ]);
+        }
+
+        try {
+            if (session()->usg_name == 'Superadmin') 
+                {
+                    if ($model->hapus($kirimID)) 
+                    {
+                        $model->hapus_privmod($kirimID); //Hapus di privmod juga
+                        $model->hapus_userrole($kirimID);
+                        return $this->response->setJSON([
+                            csrf_token() => $token,
+                            'status' => 'success',
+                            'message' => 'Data berhasil dihapus.'
+                        ]);
+                    } else 
+                    {
+                        return $this->response->setJSON([
+                            csrf_token() => $token,
+                            'status' => 'error',
+                            'message' => 'Gagal menghapus data dari database.'
+                        ]);
+                    }
             }else
             {
-                $sessFlashdata = [
-                    'sweetAlert' => [
-                        'message' => 'Data gagal dihapus, mohon periksa kembali.',
-                        'icon' => 'warning'
-                    ],
-                ];
+                return $this->response->setJSON([
+                    csrf_token() => $token,
+                    'status' => 'error',
+                    'message' => 'Mohon maaf anda bukan Superadmin.'
+                ]);
             }
-        }else {
-            $sessFlashdata = [
-                'sweetAlert' => [
-                    'message' => 'Anda tidak punya akses!',
-                    'icon' => 'error',
-                ],
-            ];
+        } catch (\Exception $e) {
+
+            return $this->response->setJSON([
+                csrf_token() => $token,
+                'status' => 'error',
+                'message' => 'Terjadi kesalahan pada server: ' . $e->getMessage()
+            ]);
         }
-        session()->setFlashdata($sessFlashdata);
-        return redirect()->to('manajemen/level-user');
     }
 
     function module($id)

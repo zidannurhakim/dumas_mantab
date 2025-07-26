@@ -73,9 +73,9 @@ class Hakakses extends BaseController
                     <a class="btn btn-warning btn-sm waves-effect waves-light" href="' . base_url('manajemen/hak-akses/'.$val->usr_id.'/edit') .'">
                         <i data-lucide="edit"></i> Edit
                     </a>
-                    <a class="btn btn-danger btn-sm waves-effect waves-light" href="' . base_url('manajemen/hak-akses/'.$val->usr_id.'/hapus') .'">
+                    <button class="btn btn-danger btn-sm waves-effect waves-light btn-delete" data-id="' . $val->usr_id . '">
                         <i data-lucide="trash"></i> Hapus
-                    </a>'
+                    </button>'
 
             ];
             $data[] = $row;
@@ -167,28 +167,54 @@ class Hakakses extends BaseController
         session()->setFlashdata($sessFlashdata);
         return redirect()->to('manajemen/hak-akses');
     }
-
-    function hapus($id)
+    
+    function hapus()
     {
         $model = new HakaksesModel();
-        if($model->hapus($id))
-        {
-            $sessFlashdata = [
-                'sweetAlert' => [
-                    'message' => 'Data berhasil terhapus.',
-                    'icon' => 'success'
-                ],
-            ];
-        }else
-        {
-            $sessFlashdata = [
-                'sweetAlert' => [
-                    'message' => 'Data gagal dihapus, mohon periksa kembali.',
-                    'icon' => 'warning'
-                ],
-            ];
+        $kirimID = $this->request->getPost('kirimID');
+        $token = csrf_hash();
+
+        if (empty($kirimID)) {
+            return $this->response->setJSON([
+                csrf_token() => $token,
+                'status' => 'error',
+                'message' => 'ID data tidak ditemukan.'
+            ]);
         }
-        session()->setFlashdata($sessFlashdata);
-        return redirect()->to('manajemen/hak-akses');
+
+        try {
+            if(session()->usg_name == 'Superadmin') 
+            {
+                if($model->hapus($kirimID)) 
+                {
+                    return $this->response->setJSON([
+                        csrf_token() => $token,
+                        'status' => 'success',
+                        'message' => 'Data berhasil dihapus.'
+                    ]);
+                } else 
+                {
+                    return $this->response->setJSON([
+                        csrf_token() => $token,
+                        'status' => 'error',
+                        'message' => 'Gagal menghapus data dari database.'
+                    ]);
+                }
+            }else
+            {
+                return $this->response->setJSON([
+                    csrf_token() => $token,
+                    'status' => 'error',
+                    'message' => 'Mohon maaf anda bukan Superadmin.'
+                ]);
+            }
+        } catch (\Exception $e) {
+
+            return $this->response->setJSON([
+                csrf_token() => $token,
+                'status' => 'error',
+                'message' => 'Terjadi kesalahan pada server: ' . $e->getMessage()
+            ]);
+        }
     }
 }

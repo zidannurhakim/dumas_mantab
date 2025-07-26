@@ -68,6 +68,7 @@ $(document).ready(function() {
             },
             "dataSrc": function(json) {
                 csrfHash = json.csrfHash;
+                $('input[name="<?= csrf_token(); ?>"]').val(csrfHash);
                 return json.data;
             }
         },
@@ -82,6 +83,75 @@ $(document).ready(function() {
         "drawCallback": function(settings) {
             lucide.createIcons();  // Refresh lucide icons setiap kali data table selesai menampilkan data
         }
+    });
+
+    $('#tbdata').on('click', '.btn-delete', function(e) {
+        e.preventDefault(); 
+        const IdData = $(this).data('id'); 
+
+        Swal.fire({
+            title: 'Apakah Anda yakin?',
+            text: "Data ini akan dihapus secara permanen!",
+            icon: 'warning',
+            showCancelButton: true,
+            confirmButtonColor: '#d33',
+            cancelButtonColor: '#3085d6',
+            confirmButtonText: 'Ya, hapus!',
+            cancelButtonText: 'Batal'
+        }).then((result) => {
+            if (result.isConfirmed) {
+                $.ajax({
+                    url: '<?= base_url('manajemen/hak-akses/hapus'); ?>', 
+                    type: 'POST',
+                    dataType: 'json',
+                    data: {
+                        kirimID: IdData,
+                        [csrfName]: csrfHash 
+                    },
+                    success: function(response) {
+                        // Update CSRF token dari response
+                        if (response['<?= csrf_token() ?>']) {
+                            csrfHash = response['<?= csrf_token() ?>'];
+                            $('input[name="<?= csrf_token() ?>"]').val(csrfHash);
+                        }
+
+                        if (response.status === 'success') {
+                            Swal.fire(
+                                'Dihapus!',
+                                response.message,
+                                'success'
+                            ).then(() => {
+                                $('#tbdata').DataTable().ajax.reload(null, false); 
+                            });
+                        } else {
+                            Swal.fire(
+                                'Gagal!',
+                                response.message,
+                                'error'
+                            );
+                        }
+                    },
+                    error: function(xhr) {
+                        let response;
+                        try {
+                            response = JSON.parse(xhr.responseText);
+                            if (response['<?= csrf_token(); ?>']) {
+                                csrfHash = response['<?= csrf_token(); ?>'];
+                                $('input[name="<?= csrf_token(); ?>"]').val(csrfHash);
+                            }
+                        } catch (e) {
+                            console.error('Gagal parsing response error atau tidak ada CSRF token di response error:', e);
+                        }
+
+                        Swal.fire({
+                            icon: 'error',
+                            title: 'Error',
+                            text: 'Terjadi kesalahan saat menghapus data. Silakan coba lagi.'
+                        });
+                    }
+                });
+            }
+        });
     });
 });
 </script>

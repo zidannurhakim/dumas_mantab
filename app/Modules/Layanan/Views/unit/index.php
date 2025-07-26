@@ -154,7 +154,7 @@ $(document).ready(function() {
         }).then((result) => {
             if (result.isConfirmed) {
                 $.ajax({
-                    url: '<?= base_url('layanan/jenis/hapus'); ?>', 
+                    url: '<?= base_url('layanan/unit/hapus'); ?>', 
                     type: 'POST',
                     dataType: 'json',
                     data: {

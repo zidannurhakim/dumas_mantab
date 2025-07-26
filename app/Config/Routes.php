@@ -38,7 +38,7 @@ $routes->group(
         $routes->post('level-user/proses-tambah', 'Leveluser::prosestambah');
         $routes->get('level-user/(:any)/edit', 'Leveluser::edit/$1');
         $routes->post('level-user/(:any)/proses-edit', 'Leveluser::update/$1');
-        $routes->get('level-user/(:any)/hapus', 'Leveluser::hapus/$1');
+        $routes->post('level-user/hapus', 'Leveluser::hapus');
         
         $routes->get('level-user/(:any)/module', 'Leveluser::module/$1');
         $routes->post('level-user/module_ajax', 'Leveluser::module_ajax');
@@ -50,7 +50,7 @@ $routes->group(
         $routes->post('hak-akses/proses-tambah', 'Hakakses::prosestambah');
         $routes->get('hak-akses/(:any)/edit', 'Hakakses::edit/$1');
         $routes->post('hak-akses/(:any)/proses-edit', 'Hakakses::update/$1');
-        $routes->get('hak-akses/(:any)/hapus', 'Hakakses::hapus/$1');
+        $routes->post('hak-akses/hapus', 'Hakakses::hapus');
 
         $routes->get('user', 'User::index');
         $routes->post('user/data', 'User::data');
@@ -58,7 +58,7 @@ $routes->group(
         $routes->post('user/proses-tambah', 'User::prosestambah');
         $routes->get('user/(:any)/edit', 'User::edit/$1');
         $routes->post('user/(:any)/proses-edit', 'User::update/$1');
-        $routes->get('user/(:any)/hapus', 'User::hapus/$1');
+        $routes->post('user/hapus', 'User::hapus');
 
         $routes->get('sso-user', 'SSOUser::index');
         $routes->post('sso-user/data', 'SSOUser::data');
@@ -93,6 +93,7 @@ $routes->group(
         $routes->post('unit/data-unit', 'Unit::data_unit');
         $routes->get('unit/data-chart', 'Unit::data_chart');
         $routes->post('unit/tambah/proses-tambah', 'Unit::prosestambah');
+        $routes->post('unit/hapus', 'Unit::hapus');
     }
 
 );

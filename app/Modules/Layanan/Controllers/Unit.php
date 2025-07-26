@@ -101,9 +101,6 @@ class Unit extends BaseController
                 'unit_nama' => wordwrap($unit_nama, 60, "<br>", false),
                 'unit_status' => $val->unit_status == 1 ? '<span class="badge bg-success">Aktif</span>':'<span class="badge bg-danger">Tidak Aktif</span>',
                 'aksi' => '
-                    <a class="btn btn-warning btn-sm waves-effect waves-light" href="' . base_url('layanan/unit/'.$val->unit_id.'/edit') .'">
-                        <i data-lucide="edit"></i> Edit
-                    </a>
                     <button class="btn btn-danger btn-sm waves-effect waves-light btn-delete" data-id="' . $val->unit_id . '">
                         <i data-lucide="trash"></i> Hapus
                     </button>'
@@ -181,6 +178,45 @@ class Unit extends BaseController
                 ]);
             }
         } catch (\Exception $e) {
+            return $this->response->setJSON([
+                csrf_token() => $token,
+                'status' => 'error',
+                'message' => 'Terjadi kesalahan pada server: ' . $e->getMessage()
+            ]);
+        }
+    }
+    function hapus()
+    {
+        $model = new UnitModel();
+        $kirimID = $this->request->getPost('kirimID');
+        $token = csrf_hash();
+
+        if (empty($kirimID)) {
+            return $this->response->setJSON([
+                csrf_token() => $token,
+                'status' => 'error',
+                'message' => 'ID data tidak ditemukan.'
+            ]);
+        }
+
+        try {
+            if ($model->hapus($kirimID)) 
+            {
+                return $this->response->setJSON([
+                    csrf_token() => $token,
+                    'status' => 'success',
+                    'message' => 'Data berhasil dihapus.'
+                ]);
+            } else 
+            {
+                return $this->response->setJSON([
+                    csrf_token() => $token,
+                    'status' => 'error',
+                    'message' => 'Gagal menghapus data dari database.'
+                ]);
+            }
+        } catch (\Exception $e) {
+
             return $this->response->setJSON([
                 csrf_token() => $token,
                 'status' => 'error',
