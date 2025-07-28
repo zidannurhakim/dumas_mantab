@@ -59,17 +59,6 @@ $routes->group(
         $routes->get('user/(:any)/edit', 'User::edit/$1');
         $routes->post('user/(:any)/proses-edit', 'User::update/$1');
         $routes->post('user/hapus', 'User::hapus');
-
-        $routes->get('sso-user', 'SSOUser::index');
-        $routes->post('sso-user/data', 'SSOUser::data');
-        $routes->post('sso-user/master-data', 'SSOUser::masterdata');
-        $routes->get('sso-user/tambah', 'SSOUser::tambah');
-        $routes->post('sso-user/proses-tambah', 'SSOUser::prosestambah');
-        $routes->get('sso-user/(:any)/(:any)/hapus', 'SSOUser::hapus/$1/$2');
-        
-        
-        $routes->get('pass-key', 'Passkey::index');
-        $routes->get('pass-key/tambah', 'Passkey::tambah');
     }
 );
 

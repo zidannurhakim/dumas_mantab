@@ -69,7 +69,7 @@ class User extends BaseController
                 'no' => $count,
                 'usr_email' => $val->usr_email,
                 'usr_full' => $val->usr_full,
-                'usr_active' => $val->usr_active == 'Y' ? 'Aktif':'Tidak Aktif',
+                'usr_active' => $val->usr_active == 'Y' ? '<span class="badge bg-success">Aktif</span>':'<span class="badge bg-danger">Tidak Aktif</span>',
                 'usr_update' => $val->usr_update,
                 'aksi' => '
                     <a class="btn btn-warning btn-sm waves-effect waves-light" href="' . base_url('manajemen/user/'.$val->usr_id.'/edit') .'">
@@ -111,29 +111,72 @@ class User extends BaseController
     {
         $uuid = Uuid::uuid4()->toString();
         $model = new UserModel();
+        $validation = \Config\Services::validation();
+        $token = csrf_hash();
+
+        // Validasi form
+        $validation->setRules([
+            'usr_full' => 'required',
+            'usr_tanggallahir' => 'required',
+            'usr_email' => 'required',
+            'usr_nip' => 'required',
+            'usr_kelamin' => 'required',
+            'usr_nomorhp' => 'required',
+            'usr_alamat' => 'required',
+            'usr_active' => 'required',
+        ]);
+
+        if (!$validation->withRequest($this->request)->run()) {
+            return $this->response->setJSON([
+                csrf_token() => $token,
+                'status' => 'error',
+                'message' => 'Lengkapi Kembali Data dan Pastikan Tidak Ada Yang Kosong.',
+                'errors' => $validation->getErrors(),
+            ]);
+        }
+
         $data = [
             'usr_id' => $uuid,
-            'usr_email' => $this->request->getPost('usr_email'),
             'usr_full' => $this->request->getPost('usr_full'),
+            'usr_tanggallahir' => $this->request->getPost('usr_tanggallahir'),
+            'usr_email' => $this->request->getPost('usr_email'),
+            'usr_nip' => $this->request->getPost('usr_nip'),
+            'usr_kelamin' => $this->request->getPost('usr_kelamin'),
+            'usr_nomorhp' => $this->request->getPost('usr_nomorhp'),
+            'usr_alamat' => $this->request->getPost('usr_alamat'),
             'usr_active' => $this->request->getPost('usr_active'),
             'usr_inputby' => session()->usr_id,
             'usr_update' => gmdate('Y-m-d H:i:s', time() + 25200)
         ];
-        $model->tambah($data);
-        $sessFlashdata = [
-            'sweetAlert' => [
-                'message' => 'Berhasil Menambahkan Data.',
-                'icon' => 'success'
-            ],
-        ];
-        session()->setFlashdata($sessFlashdata);
-        return redirect()->to('/manajemen/user');
+
+        try {
+            if ($model->tambah($data)) {
+                return $this->response->setJSON([
+                    csrf_token() => $token,
+                    'status' => 'success',
+                    'message' => 'Data berhasil ditambahkan.'
+                ]);
+            } else {
+                return $this->response->setJSON([
+                    csrf_token() => $token,
+                    'status' => 'error',
+                    'message' => 'Gagal menyimpan data ke database.'
+                ]);
+            }
+        } catch (\Exception $e) {
+            return $this->response->setJSON([
+                csrf_token() => $token,
+                'status' => 'error',
+                'message' => 'Terjadi kesalahan pada server: ' . $e->getMessage()
+            ]);
+        }
     }
 
     function edit($id)
     {
         $model = new UserModel();
         $data['user'] = $model->data_id($id);
+        $data['usr_id'] = $id;
         $data['indukmodule'] = $this->indukmodule;
         $data['subindukmodule'] = $this->subindukmodule;
         $data['title'] = $this->title;
@@ -145,31 +188,64 @@ class User extends BaseController
     function update($id)
     {
         $model = new UserModel();
-        $data = array(
-            'usr_email' => $this->request->getPost('usr_email'),
+        $validation = \Config\Services::validation();
+        $token = csrf_hash();
+
+        // Validasi form
+        $validation->setRules([
+            'usr_full' => 'required',
+            'usr_tanggallahir' => 'required',
+            'usr_email' => 'required',
+            'usr_nip' => 'required',
+            'usr_kelamin' => 'required',
+            'usr_nomorhp' => 'required',
+            'usr_alamat' => 'required',
+            'usr_active' => 'required',
+        ]);
+
+        if (!$validation->withRequest($this->request)->run()) {
+            return $this->response->setJSON([
+                csrf_token() => $token,
+                'status' => 'error',
+                'message' => 'Lengkapi Kembali Data dan Pastikan Tidak Ada Yang Kosong.',
+                'errors' => $validation->getErrors(),
+            ]);
+        }
+
+        $data = [
             'usr_full' => $this->request->getPost('usr_full'),
+            'usr_tanggallahir' => $this->request->getPost('usr_tanggallahir'),
+            'usr_email' => $this->request->getPost('usr_email'),
+            'usr_nip' => $this->request->getPost('usr_nip'),
+            'usr_kelamin' => $this->request->getPost('usr_kelamin'),
+            'usr_nomorhp' => $this->request->getPost('usr_nomorhp'),
+            'usr_alamat' => $this->request->getPost('usr_alamat'),
             'usr_active' => $this->request->getPost('usr_active'),
             'usr_inputby' => session()->usr_id,
             'usr_update' => gmdate('Y-m-d H:i:s', time() + 25200)
-        );
+        ];
 
-        if ($model->edit($id, $data)) {
-            $sessFlashdata = [
-                'sweetAlert' => [
-                    'message' => 'Data berhasil terupdate.',
-                    'icon' => 'success'
-                ],
-            ];
-        } else {
-            $sessFlashdata = [
-                'sweetAlert' => [
-                    'message' => 'Data gagal diubah, mohon periksa kembali.',
-                    'icon' => 'warning'
-                ],
-            ];
+        try {
+            if ($model->edit($id, $data)) {
+                return $this->response->setJSON([
+                    csrf_token() => $token,
+                    'status' => 'success',
+                    'message' => 'Data berhasil diubah.'
+                ]);
+            } else {
+                return $this->response->setJSON([
+                    csrf_token() => $token,
+                    'status' => 'error',
+                    'message' => 'Gagal menyimpan data ke database.'
+                ]);
+            }
+        } catch (\Exception $e) {
+            return $this->response->setJSON([
+                csrf_token() => $token,
+                'status' => 'error',
+                'message' => 'Terjadi kesalahan pada server: ' . $e->getMessage()
+            ]);
         }
-        session()->setFlashdata($sessFlashdata);
-        return redirect()->to('manajemen/user');
     }
 
     function hapus()

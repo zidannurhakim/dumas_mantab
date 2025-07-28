@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="UIN Maulana Malik Ibrahim Malang" />
+    <meta name="description" content="MAN 3 Banyuwangi" />
     <meta name="keywords" content="" />
     <meta name="author" content="@zidannurhakim_" />
     <meta name="email" content="ahmadzidan.nh@gmail.com" />

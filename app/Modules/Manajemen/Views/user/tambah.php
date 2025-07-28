@@ -32,36 +32,135 @@
     </div>
     <div class="card">
         <div class="card-body">
-            <h4>Form <?= $title; ?></h4>
-            <form action="<?= base_url('manajemen/user/proses-tambah'); ?>" enctype="multipart/form-data" method="post">
+            <h4>Form Tambah <?= $title; ?></h4>
+            <form id="uploadForm" enctype="multipart/form-data">
                 <input type="hidden" name="<?= csrf_token(); ?>" value="<?= csrf_hash(); ?>">
                 <div class="row">
-                    <div class="col-md-6">
+                    <div class="col-md-8">
                         <div class="form-group">
-                            <label>Email</label>
-                            <input type="email" name="usr_email" class="form-control" required>
+                            <label>Nama Lengkap <code class="text-danger">*</code></label>
+                            <input type="text" name="usr_full" class="form-control">
                         </div>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-4">
                         <div class="form-group">
-                            <label>Nama Lengkap</label>
-                            <input type="text" name="usr_full" class="form-control" required>
+                            <label>Tanggal Lahir <code class="text-danger">*</code></label>
+                            <input type="date" name="usr_tanggallahir" class="form-control">
                         </div>
                     </div>
-                    <div class="col-md-12">
+                    <p></p>
+                    <div class="col-md-5">
                         <div class="form-group">
-                            <label>Status</label>
-                            <select name="usr_active" class="form-select" required>
+                            <label>Email <code class="text-danger">*</code></label>
+                            <input type="email" name="usr_email" class="form-control">
+                        </div>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="form-group">
+                            <label>NIP <code class="text-danger">*</code></label>
+                            <input type="email" name="usr_nip" class="form-control">
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="form-group">
+                            <label>Jenis Kelamin <code class="text-danger">*</code></label>
+                            <select name="usr_kelamin" class="form-select">
+                                <option value="L">Laki-laki</option>
+                                <option value="P">Perempuan</option>
+                            </select>
+                        </div>
+                    </div>
+                    <p></p>
+                    <div class="col-md-3">
+                        <div class="form-group">
+                            <label>Nomor HP <code class="text-danger">*</code></label>
+                            <input type="text" name="usr_nomorhp" class="form-control">
+                        </div>
+                    </div>
+                    <div class="col-md-7">
+                        <div class="form-group">
+                            <label>Alamat <code class="text-danger">*</code></label>
+                            <textarea type="text" name="usr_alamat" class="form-control" rows="1"></textarea>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="form-group">
+                            <label>Status <code class="text-danger">*</code></label>
+                            <select name="usr_active" class="form-select">
                                 <option value="Y">Aktif</option>
                                 <option value="N">Tidak Aktif</option>
                             </select>
                         </div>
                     </div>
+                    <p></p>
                     <div class="col-12 d-flex justify-content-end">
-                        <button type="submit" class="btn btn-primary">Simpan</button>
+                        <button type="submit" id="submitForm" class="btn btn-primary">Simpan</button>
                     </div>
                 </div>
             </form>
         </div>
     </div>
 </div>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+    $(document).ready(function () {
+        function updateCsrfToken(newToken) {
+            $('input[name="<?= csrf_token() ?>"]').val(newToken);
+        }
+        $('#submitForm').click(function(e) {
+            e.preventDefault(); 
+
+            var form = $('#uploadForm')[0];
+            var formData = new FormData(form); 
+            $.ajax({
+                url: '<?= base_url('manajemen/user/proses-tambah') ?>',
+                type: 'POST',
+                data: formData,
+                processData: false, 
+                contentType: false, 
+                dataType: 'json',
+                success: function(response) {
+                    // Update CSRF token dari response sukses
+                    if (response['<?= csrf_token() ?>']) {
+                        updateCsrfToken(response['<?= csrf_token() ?>']);
+                    }
+
+                    if (response.status === 'success') {
+                        Swal.fire({
+                            icon: 'success',
+                            title: 'Berhasil',
+                            text: response.message
+                        }).then(() => {
+                            window.location.href = '<?= base_url('manajemen/user'); ?>';
+                        });
+                    } else {
+                        Swal.fire({
+                            icon: 'warning',
+                            title: 'Gagal',
+                            text: response.message
+                        });
+                    }
+                },
+                error: function(xhr) {
+                    let response;
+                    try {
+                        response = JSON.parse(xhr.responseText);
+                        if (response['<?= csrf_token(); ?>']) 
+                        { 
+                            updateCsrfToken(response['<?= csrf_token(); ?>']);
+                        }
+                    } catch (e) {
+                        console.error('Gagal parsing response error atau tidak ada CSRF token di response error:', e);
+                    }
+
+                    Swal.fire({
+                        icon: 'error',
+                        title: 'Error',
+                        text: 'Terjadi kesalahan saat mengirim data. Silakan coba lagi.'
+                    });
+                }
+            });
+        });
+        
+    });
+</script>
