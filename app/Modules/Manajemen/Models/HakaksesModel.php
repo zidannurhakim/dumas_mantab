@@ -79,6 +79,24 @@ class HakaksesModel extends Model
         return $query->getResult();
     }
 
+    function data_user_select2($search = null, $limit = 100)
+    {
+        $builder = $this->db->table('x_user AS a')
+            ->select('a.*')
+            ->join('x_userrole AS b', 'a.usr_id = b.usr_id', 'left')
+            ->where('b.usr_id IS NULL AND a.usr_active = "Y"')
+            ->limit($limit);
+
+        if (!empty($search)) {
+            $builder->groupStart()
+                    ->like('a.usr_email', $search)
+                    ->orLike('a.usr_full', $search)
+                    ->groupEnd();
+        }
+
+        return $builder->get()->getResult();
+    }
+
     function data_id($id)
     {
         $query = $this->db->query("SELECT a.*, b.usr_full, b.usr_email
@@ -92,6 +110,22 @@ class HakaksesModel extends Model
     {
         $query = $this->db->query("SELECT * FROM x_usergroup AS usg");
         return $query->getResult();
+    }
+
+    function data_level_select2($search = null, $limit = 100)
+    {
+        $builder = $this->db->table('x_usergroup AS a')
+            ->select('a.*')
+            ->limit($limit);
+
+        if (!empty($search)) {
+            $builder->groupStart()
+                    ->like('a.usg_name', $search)
+                    ->orLike('a.usg_note', $search)
+                    ->groupEnd();
+        }
+
+        return $builder->get()->getResult();
     }
 
     function x_module()

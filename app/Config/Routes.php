@@ -46,10 +46,10 @@ $routes->group(
 
         $routes->get('hak-akses', 'Hakakses::index');
         $routes->post('hak-akses/data', 'Hakakses::data');
+        $routes->post('hak-akses/data-user', 'Hakakses::data_user');
+        $routes->post('hak-akses/data-usergroup', 'Hakakses::data_level');
         $routes->get('hak-akses/tambah', 'Hakakses::tambah');
         $routes->post('hak-akses/proses-tambah', 'Hakakses::prosestambah');
-        $routes->get('hak-akses/(:any)/edit', 'Hakakses::edit/$1');
-        $routes->post('hak-akses/(:any)/proses-edit', 'Hakakses::update/$1');
         $routes->post('hak-akses/hapus', 'Hakakses::hapus');
 
         $routes->get('user', 'User::index');
@@ -83,6 +83,8 @@ $routes->group(
         $routes->get('unit/data-chart', 'Unit::data_chart');
         $routes->post('unit/tambah/proses-tambah', 'Unit::prosestambah');
         $routes->post('unit/hapus', 'Unit::hapus');
+        
+        $routes->get('jabatan', 'Jabatan::index');
     }
 
 );

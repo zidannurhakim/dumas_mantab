@@ -70,9 +70,6 @@ class Hakakses extends BaseController
                 'usg_name' => $val->usg_name,
                 'update' => $val->update,
                 'aksi' => '
-                    <a class="btn btn-warning btn-sm waves-effect waves-light" href="' . base_url('manajemen/hak-akses/'.$val->usr_id.'/edit') .'">
-                        <i data-lucide="edit"></i> Edit
-                    </a>
                     <button class="btn btn-danger btn-sm waves-effect waves-light btn-delete" data-id="' . $val->usr_id . '">
                         <i data-lucide="trash"></i> Hapus
                     </button>'
@@ -97,9 +94,6 @@ class Hakakses extends BaseController
 
     function tambah()
     {
-        $model = new HakaksesModel();
-        $data['user'] = $model->data_user();
-        $data['level'] = $model->data_level();
         $data['indukmodule'] = $this->indukmodule;
         $data['subindukmodule'] = $this->subindukmodule;
         $data['title'] = $this->title;
@@ -111,61 +105,51 @@ class Hakakses extends BaseController
     function prosestambah()
     {
         $model = new HakaksesModel();
+        $validation = \Config\Services::validation();
+        $token = csrf_hash();
+
+        // Validasi form
+        $validation->setRules([
+            'usr_id' => 'required',
+            'usg_id' => 'required',
+        ]);
+
+        if (!$validation->withRequest($this->request)->run()) {
+            return $this->response->setJSON([
+                csrf_token() => $token,
+                'status' => 'error',
+                'message' => 'Lengkapi Kembali Data dan Pastikan Tidak Ada Yang Kosong.',
+                'errors' => $validation->getErrors(),
+            ]);
+        }
+
         $data = [
             'usr_id' => $this->request->getPost('usr_id'),
             'usg_id' => $this->request->getPost('usg_id'),
             'update' => gmdate('Y-m-d H:i:s', time() + 25200)
         ];
-        $model->tambah($data);
-        $sessFlashdata = [
-            'sweetAlert' => [
-                'message' => 'Berhasil Menambahkan Data.',
-                'icon' => 'success'
-            ],
-        ];
-        session()->setFlashdata($sessFlashdata);
-        return redirect()->to('/manajemen/hak-akses');
-    }
 
-    function edit($id)
-    {
-        $model = new HakaksesModel();
-        $data['datauser'] = $model->data_id($id);
-        $data['user'] = $model->data_user_all();
-        $data['level'] = $model->data_level();
-        $data['indukmodule'] = $this->indukmodule;
-        $data['subindukmodule'] = $this->subindukmodule;
-        $data['title'] = $this->title;
-        $data['subtitle'] = 'Edit';
-        $data['view'] = $this->folder_directory .'edit';
-        return view('layout/admin/templates', $data);
-    }
-
-    function update($id)
-    {
-        $model = new HakaksesModel();
-        $data = array(
-            'usg_id' => $this->request->getPost('usg_id'),
-            'update' => gmdate('Y-m-d H:i:s', time() + 25200)
-        );
-
-        if ($model->edit($id, $data)) {
-            $sessFlashdata = [
-                'sweetAlert' => [
-                    'message' => 'Data berhasil terupdate.',
-                    'icon' => 'success'
-                ],
-            ];
-        } else {
-            $sessFlashdata = [
-                'sweetAlert' => [
-                    'message' => 'Data gagal diubah, mohon periksa kembali.',
-                    'icon' => 'warning'
-                ],
-            ];
+        try {
+            if ($model->tambah($data)) {
+                return $this->response->setJSON([
+                    csrf_token() => $token,
+                    'status' => 'success',
+                    'message' => 'Data berhasil ditambahkan.'
+                ]);
+            } else {
+                return $this->response->setJSON([
+                    csrf_token() => $token,
+                    'status' => 'error',
+                    'message' => 'Gagal menyimpan data ke database.'
+                ]);
+            }
+        } catch (\Exception $e) {
+            return $this->response->setJSON([
+                csrf_token() => $token,
+                'status' => 'error',
+                'message' => 'Terjadi kesalahan pada server: ' . $e->getMessage()
+            ]);
         }
-        session()->setFlashdata($sessFlashdata);
-        return redirect()->to('manajemen/hak-akses');
     }
     
     function hapus()
@@ -216,5 +200,47 @@ class Hakakses extends BaseController
                 'message' => 'Terjadi kesalahan pada server: ' . $e->getMessage()
             ]);
         }
+    }
+
+    function data_user()
+    {
+        $search = $this->request->getPost('search');
+        $model = new HakaksesModel();
+        $result = $model->data_user_select2($search);
+
+        $data = [];
+        foreach($result AS $val) 
+        {
+            $nama = $val->usr_full.' | '.$val->usr_email;
+            $data[] = [
+                'id' => $val->usr_id,
+                'text' => $nama
+            ];
+        }
+        return $this->response->setJSON([
+            'results' => $data,
+            csrf_token() => csrf_hash()
+        ]);
+    }
+
+    function data_level()
+    {
+        $search = $this->request->getPost('search');
+        $model = new HakaksesModel();
+        $result = $model->data_level_select2($search);
+
+        $data = [];
+        foreach($result AS $val) 
+        {
+            $nama = $val->usg_name.' | '.$val->usg_note;
+            $data[] = [
+                'id' => $val->usg_id,
+                'text' => $nama
+            ];
+        }
+        return $this->response->setJSON([
+            'results' => $data,
+            csrf_token() => csrf_hash()
+        ]);
     }
 }
