@@ -6,18 +6,19 @@ use CodeIgniter\Router\RouteCollection;
  * @var RouteCollection $routes
  */
 
-$routes->get('/', 'Auth::index');
+// $routes->get('/', 'Auth::index');
 // $routes->get('/login-siam', 'Auth::loginSiam');
-$routes->get('/login', 'Auth::bypassLogin');
-$routes->get('/proses-login', 'Auth::loginGoogle');
-$routes->get('/refresh-session', 'Auth::refresh');
-$routes->get('/logout', 'Auth::logout');
+// $routes->get('/login', 'Auth::bypassLogin');
 
 
 $routes->group(
-    'abcd-passkey', ['namespace' => '\Modules\Abcd\Controllers'], function ($routes) {
-        $routes->get('verifikasi', 'Verifikasi::index');
-        $routes->post('verifikasi/cek-kredensial', 'Verifikasi::cekKredensial');
+    '/', ['namespace' => '\Modules\Landing\Controllers'], function ($routes) {
+        $routes->get('', 'Portal::index');
+        $routes->post('data-jenis-layanan', 'Portal::data_jenis_layanan');
+        $routes->post('layanan/proses-tambah', 'Portal::prosestambah');
+        $routes->get('proses-login', 'Auth::loginGoogle');
+        $routes->get('refresh-session', 'Auth::refresh');
+        $routes->get('logout', 'Auth::logout');
     }
 );
 
@@ -90,31 +91,9 @@ $routes->group(
 );
 
 $routes->group(
-    'naskah-keluar', ['namespace' => '\Modules\Naskahkeluar\Controllers'], 
+    'module', ['namespace' => '\Modules\Modules\Controllers'], 
     function ($routes) 
     {
-        $routes->get('registrasi', 'Registrasi::index');
-        $routes->get('registrasi/tambah', 'Registrasi::tambah');
-        $routes->post('registrasi/proses-tambah', 'Registrasi::prosestambah');
-        $routes->post('registrasi/data-subsatker', 'Registrasi::data_subsatker');
-        $routes->post('registrasi/data-jenis-naskah', 'Registrasi::data_jenis_naskah');
-        $routes->post('registrasi/data-sifat-naskah', 'Registrasi::data_sifat_naskah');
-        $routes->post('registrasi/data-tujuan-naskah-internal', 'Registrasi::data_tujuannaskah_internal');
-        $routes->post('registrasi/data-tembusan-internal', 'Registrasi::data_tembusan_internal');
-        $routes->post('registrasi/data-verifikator', 'Registrasi::data_verifikator');
-        $routes->post('registrasi/data-penandatanganan', 'Registrasi::data_penandatanganan');
-        
-        
-        $routes->get('log-naskah', 'Lognaskah::index');
-        $routes->post('log-naskah/data', 'Lognaskah::data');
-        $routes->post('log-naskah/data-log', 'Lognaskah::data_log');
-        $routes->post('log-naskah/prepare-edit', 'Lognaskah::prepare_edit');
-        $routes->get('log-naskah/edit', 'Lognaskah::edit');
-        $routes->post('log-naskah/proses-edit', 'Lognaskah::prosesEdit');
-        $routes->post('log-naskah/prepare-lihat', 'Lognaskah::prepare_lihat');
-        $routes->get('log-naskah/lihat', 'Lognaskah::lihat');
-        $routes->post('log-naskah/kirim', 'Lognaskah::kirim');
-
-        $routes->get('verifikasi', 'Verifikasi::index');
+        $routes->get('it', 'LayIT::index');
     }
 );

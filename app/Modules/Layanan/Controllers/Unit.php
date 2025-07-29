@@ -12,11 +12,13 @@ class Unit extends BaseController
     private $indukmodule = 'Tata Kelola Layanan';
     private $subindukmodule = '';
     private $title = 'Unit';
+    private $module = 'layanan/unit';
 
     function __construct()
     {
         helper('auth');
         is_logged();
+        is_allowed($this->module);
     }
 
     function index()

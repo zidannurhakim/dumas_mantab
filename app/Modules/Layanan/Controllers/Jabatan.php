@@ -11,11 +11,13 @@ class Jabatan extends BaseController
     private $indukmodule = 'Tata Kelola Layanan';
     private $subindukmodule = '';
     private $title = 'Jabatan';
+    private $module = 'layanan/jabatan';
 
     function __construct()
     {
         helper('auth');
         is_logged();
+        is_allowed($this->module);
     }
 
     function index()

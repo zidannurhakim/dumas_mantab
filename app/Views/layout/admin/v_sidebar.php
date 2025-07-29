@@ -1,5 +1,6 @@
 <?php 
-    $model = new App\Models\AuthModel();
+    use Modules\Landing\Models\AuthModel;
+    $model = new AuthModel();
     $usgmod = $model->usgmod(); // Hasil query modul yang diijinkan
     $modallow = array_column($usgmod, 'mod_id');
     $linkallow = array_column($usgmod, 'mod_link');

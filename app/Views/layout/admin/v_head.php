@@ -5,7 +5,7 @@
     <title><?= $title ?> | <?= env('APPNAME') ?></title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta content="" name="description" />
-    <meta name="keywords" content="" />
+    <meta name="keywords" content="MAN 3 Banyuwangi" />
     <meta name="author" content="@zidannurhakim_" />
     <meta name="email" content="ahmadzidan.nh@gmail.com" />
     <meta name="Version" content="v1.0.0" />
