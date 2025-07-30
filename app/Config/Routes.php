@@ -95,5 +95,7 @@ $routes->group(
     function ($routes) 
     {
         $routes->get('it', 'LayIT::index');
+        $routes->post('it/data', 'LayIT::data');
+        $routes->get('it/(:any)/detail', 'LayIT::detail/$1');
     }
 );

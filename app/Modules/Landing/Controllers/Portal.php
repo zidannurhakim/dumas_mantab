@@ -176,6 +176,9 @@ class Portal extends BaseController
             'data_pesan' => $this->request->getPost('data_pesan'),
             'data_lampiran' => $fileNameLampiran,
             'data_lampiran_size' => $fileNameLampiran ? (round($fileSizeLampiran / 1024, 2) . ' KB') : null,
+            'data_status_kirim' => 'BELUM',
+            'data_status_selesai' => 'BELUM',
+            'data_flag' => 'SUCCESS',
             'data_update' => gmdate('Y-m-d H:i:s', time() + 25200),
         ];
 

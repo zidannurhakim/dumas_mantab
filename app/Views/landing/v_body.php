@@ -10,6 +10,13 @@
                                 <div class="col-lg-5 d-none d-lg-block bg-register rounded-left"></div>
                                 <div class="col-lg-7">
                                     <div class="p-5">
+                                        <div class="row">
+                                            <div class="col-12 d-flex justify-content-end">
+                                                <button class="nav-link waves-effect waves-light" id="theme-mode">
+                                                    <i class="bx bx-moon font-size-24"></i>
+                                                </button>
+                                            </div>
+                                        </div>
                                         <div class="text-center w-75 mx-auto auth-logo mb-4">
                                             <a href="<?= base_url('beranda'); ?>" class="logo-dark">
                                                 <span><img src="<?= base_url('assets/other/logo_man3bwi.png') ?>" alt="" height="80"></span>
