@@ -37,6 +37,8 @@ class Filters extends BaseConfig
             // 'honeypot',
             'csrf' => ['except' => [
                 'manajemen/level-user/module/privmod_upd',
+                'layanan/akses-admin/module/privmod-upd',
+                'module/admin/data-layanan',
                 'manajemen/sso-user/master-data',
                 // 'peminjaman/katalog/*',
             ]],

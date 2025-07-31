@@ -75,8 +75,7 @@ $routes->group(
         $routes->get('jenis/(:any)/edit', 'Jenis::edit/$1');
         $routes->post('jenis/(:any)/edit/proses-edit', 'Jenis::update/$1');
         $routes->post('jenis/hapus', 'Jenis::hapus');
-        
-        
+
         $routes->get('unit', 'Unit::index');
         $routes->get('unit/tambah', 'Unit::tambah');
         $routes->post('unit/data', 'Unit::data');
@@ -85,17 +84,29 @@ $routes->group(
         $routes->post('unit/tambah/proses-tambah', 'Unit::prosestambah');
         $routes->post('unit/hapus', 'Unit::hapus');
         
+        $routes->get('akses-admin', 'AksesAdmin::index');
+        $routes->post('akses-admin/data', 'AksesAdmin::data');
+        $routes->get('akses-admin/(:any)/module', 'AksesAdmin::module/$1');
+        $routes->post('akses-admin/module-ajax', 'AksesAdmin::module_ajax');
+        $routes->post('akses-admin/module/privmod-upd', 'AksesAdmin::privmod_upd');
+        
         $routes->get('jabatan', 'Jabatan::index');
     }
-
+    
 );
 
 $routes->group(
     'module', ['namespace' => '\Modules\Modules\Controllers'], 
     function ($routes) 
     {
-        $routes->get('it', 'LayIT::index');
-        $routes->post('it/data', 'LayIT::data');
-        $routes->get('it/(:any)/detail', 'LayIT::detail/$1');
+        $routes->get('admin', 'Admin::index');
+        $routes->post('admin/data', 'Admin::data');
+        $routes->post('admin/data-layanan', 'Admin::data_layanan');
+        $routes->post('admin/data-user', 'Admin::data_user');
+        $routes->post('admin/(:any)/proses-kirim', 'Admin::proses_kirim/$1');
+        $routes->get('admin/(:any)/detail', 'Admin::detail/$1');
+        
+        $routes->get('pesan-masuk', 'PesanMasuk::index');
+        $routes->post('pesan-masuk/data', 'PesanMasuk::data');
     }
 );
