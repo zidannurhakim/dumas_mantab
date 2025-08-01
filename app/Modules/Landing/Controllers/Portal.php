@@ -13,6 +13,8 @@ class Portal extends BaseController
     private $indukmodule = '';
     private $subindukmodule = '';
     private $title = '.:: Selamat Datang';
+    private $module = '/';
+    private $submoduls = array('/' => 'Portal Depan', 'cek-data' => 'Cek Data');
 
     protected $googleClient;
     protected $users;
@@ -47,6 +49,9 @@ class Portal extends BaseController
             $data['subindukmodule'] = $this->subindukmodule;
             $data['title'] = $this->title;
             $data['subtitle'] = 'Index';
+            $data['module'] = $this->module;
+            $data['submoduls'] = $this->submoduls;
+            $data['subactive'] = '/';
             $data['view'] = $this->folder_directory .'index';
             $data['link'] = $this->googleClient->createAuthUrl();
             return view('landing/templates', $data);

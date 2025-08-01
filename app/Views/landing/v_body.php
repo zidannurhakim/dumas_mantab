@@ -10,6 +10,14 @@
                                 <div class="col-lg-5 d-none d-lg-block bg-register rounded-left"></div>
                                 <div class="col-lg-7">
                                     <div class="p-5">
+                                        <?php
+                                            foreach ($submoduls as $key => $val) {
+                                                $btnclass = ($key == $subactive) ? "primary" : "default";
+
+                                                echo "<a class='btn btn-sm btn-" . $btnclass . " btsub' 
+                                                        href='" . base_url($module . '/' . $key) . "' role='button'>" . $val . "</a> ";
+                                            }
+                                        ?>
                                         <div class="row">
                                             <div class="col-12 d-flex justify-content-end">
                                                 <button class="nav-link waves-effect waves-light" id="theme-mode">

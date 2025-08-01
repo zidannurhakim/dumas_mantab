@@ -115,6 +115,205 @@ class PesanMasuk extends BaseController
         return $this->response->setJSON($json_data);
     }
 
+    function detail($id)
+    {
+        $model = new PesanMasukModel();
+        $getData = $model->data_buka_pesan($id);
+        if(!empty($getData))
+        {
+            $logId = $getData[0]->log_id;
+
+            $data = [
+                'log_status_baca' => 'BACA',
+                'log_update_baca' => gmdate('Y-m-d H:i:s', time() + 25200)
+            ];
+            $model->edit_log($data, $logId);
+            $sessFlashdata = [
+                'sweetAlert' => [
+                    'message' => 'Pembaharuan Status Baca Berhasil',
+                    'icon' => 'success'
+                ],
+            ];
+            session()->setFlashdata($sessFlashdata);
+        }
+        $data['data_id'] = $id;
+        $data['master_data_id'] = $id;
+        $data['data'] = $model->data_id($id);
+        $data['indukmodule'] = $this->indukmodule;
+        $data['subindukmodule'] = $this->subindukmodule;
+        $data['title'] = $this->title;
+        $data['subtitle'] = 'Detail Data';
+        $data['view'] = $this->folder_directory .'detail';
+        return view('layout/admin/templates', $data);
+    }
+
+    function proses_kirim_pesan($data_id)
+    {
+        $model = new PesanMasukModel();
+        $getData = $model->data_tindaklanjut($data_id);
+        if(!empty($getData))
+        {
+            $logId = $getData[0]->log_id;
+
+            $data = [
+                'log_flag_tindaklanjut' => 'SUDAH',
+            ];
+            $model->edit_log($data, $logId);
+        }
+        $validation = \Config\Services::validation();
+        $token = csrf_hash();
+        $uuid = Uuid::uuid4()->toString();
+
+        $validation->setRules([
+            'chat_pesan' => [
+                'rules' => 'required', 
+                'errors' => [
+                    'required' => 'Pesan wajib diisi.' 
+                ]
+            ],
+            'chat_lampiran' => [ 
+                'rules' => 'max_size[chat_lampiran,10240]|ext_in[chat_lampiran,pdf,jpg,png,jpeg]', 
+                'errors' => [
+                    'max_size' => 'Ukuran File Lampiran terlalu besar (maks 10MB).',
+                    'ext_in' => 'Format File Lampiran tidak diizinkan. Hanya PDF, JPG, PNG, JPEG.'
+                ]
+            ],
+        ]);
+
+        if (!$validation->withRequest($this->request)->run()) {
+            $errorMessage = 'Validasi gagal: ';
+            $errors = $validation->getErrors();
+            foreach ($errors as $field => $error) {
+                $errorMessage .= $error . '; '; 
+            }
+
+            return $this->response->setJSON([
+                csrf_token() => $token, 
+                'status' => 'error',
+                'message' => $errorMessage, 
+                'errors' => $errors, 
+            ]);
+        }
+
+        $fileLampiran = $this->request->getFile('chat_lampiran'); 
+        $fileNameLampiran = null;
+        $fileSizeLampiran = 0;
+        $uploadPathLampiran = FCPATH.'uploads/obrolan/'; 
+
+        if ($fileLampiran && $fileLampiran->isValid() && !$fileLampiran->hasMoved()) {
+            $newNameLampiran = $fileLampiran->getRandomName();
+            if (!is_dir($uploadPathLampiran)) {
+                mkdir($uploadPathLampiran, 0777, true);
+            }
+            $fileLampiran->move($uploadPathLampiran, $newNameLampiran);
+            $fileNameLampiran = $newNameLampiran;
+            $fileSizeLampiran = $fileLampiran->getSize();
+        } 
+        $data = [
+            'chat_id' => $uuid,
+            'data_id' => $data_id,
+            'chat_pesan' => $this->request->getPost('chat_pesan'),
+            'chat_lampiran' => $fileNameLampiran,
+            'chat_lampiran_size' => $fileNameLampiran ? (round($fileSizeLampiran / 1024, 2) . ' KB') : null,
+            'chat_jenis' => "PENGELOLA",
+            'chat_usr_id' => session()->usr_id,
+            'chat_update' => gmdate('Y-m-d H:i:s', time() + 25200)
+        ];
+
+        try {
+            if ($model->tambah_chat($data)) {
+                return $this->response->setJSON([
+                    csrf_token() => $token,
+                    'status' => 'success',
+                    'message' => 'Pesan berhasil dikirim.'
+                ]);
+            } else {
+                return $this->response->setJSON([
+                    csrf_token() => $token,
+                    'status' => 'error',
+                    'message' => 'Gagal menyimpan data ke database.'
+                ]);
+            }
+        } catch (\Exception $e) {
+            return $this->response->setJSON([
+                csrf_token() => $token,
+                'status' => 'error',
+                'message' => 'Terjadi kesalahan pada server: ' . $e->getMessage()
+            ]);
+        }
+    }
+
+    function data_obrolan($data_id)
+    {
+        $model = new PesanMasukModel();
+        $messages = $model->data_obrolan($data_id);
+        return $this->response->setJSON($messages);
+    }
+
+    function proses_selesai($data_id)
+    {
+        $model = new PesanMasukModel();
+        $validation = \Config\Services::validation();
+        $token = csrf_hash();
+        $uuid = Uuid::uuid4()->toString();
+
+        // Validasi form
+        $validation->setRules([
+            'usr_id' => 'required',
+        ]);
+
+        if (!$validation->withRequest($this->request)->run()) {
+            return $this->response->setJSON([
+                csrf_token() => $token,
+                'status' => 'error',
+                'message' => 'User ID Tidak Tersedia.',
+                'errors' => $validation->getErrors(),
+            ]);
+        }
+
+        $dataLog = [
+            'log_id' => $uuid,
+            'data_id' => $data_id,
+            'log_usr_id_pengirim' => session()->usr_id,
+            'log_usr_id_tujuan' => 'KOSONG',
+            'log_tujuan_jenis' => "SELESAI",
+            'log_hal' => "PENYELESAIAN",
+            'log_pesan' => "Sudah Ditindaklanjuti",
+            'log_lampiran' => null,
+            'log_status_baca' => "BACA",
+            'log_update_baca' => gmdate('Y-m-d H:i:s', time() + 25200),
+            'log_flag_tindaklanjut' => "SUDAH",
+            'log_update' => gmdate('Y-m-d H:i:s', time() + 25200)
+        ];
+
+        $update_data = [
+            'data_status_selesai' => "SELESAI",
+            'data_flag' => "PRIMARY",
+        ];
+
+        try {
+            if ($model->tambah_log($dataLog)) {
+                $model->edit_data($update_data, $data_id);
+                return $this->response->setJSON([
+                    csrf_token() => $token,
+                    'status' => 'success',
+                    'message' => 'Data berhasil diselesaikan.'
+                ]);
+            } else {
+                return $this->response->setJSON([
+                    csrf_token() => $token,
+                    'status' => 'error',
+                    'message' => 'Gagal menyimpan data ke database.'
+                ]);
+            }
+        } catch (\Exception $e) {
+            return $this->response->setJSON([
+                csrf_token() => $token,
+                'status' => 'error',
+                'message' => 'Terjadi kesalahan pada server: ' . $e->getMessage()
+            ]);
+        }
+    }
 
     function tanggal_indo_datetime($datetime, $cetak_hari = false)
     {

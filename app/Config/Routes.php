@@ -19,6 +19,11 @@ $routes->group(
         $routes->get('proses-login', 'Auth::loginGoogle');
         $routes->get('refresh-session', 'Auth::refresh');
         $routes->get('logout', 'Auth::logout');
+        $routes->get('cek-data', 'CekData::index');
+        $routes->post('cek-data/proses-pengecekan', 'CekData::cek_data');
+        $routes->get('cek-data/(:any)/detail-data', 'CekData::detail_data/$1');
+        $routes->get('cek-data/(:any)/data-obrolan', 'CekData::data_obrolan/$1');
+        $routes->post('cek-data/(:any)/proses-kirim-chat', 'CekData::proses_kirim_pesan/$1');
     }
 );
 
@@ -108,5 +113,9 @@ $routes->group(
         
         $routes->get('pesan-masuk', 'PesanMasuk::index');
         $routes->post('pesan-masuk/data', 'PesanMasuk::data');
+        $routes->get('pesan-masuk/(:any)/detail', 'PesanMasuk::detail/$1');
+        $routes->post('pesan-masuk/(:any)/proses-kirim-chat', 'PesanMasuk::proses_kirim_pesan/$1');
+        $routes->get('pesan-masuk/(:any)/data-obrolan', 'PesanMasuk::data_obrolan/$1');
+        $routes->post('pesan-masuk/(:any)/proses-selesai', 'PesanMasuk::proses_selesai/$1');
     }
 );
