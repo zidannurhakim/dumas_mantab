@@ -24,6 +24,8 @@ $routes->group(
         $routes->get('cek-data/(:any)/detail-data', 'CekData::detail_data/$1');
         $routes->get('cek-data/(:any)/data-obrolan', 'CekData::data_obrolan/$1');
         $routes->post('cek-data/(:any)/proses-kirim-chat', 'CekData::proses_kirim_pesan/$1');
+        $routes->post('cek-data/(:any)/proses-kirim-rating', 'CekData::proses_kirim_rating/$1');
+        $routes->get('statistik', 'Statistik::index');
     }
 );
 

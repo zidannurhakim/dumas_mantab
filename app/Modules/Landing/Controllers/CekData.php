@@ -14,7 +14,7 @@ class CekData extends BaseController
     private $subindukmodule = '';
     private $title = '.:: Cek Data';
     private $module = '/';
-    private $submoduls = array('/' => 'Portal Depan', 'cek-data' => 'Cek Data');
+    private $submoduls = array('/' => 'Portal Depan', 'cek-data' => 'Cek Data', 'statistik' => 'Statistik');
 
     protected $googleClient;
     protected $users;
@@ -36,6 +36,7 @@ class CekData extends BaseController
                 ],
             ];
             session()->setFlashdata($sessFlashdata);
+            session()->remove(['data_id', 'data_email', 'data_nip']);
             $data['indukmodule'] = $this->indukmodule;
             $data['subindukmodule'] = $this->subindukmodule;
             $data['title'] = $this->title;
@@ -119,7 +120,7 @@ class CekData extends BaseController
 
     function detail_data($data_id)
     {
-        if(empty(session()->data_id && session()->data_email && session()->data_nip))
+        if(empty(session()->data_id))
         {
             $sessFlashdata = [
                 'sweetAlert' => [
@@ -235,6 +236,39 @@ class CekData extends BaseController
                     csrf_token() => $token,
                     'status' => 'error',
                     'message' => 'Gagal menyimpan data ke database.'
+                ]);
+            }
+        } catch (\Exception $e) {
+            return $this->response->setJSON([
+                csrf_token() => $token,
+                'status' => 'error',
+                'message' => 'Terjadi kesalahan pada server: ' . $e->getMessage()
+            ]);
+        }
+    }
+
+    function proses_kirim_rating($data_id)
+    {
+        $model = new CekDataModel();
+        $validation = \Config\Services::validation();
+        $token = csrf_hash();
+
+        $data = [
+            'data_rating' => $this->request->getPost('rating_value')
+        ];
+
+        try {
+            if ($model->edit_data($data, $data_id)) {
+                return $this->response->setJSON([
+                    csrf_token() => $token,
+                    'status' => 'success',
+                    'message' => 'Rating Berhasil Ditambahkan.',
+                ]);
+            } else {
+                return $this->response->setJSON([
+                    csrf_token() => $token,
+                    'status' => 'error',
+                    'message' => 'Data Tidak Ditemukan.'
                 ]);
             }
         } catch (\Exception $e) {

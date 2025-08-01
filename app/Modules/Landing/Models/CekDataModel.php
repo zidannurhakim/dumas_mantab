@@ -34,6 +34,14 @@ class CekDataModel extends Model
         return $query->getResult();
     }
 
+    function data_id_rating($id)
+    {
+        $query = $this->db->query('SELECT a.*, b.lay_nama FROM layanan_data AS a 
+        LEFT JOIN layanan_jenis AS b ON a.lay_id = b.lay_id
+        WHERE a.data_id = ?', array($id));
+        return $query->getResult();
+    }
+
     function data_obrolan($data_id)
     {
         $query = $this->db->query('SELECT a.* FROM layanan_data_chat AS a 
@@ -47,5 +55,13 @@ class CekDataModel extends Model
         $db = \Config\Database::connect();
         $builder = $db->table('layanan_data_chat');
         return $builder->insert($data);
+    }
+    
+    function edit_data($data, $data_id)
+    {
+        $db = \Config\Database::connect();
+        $builder = $db->table('layanan_data');
+        $builder->where('data_id', $data_id);
+        return $builder->update($data);
     }
 }

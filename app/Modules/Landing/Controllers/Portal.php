@@ -14,7 +14,7 @@ class Portal extends BaseController
     private $subindukmodule = '';
     private $title = '.:: Selamat Datang';
     private $module = '/';
-    private $submoduls = array('/' => 'Portal Depan', 'cek-data' => 'Cek Data');
+    private $submoduls = array('/' => 'Portal Depan', 'cek-data' => 'Cek Data', 'statistik' => 'Statistik');
 
     protected $googleClient;
     protected $users;

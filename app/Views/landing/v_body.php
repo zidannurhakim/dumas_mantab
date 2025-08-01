@@ -3,12 +3,13 @@
     <div>
         <div class="container">
             <div class="row">
-                <div class="col-12">
+                <div class="col-1"></div>
+                <div class="col-10">
                     <div class="d-flex align-items-center min-vh-100">
                         <div class="w-100 d-block card shadow-lg rounded my-5 overflow-hidden">
                             <div class="row">
-                                <div class="col-lg-5 d-none d-lg-block bg-register rounded-left"></div>
-                                <div class="col-lg-7">
+                                <!-- <div class="col-lg-5 d-none d-lg-block bg-register rounded-left"></div> -->
+                                <div class="col-lg-12">
                                     <div class="p-5">
                                         <?php
                                             foreach ($submoduls as $key => $val) {
@@ -41,6 +42,7 @@
                         </div>
                     </div>
                 </div>
+                <div class="col-1"></div>
             </div>
         </div>
     </div>

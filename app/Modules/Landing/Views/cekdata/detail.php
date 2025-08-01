@@ -94,9 +94,9 @@
 ?>
 <style>
     /* CSS Kustom untuk Kotak Obrolan (dari kode sebelumnya) */
-    body {
-        background-color: #f0f2f5; /* Warna latar belakang umum */
-    }
+    /* body {
+        background-color: #f0f2f5; 
+    } */
     .chat-container {
         max-width: 100%; /* Sesuaikan dengan kolom Bootstrap */
         height: 70vh; /* Tinggi kotak obrolan */
@@ -128,7 +128,7 @@
         padding: 10px 15px;
         border-radius: 18px;
         margin-bottom: 10px;
-        max-width: 50%;
+        max-width: 100%;
         word-wrap: break-word; /* Memastikan teks tidak keluar batas */
     }
     .message-sent {
@@ -203,6 +203,48 @@
         }
     }
 </style>
+<style>
+        .rating-buttons {
+            display: flex;
+            justify-content: center;
+            gap: 10px; /* Jarak antar tombol */
+            margin-top: 15px;
+        }
+        .rating-buttons .rating-btn {
+            width: 50px; /* Lebar tombol */
+            height: 50px; /* Tinggi tombol */
+            border-radius: 50%; /* Membuat tombol bulat */
+            font-size: 1.2rem;
+            font-weight: bold;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transition: all 0.2s ease-in-out;
+            border: 2px solid #0d6efd; /* Border default Bootstrap primary */
+            color: #0d6efd;
+            background-color: transparent;
+        }
+        .rating-buttons .rating-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+            background-color: #e9ecef; /* Sedikit abu-abu saat hover */
+        }
+        .rating-buttons .rating-btn.selected {
+            background-color: #0d6efd; /* Warna primary Bootstrap saat dipilih */
+            color: white;
+            border-color: #0d6efd;
+            transform: none;
+            box-shadow: none;
+        }
+
+        /* Warna khusus untuk setiap rating (opsional, untuk visual feedback) */
+        .rating-buttons .rating-btn[data-value="1"].selected { background-color: #dc3545; border-color: #dc3545; } /* Merah */
+        .rating-buttons .rating-btn[data-value="2"].selected { background-color: #fd7e14; border-color: #fd7e14; } /* Oranye */
+        .rating-buttons .rating-btn[data-value="3"].selected { background-color: #ffc107; border-color: #ffc107; } /* Kuning */
+        .rating-buttons .rating-btn[data-value="4"].selected { background-color: #198754; border-color: #198754; } /* Hijau */
+        .rating-buttons .rating-btn[data-value="5"].selected { background-color: #0d6efd; border-color: #0d6efd; } /* Biru (Primary) */
+
+    </style>
 <?php foreach($data AS $val => $data){ ?>
     <div>
         <div class="card">
@@ -292,7 +334,7 @@
                                 <div id="accHeadChat" class="accordion-collapse collapse show" aria-labelledby="detHeadChat" data-bs-parent="#accChat">
                                     <div class="accordion-body">
                                         <div class="chat-container">
-                                            <div class="chat-messages">
+                                            <div class="chat-messages text-black">
                                             </div>
                                             <?php if($data->data_status_selesai == "BELUM"){ ?>
                                                 <form id="kirimChat" enctype="multipart/form-data">
@@ -310,7 +352,7 @@
                                                     </div>
                                                 </form>
                                             <?php }elseif($data->data_status_selesai == "SELESAI"){ ?>
-                                                <div class="col-md-12 d-grid">
+                                                <div class="col-md-12 md-2 d-grid">
                                                     <button class="btn btn-sm btn-primary">Obrolan Telah Diselesaikan</button>
                                                 </div>
                                             <?php }else{ ?>
@@ -327,6 +369,49 @@
                 <?php }else{ ?>
                     <a class="btn btn-danger"><i data-lucide="send"></i> Flag Tidak Diketahui</a>
                 <?php } ?>
+            </div>
+        </div>
+    </div>
+    <div>
+        <div class="card">
+            <div class="card-body">
+                <div class="row">
+                    <?php if(!empty($data->data_rating)){ ?>
+                        <div class="col-md-12 md-2 d-grid">
+                            <button class="btn btn-sm btn-primary">Rating Telah Diberikan. Terima Kasih</button>
+                        </div>
+                    <?php }elseif(empty($data->data_rating)){ ?>
+                        <div class="col-md-12">
+                            <form id="kirimRating" enctype="multipart/form-data">
+                                <input type="hidden" name="<?= csrf_token(); ?>" value="<?= csrf_hash(); ?>">
+                                <input type="hidden" name="rating_value" id="rating_value">
+                                <div>
+                                    <div class="mb-2">
+                                        <div class="text-center">
+                                            <h4>Bagaimana Pengalaman Anda?</h4>
+                                            <p class="text-muted">Berikan penilaian Anda dari 1 (Buruk) hingga 5 (Sangat Baik).</p>
+                                        </div>
+                                        <label class="form-label visually-hidden">Berikan Penilaian Anda:</label>
+                                        <div class="rating-buttons">
+                                            <button type="button" class="btn rating-btn" data-value="1">1</button>
+                                            <button type="button" class="btn rating-btn" data-value="2">2</button>
+                                            <button type="button" class="btn rating-btn" data-value="3">3</button>
+                                            <button type="button" class="btn rating-btn" data-value="4">4</button>
+                                            <button type="button" class="btn rating-btn" data-value="5">5</button>
+                                        </div>
+                                    </div>
+                                    <div class="mb-2 d-grid">
+                                        <button class="btn btn-primary" id="submitRating">Kirim Penilaian</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    <?php }else{ ?>
+                        <div class="col-md-12 d-grid">
+                            <button class="btn btn-sm btn-danger">Flag Tidak Diketahui</button>
+                        </div>
+                    <?php } ?>
+                </div>
             </div>
         </div>
     </div>
@@ -392,7 +477,7 @@
     $(document).ready(function() {
         fetchChatMessages();
 
-        setInterval(fetchChatMessages, 3000);
+        setInterval(fetchChatMessages, 10000);
 
         $('#submitChat').click(function(e) {
             e.preventDefault();
@@ -424,6 +509,88 @@
                             fetchChatMessages();
                             $('#chat_input_field').val('');
                             // $('#chat_lampiran_field').val(''); // Aktifkan jika ada input file lampiran
+                        });
+                    } else {
+                        Swal.fire({
+                            icon: 'warning',
+                            title: 'Gagal',
+                            text: response.message
+                        });
+                    }
+                },
+                error: function(xhr) {
+                    let response;
+                    try {
+                        response = JSON.parse(xhr.responseText);
+                        if (response['<?= csrf_token(); ?>']) {
+                            updateCsrfToken(response['<?= csrf_token(); ?>']);
+                        }
+                    } catch (e) {
+                        console.error('Gagal parsing response error atau tidak ada CSRF token di response error:', e);
+                    }
+
+                    Swal.fire({
+                        icon: 'error',
+                        title: 'Error',
+                        text: 'Terjadi kesalahan saat mengirim data. Silakan coba lagi.'
+                    });
+                }
+            });
+        });
+        
+        $('.rating-btn').on('click', function() {
+            var selectedValue = $(this).data('value'); // Ambil nilai dari atribut data-value
+            $('#rating_value').val(selectedValue); // Set nilai ke input hidden
+
+            // Hapus kelas 'selected' dari semua tombol rating
+            $('.rating-btn').removeClass('selected');
+
+            // Tambahkan kelas 'selected' ke tombol yang baru saja diklik
+            $(this).addClass('selected');
+
+        });
+        $('#submitRating').on('click', function(e) {
+            e.preventDefault(); // Mencegah submit form default
+
+            var form = $('#kirimRating')[0];
+            var formData = new FormData(form);
+
+            // Ambil nilai rating dari input hidden
+            var finalRating = $('#kirimRating #rating_value').val();
+
+            if (!finalRating) {
+                Swal.fire({
+                    icon: 'warning',
+                    title: 'Peringatan',
+                    text: 'Mohon pilih rating terlebih dahulu.'
+                });
+                return; // Hentikan proses jika rating belum dipilih
+            }
+            $.ajax({
+                url: '<?= base_url('cek-data/') ?>' + currentDataId + '/proses-kirim-rating', // Pastikan currentDataId tersedia
+                type: 'POST',
+                data: formData,
+                processData: false,
+                contentType: false,
+                dataType: 'json',
+                success: function(response) {
+                    if (response['<?= csrf_token() ?>']) {
+                        updateCsrfToken(response['<?= csrf_token() ?>']);
+                    }
+
+                    if (response.status === 'success') {
+                        Swal.fire({
+                            icon: 'success',
+                            title: 'Berhasil',
+                            text: response.message,
+                            timer: 1500,
+                            showConfirmButton: false
+                        }).then(() => {
+                            // Opsional: Reset form rating atau nonaktifkan setelah berhasil
+                            $('#kirimRating')[0].reset(); // Reset form
+                            $('.rating-btn').removeClass('selected'); // Hapus seleksi
+                            $('#kirimRating #rating_value').val(''); // Kosongkan nilai rating
+                            window.location.href = '<?= base_url('cek-data'); ?>';
                         });
                     } else {
                         Swal.fire({
