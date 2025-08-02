@@ -16,6 +16,7 @@ $routes->group(
         $routes->get('', 'Portal::index');
         $routes->post('data-jenis-layanan', 'Portal::data_jenis_layanan');
         $routes->post('layanan/proses-tambah', 'Portal::prosestambah');
+        $routes->get('tes-email', 'Portal::testemail');
         $routes->get('proses-login', 'Auth::loginGoogle');
         $routes->get('refresh-session', 'Auth::refresh');
         $routes->get('logout', 'Auth::logout');

@@ -6,6 +6,7 @@ use App\Controllers\BaseController;
 use Google_Client;
 use Modules\Landing\Models\PortalModel;
 use Ramsey\Uuid\Uuid;
+use CodeIgniter\Email\Email;
 
 class Portal extends BaseController
 {
@@ -187,13 +188,51 @@ class Portal extends BaseController
             'data_update' => gmdate('Y-m-d H:i:s', time() + 25200),
         ];
 
+        $email = \Config\Services::email(); 
+        $email->initialize([
+            'protocol'  => 'smtp',
+            'SMTPHost'  => env('email.SMTPHost'),
+            'SMTPUser'  => env('email.SMTPUser'),
+            'SMTPPass'  => env('email.SMTPPass'),
+            'SMTPPort'  => 587,
+            'SMTPCrypto'=> 'tls',
+            'mailType'  => 'html',
+            'charset'   => 'utf-8',
+            'newline'   => "\r\n",
+            'CRLF'      => "\r\n",
+        ]);
+        $email_data = [
+            'data_nama' => $data['data_nama'],
+            'data_id' => $data['data_id'],
+            'data_metode' => $data['data_metode'],
+            'data_email' => $data['data_email'],
+            'data_nip' => $data['data_nip'],
+            'data_subjek' => $data['data_subjek'],
+            'data_pesan' => $data['data_pesan'],
+            'data_lampiran' => $data['data_lampiran'],
+            'data_lampiran_size' => $data['data_lampiran_size']
+        ];
+        $emailContent = view('email/konfirmasi', $email_data);
+        $email->setTo($data['data_email']);
+        $email->setFrom(env('email.fromEmail'), env('email.fromName'));
+        $email->setSubject('Terima Kasih Sudah Menggunakan DUMAS MAN 3 Banyuwangi');
+        $email->setMessage($emailContent);
         try {
             if ($model->tambah($data)) {
-                return $this->response->setJSON([
-                    csrf_token() => $token,
-                    'status' => 'success',
-                    'message' => 'Data berhasil ditambahkan.'
-                ]);
+                if ($email->send()) 
+                {
+                    return $this->response->setJSON([
+                        csrf_token() => $token,
+                        'status' => 'success',
+                        'message' => 'Data berhasil ditambahkan.'
+                    ]);
+                } else {
+                    return $this->response->setJSON([
+                        csrf_token() => $token,
+                        'status' => 'error',
+                        'message' => 'Gagal Kirim Email.'
+                    ]);
+                }
             } else {
                 return $this->response->setJSON([
                     csrf_token() => $token,
@@ -231,5 +270,61 @@ class Portal extends BaseController
             'results' => $data,
             csrf_token() => csrf_hash()
         ]);
+    }
+    
+    function testemail()
+    {
+        $email = \Config\Services::email();
+        $email->initialize([
+            'protocol'  => 'smtp',
+            'SMTPHost'  => env('email.SMTPHost'),
+            'SMTPUser'  => env('email.SMTPUser'),
+            'SMTPPass'  => env('email.SMTPPass'),
+            'SMTPPort'  => 587,
+            'SMTPCrypto'=> 'tls',
+            'mailType'  => 'html', // Pastikan ini 'html' agar template HTML dirender dengan benar
+            'charset'   => 'utf-8',
+            'newline'   => "\r\n",
+            'CRLF'      => "\r\n",
+        ]);
+
+        $email_data = [
+            'data_nama' => 'Ahmad Zidan Nur Hakim',
+            'data_id' => '28926efe-008e-43c1-80dc-95bced79f98c',
+            'data_metode' => 'PENGAJUAN',
+            'data_email' => 'ahmadzidan.nh@gmail.com',
+            'data_nip' => '8545688',
+            'data_subjek' => 'Aplikasi SIMS Tidak Bekerja Dengan Baik',
+            'data_pesan' => 'SIMS Error',
+            'data_lampiran' => '', // Pastikan ini sesuai dengan template (kosong jika tidak ada)
+            'data_lampiran_size' => '' // Pastikan ini sesuai dengan template (kosong jika tidak ada)
+        ];
+
+        // Muat template HTML email
+        $emailContent = view('email/konfirmasi', $email_data); // Perhatikan: saya menggunakan 'emails/konfirmasi_dumas' sesuai struktur yang saya sarankan sebelumnya
+
+        $email->setTo('ahmadzidan.nh@gmail.com');
+        $email->setFrom(env('email.fromEmail'), env('email.fromName')); // Mengambil dari .env
+        $email->setSubject('Tes Kirim Email');
+        $email->setMailType('html'); // PENTING: Setel kembali ke 'html' agar email terkirim sebagai HTML
+        $email->setMessage($emailContent);
+
+        if ($email->send()) {
+            // Jika berhasil, kembalikan respons JSON atau redirect
+            return $this->response->setJSON([
+                'status' => 'success',
+                'message' => 'Email berhasil dikirim.'
+            ]);
+            // Atau redirect:
+            // return redirect()->to(base_url('some-success-page'));
+        } else {
+            // Jika gagal, kembalikan respons JSON dengan debugger
+            $debugInfo = $email->printDebugger(['headers']);
+            log_message('error', 'Gagal Kirim Email Test: ' . $debugInfo);
+            return $this->response->setJSON([
+                'status' => 'error',
+                'message' => 'Gagal kirim email test. Debug: ' . $debugInfo
+            ]);
+        }
     }
 }

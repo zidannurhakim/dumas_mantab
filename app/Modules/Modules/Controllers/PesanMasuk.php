@@ -290,15 +290,55 @@ class PesanMasuk extends BaseController
             'data_status_selesai' => "SELESAI",
             'data_flag' => "PRIMARY",
         ];
+        $kirimEmail = $model->data_id($data_id);
 
+        $email = \Config\Services::email(); 
+        $email->initialize([
+            'protocol'  => 'smtp',
+            'SMTPHost'  => env('email.SMTPHost'),
+            'SMTPUser'  => env('email.SMTPUser'),
+            'SMTPPass'  => env('email.SMTPPass'),
+            'SMTPPort'  => 587,
+            'SMTPCrypto'=> 'tls',
+            'mailType'  => 'html',
+            'charset'   => 'utf-8',
+            'newline'   => "\r\n",
+            'CRLF'      => "\r\n",
+        ]);
+        $siapKirim = $kirimEmail[0];
+        $email_data = [
+            'data_id' => $siapKirim->data_id,
+            'data_nama' => $siapKirim->data_nama,
+            'data_metode' => $siapKirim->data_metode,
+            'data_email' => $siapKirim->data_email,
+            'data_nip' => $siapKirim->data_nip,
+            'data_subjek' => $siapKirim->data_subjek,
+            'data_pesan' => $siapKirim->data_pesan,
+            'data_lampiran' => $siapKirim->data_lampiran,
+            'data_lampiran_size' => $siapKirim->data_lampiran_size
+        ];
+        $emailContent = view('email/penyelesaian', $email_data);
+        $email->setTo($siapKirim->data_email);
+        $email->setFrom(env('email.fromEmail'), env('email.fromName'));
+        $email->setSubject('Terima Kasih Sudah Menggunakan DUMAS MAN 3 Banyuwangi');
+        $email->setMessage($emailContent);
         try {
             if ($model->tambah_log($dataLog)) {
                 $model->edit_data($update_data, $data_id);
-                return $this->response->setJSON([
-                    csrf_token() => $token,
-                    'status' => 'success',
-                    'message' => 'Data berhasil diselesaikan.'
-                ]);
+                if ($email->send()) 
+                {
+                    return $this->response->setJSON([
+                        csrf_token() => $token,
+                        'status' => 'success',
+                        'message' => 'Data berhasil diselesaikan.'
+                    ]);
+                } else {
+                    return $this->response->setJSON([
+                        csrf_token() => $token,
+                        'status' => 'error',
+                        'message' => 'Gagal Kirim Email.'
+                    ]);
+                }
             } else {
                 return $this->response->setJSON([
                     csrf_token() => $token,
